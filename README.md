@@ -4,7 +4,7 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 500+ AI agents across 15 categories.**
+**Discover, compare, and deploy 700+ AI agents across 22 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -33,8 +33,8 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 ### Why AgentForge?
 
-- 🔍 **500+ real AI agents** — not stubs, real tools with real descriptions
-- 📊 **15 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support, AI & ML, Finance, HR & Recruiting, Legal, E-commerce
+- 🔍 **700+ real AI agents** — not stubs, real tools with real descriptions
+- 📊 **22 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support, AI & ML, Finance, HR & Recruiting, Legal, E-commerce, Voice AI, Cybersecurity, Research & Knowledge, DevOps & Infrastructure, Gaming, Real Estate, Logistics & Supply Chain
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
 - 🆓 **100% free to deploy** — host on Vercel for $0
@@ -47,21 +47,28 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 | Category | Agents | Examples |
 |----------|--------|----------|
-| 💻 **Coding** | 71 | Cursor, Claude Code, GitHub Copilot, Devin, v0, Bolt.new |
-| 📊 **Business** | 70 | Zapier, n8n, Notion AI, Stripe, Salesforce Einstein |
-| 📢 **Marketing** | 69 | Jasper, Copy.ai, Surfer SEO, SEMrush, HubSpot AI |
-| 📈 **Data** | 69 | ChatGPT, Claude, Perplexity, Hugging Face, LangChain |
-| 🎨 **Creative** | 58 | Midjourney, Runway, ElevenLabs, Suno, Canva AI |
-| ⚡ **Productivity** | 42 | OpenClaw, Reclaim AI, Todoist AI, Superhuman, Linear |
-| 🎧 **Support** | 33 | Intercom Fin, Zendesk AI, Ada, Freshdesk, Chatwoot |
-| 📚 **Education** | 31 | Khanmigo, Duolingo Max, Consensus, NotebookLM |
-| 🏥 **Health** | 30 | Cal AI, WHOOP, Oura Ring, Woebot, Talkspace |
+| 📢 **Marketing** | 67 | Jasper, Copy.ai, Surfer SEO, SEMrush, HubSpot AI |
+| 📊 **Business** | 56 | Zapier, n8n, Notion AI, Make, Salesforce Einstein |
+| 💻 **Coding** | 51 | Cursor, Claude Code, GitHub Copilot, Windsurf, Replit Agent |
+| 📈 **Data** | 49 | ChatGPT, Claude, Gemini, DeepSeek, Julius |
+| 🎨 **Creative** | 47 | Midjourney, DALL·E 3, Runway, Suno, Canva AI |
+| ⚡ **Productivity** | 41 | OpenClaw, Reclaim AI, Todoist AI, Otter.ai, Magical |
+| 🤖 **AI & ML** | 41 | Hugging Face, LangChain, Replicate, Ollama, vLLM |
+| 🏥 **Health** | 31 | Cal AI, WHOOP, Noom, Fitbod |
+| 🎧 **Customer Support** | 31 | Intercom Fin, Zendesk AI, Freshdesk, Crisp, Tidio |
+| ⚖️ **Legal** | 30 | Harvey AI, Ironclad, Spellbook, Luminance, Casetext |
+| 👥 **HR & Recruiting** | 28 | Greenhouse, Lever, Ashby, Deel, Remote |
 | 💼 **Sales** | 27 | Apollo.io, Clay, Gong, Outreach, Instantly |
-| 🤖 **AI & ML** | 34 | Hugging Face, LangChain, Replicate, Ollama, vLLM |
-| 💰 **Finance** | 29 | Plaid, Brex, Ramp, Mercury, CoinGecko |
-| 👥 **HR & Recruiting** | 29 | Greenhouse, Lever, Ashby, Deel, Remote |
-| ⚖️ **Legal** | 29 | Harvey AI, Ironclad, Spellbook, Luminance, Casetext |
-| 🛒 **E-commerce** | 29 | Shopify Magic, Jungle Scout, Prisync, Tidio, Gorgias |
+| 💰 **Finance** | 27 | Plaid, Brex, Ramp, Mercury, CoinGecko |
+| 📚 **Education** | 26 | Khanmigo, Duolingo Max, Quizlet AI |
+| 🚀 **DevOps & Infrastructure** | 26 | Deployment, monitoring, CI/CD & cloud infrastructure |
+| 🔬 **Research & Knowledge** | 25 | Perplexity, Consensus, Elicit |
+| 🎙️ **Voice AI** | 23 | ElevenLabs, text-to-speech, voice cloning, speech recognition |
+| 🛒 **E-commerce** | 23 | Shopify Magic, Jungle Scout, Prisync, Gorgias |
+| 📦 **Logistics & Supply Chain** | 15 | Shipping, inventory, order tracking & supply chain optimization |
+| 🔒 **Cybersecurity** | 15 | Security scanning, vulnerability detection & threat protection |
+| 🎮 **Gaming** | 13 | AI NPCs, game asset generation & game development tools |
+| 🏠 **Real Estate** | 11 | Property search, valuation, staging & real estate automation |
 
 ---
 
@@ -131,7 +138,7 @@ agentforge/
 │   │   ├── AgentCard.tsx               # 🃏 Agent card component
 │   │   └── CategoryCard.tsx            # 📦 Category card
 │   └── data/
-│       └── agents.ts                   # 🗄️ Agent database (500 agents)
+│       └── agents.ts                   # 🗄️ Agent database (700+ agents)
 ├── public/                             # 🖼️ Static assets
 ├── package.json                        # 📋 Dependencies
 ├── tailwind.config.ts                  # 🎨 Tailwind config
@@ -144,7 +151,7 @@ agentforge/
 
 ### For Users
 - 🔍 **Smart Search** — Find agents by name, description, tags, or category
-- 📊 **Category Browsing** — Explore 15 curated categories
+- 📊 **Category Browsing** — Explore 22 curated categories
 - ⭐ **Featured Agents** — Hand-picked top agents highlighted on homepage
 - 🆕 **New Agents** — Recently added tools marked with a badge
 - 💰 **Price Filters** — Free, Freemium, Premium, Pay-as-you-go
@@ -220,8 +227,8 @@ Want to add your AI agent? We'd love that!
 
 | Metric | Value |
 |--------|-------|
-| 🤖 Total Agents | **500+** |
-| 📂 Categories | **15** |
+| 🤖 Total Agents | **700+** |
+| 📂 Categories | **22** |
 | ⭐ Avg Rating | **4.5+** |
 | 🆓 Free Agents | **50+** |
 | 🌍 Countries | **50+** |
