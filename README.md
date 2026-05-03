@@ -4,7 +4,7 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 809 AI agents across 22 categories.**
+**Discover, compare, and deploy 869 AI agents across 22 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -33,7 +33,7 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 ### Why AgentForge?
 
-- 🔍 **809 real AI agents** — not stubs, real tools with real descriptions
+- 🔍 **869 real AI agents** — not stubs, real tools with real descriptions
 - 📊 **22 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support, AI & ML, Finance, HR & Recruiting, Legal, E-commerce, Voice AI, Cybersecurity, Research & Knowledge, DevOps & Infrastructure, Gaming, Real Estate, Logistics & Supply Chain
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
@@ -47,11 +47,11 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 | Category | Agents | Examples |
 |----------|--------|----------|
-| 📢 **Marketing** | 93 | Jasper, Beehiiv, Klaviyo, Surfer SEO, Bardeen, Taplio |
-| 📊 **Business** | 77 | Zapier, Clay, Cursor, Lovable, Gamma, Instantly |
+| 📢 **Marketing** | 113 | Jasper, Beehiiv, Klaviyo, Vista Social, Ocoya, GrowthBar |
+| 📊 **Business** | 97 | Zapier, Clay, Cursor, Linear, Fathom, Bolt.new |
 | 💻 **Coding** | 53 | Cursor, Claude Code, GitHub Copilot, Augment Code, Supermaven |
 | 📈 **Data** | 52 | ChatGPT, Claude, Gemini, DeepSeek, Hex, MotherDuck |
-| 🎨 **Creative** | 67 | Midjourney, Udio, Veo 3, Hailuo AI, ElevenLabs, CapCut |
+| 🎨 **Creative** | 87 | Midjourney, Udio, Veo 3, Topaz Photo AI, Recraft, Framer AI |
 | ⚡ **Productivity** | 45 | OpenClaw, Reclaim AI, Todoist AI, Granola, Dola |
 | 🤖 **AI & ML** | 42 | Groq, Fireworks AI, Modal, RunPod, Cerebras |
 | 🏥 **Health** | 33 | Cal AI, WHOOP, Tempus, Woebot, Babylon Health |
@@ -227,7 +227,7 @@ Want to add your AI agent? We'd love that!
 
 | Metric | Value |
 |--------|-------|
-| 🤖 Total Agents | **809** |
+| 🤖 Total Agents | **869** |
 | 📂 Categories | **22** |
 | ⭐ Avg Rating | **4.5+** |
 | 🆓 Free Agents | **50+** |
