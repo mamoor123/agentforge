@@ -4,301 +4,1045 @@
       "name": "Beehiiv",
       "tagline": "AI-powered newsletter platform for creators and publishers",
       "description": "Beehiiv is a newsletter-first platform with built-in AI writing tools, referral programs, and monetization features. It helps creators grow, engage, and monetize their audience with AI-assisted content creation, A/B testing, and advanced analytics.",
-      "icon": "🐝",
+      "icon": "\ud83d\udc1d",
       "rating": 4.7,
       "users": 500000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["newsletter", "email marketing", "AI writing", "creator economy"],
+      "tags": [
+        "newsletter",
+        "email marketing",
+        "AI writing",
+        "creator economy"
+      ],
       "creator": "Beehiiv Inc.",
       "url": "https://www.beehiiv.com",
-      "features": ["AI writing assistant", "Referral program builder", "Ad network marketplace", "Advanced analytics dashboard", "Custom website builder"]
+      "features": [
+        "AI writing assistant",
+        "Referral program builder",
+        "Ad network marketplace",
+        "Advanced analytics dashboard",
+        "Custom website builder"
+      ]
     },
     {
       "name": "Klaviyo",
       "tagline": "AI-driven email and SMS marketing for ecommerce",
       "description": "Klaviyo combines email and SMS marketing with deep ecommerce integrations and AI-powered personalization. Its predictive analytics engine forecasts customer behavior, automates segmentation, and optimizes send times for maximum revenue.",
-      "icon": "📧",
+      "icon": "\ud83d\udce7",
       "rating": 4.6,
       "users": 150000,
       "price": "Freemium",
       "featured": true,
       "new": false,
-      "tags": ["email marketing", "SMS", "ecommerce", "personalization", "automation"],
+      "tags": [
+        "email marketing",
+        "SMS",
+        "ecommerce",
+        "personalization",
+        "automation"
+      ],
       "creator": "Klaviyo Inc.",
       "url": "https://www.klaviyo.com",
-      "features": ["Predictive analytics", "AI-powered segmentation", "Automated email flows", "SMS marketing", "Deep ecommerce integrations"]
+      "features": [
+        "Predictive analytics",
+        "AI-powered segmentation",
+        "Automated email flows",
+        "SMS marketing",
+        "Deep ecommerce integrations"
+      ]
     },
     {
       "name": "Customer.io",
       "tagline": "AI-powered behavioral messaging automation platform",
       "description": "Customer.io enables data-driven messaging across email, SMS, push notifications, and in-app messages. Its AI engine triggers messages based on real user behavior, helping marketers deliver the right message at the right time.",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "rating": 4.5,
       "users": 75000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["behavioral messaging", "automation", "email", "SMS", "push notifications"],
+      "tags": [
+        "behavioral messaging",
+        "automation",
+        "email",
+        "SMS",
+        "push notifications"
+      ],
       "creator": "Customer.io",
       "url": "https://customer.io",
-      "features": ["Behavioral triggers", "Multi-channel messaging", "Audience segmentation", "A/B testing", "Data pipelines"]
+      "features": [
+        "Behavioral triggers",
+        "Multi-channel messaging",
+        "Audience segmentation",
+        "A/B testing",
+        "Data pipelines"
+      ]
     },
     {
       "name": "Iterable",
       "tagline": "AI cross-channel customer engagement platform",
       "description": "Iterable is an AI-powered cross-channel marketing platform that unifies customer data and orchestrates personalized campaigns across email, SMS, push, in-app, and web. Its AI Brand Affinity scoring predicts customer intent.",
-      "icon": "🔄",
+      "icon": "\ud83d\udd04",
       "rating": 4.5,
       "users": 100000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["cross-channel", "customer engagement", "personalization", "automation"],
+      "tags": [
+        "cross-channel",
+        "customer engagement",
+        "personalization",
+        "automation"
+      ],
       "creator": "Iterable Inc.",
       "url": "https://iterable.com",
-      "features": ["AI Brand Affinity scoring", "Cross-channel orchestration", "Dynamic content personalization", "Workflow studio", "Real-time analytics"]
+      "features": [
+        "AI Brand Affinity scoring",
+        "Cross-channel orchestration",
+        "Dynamic content personalization",
+        "Workflow studio",
+        "Real-time analytics"
+      ]
     },
     {
       "name": "Mailmodo",
       "tagline": "Interactive email marketing with built-in AI",
       "description": "Mailmodo lets marketers send interactive AMP emails with forms, surveys, quizzes, and shopping carts embedded directly inside emails. Its AI assistant generates email copy, subject lines, and automations.",
-      "icon": "✉️",
+      "icon": "\u2709\ufe0f",
       "rating": 4.4,
       "users": 30000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["interactive email", "AMP emails", "AI writing", "automation"],
+      "tags": [
+        "interactive email",
+        "AMP emails",
+        "AI writing",
+        "automation"
+      ],
       "creator": "Mailmodo Inc.",
       "url": "https://www.mailmodo.com",
-      "features": ["Interactive AMP emails", "AI email writer", "Email automation journeys", "Smart send time optimization", "Template gallery"]
+      "features": [
+        "Interactive AMP emails",
+        "AI email writer",
+        "Email automation journeys",
+        "Smart send time optimization",
+        "Template gallery"
+      ]
     },
     {
       "name": "Bardeen",
       "tagline": "AI workflow automation for marketing and sales teams",
       "description": "Bardeen is an AI-powered automation tool that connects marketing apps and automates repetitive tasks. It uses AI to build automations from natural language, scrape data from websites, and sync information across tools.",
-      "icon": "⚡",
+      "icon": "\u26a1",
       "rating": 4.5,
       "users": 200000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["workflow automation", "data scraping", "no-code", "productivity"],
+      "tags": [
+        "workflow automation",
+        "data scraping",
+        "no-code",
+        "productivity"
+      ],
       "creator": "Bardeen Inc.",
       "url": "https://www.bardeen.ai",
-      "features": ["AI automation builder", "Web scraper", "100+ app integrations", "Magic Box natural language automation", "Pre-built templates"]
+      "features": [
+        "AI automation builder",
+        "Web scraper",
+        "100+ app integrations",
+        "Magic Box natural language automation",
+        "Pre-built templates"
+      ]
     },
     {
       "name": "Originality.ai",
       "tagline": "AI content detection and plagiarism checking for marketers",
       "description": "Originality.ai is the most accurate AI content detection tool, helping marketing teams verify content authenticity. It checks for AI-generated text, plagiarism, and provides fact-checking with supporting links.",
-      "icon": "🔍",
+      "icon": "\ud83d\udd0d",
       "rating": 4.3,
       "users": 500000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["AI detection", "plagiarism checker", "content quality", "fact-checking"],
+      "tags": [
+        "AI detection",
+        "plagiarism checker",
+        "content quality",
+        "fact-checking"
+      ],
       "creator": "Originality.ai",
       "url": "https://originality.ai",
-      "features": ["AI content detection", "Plagiarism checking", "Fact-checking tools", "Full website scanning", "API integration"]
+      "features": [
+        "AI content detection",
+        "Plagiarism checking",
+        "Fact-checking tools",
+        "Full website scanning",
+        "API integration"
+      ]
     },
     {
       "name": "Hemingway Editor Plus",
       "tagline": "AI-powered writing clarity and readability tool",
       "description": "Hemingway Editor uses AI to make writing bold and clear. It highlights complex sentences, passive voice, and readability issues, then offers AI-powered rewrites to simplify and strengthen copy.",
-      "icon": "✍️",
+      "icon": "\u270d\ufe0f",
       "rating": 4.4,
       "users": 2000000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["writing tool", "readability", "AI editing", "content quality"],
+      "tags": [
+        "writing tool",
+        "readability",
+        "AI editing",
+        "content quality"
+      ],
       "creator": "Hemingway Editor",
       "url": "https://hemingwayapp.com",
-      "features": ["AI sentence rewriting", "Readability scoring", "Passive voice detection", "Grade-level analysis", "Real-time suggestions"]
+      "features": [
+        "AI sentence rewriting",
+        "Readability scoring",
+        "Passive voice detection",
+        "Grade-level analysis",
+        "Real-time suggestions"
+      ]
     },
     {
       "name": "Loom AI",
       "tagline": "AI-enhanced video messaging for marketing teams",
       "description": "Loom combines screen recording with AI-powered features that automatically remove filler words, generate video titles, summaries, and promotional messages. Perfect for creating product demos, testimonials, and personalized outreach.",
-      "icon": "🎬",
+      "icon": "\ud83c\udfac",
       "rating": 4.6,
       "users": 25000000,
       "price": "Freemium",
       "featured": true,
       "new": false,
-      "tags": ["video messaging", "screen recording", "AI editing", "marketing video"],
+      "tags": [
+        "video messaging",
+        "screen recording",
+        "AI editing",
+        "marketing video"
+      ],
       "creator": "Loom Inc. (Atlassian)",
       "url": "https://www.loom.com",
-      "features": ["AI filler word removal", "Auto-generated summaries", "Embeddable CTAs", "Engagement insights", "4K recording"]
+      "features": [
+        "AI filler word removal",
+        "Auto-generated summaries",
+        "Embeddable CTAs",
+        "Engagement insights",
+        "4K recording"
+      ]
     },
     {
       "name": "Unbounce",
       "tagline": "AI-powered landing page builder and conversion platform",
       "description": "Unbounce uses AI to create high-converting landing pages, popups, and sticky bars. Its Smart Traffic feature automatically routes visitors to the landing page variant most likely to convert based on AI predictions.",
-      "icon": "🚀",
+      "icon": "\ud83d\ude80",
       "rating": 4.4,
       "users": 150000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["landing pages", "conversion optimization", "A/B testing", "AI traffic routing"],
+      "tags": [
+        "landing pages",
+        "conversion optimization",
+        "A/B testing",
+        "AI traffic routing"
+      ],
       "creator": "Unbounce Marketing Solutions",
       "url": "https://unbounce.com",
-      "features": ["Smart Traffic AI routing", "Drag-and-drop builder", "AI copywriting", "A/B testing", "Popups and sticky bars"]
+      "features": [
+        "Smart Traffic AI routing",
+        "Drag-and-drop builder",
+        "AI copywriting",
+        "A/B testing",
+        "Popups and sticky bars"
+      ]
     },
     {
       "name": "ActiveCampaign",
       "tagline": "AI-powered email marketing, automation, and CRM",
       "description": "ActiveCampaign combines email marketing, marketing automation, and CRM with AI-powered features including predictive sending, win probability scoring, and automated segmentation based on customer behavior.",
-      "icon": "📊",
+      "icon": "\ud83d\udcca",
       "rating": 4.5,
       "users": 180000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["email marketing", "automation", "CRM", "predictive analytics"],
+      "tags": [
+        "email marketing",
+        "automation",
+        "CRM",
+        "predictive analytics"
+      ],
       "creator": "ActiveCampaign",
       "url": "https://www.activecampaign.com",
-      "features": ["Predictive sending", "Win probability scoring", "Marketing automation", "CRM integration", "AI segmentation"]
+      "features": [
+        "Predictive sending",
+        "Win probability scoring",
+        "Marketing automation",
+        "CRM integration",
+        "AI segmentation"
+      ]
     },
     {
       "name": "Brevo",
       "tagline": "All-in-one AI marketing platform (formerly Sendinblue)",
       "description": "Brevo is a comprehensive marketing platform offering email, SMS, WhatsApp, chat, and CRM with AI-powered content generation, send-time optimization, and automated customer journeys.",
-      "icon": "💬",
+      "icon": "\ud83d\udcac",
       "rating": 4.4,
       "users": 500000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["email marketing", "SMS", "WhatsApp", "CRM", "automation"],
+      "tags": [
+        "email marketing",
+        "SMS",
+        "WhatsApp",
+        "CRM",
+        "automation"
+      ],
       "creator": "Brevo",
       "url": "https://www.brevo.com",
-      "features": ["AI email writer", "Multi-channel campaigns", "Marketing automation", "Built-in CRM", "Transactional emails"]
+      "features": [
+        "AI email writer",
+        "Multi-channel campaigns",
+        "Marketing automation",
+        "Built-in CRM",
+        "Transactional emails"
+      ]
     },
     {
       "name": "Omnisend",
       "tagline": "AI ecommerce marketing automation for Shopify stores",
       "description": "Omnisend is built specifically for ecommerce, combining email, SMS, and push notifications with AI-powered product recommendations, automated workflows, and audience segmentation.",
-      "icon": "🛒",
+      "icon": "\ud83d\uded2",
       "rating": 4.5,
       "users": 120000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["ecommerce", "email marketing", "SMS", "Shopify", "automation"],
+      "tags": [
+        "ecommerce",
+        "email marketing",
+        "SMS",
+        "Shopify",
+        "automation"
+      ],
       "creator": "Omnisend",
       "url": "https://www.omnisend.com",
-      "features": ["AI product recommendations", "Pre-built automation workflows", "SMS and push notifications", "Segmentation", "Revenue reporting"]
+      "features": [
+        "AI product recommendations",
+        "Pre-built automation workflows",
+        "SMS and push notifications",
+        "Segmentation",
+        "Revenue reporting"
+      ]
     },
     {
       "name": "Taplio",
       "tagline": "AI-powered LinkedIn content creation and growth tool",
       "description": "Taplio uses AI to help professionals create engaging LinkedIn content, schedule posts, analyze performance, and grow their personal brand. It generates post ideas, carousels, and hooks based on trending topics.",
-      "icon": "💼",
+      "icon": "\ud83d\udcbc",
       "rating": 4.3,
       "users": 80000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["LinkedIn", "content creation", "personal branding", "social media"],
+      "tags": [
+        "LinkedIn",
+        "content creation",
+        "personal branding",
+        "social media"
+      ],
       "creator": "Taplio",
       "url": "https://taplio.com",
-      "features": ["AI post generator", "Content scheduling", "Engagement analytics", "Lead generation", "Viral post library"]
+      "features": [
+        "AI post generator",
+        "Content scheduling",
+        "Engagement analytics",
+        "Lead generation",
+        "Viral post library"
+      ]
     },
     {
       "name": "Typefully",
       "tagline": "AI-powered Twitter/X writing and scheduling tool",
       "description": "Typefully helps creators and marketers write, schedule, and grow on Twitter/X with AI-powered writing assistance, thread creation, analytics, and auto-DM features.",
-      "icon": "🐦",
+      "icon": "\ud83d\udc26",
       "rating": 4.4,
       "users": 100000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["Twitter", "social media", "content scheduling", "AI writing"],
+      "tags": [
+        "Twitter",
+        "social media",
+        "content scheduling",
+        "AI writing"
+      ],
       "creator": "Typefully",
       "url": "https://typefully.com",
-      "features": ["AI tweet writer", "Thread composer", "Auto-scheduling", "Analytics dashboard", "Auto-DM campaigns"]
+      "features": [
+        "AI tweet writer",
+        "Thread composer",
+        "Auto-scheduling",
+        "Analytics dashboard",
+        "Auto-DM campaigns"
+      ]
     },
     {
       "name": "Beacons",
       "tagline": "AI-powered link-in-bio and creator monetization platform",
       "description": "Beacons provides creators with an AI-powered link-in-bio page, online store, media kit builder, and email marketing tools. Its AI generates media kits, pricing, and outreach emails automatically.",
-      "icon": "🔗",
+      "icon": "\ud83d\udd17",
       "rating": 4.3,
       "users": 5000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["link-in-bio", "creator tools", "monetization", "media kit"],
+      "tags": [
+        "link-in-bio",
+        "creator tools",
+        "monetization",
+        "media kit"
+      ],
       "creator": "Beacons AI Inc.",
       "url": "https://beacons.ai",
-      "features": ["AI media kit generator", "Online store builder", "Email marketing", "Audience manager", "Brand partnership tools"]
+      "features": [
+        "AI media kit generator",
+        "Online store builder",
+        "Email marketing",
+        "Audience manager",
+        "Brand partnership tools"
+      ]
     },
     {
       "name": "GetResponse",
       "tagline": "AI-powered email marketing and automation platform",
       "description": "GetResponse offers AI-powered email marketing with features like AI email generator, autoresponders, landing pages, webinars, and conversion funnels. Its AI creates email copy and subject lines optimized for engagement.",
-      "icon": "📨",
+      "icon": "\ud83d\udce8",
       "rating": 4.3,
       "users": 350000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["email marketing", "automation", "landing pages", "webinars"],
+      "tags": [
+        "email marketing",
+        "automation",
+        "landing pages",
+        "webinars"
+      ],
       "creator": "GetResponse",
       "url": "https://www.getresponse.com",
-      "features": ["AI email generator", "Conversion funnels", "Webinar hosting", "Landing page builder", "Autoresponders"]
+      "features": [
+        "AI email generator",
+        "Conversion funnels",
+        "Webinar hosting",
+        "Landing page builder",
+        "Autoresponders"
+      ]
     },
     {
       "name": "Drip",
       "tagline": "AI ecommerce email marketing automation",
       "description": "Drip is purpose-built for ecommerce brands, offering AI-powered email and SMS automation with deep Shopify and WooCommerce integrations. It automatically segments customers and triggers personalized campaigns.",
-      "icon": "💧",
+      "icon": "\ud83d\udca7",
       "rating": 4.3,
       "users": 50000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["ecommerce", "email marketing", "automation", "Shopify"],
+      "tags": [
+        "ecommerce",
+        "email marketing",
+        "automation",
+        "Shopify"
+      ],
       "creator": "Drip",
       "url": "https://www.drip.com",
-      "features": ["AI customer segmentation", "Automated workflows", "Revenue attribution", "Shopify integration", "Behavioral tracking"]
+      "features": [
+        "AI customer segmentation",
+        "Automated workflows",
+        "Revenue attribution",
+        "Shopify integration",
+        "Behavioral tracking"
+      ]
     },
     {
       "name": "Vidyard",
       "tagline": "AI video platform for sales and marketing",
       "description": "Vidyard helps marketing and sales teams create, host, and track AI-powered video content. Its AI avatar feature creates personalized video messages at scale, while analytics track viewer engagement.",
-      "icon": "🎥",
+      "icon": "\ud83c\udfa5",
       "rating": 4.4,
       "users": 200000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["video marketing", "AI avatars", "sales video", "analytics"],
+      "tags": [
+        "video marketing",
+        "AI avatars",
+        "sales video",
+        "analytics"
+      ],
       "creator": "Vidyard",
       "url": "https://www.vidyard.com",
-      "features": ["AI avatar video messages", "Video hosting and analytics", "Personalized video at scale", "Viewer tracking", "CRM integration"]
+      "features": [
+        "AI avatar video messages",
+        "Video hosting and analytics",
+        "Personalized video at scale",
+        "Viewer tracking",
+        "CRM integration"
+      ]
     },
     {
       "name": "Ortto",
       "tagline": "AI-powered customer data platform and marketing automation",
       "description": "Ortto unifies customer data, analytics, and marketing automation in one platform. Its AI engine creates audience segments, predicts customer behavior, and automates multi-channel journeys based on real-time data.",
-      "icon": "🔮",
+      "icon": "\ud83d\udd2e",
       "rating": 4.3,
       "users": 30000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["customer data platform", "marketing automation", "analytics", "segmentation"],
+      "tags": [
+        "customer data platform",
+        "marketing automation",
+        "analytics",
+        "segmentation"
+      ],
       "creator": "Ortto",
       "url": "https://ortto.com",
-      "features": ["Unified customer data", "AI audience segmentation", "Multi-channel journeys", "Real-time analytics", "Email and SMS campaigns"]
+      "features": [
+        "Unified customer data",
+        "AI audience segmentation",
+        "Multi-channel journeys",
+        "Real-time analytics",
+        "Email and SMS campaigns"
+      ]
+    },
+    {
+      "name": "Vista Social",
+      "tagline": "AI-powered all-in-one social media management platform",
+      "description": "Vista Social is an all-in-one social media management platform with AI woven throughout. It handles scheduling, engagement, analytics, and review management across all major platforms with AI-assisted content creation.",
+      "icon": "\ud83d\udcf1",
+      "rating": 4.4,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "social media",
+        "scheduling",
+        "AI content",
+        "analytics"
+      ],
+      "creator": "Vista Social",
+      "url": "https://vistasocial.com",
+      "features": [
+        "AI caption generator",
+        "Multi-platform scheduling",
+        "Review management",
+        "Social listening",
+        "Team collaboration"
+      ]
+    },
+    {
+      "name": "Ocoya",
+      "tagline": "AI-first social media content creation and scheduling",
+      "description": "Ocoya is an AI-driven social media platform that generates captions, hashtags, and graphics from brand data. It supports 30+ languages and includes a built-in graphic designer, copywriter, and scheduler.",
+      "icon": "\ud83c\udfaf",
+      "rating": 4.3,
+      "users": 50000,
+      "price": "Paid",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "social media",
+        "AI content",
+        "scheduling",
+        "graphic design"
+      ],
+      "creator": "Ocoya",
+      "url": "https://ocoya.com",
+      "features": [
+        "AI copywriter",
+        "Built-in graphic designer",
+        "30+ language support",
+        "Hashtag generator",
+        "Analytics dashboard"
+      ]
+    },
+    {
+      "name": "ContentStudio",
+      "tagline": "AI-powered content marketing and social media platform",
+      "description": "ContentStudio combines content discovery, planning, publishing, and analytics with AI-powered content generation. It helps teams curate industry content alongside original AI-generated posts.",
+      "icon": "\ud83d\udcf0",
+      "rating": 4.4,
+      "users": 75000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "content marketing",
+        "social media",
+        "content curation",
+        "AI writing"
+      ],
+      "creator": "ContentStudio",
+      "url": "https://contentstudio.io",
+      "features": [
+        "AI content generator",
+        "Content discovery engine",
+        "Social media scheduler",
+        "Analytics and reporting",
+        "Team workflows"
+      ]
+    },
+    {
+      "name": "FeedHive",
+      "tagline": "AI social media management with automation triggers",
+      "description": "FeedHive is an AI-powered social media tool with unique automation triggers that automatically create and post content based on conditions. It includes AI writing assistance, analytics, and a visual content calendar.",
+      "icon": "\ud83d\udd25",
+      "rating": 4.3,
+      "users": 30000,
+      "price": "Paid",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "social media",
+        "automation",
+        "AI writing",
+        "scheduling"
+      ],
+      "creator": "FeedHive",
+      "url": "https://feedhive.com",
+      "features": [
+        "Automation triggers",
+        "AI writing assistant",
+        "Content calendar",
+        "Performance analytics",
+        "White-label reports"
+      ]
+    },
+    {
+      "name": "Simplified",
+      "tagline": "All-in-one AI design, video, and marketing platform",
+      "description": "Simplified combines AI-powered graphic design, video editing, copywriting, and social media scheduling in one platform. It offers templates, brand kits, and AI generation for teams on a budget.",
+      "icon": "\u2728",
+      "rating": 4.3,
+      "users": 5000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "design",
+        "video editing",
+        "AI writing",
+        "social media"
+      ],
+      "creator": "Simplified",
+      "url": "https://simplified.com",
+      "features": [
+        "AI graphic designer",
+        "Video editor with AI",
+        "AI copywriter",
+        "Social media scheduler",
+        "Brand kit management"
+      ]
+    },
+    {
+      "name": "Blaze.ai",
+      "tagline": "AI-autonomous social media management for solopreneurs",
+      "description": "Blaze.ai is an AI-autonomous social media tool that learns your brand, generates content, and publishes without daily input. It handles everything from caption writing to image creation to scheduling.",
+      "icon": "\ud83d\udd25",
+      "rating": 4.2,
+      "users": 25000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "social media",
+        "AI autonomous",
+        "content generation",
+        "scheduling"
+      ],
+      "creator": "Blaze.ai",
+      "url": "https://blaze.ai",
+      "features": [
+        "Brand voice learning",
+        "Autonomous content creation",
+        "Multi-platform publishing",
+        "Image generation",
+        "Performance optimization"
+      ]
+    },
+    {
+      "name": "Marky",
+      "tagline": "AI social media content creation with white-label agency support",
+      "description": "Marky uses AI to generate social media content including graphics, captions, and hashtags. It offers white-label agency portals, making it ideal for agencies managing multiple client brands.",
+      "icon": "\ud83d\udcdd",
+      "rating": 4.2,
+      "users": 20000,
+      "price": "Paid",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "social media",
+        "white-label",
+        "agency",
+        "AI content"
+      ],
+      "creator": "Marky",
+      "url": "https://marky.app",
+      "features": [
+        "AI content generation",
+        "White-label portal",
+        "Multi-brand management",
+        "Bulk scheduling",
+        "Client approval workflows"
+      ]
+    },
+    {
+      "name": "SocialBee",
+      "tagline": "AI-powered social media management with content categories",
+      "description": "SocialBee uses AI to help create, categorize, and schedule social media content. Its category-based scheduling ensures a balanced content mix, and its AI Copilot generates posts from URLs and topics.",
+      "icon": "\ud83d\udc1d",
+      "rating": 4.4,
+      "users": 50000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "scheduling",
+        "content categories",
+        "AI writing"
+      ],
+      "creator": "SocialBee",
+      "url": "https://socialbee.com",
+      "features": [
+        "Category-based scheduling",
+        "AI Copilot content generator",
+        "Evergreen content recycling",
+        "Multi-platform support",
+        "Analytics dashboard"
+      ]
+    },
+    {
+      "name": "Publer",
+      "tagline": "AI-powered social media scheduling and analytics",
+      "description": "Publer is a social media management tool with AI-assisted content creation, scheduling, and analytics. It supports 7+ platforms and includes features like link shortening, auto-scheduling, and Canva integration.",
+      "icon": "\ud83d\udcca",
+      "rating": 4.3,
+      "users": 40000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "scheduling",
+        "analytics",
+        "AI content"
+      ],
+      "creator": "Publer",
+      "url": "https://publer.io",
+      "features": [
+        "AI caption generator",
+        "Auto-scheduling",
+        "Canva integration",
+        "Link shortening",
+        "RSS feed automation"
+      ]
+    },
+    {
+      "name": "MeetEdgar",
+      "tagline": "AI social media automation with evergreen content recycling",
+      "description": "MeetEdgar automates social media by categorizing content and continuously recycling evergreen posts. Its AI generates variations of existing content to keep feeds fresh without constant creation.",
+      "icon": "\ud83d\udd04",
+      "rating": 4.2,
+      "users": 30000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "automation",
+        "evergreen content",
+        "recycling"
+      ],
+      "creator": "MeetEdgar",
+      "url": "https://meetedgar.com",
+      "features": [
+        "Evergreen content recycling",
+        "AI content variations",
+        "Category-based scheduling",
+        "Auto-scheduling",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "Repurpose.io",
+      "tagline": "AI-powered content repurposing across platforms",
+      "description": "Repurpose.io automatically repurposes content across platforms \u2014 turning podcasts into social clips, blog posts into videos, and long-form content into bite-sized pieces using AI.",
+      "icon": "\u267b\ufe0f",
+      "rating": 4.3,
+      "users": 50000,
+      "price": "Paid",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "content repurposing",
+        "automation",
+        "cross-platform",
+        "video clips"
+      ],
+      "creator": "Repurpose.io",
+      "url": "https://repurpose.io",
+      "features": [
+        "Auto content repurposing",
+        "Podcast to social clips",
+        "Blog to video",
+        "Multi-platform publishing",
+        "Template library"
+      ]
+    },
+    {
+      "name": "Planable",
+      "tagline": "AI-powered social media collaboration and approval platform",
+      "description": "Planable is a social media collaboration tool with AI content assistance, visual calendar, and multi-level approval workflows. It's designed for agencies and teams that need client sign-off on content.",
+      "icon": "\ud83d\udccb",
+      "rating": 4.4,
+      "users": 30000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "collaboration",
+        "approval workflows",
+        "agency"
+      ],
+      "creator": "Planable",
+      "url": "https://planable.io",
+      "features": [
+        "AI content assistant",
+        "Visual content calendar",
+        "Multi-level approvals",
+        "Client collaboration",
+        "Multi-workspace support"
+      ]
+    },
+    {
+      "name": "Metricool",
+      "tagline": "AI social media analytics and management platform",
+      "description": "Metricool combines social media management with deep analytics and competitive intelligence. Its AI features include optimal posting time suggestions, content generation, and performance benchmarking.",
+      "icon": "\ud83d\udcc8",
+      "rating": 4.3,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "analytics",
+        "competitive intelligence",
+        "scheduling"
+      ],
+      "creator": "Metricool",
+      "url": "https://metricool.com",
+      "features": [
+        "AI posting time optimization",
+        "Competitive analysis",
+        "Multi-platform analytics",
+        "Content scheduling",
+        "Hashtag tracker"
+      ]
+    },
+    {
+      "name": "SocialPilot",
+      "tagline": "AI-enhanced social media management for teams and agencies",
+      "description": "SocialPilot is a social media management platform with AI-powered content creation, bulk scheduling, and white-label reporting. It's built for agencies managing multiple clients.",
+      "icon": "\u2708\ufe0f",
+      "rating": 4.3,
+      "users": 75000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "agency",
+        "white-label",
+        "bulk scheduling"
+      ],
+      "creator": "SocialPilot",
+      "url": "https://socialpilot.co",
+      "features": [
+        "AI content generator",
+        "Bulk scheduling",
+        "White-label reports",
+        "Client management",
+        "Social inbox"
+      ]
+    },
+    {
+      "name": "Sendible",
+      "tagline": "AI social media management platform for agencies",
+      "description": "Sendible is a social media management platform designed for agencies, with AI-powered content suggestions, smart queues, and client approval workflows. It supports all major social platforms.",
+      "icon": "\ud83d\udce8",
+      "rating": 4.3,
+      "users": 50000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "agency",
+        "client management",
+        "scheduling"
+      ],
+      "creator": "Sendible",
+      "url": "https://sendible.com",
+      "features": [
+        "AI content suggestions",
+        "Smart queues",
+        "Client approval workflows",
+        "White-label dashboard",
+        "RSS feed automation"
+      ]
+    },
+    {
+      "name": "Crowdfire",
+      "tagline": "AI-powered social media management and content curation",
+      "description": "Crowdfire helps manage social media with AI-recommended content, image suggestions, and scheduling. It curates articles and images from across the web relevant to your industry.",
+      "icon": "\ud83d\udc26",
+      "rating": 4.1,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "social media",
+        "content curation",
+        "scheduling",
+        "image suggestions"
+      ],
+      "creator": "Crowdfire",
+      "url": "https://crowdfireapp.com",
+      "features": [
+        "AI content curation",
+        "Image recommendations",
+        "Auto-scheduling",
+        "Mention tracking",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "CoSchedule",
+      "tagline": "AI marketing calendar and social media management",
+      "description": "CoSchedule offers an AI-powered marketing calendar that organizes all marketing activities in one place. Its AI assistant generates social messages and optimizes posting schedules.",
+      "icon": "\ud83d\udcc5",
+      "rating": 4.3,
+      "users": 50000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "marketing calendar",
+        "social media",
+        "content planning",
+        "scheduling"
+      ],
+      "creator": "CoSchedule",
+      "url": "https://coschedule.com",
+      "features": [
+        "AI marketing calendar",
+        "Social message generator",
+        "Best time scheduling",
+        "Team collaboration",
+        "Content organizer"
+      ]
+    },
+    {
+      "name": "Lately AI",
+      "tagline": "AI social selling and content repurposing platform",
+      "description": "Lately uses AI to atomize long-form content into dozens of social media posts. It analyzes your brand voice and audience engagement to generate high-performing social content from blogs, podcasts, and videos.",
+      "icon": "\u23f0",
+      "rating": 4.2,
+      "users": 20000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "content repurposing",
+        "social selling",
+        "AI writing",
+        "brand voice"
+      ],
+      "creator": "Lately AI",
+      "url": "https://lately.ai",
+      "features": [
+        "Content atomization",
+        "Brand voice learning",
+        "Social selling analytics",
+        "Multi-platform scheduling",
+        "Performance prediction"
+      ]
+    },
+    {
+      "name": "GrowthBar",
+      "tagline": "AI-powered SEO content writing and keyword research",
+      "description": "GrowthBar is an AI SEO tool that generates blog outlines, writes SEO-optimized content, and provides keyword research. It analyzes top-ranking pages to create content that ranks.",
+      "icon": "\ud83d\udcca",
+      "rating": 4.3,
+      "users": 25000,
+      "price": "Paid",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "SEO",
+        "content writing",
+        "keyword research",
+        "blog optimization"
+      ],
+      "creator": "GrowthBar",
+      "url": "https://www.growthbarseo.com",
+      "features": [
+        "AI blog writer",
+        "Keyword research",
+        "Competitor analysis",
+        "Content outlines",
+        "Rank tracking"
+      ]
+    },
+    {
+      "name": "Headlime",
+      "tagline": "AI-powered marketing copywriting tool",
+      "description": "Headlime uses AI to generate high-converting marketing copy for landing pages, emails, ads, and social media. It offers templates and frameworks used by top copywriters.",
+      "icon": "\ud83d\udcdd",
+      "rating": 4.2,
+      "users": 30000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "copywriting",
+        "marketing copy",
+        "landing pages",
+        "email"
+      ],
+      "creator": "Headlime",
+      "url": "https://headlime.com",
+      "features": [
+        "Marketing copy templates",
+        "Landing page copy",
+        "Email subject lines",
+        "Ad copy generation",
+        "AIDA framework"
+      ]
     }
   ],
   "Business": [
@@ -306,301 +1050,1041 @@
       "name": "Clay",
       "tagline": "AI data enrichment and sales prospecting platform",
       "description": "Clay combines 150+ data providers with AI research agents to enrich leads, personalize outreach, and automate GTM workflows. Its Claygent AI agent researches companies and contacts, while waterfall enrichment maximizes data coverage.",
-      "icon": "🧱",
+      "icon": "\ud83e\uddf1",
       "rating": 4.7,
       "users": 100000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["data enrichment", "sales prospecting", "GTM automation", "AI research"],
+      "tags": [
+        "data enrichment",
+        "sales prospecting",
+        "GTM automation",
+        "AI research"
+      ],
       "creator": "Clay Inc.",
       "url": "https://www.clay.com",
-      "features": ["150+ data providers", "Claygent AI research agent", "Waterfall enrichment", "Signal tracking", "Native sequencer"]
+      "features": [
+        "150+ data providers",
+        "Claygent AI research agent",
+        "Waterfall enrichment",
+        "Signal tracking",
+        "Native sequencer"
+      ]
     },
     {
       "name": "Lavender",
       "tagline": "AI email coaching for sales professionals",
       "description": "Lavender is an AI sales email coach that scores emails in real-time, suggests improvements, and personalizes outreach based on prospect data. It integrates with Gmail, Outlook, and major sales engagement platforms.",
-      "icon": "💜",
+      "icon": "\ud83d\udc9c",
       "rating": 4.6,
       "users": 50000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["email coaching", "sales email", "personalization", "AI writing"],
+      "tags": [
+        "email coaching",
+        "sales email",
+        "personalization",
+        "AI writing"
+      ],
       "creator": "Lavender AI",
       "url": "https://www.lavender.ai",
-      "features": ["Real-time email scoring", "AI personalization", "Prospect insights", "Gmail and Outlook plugins", "Team analytics"]
+      "features": [
+        "Real-time email scoring",
+        "AI personalization",
+        "Prospect insights",
+        "Gmail and Outlook plugins",
+        "Team analytics"
+      ]
     },
     {
       "name": "Regie.ai",
       "tagline": "AI-powered outbound content generation for sales",
       "description": "Regie.ai uses generative AI to create personalized sales emails, sequences, and cadences at scale. It analyzes prospect data and company context to produce relevant, engaging outreach content.",
-      "icon": "📝",
+      "icon": "\ud83d\udcdd",
       "rating": 4.4,
       "users": 30000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["outbound sales", "content generation", "email sequences", "personalization"],
+      "tags": [
+        "outbound sales",
+        "content generation",
+        "email sequences",
+        "personalization"
+      ],
       "creator": "Regie.ai",
       "url": "https://www.regie.ai",
-      "features": ["AI sequence generation", "Prospect research", "Content personalization", "A/B testing", "CRM integration"]
+      "features": [
+        "AI sequence generation",
+        "Prospect research",
+        "Content personalization",
+        "A/B testing",
+        "CRM integration"
+      ]
     },
     {
       "name": "11x.ai",
       "tagline": "AI digital sales workers that automate outreach",
       "description": "11x.ai provides AI-powered digital workers including 'Alice' for automated outbound sales and 'Jordan' for inbound phone qualification. These AI agents work 24/7 to research, personalize, and engage prospects.",
-      "icon": "🤖",
+      "icon": "\ud83e\udd16",
       "rating": 4.3,
       "users": 20000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["AI sales agents", "automated outreach", "digital workers", "sales automation"],
+      "tags": [
+        "AI sales agents",
+        "automated outreach",
+        "digital workers",
+        "sales automation"
+      ],
       "creator": "11x AI Ltd.",
       "url": "https://www.11x.ai",
-      "features": ["Alice AI outbound agent", "Jordan AI phone agent", "24/7 automated outreach", "Prospect research", "CRM integration"]
+      "features": [
+        "Alice AI outbound agent",
+        "Jordan AI phone agent",
+        "24/7 automated outreach",
+        "Prospect research",
+        "CRM integration"
+      ]
     },
     {
       "name": "AiSDR",
       "tagline": "AI sales development representative as a service",
       "description": "AiSDR provides an AI-powered SDR that handles prospecting, outreach, and meeting booking. It writes personalized emails, follows up automatically, and books qualified meetings on your calendar.",
-      "icon": "📧",
+      "icon": "\ud83d\udce7",
       "rating": 4.3,
       "users": 15000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["AI SDR", "automated outreach", "meeting booking", "sales automation"],
+      "tags": [
+        "AI SDR",
+        "automated outreach",
+        "meeting booking",
+        "sales automation"
+      ],
       "creator": "AiSDR Inc.",
       "url": "https://aisdr.com",
-      "features": ["AI-written emails", "Automated follow-ups", "Meeting scheduling", "Lead qualification", "Analytics dashboard"]
+      "features": [
+        "AI-written emails",
+        "Automated follow-ups",
+        "Meeting scheduling",
+        "Lead qualification",
+        "Analytics dashboard"
+      ]
     },
     {
       "name": "Instantly",
       "tagline": "AI cold email platform for scalable outreach",
       "description": "Instantly is a cold email platform with AI-powered email warmup, deliverability optimization, and lead generation. It allows users to send thousands of personalized emails daily with AI-generated content.",
-      "icon": "⚡",
+      "icon": "\u26a1",
       "rating": 4.5,
       "users": 100000,
       "price": "Paid",
       "featured": true,
       "new": true,
-      "tags": ["cold email", "email warmup", "lead generation", "outreach automation"],
+      "tags": [
+        "cold email",
+        "email warmup",
+        "lead generation",
+        "outreach automation"
+      ],
       "creator": "Instantly AI",
       "url": "https://instantly.ai",
-      "features": ["AI email warmup", "Unlimited email accounts", "AI email writer", "Lead finder", "Campaign analytics"]
+      "features": [
+        "AI email warmup",
+        "Unlimited email accounts",
+        "AI email writer",
+        "Lead finder",
+        "Campaign analytics"
+      ]
     },
     {
       "name": "Gamma",
       "tagline": "AI-powered presentations, documents, and websites",
       "description": "Gamma uses AI to create beautiful presentations, documents, and webpages from text prompts. It generates layouts, images, and content with a Notion-like editor, making it fast to create professional materials.",
-      "icon": "🎨",
+      "icon": "\ud83c\udfa8",
       "rating": 4.6,
       "users": 30000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["presentations", "documents", "AI design", "web builder"],
+      "tags": [
+        "presentations",
+        "documents",
+        "AI design",
+        "web builder"
+      ],
       "creator": "Gamma.app",
       "url": "https://gamma.app",
-      "features": ["AI presentation generator", "Document creation", "Webpage builder", "Brand-aware generation", "Real-time collaboration"]
+      "features": [
+        "AI presentation generator",
+        "Document creation",
+        "Webpage builder",
+        "Brand-aware generation",
+        "Real-time collaboration"
+      ]
     },
     {
       "name": "Clari",
       "tagline": "AI-powered revenue forecasting and pipeline management",
       "description": "Clari uses AI to analyze pipeline data, predict deal outcomes, and provide revenue intelligence. It gives sales leaders visibility into forecast accuracy, deal risk, and revenue leakage across the entire revenue process.",
-      "icon": "📈",
+      "icon": "\ud83d\udcc8",
       "rating": 4.5,
       "users": 50000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["revenue forecasting", "pipeline management", "revenue intelligence", "sales analytics"],
+      "tags": [
+        "revenue forecasting",
+        "pipeline management",
+        "revenue intelligence",
+        "sales analytics"
+      ],
       "creator": "Clari Inc.",
       "url": "https://clari.com",
-      "features": ["AI revenue forecasting", "Deal risk scoring", "Pipeline inspection", "Revenue cadence", "CRM integration"]
+      "features": [
+        "AI revenue forecasting",
+        "Deal risk scoring",
+        "Pipeline inspection",
+        "Revenue cadence",
+        "CRM integration"
+      ]
     },
     {
       "name": "Lovable",
       "tagline": "AI full-stack app builder from natural language",
       "description": "Lovable is an AI-powered development platform that builds full-stack web applications from natural language descriptions. It generates production-ready code with database, auth, and deployment included.",
-      "icon": "❤️",
+      "icon": "\u2764\ufe0f",
       "rating": 4.5,
       "users": 2000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["vibe coding", "app builder", "no-code", "full-stack"],
+      "tags": [
+        "vibe coding",
+        "app builder",
+        "no-code",
+        "full-stack"
+      ],
       "creator": "Lovable (formerly GPT Engineer)",
       "url": "https://lovable.dev",
-      "features": ["Natural language to app", "Full-stack generation", "Real-time preview", "GitHub integration", "One-click deployment"]
+      "features": [
+        "Natural language to app",
+        "Full-stack generation",
+        "Real-time preview",
+        "GitHub integration",
+        "One-click deployment"
+      ]
     },
     {
       "name": "Cursor",
       "tagline": "AI-first code editor for software development",
       "description": "Cursor is an AI-powered code editor built on VS Code that integrates AI pair programming directly into the coding workflow. It uses multiple AI models to write, edit, and debug code with context-aware suggestions.",
-      "icon": "⌨️",
+      "icon": "\u2328\ufe0f",
       "rating": 4.7,
       "users": 5000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["code editor", "AI coding", "developer tools", "IDE"],
+      "tags": [
+        "code editor",
+        "AI coding",
+        "developer tools",
+        "IDE"
+      ],
       "creator": "Anysphere Inc.",
       "url": "https://cursor.com",
-      "features": ["AI code completion", "Multi-file editing", "Codebase-aware chat", "Terminal integration", "Multi-model support"]
+      "features": [
+        "AI code completion",
+        "Multi-file editing",
+        "Codebase-aware chat",
+        "Terminal integration",
+        "Multi-model support"
+      ]
     },
     {
       "name": "Replit",
       "tagline": "AI-powered cloud development and deployment platform",
       "description": "Replit is a browser-based IDE with integrated AI that helps write, debug, and deploy code. Its AI Agent can build entire applications from descriptions, while Ghostwriter provides real-time code suggestions.",
-      "icon": "🔧",
+      "icon": "\ud83d\udd27",
       "rating": 4.5,
       "users": 25000000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["cloud IDE", "AI coding", "deployment", "collaboration"],
+      "tags": [
+        "cloud IDE",
+        "AI coding",
+        "deployment",
+        "collaboration"
+      ],
       "creator": "Replit Inc.",
       "url": "https://replit.com",
-      "features": ["AI Agent for app building", "Ghostwriter code completion", "Instant deployment", "Collaborative editing", "50+ language support"]
+      "features": [
+        "AI Agent for app building",
+        "Ghostwriter code completion",
+        "Instant deployment",
+        "Collaborative editing",
+        "50+ language support"
+      ]
     },
     {
       "name": "Vainu",
       "tagline": "AI-powered B2B sales intelligence platform",
       "description": "Vainu provides real-time company data and buying signals using AI. It analyzes millions of data points to identify companies showing buying intent, technographic changes, and growth signals.",
-      "icon": "🔬",
+      "icon": "\ud83d\udd2c",
       "rating": 4.3,
       "users": 40000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["sales intelligence", "company data", "buying signals", "prospecting"],
+      "tags": [
+        "sales intelligence",
+        "company data",
+        "buying signals",
+        "prospecting"
+      ],
       "creator": "Vainu",
       "url": "https://www.vainu.com",
-      "features": ["Real-time company data", "Buying signal detection", "Technographic analysis", "CRM integration", "Custom triggers"]
+      "features": [
+        "Real-time company data",
+        "Buying signal detection",
+        "Technographic analysis",
+        "CRM integration",
+        "Custom triggers"
+      ]
     },
     {
       "name": "Planhat",
       "tagline": "AI-powered customer success platform",
       "description": "Planhat is a customer success platform that uses AI to predict churn, identify expansion opportunities, and automate health scoring. It provides a unified view of customer data with actionable insights.",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "rating": 4.4,
       "users": 30000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["customer success", "churn prediction", "health scoring", "expansion"],
+      "tags": [
+        "customer success",
+        "churn prediction",
+        "health scoring",
+        "expansion"
+      ],
       "creator": "Planhat AB",
       "url": "https://planhat.com",
-      "features": ["AI health scoring", "Churn prediction", "Expansion signals", "Customer 360 view", "Automated workflows"]
+      "features": [
+        "AI health scoring",
+        "Churn prediction",
+        "Expansion signals",
+        "Customer 360 view",
+        "Automated workflows"
+      ]
     },
     {
       "name": "MagicBlocks.ai",
       "tagline": "AI sales agents that convert leads autonomously",
       "description": "MagicBlocks provides AI Sales Agents that engage inbound leads in under 5 seconds, qualify through natural conversation, follow up persistently, and reactivate aged CRM leads. Uses HAPPA sales framework.",
-      "icon": "🪄",
+      "icon": "\ud83e\ude84",
       "rating": 4.4,
       "users": 15000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["AI sales agents", "lead conversion", "automated qualification", "omnichannel"],
+      "tags": [
+        "AI sales agents",
+        "lead conversion",
+        "automated qualification",
+        "omnichannel"
+      ],
       "creator": "MagicBlocks",
       "url": "https://magicblocks.ai",
-      "features": ["5-second lead engagement", "HAPPA sales framework", "Persistent memory across channels", "Dynamic journey engine", "Compliance guardrails"]
+      "features": [
+        "5-second lead engagement",
+        "HAPPA sales framework",
+        "Persistent memory across channels",
+        "Dynamic journey engine",
+        "Compliance guardrails"
+      ]
     },
     {
       "name": "Chili Piper",
       "tagline": "AI-powered scheduling and routing for revenue teams",
       "description": "Chili Piper automates meeting scheduling, lead routing, and handoffs for sales teams. Its AI ensures inbound leads are instantly routed to the right rep and booked on their calendar in real-time.",
-      "icon": "🌶️",
+      "icon": "\ud83c\udf36\ufe0f",
       "rating": 4.5,
       "users": 50000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["scheduling", "lead routing", "meeting booking", "sales automation"],
+      "tags": [
+        "scheduling",
+        "lead routing",
+        "meeting booking",
+        "sales automation"
+      ],
       "creator": "Chili Piper Inc.",
       "url": "https://www.chilipiper.com",
-      "features": ["Instant lead routing", "Smart calendar scheduling", "Handoff automation", "CRM integration", "Round-robin distribution"]
+      "features": [
+        "Instant lead routing",
+        "Smart calendar scheduling",
+        "Handoff automation",
+        "CRM integration",
+        "Round-robin distribution"
+      ]
     },
     {
       "name": "Seamless.AI",
       "tagline": "AI-powered B2B contact and company data platform",
       "description": "Seamless.AI uses AI to find and verify B2B contact data in real-time, including direct dials, emails, and company information. It integrates with major CRMs and sales engagement platforms for seamless prospecting.",
-      "icon": "🔗",
+      "icon": "\ud83d\udd17",
       "rating": 4.3,
       "users": 300000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["B2B data", "contact finder", "prospecting", "sales intelligence"],
+      "tags": [
+        "B2B data",
+        "contact finder",
+        "prospecting",
+        "sales intelligence"
+      ],
       "creator": "Seamless.AI",
       "url": "https://www.seamless.ai",
-      "features": ["Real-time contact verification", "Direct dial finder", "Chrome extension", "CRM integration", "Buyer intent data"]
+      "features": [
+        "Real-time contact verification",
+        "Direct dial finder",
+        "Chrome extension",
+        "CRM integration",
+        "Buyer intent data"
+      ]
     },
     {
       "name": "Supademo",
       "tagline": "AI-powered interactive product demos and guides",
       "description": "Supademo creates interactive product demos and guides using AI. It automatically captures product workflows, adds AI narration, and generates step-by-step guides that prospects and customers can explore at their own pace.",
-      "icon": "🎪",
+      "icon": "\ud83c\udfaa",
       "rating": 4.4,
       "users": 50000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["product demos", "interactive guides", "sales enablement", "onboarding"],
+      "tags": [
+        "product demos",
+        "interactive guides",
+        "sales enablement",
+        "onboarding"
+      ],
       "creator": "Supademo Inc.",
       "url": "https://www.supademo.com",
-      "features": ["AI demo capture", "Interactive step-by-step guides", "AI narration", "Analytics tracking", "Embeddable demos"]
+      "features": [
+        "AI demo capture",
+        "Interactive step-by-step guides",
+        "AI narration",
+        "Analytics tracking",
+        "Embeddable demos"
+      ]
     },
     {
       "name": "Windsurf",
       "tagline": "AI-powered coding assistant and IDE",
       "description": "Windsurf (formerly Codeium) is an AI code editor with Cascade, an agentic AI that understands codebases, writes multi-file edits, and executes terminal commands. It supports 70+ languages with context-aware completions.",
-      "icon": "🏄",
+      "icon": "\ud83c\udfc4",
       "rating": 4.4,
       "users": 1000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["AI coding", "code editor", "developer tools", "IDE"],
+      "tags": [
+        "AI coding",
+        "code editor",
+        "developer tools",
+        "IDE"
+      ],
       "creator": "Codeium",
       "url": "https://windsurf.com",
-      "features": ["Cascade agentic AI", "Multi-file editing", "70+ language support", "Terminal integration", "Codebase understanding"]
+      "features": [
+        "Cascade agentic AI",
+        "Multi-file editing",
+        "70+ language support",
+        "Terminal integration",
+        "Codebase understanding"
+      ]
     },
     {
       "name": "Pipedrive AI",
       "tagline": "AI-powered sales CRM for small businesses",
       "description": "Pipedrive combines a visual sales pipeline with AI-powered features including deal probability predictions, activity recommendations, email summarization, and automated data entry to help sales teams close more deals.",
-      "icon": "📊",
+      "icon": "\ud83d\udcca",
       "rating": 4.4,
       "users": 100000,
       "price": "Paid",
       "featured": false,
       "new": false,
-      "tags": ["CRM", "sales pipeline", "AI predictions", "small business"],
-      "creator": "Pipedrive OÜ",
+      "tags": [
+        "CRM",
+        "sales pipeline",
+        "AI predictions",
+        "small business"
+      ],
+      "creator": "Pipedrive O\u00dc",
       "url": "https://www.pipedrive.com",
-      "features": ["AI deal predictions", "Smart contact data", "Email AI assistant", "Automated workflows", "Visual pipeline"]
+      "features": [
+        "AI deal predictions",
+        "Smart contact data",
+        "Email AI assistant",
+        "Automated workflows",
+        "Visual pipeline"
+      ]
     },
     {
       "name": "Freshsales",
       "tagline": "AI-powered sales CRM with built-in phone and chat",
       "description": "Freshsales offers an AI-powered CRM with Freddy AI providing deal insights, predictive scoring, workflow automation, and intelligent recommendations. It includes built-in phone, email, chat, and WhatsApp.",
-      "icon": "💼",
+      "icon": "\ud83d\udcbc",
       "rating": 4.4,
       "users": 70000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["CRM", "sales automation", "AI scoring", "omnichannel"],
+      "tags": [
+        "CRM",
+        "sales automation",
+        "AI scoring",
+        "omnichannel"
+      ],
       "creator": "Freshworks Inc.",
       "url": "https://www.freshworks.com/crm/sales/",
-      "features": ["Freddy AI deal scoring", "Built-in phone and chat", "WhatsApp integration", "Sales sequences", "Predictive analytics"]
+      "features": [
+        "Freddy AI deal scoring",
+        "Built-in phone and chat",
+        "WhatsApp integration",
+        "Sales sequences",
+        "Predictive analytics"
+      ]
+    },
+    {
+      "name": "Taskade",
+      "tagline": "AI-powered project management and team collaboration",
+      "description": "Taskade is an AI-first project management platform with AI agents, task automation, and real-time collaboration. Its Genesis AI app builder creates custom tools from natural language descriptions.",
+      "icon": "\u2705",
+      "rating": 4.4,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "project management",
+        "AI agents",
+        "collaboration",
+        "automation"
+      ],
+      "creator": "Taskade",
+      "url": "https://www.taskade.com",
+      "features": [
+        "AI agents for tasks",
+        "Genesis AI app builder",
+        "Real-time collaboration",
+        "Mind maps and outlines",
+        "Video chat integration"
+      ]
+    },
+    {
+      "name": "Linear",
+      "tagline": "AI-powered issue tracking and project management",
+      "description": "Linear is a modern issue tracking and project management tool with AI-powered features including auto-categorization, duplicate detection, and intelligent task prioritization for software teams.",
+      "icon": "\ud83d\udcd0",
+      "rating": 4.7,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": true,
+      "new": false,
+      "tags": [
+        "issue tracking",
+        "project management",
+        "software development",
+        "AI prioritization"
+      ],
+      "creator": "Linear",
+      "url": "https://linear.app",
+      "features": [
+        "AI issue triage",
+        "Duplicate detection",
+        "Cycle planning",
+        "Roadmap visualization",
+        "GitHub integration"
+      ]
+    },
+    {
+      "name": "Height",
+      "tagline": "AI-powered autonomous project management",
+      "description": "Height is an AI-first project management tool that autonomously organizes tasks, detects relationships between items, and suggests priorities. It uses AI to keep projects clean and teams focused.",
+      "icon": "\ud83d\udccf",
+      "rating": 4.5,
+      "users": 50000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "project management",
+        "AI autonomous",
+        "task organization",
+        "prioritization"
+      ],
+      "creator": "Height",
+      "url": "https://height.app",
+      "features": [
+        "Autonomous task organization",
+        "AI relationship detection",
+        "Smart prioritization",
+        "Real-time collaboration",
+        "Spreadsheet and list views"
+      ]
+    },
+    {
+      "name": "Motion",
+      "tagline": "AI-powered calendar and task management",
+      "description": "Motion uses AI to automatically plan your day by scheduling tasks, meetings, and deadlines around your priorities. It dynamically adjusts your schedule as things change.",
+      "icon": "\u26a1",
+      "rating": 4.4,
+      "users": 100000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "calendar",
+        "task management",
+        "AI scheduling",
+        "productivity"
+      ],
+      "creator": "Motion",
+      "url": "https://www.usemotion.com",
+      "features": [
+        "AI daily planning",
+        "Auto-scheduling",
+        "Priority-based ordering",
+        "Meeting scheduling",
+        "Task management"
+      ]
+    },
+    {
+      "name": "Reclaim AI",
+      "tagline": "AI calendar assistant for smart scheduling",
+      "description": "Reclaim AI automatically finds the best time for tasks, habits, and meetings in your calendar. It protects focus time, schedules smart breaks, and optimizes your entire workweek.",
+      "icon": "\ud83d\udcc5",
+      "rating": 4.5,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "calendar",
+        "AI scheduling",
+        "focus time",
+        "habits"
+      ],
+      "creator": "Reclaim.ai",
+      "url": "https://reclaim.ai",
+      "features": [
+        "Smart task scheduling",
+        "Habit scheduling",
+        "Focus time protection",
+        "Meeting optimization",
+        "Buffer time management"
+      ]
+    },
+    {
+      "name": "Sembly",
+      "tagline": "AI meeting assistant with transcription and insights",
+      "description": "Sembly is an AI meeting assistant that transcribes, summarizes, and extracts action items from meetings. It provides conversation intelligence, sentiment analysis, and integrates with major video platforms.",
+      "icon": "\ud83c\udfa4",
+      "rating": 4.3,
+      "users": 50000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "meeting transcription",
+        "AI notes",
+        "conversation intelligence",
+        "action items"
+      ],
+      "creator": "Sembly AI",
+      "url": "https://sembly.ai",
+      "features": [
+        "Meeting transcription",
+        "AI summaries",
+        "Action item extraction",
+        "Sentiment analysis",
+        "Multi-platform support"
+      ]
+    },
+    {
+      "name": "Tldv",
+      "tagline": "AI meeting recorder and transcription tool",
+      "description": "Tldv (too long; didn't view) records, transcribes, and summarizes meetings with AI. It creates shareable highlights, timestamps key moments, and integrates with CRM and project management tools.",
+      "icon": "\ud83c\udfa5",
+      "rating": 4.5,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "meeting recording",
+        "transcription",
+        "AI summaries",
+        "highlights"
+      ],
+      "creator": "Tldv",
+      "url": "https://tldv.io",
+      "features": [
+        "Meeting recording",
+        "AI transcription",
+        "Highlight clips",
+        "Timestamped notes",
+        "CRM integration"
+      ]
+    },
+    {
+      "name": "Durable",
+      "tagline": "AI website builder that creates sites in 30 seconds",
+      "description": "Durable uses AI to generate complete business websites in under 30 seconds. It creates layouts, writes copy, selects images, and includes CRM, invoicing, and marketing tools.",
+      "icon": "\ud83c\udfd7\ufe0f",
+      "rating": 4.2,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "website builder",
+        "AI design",
+        "small business",
+        "CRM"
+      ],
+      "creator": "Durable",
+      "url": "https://durable.co",
+      "features": [
+        "30-second website generation",
+        "AI copywriting",
+        "Built-in CRM",
+        "Invoicing tools",
+        "Marketing automation"
+      ]
+    },
+    {
+      "name": "Fathom",
+      "tagline": "AI meeting assistant with free unlimited transcription",
+      "description": "Fathom is a free AI meeting assistant that records, transcribes, and summarizes meetings. It highlights key moments, creates action items, and syncs notes to your CRM automatically.",
+      "icon": "\ud83c\udfa4",
+      "rating": 4.7,
+      "users": 300000,
+      "price": "Freemium",
+      "featured": true,
+      "new": true,
+      "tags": [
+        "meeting transcription",
+        "AI notes",
+        "free",
+        "CRM sync"
+      ],
+      "creator": "Fathom",
+      "url": "https://fathom.video",
+      "features": [
+        "Free unlimited transcription",
+        "AI meeting summaries",
+        "Highlight clips",
+        "CRM auto-sync",
+        "Team collaboration"
+      ]
+    },
+    {
+      "name": "Riverside",
+      "tagline": "AI-powered remote recording and editing platform",
+      "description": "Riverside is a remote recording platform with AI-powered editing, transcription, and show notes generation. It records in 4K quality locally and uses AI to clean up audio and generate content.",
+      "icon": "\ud83c\udf99\ufe0f",
+      "rating": 4.5,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "remote recording",
+        "podcast",
+        "AI editing",
+        "transcription"
+      ],
+      "creator": "Riverside.fm",
+      "url": "https://riverside.fm",
+      "features": [
+        "4K local recording",
+        "AI audio cleanup",
+        "Auto transcription",
+        "Show notes generation",
+        "Clip creation"
+      ]
+    },
+    {
+      "name": "Descript",
+      "tagline": "AI-powered video and podcast editing",
+      "description": "Descript revolutionizes video and podcast editing by letting you edit media like a text document. Its AI features include voice cloning, filler word removal, eye contact correction, and studio sound enhancement.",
+      "icon": "\ud83c\udfac",
+      "rating": 4.6,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": true,
+      "new": false,
+      "tags": [
+        "video editing",
+        "podcast editing",
+        "transcription",
+        "AI editing"
+      ],
+      "creator": "Descript",
+      "url": "https://www.descript.com",
+      "features": [
+        "Text-based video editing",
+        "AI voice cloning",
+        "Filler word removal",
+        "Eye contact correction",
+        "Studio sound enhancement"
+      ]
+    },
+    {
+      "name": "Whimsical AI",
+      "tagline": "AI-powered flowcharts, wireframes, and docs",
+      "description": "Whimsical combines flowcharts, wireframes, mind maps, and docs with AI-powered generation. Its AI creates diagrams from text descriptions and generates document outlines automatically.",
+      "icon": "\ud83d\udca1",
+      "rating": 4.4,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "flowcharts",
+        "wireframes",
+        "mind maps",
+        "AI design"
+      ],
+      "creator": "Whimsical",
+      "url": "https://whimsical.com",
+      "features": [
+        "AI flowchart generation",
+        "Wireframe builder",
+        "Mind maps",
+        "Document creation",
+        "Real-time collaboration"
+      ]
+    },
+    {
+      "name": "Tome",
+      "tagline": "AI-powered presentation and document creation",
+      "description": "Tome uses AI to generate complete presentations and documents from text prompts. It creates layouts, writes content, and generates images, turning ideas into polished presentations in minutes.",
+      "icon": "\ud83d\udcd6",
+      "rating": 4.3,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "presentations",
+        "AI design",
+        "documents",
+        "storytelling"
+      ],
+      "creator": "Tome",
+      "url": "https://tome.app",
+      "features": [
+        "AI presentation generation",
+        "Document creation",
+        "AI image generation",
+        "Brand customization",
+        "Real-time collaboration"
+      ]
+    },
+    {
+      "name": "Craft",
+      "tagline": "AI-powered document creation for Apple ecosystem",
+      "description": "Craft is a beautifully designed document creation tool with AI-powered writing assistance, content generation, and organization. It's deeply integrated with the Apple ecosystem.",
+      "icon": "\ud83c\udf4e",
+      "rating": 4.5,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "documents",
+        "Apple",
+        "AI writing",
+        "note-taking"
+      ],
+      "creator": "Craft",
+      "url": "https://www.craft.do",
+      "features": [
+        "AI writing assistant",
+        "Document templates",
+        "Real-time collaboration",
+        "Apple ecosystem integration",
+        "Offline support"
+      ]
+    },
+    {
+      "name": "Granola",
+      "tagline": "AI notepad for meetings",
+      "description": "Granola is an AI-powered notepad that sits alongside your meeting and takes notes in real-time. It augments your manual notes with AI-generated context, action items, and summaries.",
+      "icon": "\ud83e\udd63",
+      "rating": 4.5,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "meeting notes",
+        "AI notepad",
+        "transcription",
+        "productivity"
+      ],
+      "creator": "Granola",
+      "url": "https://granola.ai",
+      "features": [
+        "Real-time AI notes",
+        "Manual note augmentation",
+        "Action item extraction",
+        "Meeting summaries",
+        "CRM integration"
+      ]
+    },
+    {
+      "name": "Vercel v0",
+      "tagline": "AI-powered UI generation from text descriptions",
+      "description": "v0 by Vercel generates React components and full UI layouts from text descriptions. It creates production-ready code with Tailwind CSS, shadcn/ui components, and responsive designs.",
+      "icon": "\u25b2",
+      "rating": 4.5,
+      "users": 1000000,
+      "price": "Freemium",
+      "featured": true,
+      "new": true,
+      "tags": [
+        "UI generation",
+        "React",
+        "AI coding",
+        "design-to-code"
+      ],
+      "creator": "Vercel",
+      "url": "https://v0.dev",
+      "features": [
+        "Text-to-UI generation",
+        "React component creation",
+        "Tailwind CSS output",
+        "Responsive design",
+        "Iterative refinement"
+      ]
+    },
+    {
+      "name": "Bolt.new",
+      "tagline": "AI full-stack app builder in the browser",
+      "description": "Bolt.new is an AI-powered development environment that builds full-stack applications from natural language. It runs code in-browser, supports multiple frameworks, and deploys instantly.",
+      "icon": "\u26a1",
+      "rating": 4.4,
+      "users": 2000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "vibe coding",
+        "full-stack",
+        "AI development",
+        "no-code"
+      ],
+      "creator": "StackBlitz",
+      "url": "https://bolt.new",
+      "features": [
+        "Natural language to app",
+        "In-browser execution",
+        "Multi-framework support",
+        "Instant deployment",
+        "Iterative development"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "tagline": "AI-powered presentation software for teams",
+      "description": "Pitch is a collaborative presentation platform with AI-powered design suggestions, content generation, and template recommendations. It combines beautiful design with real-time collaboration.",
+      "icon": "\ud83c\udfa4",
+      "rating": 4.4,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "presentations",
+        "collaboration",
+        "AI design",
+        "team tools"
+      ],
+      "creator": "Pitch",
+      "url": "https://pitch.com",
+      "features": [
+        "AI design suggestions",
+        "Content generation",
+        "Real-time collaboration",
+        "Template library",
+        "Analytics tracking"
+      ]
+    },
+    {
+      "name": "Tango",
+      "tagline": "AI-powered how-to guide and documentation creator",
+      "description": "Tango automatically creates step-by-step how-to guides by watching you work. It captures screenshots, annotates steps, and generates professional documentation with AI descriptions.",
+      "icon": "\ud83d\udcd6",
+      "rating": 4.5,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "documentation",
+        "how-to guides",
+        "training",
+        "knowledge base"
+      ],
+      "creator": "Tango",
+      "url": "https://www.tango.us",
+      "features": [
+        "Auto screenshot capture",
+        "Step-by-step annotation",
+        "AI descriptions",
+        "Browser extension",
+        "Shareable guides"
+      ]
+    },
+    {
+      "name": "Magical",
+      "tagline": "AI-powered text expansion and workflow automation",
+      "description": "Magical is a Chrome extension that uses AI to automate repetitive tasks like data entry, messaging, and form filling. It works across any website without integrations.",
+      "icon": "\ud83e\ude84",
+      "rating": 4.3,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "text expansion",
+        "automation",
+        "productivity",
+        "Chrome extension"
+      ],
+      "creator": "Magical",
+      "url": "https://www.getmagical.com",
+      "features": [
+        "AI text expansion",
+        "Cross-site automation",
+        "Template shortcuts",
+        "Data transfer",
+        "No integrations needed"
+      ]
     }
   ],
   "Creative": [
@@ -608,301 +2092,1041 @@
       "name": "Udio",
       "tagline": "AI music generator creating studio-quality songs",
       "description": "Udio is an AI music generation platform that creates full songs with vocals, instruments, and production from text prompts. It supports multiple genres and can generate radio-ready tracks in seconds.",
-      "icon": "🎵",
+      "icon": "\ud83c\udfb5",
       "rating": 4.6,
       "users": 3000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["AI music", "song generation", "vocals", "audio production"],
+      "tags": [
+        "AI music",
+        "song generation",
+        "vocals",
+        "audio production"
+      ],
       "creator": "Udio Inc.",
       "url": "https://www.udio.com",
-      "features": ["Full song generation with vocals", "Multi-genre support", "Lyric generation", "Audio mastering", "Custom style training"]
+      "features": [
+        "Full song generation with vocals",
+        "Multi-genre support",
+        "Lyric generation",
+        "Audio mastering",
+        "Custom style training"
+      ]
     },
     {
       "name": "PixVerse",
       "tagline": "AI video generator with high-quality motion",
       "description": "PixVerse creates high-quality AI videos from text and images with superior motion consistency. It offers text-to-video, image-to-video, and character animation with an API for developers.",
-      "icon": "🎬",
+      "icon": "\ud83c\udfac",
       "rating": 4.5,
       "users": 5000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["AI video", "text-to-video", "image-to-video", "animation"],
+      "tags": [
+        "AI video",
+        "text-to-video",
+        "image-to-video",
+        "animation"
+      ],
       "creator": "PixVerse",
       "url": "https://pixverse.ai",
-      "features": ["Text-to-video generation", "Image-to-video animation", "Character consistency", "API access", "High motion quality"]
+      "features": [
+        "Text-to-video generation",
+        "Image-to-video animation",
+        "Character consistency",
+        "API access",
+        "High motion quality"
+      ]
     },
     {
       "name": "Hailuo AI",
       "tagline": "MiniMax-powered AI video generation platform",
       "description": "Hailuo AI (by MiniMax) generates cinematic AI videos with exceptional quality. It produces realistic motion, consistent characters, and has been recognized as one of the top AI video generators globally.",
-      "icon": "🌊",
+      "icon": "\ud83c\udf0a",
       "rating": 4.5,
       "users": 10000000,
       "price": "Freemium",
       "featured": true,
       "new": true,
-      "tags": ["AI video", "cinematic video", "text-to-video", "MiniMax"],
+      "tags": [
+        "AI video",
+        "cinematic video",
+        "text-to-video",
+        "MiniMax"
+      ],
       "creator": "MiniMax",
       "url": "https://hailuoai.video",
-      "features": ["Cinematic video generation", "Character consistency", "Realistic motion", "Text and image prompts", "Fast generation"]
+      "features": [
+        "Cinematic video generation",
+        "Character consistency",
+        "Realistic motion",
+        "Text and image prompts",
+        "Fast generation"
+      ]
     },
     {
       "name": "Veo 3",
       "tagline": "Google's breakthrough AI video generation model",
       "description": "Veo 3 is Google DeepMind's flagship video generation model, widely regarded as the breakthrough moment for AI video in 2025. It generates high-fidelity, physically consistent videos with native audio generation.",
-      "icon": "🎥",
+      "icon": "\ud83c\udfa5",
       "rating": 4.7,
       "users": 5000000,
       "price": "Paid",
       "featured": true,
       "new": true,
-      "tags": ["AI video", "Google", "text-to-video", "audio generation"],
+      "tags": [
+        "AI video",
+        "Google",
+        "text-to-video",
+        "audio generation"
+      ],
       "creator": "Google DeepMind",
       "url": "https://deepmind.google/technologies/veo/",
-      "features": ["Native audio generation", "Physical consistency", "High-fidelity output", "Cinematic quality", "Google Labs integration"]
+      "features": [
+        "Native audio generation",
+        "Physical consistency",
+        "High-fidelity output",
+        "Cinematic quality",
+        "Google Labs integration"
+      ]
     },
     {
       "name": "CapCut",
       "tagline": "AI-powered video editor with 736M+ monthly users",
       "description": "CapCut is the world's most popular AI video editor with over 736 million monthly active users. Its AI features include background removal, auto-captions, text-to-video, AI effects, and one-click editing tools.",
-      "icon": "✂️",
+      "icon": "\u2702\ufe0f",
       "rating": 4.5,
       "users": 736000000,
       "price": "Freemium",
       "featured": true,
       "new": false,
-      "tags": ["video editing", "AI effects", "auto-captions", "social media video"],
+      "tags": [
+        "video editing",
+        "AI effects",
+        "auto-captions",
+        "social media video"
+      ],
       "creator": "ByteDance",
       "url": "https://www.capcut.com",
-      "features": ["AI background removal", "Auto-captions", "Text-to-video", "AI effects library", "One-click editing"]
+      "features": [
+        "AI background removal",
+        "Auto-captions",
+        "Text-to-video",
+        "AI effects library",
+        "One-click editing"
+      ]
     },
     {
       "name": "ElevenLabs",
       "tagline": "AI voice generation, cloning, and dubbing platform",
       "description": "ElevenLabs provides the most realistic AI voice generation technology, supporting voice cloning, multilingual dubbing, and text-to-speech. Its voices are indistinguishable from human recordings and used across media, gaming, and content.",
-      "icon": "🗣️",
+      "icon": "\ud83d\udde3\ufe0f",
       "rating": 4.7,
       "users": 3000000,
       "price": "Freemium",
       "featured": true,
       "new": false,
-      "tags": ["voice generation", "voice cloning", "dubbing", "text-to-speech"],
+      "tags": [
+        "voice generation",
+        "voice cloning",
+        "dubbing",
+        "text-to-speech"
+      ],
       "creator": "ElevenLabs Inc.",
       "url": "https://elevenlabs.io",
-      "features": ["Instant voice cloning", "29+ language dubbing", "Ultra-realistic TTS", "Sound effects generation", "API access"]
+      "features": [
+        "Instant voice cloning",
+        "29+ language dubbing",
+        "Ultra-realistic TTS",
+        "Sound effects generation",
+        "API access"
+      ]
     },
     {
       "name": "Mureka",
       "tagline": "AI music generator for unique melodies and tracks",
       "description": "Mureka is an AI music generation platform that creates unique, customizable songs and tracks for any project. It supports multiple genres, custom lyrics, and provides royalty-free music for content creators.",
-      "icon": "🎶",
+      "icon": "\ud83c\udfb6",
       "rating": 4.3,
       "users": 500000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["AI music", "royalty-free", "content creation", "custom music"],
+      "tags": [
+        "AI music",
+        "royalty-free",
+        "content creation",
+        "custom music"
+      ],
       "creator": "Mureka AI",
       "url": "https://www.mureka.ai",
-      "features": ["Custom song generation", "Multi-genre support", "Lyric writing", "Royalty-free licensing", "Style customization"]
+      "features": [
+        "Custom song generation",
+        "Multi-genre support",
+        "Lyric writing",
+        "Royalty-free licensing",
+        "Style customization"
+      ]
     },
     {
       "name": "Nano Banana Pro",
       "tagline": "Google's advanced AI image generator with reasoning",
       "description": "Nano Banana Pro is Google's premium AI image generation model with 'thinking' capabilities. It generates up to 4K images with exceptional character consistency, text rendering, and series coherence.",
-      "icon": "🍌",
+      "icon": "\ud83c\udf4c",
       "rating": 4.6,
       "users": 10000000,
       "price": "Paid",
       "featured": true,
       "new": true,
-      "tags": ["AI image", "Google", "photorealism", "text rendering"],
+      "tags": [
+        "AI image",
+        "Google",
+        "photorealism",
+        "text rendering"
+      ],
       "creator": "Google DeepMind",
       "url": "https://gemini.google",
-      "features": ["4K image generation", "Text rendering in images", "Character consistency", "Reasoning-based generation", "Series coherence"]
+      "features": [
+        "4K image generation",
+        "Text rendering in images",
+        "Character consistency",
+        "Reasoning-based generation",
+        "Series coherence"
+      ]
     },
     {
       "name": "Imagen 4",
       "tagline": "Google's flagship photorealistic AI image model",
       "description": "Imagen 4 is Google's state-of-the-art image generation model offering photorealistic and editorial-style outputs. Available via Gemini API, AI Studio, and Vertex AI with multiple speed variants.",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "rating": 4.6,
       "users": 5000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["AI image", "photorealism", "Google", "enterprise"],
+      "tags": [
+        "AI image",
+        "photorealism",
+        "Google",
+        "enterprise"
+      ],
       "creator": "Google DeepMind",
       "url": "https://ai.google.dev/gemini-api/docs/image-generation",
-      "features": ["Photorealistic generation", "Fast and Ultra variants", "API access", "Enterprise integration", "Editorial quality"]
+      "features": [
+        "Photorealistic generation",
+        "Fast and Ultra variants",
+        "API access",
+        "Enterprise integration",
+        "Editorial quality"
+      ]
     },
     {
       "name": "Krea.ai",
       "tagline": "Real-time AI image and video generation canvas",
       "description": "Krea.ai offers real-time AI generation with an interactive canvas for iterative refinement. It features a 22K upscaler, infinite zoom, video generation, and enhancement tools for creative professionals.",
-      "icon": "🎨",
+      "icon": "\ud83c\udfa8",
       "rating": 4.4,
       "users": 2000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["real-time AI", "image generation", "video generation", "canvas"],
+      "tags": [
+        "real-time AI",
+        "image generation",
+        "video generation",
+        "canvas"
+      ],
       "creator": "Krea Technologies",
       "url": "https://www.krea.ai",
-      "features": ["Real-time generation", "22K upscaler", "Infinite zoom", "Video enhancement", "Interactive canvas"]
+      "features": [
+        "Real-time generation",
+        "22K upscaler",
+        "Infinite zoom",
+        "Video enhancement",
+        "Interactive canvas"
+      ]
     },
     {
       "name": "GenType",
       "tagline": "AI tool for creating custom alphabets and typefaces",
       "description": "GenType by Google Labs generates custom alphabets and letterforms from text prompts. Create themed typefaces in 3D, textured, or illustrative styles for branding and design projects.",
-      "icon": "🔤",
+      "icon": "\ud83d\udd24",
       "rating": 4.2,
       "users": 500000,
       "price": "Free",
       "featured": false,
       "new": true,
-      "tags": ["typography", "AI fonts", "custom alphabets", "design"],
+      "tags": [
+        "typography",
+        "AI fonts",
+        "custom alphabets",
+        "design"
+      ],
       "creator": "Google Labs",
       "url": "https://labs.google/gentype",
-      "features": ["Custom alphabet generation", "3D and textured styles", "Text prompt input", "Downloadable assets", "Brand customization"]
+      "features": [
+        "Custom alphabet generation",
+        "3D and textured styles",
+        "Text prompt input",
+        "Downloadable assets",
+        "Brand customization"
+      ]
     },
     {
       "name": "Google Whisk",
       "tagline": "AI image-to-image generative tool with visual prompts",
-      "description": "Whisk by Google Labs uses up to three visual prompts—subject, scene, and style—instead of text to generate images. It enables precise visual composition without writing complex prompts.",
-      "icon": "🌀",
+      "description": "Whisk by Google Labs uses up to three visual prompts\u2014subject, scene, and style\u2014instead of text to generate images. It enables precise visual composition without writing complex prompts.",
+      "icon": "\ud83c\udf00",
       "rating": 4.3,
       "users": 1000000,
       "price": "Free",
       "featured": false,
       "new": true,
-      "tags": ["image-to-image", "visual prompts", "Google Labs", "design"],
+      "tags": [
+        "image-to-image",
+        "visual prompts",
+        "Google Labs",
+        "design"
+      ],
       "creator": "Google Labs",
       "url": "https://labs.google/fx/whisk",
-      "features": ["Visual prompt composition", "Subject/scene/style mixing", "No text prompts needed", "Fast iteration", "Google Labs integration"]
+      "features": [
+        "Visual prompt composition",
+        "Subject/scene/style mixing",
+        "No text prompts needed",
+        "Fast iteration",
+        "Google Labs integration"
+      ]
     },
     {
       "name": "CivitAI",
       "tagline": "AI image generation community and model hub",
       "description": "CivitAI is the largest community platform for AI image generation, hosting thousands of Stable Diffusion models, LoRAs, and workflows. Users can discover, share, and generate images using community-created models.",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "rating": 4.4,
       "users": 5000000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["AI image", "model hub", "community", "Stable Diffusion"],
+      "tags": [
+        "AI image",
+        "model hub",
+        "community",
+        "Stable Diffusion"
+      ],
       "creator": "CivitAI",
       "url": "https://civitai.com",
-      "features": ["Community model library", "LoRA training", "Image generation", "Workflow sharing", "Model discovery"]
+      "features": [
+        "Community model library",
+        "LoRA training",
+        "Image generation",
+        "Workflow sharing",
+        "Model discovery"
+      ]
     },
     {
       "name": "Picsart AI",
       "tagline": "AI-powered photo and video editing for everyone",
       "description": "Picsart combines AI photo editing, video editing, and design tools in one platform. Its AI features include background removal, AI enhance, AI writer, and generative fill for quick creative work.",
-      "icon": "📸",
+      "icon": "\ud83d\udcf8",
       "rating": 4.3,
       "users": 150000000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["photo editing", "AI design", "video editing", "mobile creative"],
+      "tags": [
+        "photo editing",
+        "AI design",
+        "video editing",
+        "mobile creative"
+      ],
       "creator": "Picsart Inc.",
       "url": "https://picsart.com",
-      "features": ["AI background removal", "AI photo enhance", "Generative fill", "Video editing", "Design templates"]
+      "features": [
+        "AI background removal",
+        "AI photo enhance",
+        "Generative fill",
+        "Video editing",
+        "Design templates"
+      ]
     },
     {
       "name": "Freepik AI",
       "tagline": "AI image generation integrated with design resources",
       "description": "Freepik combines millions of stock design resources with AI-powered image generation, AI image upscaler, and AI presentation maker. It's a one-stop platform for designers needing both AI and traditional assets.",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "rating": 4.3,
       "users": 100000000,
       "price": "Freemium",
       "featured": false,
       "new": false,
-      "tags": ["AI image", "stock assets", "design resources", "upscaler"],
+      "tags": [
+        "AI image",
+        "stock assets",
+        "design resources",
+        "upscaler"
+      ],
       "creator": "Freepik Company",
       "url": "https://www.freepik.com",
-      "features": ["AI image generator", "AI upscaler", "Stock design library", "AI presentation maker", "Background remover"]
+      "features": [
+        "AI image generator",
+        "AI upscaler",
+        "Stock design library",
+        "AI presentation maker",
+        "Background remover"
+      ]
     },
     {
       "name": "ImagineArt",
       "tagline": "Multi-model AI video and image generation platform",
       "description": "ImagineArt provides access to multiple AI models including Veo 3, Kling, Hailuo, and PixVerse under one platform. It offers text-to-video, image generation, and creative tools for content creators.",
-      "icon": "🌈",
+      "icon": "\ud83c\udf08",
       "rating": 4.3,
       "users": 1000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["AI video", "multi-model", "image generation", "content creation"],
+      "tags": [
+        "AI video",
+        "multi-model",
+        "image generation",
+        "content creation"
+      ],
       "creator": "ImagineArt",
       "url": "https://www.imagine.art",
-      "features": ["Multi-model access", "Text-to-video", "Image generation", "Style customization", "API access"]
+      "features": [
+        "Multi-model access",
+        "Text-to-video",
+        "Image generation",
+        "Style customization",
+        "API access"
+      ]
     },
     {
       "name": "Sora",
       "tagline": "OpenAI's AI video generation platform",
       "description": "Sora is OpenAI's video generation model that creates realistic videos from text prompts and images. It reached 1 million downloads faster than ChatGPT and supports digital likeness (Cameos) for personalized video creation.",
-      "icon": "🌊",
+      "icon": "\ud83c\udf0a",
       "rating": 4.4,
       "users": 3000000,
       "price": "Paid",
       "featured": false,
       "new": true,
-      "tags": ["AI video", "text-to-video", "OpenAI", "digital likeness"],
+      "tags": [
+        "AI video",
+        "text-to-video",
+        "OpenAI",
+        "digital likeness"
+      ],
       "creator": "OpenAI",
       "url": "https://sora.com",
-      "features": ["Text-to-video", "Image-to-video", "Cameo digital likeness", "Cinematic quality", "ChatGPT integration"]
+      "features": [
+        "Text-to-video",
+        "Image-to-video",
+        "Cameo digital likeness",
+        "Cinematic quality",
+        "ChatGPT integration"
+      ]
     },
     {
       "name": "Microsoft MAI-Image-2",
       "tagline": "Microsoft's top-ranked AI image generation model",
       "description": "MAI-Image-2 is Microsoft's in-house text-to-image model, ranked #3 on the Arena.ai leaderboard. It features perfect text rendering and highly expressive human anatomy and lighting, integrated into Bing and Copilot.",
-      "icon": "🪟",
+      "icon": "\ud83e\ude9f",
       "rating": 4.5,
       "users": 5000000,
       "price": "Free",
       "featured": false,
       "new": true,
-      "tags": ["AI image", "Microsoft", "text-to-image", "Bing"],
+      "tags": [
+        "AI image",
+        "Microsoft",
+        "text-to-image",
+        "Bing"
+      ],
       "creator": "Microsoft",
       "url": "https://www.bing.com/images/create",
-      "features": ["Perfect text rendering", "Photorealistic output", "Bing integration", "Copilot integration", "Efficient variant available"]
+      "features": [
+        "Perfect text rendering",
+        "Photorealistic output",
+        "Bing integration",
+        "Copilot integration",
+        "Efficient variant available"
+      ]
     },
     {
       "name": "Seedance",
       "tagline": "ByteDance's next-gen AI video generation model",
       "description": "Seedance is ByteDance's advanced AI video generation model (successor to Kling). Seedance 2.0-based applications are expected to feature prominently in 2026, offering high-quality motion and character consistency for cinematic video creation.",
-      "icon": "🌱",
+      "icon": "\ud83c\udf31",
       "rating": 4.4,
       "users": 2000000,
       "price": "Freemium",
       "featured": false,
       "new": true,
-      "tags": ["AI video", "ByteDance", "cinematic video", "text-to-video"],
+      "tags": [
+        "AI video",
+        "ByteDance",
+        "cinematic video",
+        "text-to-video"
+      ],
       "creator": "ByteDance",
       "url": "https://seedance.ai",
-      "features": ["Cinematic video generation", "Character consistency", "High motion quality", "Multi-scene support", "API access"]
+      "features": [
+        "Cinematic video generation",
+        "Character consistency",
+        "High motion quality",
+        "Multi-scene support",
+        "API access"
+      ]
     },
     {
       "name": "GLM-Image",
       "tagline": "Open-source industrial-grade AI image model",
       "description": "GLM-Image is a 16B parameter hybrid autoregressive + diffusion model with best-in-class text rendering. Open-source under Apache 2.0, it excels at text-heavy imagery like posters, infographics, and typography.",
-      "icon": "🔮",
+      "icon": "\ud83d\udd2e",
       "rating": 4.3,
       "users": 500000,
       "price": "Free",
       "featured": false,
       "new": true,
-      "tags": ["AI image", "open source", "text rendering", "enterprise"],
+      "tags": [
+        "AI image",
+        "open source",
+        "text rendering",
+        "enterprise"
+      ],
       "creator": "Zhipu AI (Z.ai)",
       "url": "https://glm-image.io",
-      "features": ["Best-in-class text rendering", "16B parameter model", "Open-source (Apache 2.0)", "Poster and infographic generation", "API access"]
+      "features": [
+        "Best-in-class text rendering",
+        "16B parameter model",
+        "Open-source (Apache 2.0)",
+        "Poster and infographic generation",
+        "API access"
+      ]
+    },
+    {
+      "name": "Topaz Photo AI",
+      "tagline": "AI-powered photo enhancement and upscaling",
+      "description": "Topaz Photo AI uses advanced AI models to enhance, denoise, and upscale photos. It can sharpen blurry images, remove noise from low-light photos, and upscale resolution up to 6x.",
+      "icon": "\ud83d\udcf7",
+      "rating": 4.6,
+      "users": 500000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "photo enhancement",
+        "upscaling",
+        "noise reduction",
+        "sharpening"
+      ],
+      "creator": "Topaz Labs",
+      "url": "https://www.topazlabs.com",
+      "features": [
+        "AI photo upscaling",
+        "Noise reduction",
+        "Face recovery",
+        "Sharpening",
+        "Batch processing"
+      ]
+    },
+    {
+      "name": "Topaz Video AI",
+      "tagline": "AI-powered video enhancement and upscaling",
+      "description": "Topaz Video AI enhances and upscales video footage using AI models. It can upscale to 4K/8K, stabilize shaky footage, deinterlace, and create slow-motion effects.",
+      "icon": "\ud83c\udfa5",
+      "rating": 4.5,
+      "users": 200000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "video enhancement",
+        "upscaling",
+        "stabilization",
+        "slow motion"
+      ],
+      "creator": "Topaz Labs",
+      "url": "https://www.topazlabs.com",
+      "features": [
+        "AI video upscaling",
+        "Stabilization",
+        "Deinterlacing",
+        "Slow motion",
+        "Batch processing"
+      ]
+    },
+    {
+      "name": "Artlist",
+      "tagline": "AI-powered creative platform for video and music",
+      "description": "Artlist is a creative platform offering royalty-free music, sound effects, stock footage, and AI-powered tools. Its AI features include music generation, video templates, and asset recommendations.",
+      "icon": "\ud83c\udfb5",
+      "rating": 4.5,
+      "users": 500000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "royalty-free music",
+        "stock footage",
+        "sound effects",
+        "creative assets"
+      ],
+      "creator": "Artlist",
+      "url": "https://artlist.io",
+      "features": [
+        "Royalty-free music library",
+        "Sound effects",
+        "Stock footage",
+        "AI music generation",
+        "Video templates"
+      ]
+    },
+    {
+      "name": "Soundraw",
+      "tagline": "AI music generator for creators and businesses",
+      "description": "Soundraw generates unique, royalty-free music using AI. Users can customize mood, genre, tempo, and instruments to create the perfect track for videos, podcasts, and commercial projects.",
+      "icon": "\ud83c\udfb6",
+      "rating": 4.3,
+      "users": 200000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "AI music",
+        "royalty-free",
+        "customizable",
+        "content creation"
+      ],
+      "creator": "Soundraw",
+      "url": "https://soundraw.io",
+      "features": [
+        "Customizable AI music",
+        "Mood and genre selection",
+        "Instrument customization",
+        "Commercial license",
+        "API access"
+      ]
+    },
+    {
+      "name": "Boomy",
+      "tagline": "AI music creation and distribution platform",
+      "description": "Boomy lets anyone create AI-generated songs in seconds and distribute them to streaming platforms like Spotify and Apple Music. It handles royalties and monetization for creators.",
+      "icon": "\ud83c\udfa4",
+      "rating": 4.1,
+      "users": 1000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "AI music",
+        "distribution",
+        "streaming",
+        "monetization"
+      ],
+      "creator": "Boomy Corporation",
+      "url": "https://boomy.com",
+      "features": [
+        "Instant song creation",
+        "Streaming distribution",
+        "Royalty management",
+        "Genre customization",
+        "Community features"
+      ]
+    },
+    {
+      "name": "AIVA",
+      "tagline": "AI music composition for creators and businesses",
+      "description": "AIVA composes emotional, copyright-free music using AI. It's used by game developers, filmmakers, and content creators to generate original soundtracks in various styles and moods.",
+      "icon": "\ud83c\udfbc",
+      "rating": 4.4,
+      "users": 300000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "AI music",
+        "composition",
+        "copyright-free",
+        "soundtrack"
+      ],
+      "creator": "AIVA Technologies",
+      "url": "https://www.aiva.ai",
+      "features": [
+        "Emotional music composition",
+        "Multiple style presets",
+        "Copyright-free output",
+        "MIDI and MP3 export",
+        "Custom style training"
+      ]
+    },
+    {
+      "name": "Riffusion",
+      "tagline": "AI music generation from text prompts",
+      "description": "Riffusion generates music from text prompts using a novel approach that creates audio spectrograms. It produces real-time music in various genres with an interactive web interface.",
+      "icon": "\ud83c\udfb8",
+      "rating": 4.0,
+      "users": 500000,
+      "price": "Free",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "AI music",
+        "text-to-music",
+        "real-time",
+        "spectrogram"
+      ],
+      "creator": "Riffusion",
+      "url": "https://www.riffusion.com",
+      "features": [
+        "Text-to-music generation",
+        "Real-time audio creation",
+        "Genre mixing",
+        "Web-based interface",
+        "Open research"
+      ]
+    },
+    {
+      "name": "Recraft",
+      "tagline": "AI image and vector graphics generator for designers",
+      "description": "Recraft generates high-quality images, icons, and vector graphics using AI. It's specifically designed for professional designers, offering consistent style generation and SVG export.",
+      "icon": "\ud83c\udfa8",
+      "rating": 4.4,
+      "users": 1000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "AI image",
+        "vector graphics",
+        "icons",
+        "design"
+      ],
+      "creator": "Recraft",
+      "url": "https://www.recraft.ai",
+      "features": [
+        "Vector graphic generation",
+        "Icon creation",
+        "Style consistency",
+        "SVG export",
+        "Brand kit support"
+      ]
+    },
+    {
+      "name": "Framer AI",
+      "tagline": "AI-powered website design and publishing",
+      "description": "Framer AI generates complete, publishable websites from text descriptions. It creates responsive designs with animations, interactions, and CMS integration, ready to go live instantly.",
+      "icon": "\ud83c\udf10",
+      "rating": 4.5,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "website design",
+        "AI design",
+        "no-code",
+        "publishing"
+      ],
+      "creator": "Framer",
+      "url": "https://www.framer.com",
+      "features": [
+        "AI website generation",
+        "Responsive design",
+        "Animations and interactions",
+        "CMS integration",
+        "One-click publishing"
+      ]
+    },
+    {
+      "name": "Uizard",
+      "tagline": "AI-powered UI design from text or screenshots",
+      "description": "Uizard transforms text descriptions, sketches, or screenshots into editable UI designs. It generates wireframes, prototypes, and design systems using AI, making design accessible to non-designers.",
+      "icon": "\ud83d\udd8c\ufe0f",
+      "rating": 4.3,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "UI design",
+        "wireframes",
+        "prototyping",
+        "AI design"
+      ],
+      "creator": "Uizard",
+      "url": "https://uizard.io",
+      "features": [
+        "Text-to-UI design",
+        "Screenshot to design",
+        "Wireframe generation",
+        "Prototype creation",
+        "Design system generation"
+      ]
+    },
+    {
+      "name": "Looka",
+      "tagline": "AI-powered logo and brand identity creator",
+      "description": "Looka uses AI to generate professional logos and complete brand identities. It creates hundreds of logo variations and provides brand kits with business cards, social media assets, and more.",
+      "icon": "\ud83d\udc8e",
+      "rating": 4.3,
+      "users": 2000000,
+      "price": "Paid",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "logo design",
+        "brand identity",
+        "AI design",
+        "brand kit"
+      ],
+      "creator": "Looka",
+      "url": "https://looka.com",
+      "features": [
+        "AI logo generation",
+        "Brand kit creation",
+        "Business card design",
+        "Social media assets",
+        "Color palette generator"
+      ]
+    },
+    {
+      "name": "Relume",
+      "tagline": "AI website wireframe and sitemap generator",
+      "description": "Relume generates website wireframes and sitemaps from text descriptions using AI. It creates complete site structures with page layouts, ready to export to Figma or Webflow.",
+      "icon": "\ud83d\uddfa\ufe0f",
+      "rating": 4.4,
+      "users": 100000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "wireframes",
+        "sitemap",
+        "website design",
+        "Figma export"
+      ],
+      "creator": "Relume",
+      "url": "https://relume.io",
+      "features": [
+        "AI sitemap generation",
+        "Wireframe creation",
+        "Figma export",
+        "Webflow export",
+        "Component library"
+      ]
+    },
+    {
+      "name": "Luma Dream Machine",
+      "tagline": "AI video generation with 3D-like animated styles",
+      "description": "Luma Dream Machine generates high-quality AI videos with unique 3D-like animated styles. It creates realistic motion, consistent characters, and cinematic compositions from text and images.",
+      "icon": "\ud83c\udf19",
+      "rating": 4.4,
+      "users": 2000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "AI video",
+        "3D animation",
+        "text-to-video",
+        "cinematic"
+      ],
+      "creator": "Luma AI",
+      "url": "https://lumalabs.ai/dream-machine",
+      "features": [
+        "3D-like video generation",
+        "Character consistency",
+        "Cinematic compositions",
+        "Text and image prompts",
+        "API access"
+      ]
+    },
+    {
+      "name": "Filmora",
+      "tagline": "AI-powered video editor for creators",
+      "description": "Filmora by Wondershare is a video editor with extensive AI features including AI copywriting, smart cutout, motion tracking, audio ducking, and AI-powered color correction.",
+      "icon": "\ud83c\udfac",
+      "rating": 4.4,
+      "users": 5000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "video editing",
+        "AI effects",
+        "motion tracking",
+        "content creation"
+      ],
+      "creator": "Wondershare",
+      "url": "https://filmora.wondershare.com",
+      "features": [
+        "AI smart cutout",
+        "Motion tracking",
+        "AI audio ducking",
+        "Color correction",
+        "Template library"
+      ]
+    },
+    {
+      "name": "Wondershare EdrawMax AI",
+      "tagline": "AI-powered diagramming and visual collaboration",
+      "description": "EdrawMax uses AI to generate diagrams, flowcharts, mind maps, and organizational charts from text descriptions. It offers 280+ diagram types with AI-assisted creation and editing.",
+      "icon": "\ud83d\udcca",
+      "rating": 4.3,
+      "users": 1000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "diagramming",
+        "flowcharts",
+        "mind maps",
+        "AI design"
+      ],
+      "creator": "Wondershare",
+      "url": "https://www.edrawsoft.com/edraw-max.html",
+      "features": [
+        "AI diagram generation",
+        "280+ diagram types",
+        "Flowcharts and mind maps",
+        "Template library",
+        "Collaboration tools"
+      ]
+    },
+    {
+      "name": "Dzine (formerly Stockimg AI)",
+      "tagline": "AI-powered graphic design and image generation",
+      "description": "Dzine is an AI graphic design tool that generates logos, posters, book covers, and social media graphics. It combines AI image generation with professional design templates and editing tools.",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "rating": 4.2,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "graphic design",
+        "AI image",
+        "logos",
+        "social media graphics"
+      ],
+      "creator": "Dzine",
+      "url": "https://www.dzine.ai",
+      "features": [
+        "AI graphic generation",
+        "Logo creator",
+        "Poster and cover design",
+        "Social media templates",
+        "Style customization"
+      ]
+    },
+    {
+      "name": "Mubert",
+      "tagline": "AI music generation for content creators",
+      "description": "Mubert generates royalty-free, AI-created music streams and tracks for content creators. It offers mood-based generation, duration customization, and instant music for videos and streams.",
+      "icon": "\ud83c\udfb6",
+      "rating": 4.1,
+      "users": 500000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "AI music",
+        "royalty-free",
+        "streaming",
+        "content creation"
+      ],
+      "creator": "Mubert",
+      "url": "https://mubert.com",
+      "features": [
+        "Mood-based music generation",
+        "Duration customization",
+        "Royalty-free licensing",
+        "API access",
+        "Stream integration"
+      ]
+    },
+    {
+      "name": "Soundful",
+      "tagline": "AI music studio for creators and brands",
+      "description": "Soundful generates royalty-free background music using AI. It offers genre-based creation, mood customization, and one-click generation for videos, podcasts, and commercial projects.",
+      "icon": "\ud83d\udd0a",
+      "rating": 4.2,
+      "users": 200000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "AI music",
+        "background music",
+        "royalty-free",
+        "content creation"
+      ],
+      "creator": "Soundful",
+      "url": "https://soundful.com",
+      "features": [
+        "Genre-based generation",
+        "Mood customization",
+        "One-click creation",
+        "Commercial license",
+        "Stem downloads"
+      ]
+    },
+    {
+      "name": "Clipdrop",
+      "tagline": "AI-powered image editing and generation toolkit",
+      "description": "Clipdrop by Stability AI offers a suite of AI image tools including background removal, object cleanup, image upscaling, relighting, and text-to-image generation in one platform.",
+      "icon": "\u2702\ufe0f",
+      "rating": 4.3,
+      "users": 5000000,
+      "price": "Freemium",
+      "featured": false,
+      "new": false,
+      "tags": [
+        "image editing",
+        "background removal",
+        "AI image",
+        "cleanup"
+      ],
+      "creator": "Stability AI",
+      "url": "https://clipdrop.co",
+      "features": [
+        "Background removal",
+        "Object cleanup",
+        "Image upscaling",
+        "Relighting",
+        "Text-to-image"
+      ]
+    },
+    {
+      "name": "Moonchild AI",
+      "tagline": "AI-powered UX design and prototyping",
+      "description": "Moonchild AI generates complete UX designs and prototypes from text descriptions. It creates user flows, wireframes, and high-fidelity mockups with intelligent design suggestions.",
+      "icon": "\ud83c\udf19",
+      "rating": 4.3,
+      "users": 30000,
+      "price": "Freemium",
+      "featured": false,
+      "new": true,
+      "tags": [
+        "UX design",
+        "prototyping",
+        "wireframes",
+        "AI design"
+      ],
+      "creator": "Moonchild AI",
+      "url": "https://moonchild.ai",
+      "features": [
+        "Text-to-design generation",
+        "User flow creation",
+        "Wireframe builder",
+        "High-fidelity mockups",
+        "Design system support"
+      ]
     }
   ]
 }
