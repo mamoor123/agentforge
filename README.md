@@ -4,7 +4,7 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 500+ AI agents across 10 categories.**
+**Discover, compare, and deploy 500+ AI agents across 15 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -34,7 +34,7 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 ### Why AgentForge?
 
 - 🔍 **500+ real AI agents** — not stubs, real tools with real descriptions
-- 📊 **10 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support
+- 📊 **15 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support, AI & ML, Finance, HR & Recruiting, Legal, E-commerce
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
 - 🆓 **100% free to deploy** — host on Vercel for $0
@@ -57,6 +57,11 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 | 📚 **Education** | 31 | Khanmigo, Duolingo Max, Consensus, NotebookLM |
 | 🏥 **Health** | 30 | Cal AI, WHOOP, Oura Ring, Woebot, Talkspace |
 | 💼 **Sales** | 27 | Apollo.io, Clay, Gong, Outreach, Instantly |
+| 🤖 **AI & ML** | 34 | Hugging Face, LangChain, Replicate, Ollama, vLLM |
+| 💰 **Finance** | 29 | Plaid, Brex, Ramp, Mercury, CoinGecko |
+| 👥 **HR & Recruiting** | 29 | Greenhouse, Lever, Ashby, Deel, Remote |
+| ⚖️ **Legal** | 29 | Harvey AI, Ironclad, Spellbook, Luminance, Casetext |
+| 🛒 **E-commerce** | 29 | Shopify Magic, Jungle Scout, Prisync, Tidio, Gorgias |
 
 ---
 
@@ -139,7 +144,7 @@ agentforge/
 
 ### For Users
 - 🔍 **Smart Search** — Find agents by name, description, tags, or category
-- 📊 **Category Browsing** — Explore 10 curated categories
+- 📊 **Category Browsing** — Explore 15 curated categories
 - ⭐ **Featured Agents** — Hand-picked top agents highlighted on homepage
 - 🆕 **New Agents** — Recently added tools marked with a badge
 - 💰 **Price Filters** — Free, Freemium, Premium, Pay-as-you-go
@@ -216,7 +221,7 @@ Want to add your AI agent? We'd love that!
 | Metric | Value |
 |--------|-------|
 | 🤖 Total Agents | **500+** |
-| 📂 Categories | **10** |
+| 📂 Categories | **15** |
 | ⭐ Avg Rating | **4.5+** |
 | 🆓 Free Agents | **50+** |
 | 🌍 Countries | **50+** |
