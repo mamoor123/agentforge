@@ -4,7 +4,7 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 749 AI agents across 22 categories.**
+**Discover, compare, and deploy 809 AI agents across 22 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -33,7 +33,7 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 ### Why AgentForge?
 
-- 🔍 **749 real AI agents** — not stubs, real tools with real descriptions
+- 🔍 **809 real AI agents** — not stubs, real tools with real descriptions
 - 📊 **22 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support, AI & ML, Finance, HR & Recruiting, Legal, E-commerce, Voice AI, Cybersecurity, Research & Knowledge, DevOps & Infrastructure, Gaming, Real Estate, Logistics & Supply Chain
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
@@ -47,11 +47,11 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 | Category | Agents | Examples |
 |----------|--------|----------|
-| 📢 **Marketing** | 73 | Jasper, Copy.ai, Surfer SEO, SEMrush, Typeface, Anyword |
-| 📊 **Business** | 57 | Zapier, n8n, Notion AI, Make, Bardeen, Relay.app |
+| 📢 **Marketing** | 93 | Jasper, Beehiiv, Klaviyo, Surfer SEO, Bardeen, Taplio |
+| 📊 **Business** | 77 | Zapier, Clay, Cursor, Lovable, Gamma, Instantly |
 | 💻 **Coding** | 53 | Cursor, Claude Code, GitHub Copilot, Augment Code, Supermaven |
 | 📈 **Data** | 52 | ChatGPT, Claude, Gemini, DeepSeek, Hex, MotherDuck |
-| 🎨 **Creative** | 47 | Midjourney, DALL·E 3, Runway, Suno, Ideogram, Flux |
+| 🎨 **Creative** | 67 | Midjourney, Udio, Veo 3, Hailuo AI, ElevenLabs, CapCut |
 | ⚡ **Productivity** | 45 | OpenClaw, Reclaim AI, Todoist AI, Granola, Dola |
 | 🤖 **AI & ML** | 42 | Groq, Fireworks AI, Modal, RunPod, Cerebras |
 | 🏥 **Health** | 33 | Cal AI, WHOOP, Tempus, Woebot, Babylon Health |
@@ -60,7 +60,7 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 | 📚 **Education** | 31 | MagicSchool AI, Khanmigo, Duolingo Max, Synthesis, Curipod |
 | 💰 **Finance** | 31 | Plaid, Brex, Ramp, Puzzle, Runway Financial |
 | 👥 **HR & Recruiting** | 29 | Paradox, HireVue, Eightfold AI, Beamery, Fetcher |
-| 💼 **Sales** | 28 | Apollo.io, Clay, Cognism, Lavender, Regie.ai |
+| 💼 **Sales** | 28 | Apollo.io, Clay, Lavender, 11x.ai, Regie.ai, AiSDR |
 | 🚀 **DevOps & Infrastructure** | 28 | LinearB, Buildkite, Render, Railway, Depot |
 | 🔬 **Research & Knowledge** | 27 | Perplexity, Semantic Scholar, Connected Papers, Scite, ChatPDF |
 | 🛒 **E-commerce** | 24 | Shopify Magic, Bloomreach, Nosto, Octane AI, Searchspring |
@@ -227,7 +227,7 @@ Want to add your AI agent? We'd love that!
 
 | Metric | Value |
 |--------|-------|
-| 🤖 Total Agents | **749** |
+| 🤖 Total Agents | **809** |
 | 📂 Categories | **22** |
 | ⭐ Avg Rating | **4.5+** |
 | 🆓 Free Agents | **50+** |
