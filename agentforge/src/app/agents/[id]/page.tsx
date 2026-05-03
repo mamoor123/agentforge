@@ -26,9 +26,35 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   };
 }
 
+export async function generateJsonLd({ params }: { params: { id: string } }) {
+  const { id } = await params;
+  const agent = getAgentById(id);
+  if (!agent) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": agent.name,
+    "description": agent.description,
+    "url": agent.url,
+    "applicationCategory": agent.category,
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": agent.rating,
+      "bestRating": 5,
+      "ratingCount": Math.max(agent.users, 1),
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": agent.price === "Free" ? "0" : undefined,
+      "priceCurrency": "USD",
+    },
+  };
+}
+
 export default async function AgentDetailPage({ params }: { params: { id: string } }) {
   const { id } = await params;
   const agent = getAgentById(id);
+  const jsonLd = agent ? await generateJsonLd({ params: { id } }) : null;
 
   if (!agent) {
     return (
@@ -60,6 +86,12 @@ export default async function AgentDetailPage({ params }: { params: { id: string
   return (
     <div className="min-h-screen animated-gradient grid-pattern">
       <Navbar />
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
         {/* Breadcrumb */}

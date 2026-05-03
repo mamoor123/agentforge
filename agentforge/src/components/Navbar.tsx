@@ -30,6 +30,9 @@ export default function Navbar() {
             <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
               Categories
             </Link>
+            <Link href="/compare" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
+              Compare
+            </Link>
             {isHome ? (
               <a href="#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
                 Featured
@@ -74,6 +77,9 @@ export default function Navbar() {
               </Link>
               <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2" onClick={() => setMobileOpen(false)}>
                 Categories
+              </Link>
+              <Link href="/compare" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2" onClick={() => setMobileOpen(false)}>
+                Compare
               </Link>
               <a
                 href="https://github.com/mamoor123/agentforge/issues/new"

@@ -2,16 +2,19 @@
 
 import { useState } from "react";
 import { Search, ArrowRight, Sparkles, Zap, Users, Star, Globe, Rocket } from "lucide-react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import CategoryCard from "@/components/CategoryCard";
-import { agents, categories, getFeaturedAgents } from "@/data/agents";
+import { agents, categories, getFeaturedAgents, getNewAgents } from "@/data/agents";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
   const featured = getFeaturedAgents();
+  const trending = getNewAgents().slice(0, 6);
 
   return (
     <div className="min-h-screen animated-gradient grid-pattern">
@@ -51,7 +54,7 @@ export default function Home() {
               onSubmit={(e) => {
                 e.preventDefault();
                 const target = searchQuery ? `/agents?q=${encodeURIComponent(searchQuery)}` : "/agents";
-                window.location.href = target;
+                router.push(target);
               }}
             >
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-xl opacity-30 group-hover:opacity-50 blur transition" />
@@ -151,6 +154,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Trending / New Agents */}
+      {trending.length > 0 && (
+        <section className="py-20 relative">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between mb-12">
+              <div>
+                <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                  🆕 New & Trending
+                </h2>
+                <p className="text-[var(--text-secondary)] text-lg">
+                  Fresh arrivals making waves in the AI world
+                </p>
+              </div>
+              <Link
+                href="/agents?sort=newest"
+                className="hidden sm:flex items-center gap-2 text-sm font-medium text-[var(--primary)] hover:text-white transition-colors"
+              >
+                View all <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {trending.map(agent => (
+                <AgentCard key={agent.id} agent={agent} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* How it Works */}
       <section className="py-20 relative">
