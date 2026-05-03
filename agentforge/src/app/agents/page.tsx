@@ -2,24 +2,28 @@
 
 import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { Search } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import { agents, categories } from "@/data/agents";
 
+const PAGE_SIZE = 24;
+
 function AgentsContent() {
   const searchParams = useSearchParams();
   const [search, setSearch] = useState("");
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     const q = searchParams.get("q");
     if (q) setSearch(q);
+    setPage(1);
   }, [searchParams]);
 
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedPrice, setSelectedPrice] = useState("all");
-  const [sortBy, setSortBy] = useState("popular");
+  const [sortBy, setSortBy] = useState(searchParams.get("sort") || "popular");
 
   const filtered = useMemo(() => {
     let result = [...agents];
@@ -46,15 +50,7 @@ function AgentsContent() {
 
     // Sort
     if (sortBy === "popular") {
-      result.sort((a, b) => {
-        const parseUsers = (u: string) => {
-          const num = parseFloat(u);
-          if (u.includes("M+")) return num * 1000000;
-          if (u.includes("K+")) return num * 1000;
-          return num;
-        };
-        return parseUsers(b.users) - parseUsers(a.users);
-      });
+      result.sort((a, b) => b.users - a.users);
     } else if (sortBy === "rating") {
       result.sort((a, b) => b.rating - a.rating);
     } else if (sortBy === "newest") {
@@ -63,6 +59,12 @@ function AgentsContent() {
 
     return result;
   }, [search, selectedCategory, selectedPrice, sortBy]);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  // Reset page when filters change
+  useEffect(() => { setPage(1); }, [selectedCategory, selectedPrice, sortBy, search]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
@@ -80,7 +82,7 @@ function AgentsContent() {
       <div className="flex flex-col lg:flex-row gap-4 mb-8">
         {/* Search */}
         <div className="flex-1 relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-secondary)]" aria-hidden="true" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-secondary)]" />
           <input
             type="text"
             aria-label="Search agents"
@@ -141,13 +143,49 @@ function AgentsContent() {
       ) : (
         <>
           <p className="text-sm text-[var(--text-secondary)] mb-6">
-            Showing {filtered.length} agent{filtered.length !== 1 ? "s" : ""}
+            Showing {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} of {filtered.length} agent{filtered.length !== 1 ? "s" : ""}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map(agent => (
+            {paginated.map(agent => (
               <AgentCard key={agent.id} agent={agent} />
             ))}
           </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <nav aria-label="Pagination" className="flex items-center justify-center gap-2 mt-10">
+              <button
+                onClick={() => setPage(p => Math.max(1, p - 1))}
+                disabled={page === 1}
+                className="p-2 rounded-lg border border-[var(--border)] text-[var(--text-secondary)] hover:text-white hover:border-[var(--primary)] disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                aria-label="Previous page"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
+                <button
+                  key={p}
+                  onClick={() => setPage(p)}
+                  className={`w-10 h-10 rounded-lg text-sm font-medium transition-colors ${
+                    p === page
+                      ? "bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white"
+                      : "border border-[var(--border)] text-[var(--text-secondary)] hover:text-white hover:border-[var(--primary)]"
+                  }`}
+                  aria-current={p === page ? "page" : undefined}
+                >
+                  {p}
+                </button>
+              ))}
+              <button
+                onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                disabled={page === totalPages}
+                className="p-2 rounded-lg border border-[var(--border)] text-[var(--text-secondary)] hover:text-white hover:border-[var(--primary)] disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                aria-label="Next page"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </nav>
+          )}
         </>
       )}
     </div>

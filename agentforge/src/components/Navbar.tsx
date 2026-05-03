@@ -1,11 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X, Zap } from "lucide-react";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[var(--border)] bg-[var(--bg-dark)]/80 backdrop-blur-xl">
@@ -27,22 +30,27 @@ export default function Navbar() {
             <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
               Categories
             </Link>
-            <Link href="/#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
-              Featured
-            </Link>
-            <Link href="/agents" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
-              Pricing
-            </Link>
+            {isHome ? (
+              <a href="#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
+                Featured
+              </a>
+            ) : (
+              <Link href="/#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
+                Featured
+              </Link>
+            )}
           </div>
 
           {/* Actions */}
           <div className="hidden md:flex items-center gap-3">
-            <button type="button" className="px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-white transition-colors">
-              Sign In
-            </button>
-            <button type="button" className="btn-shimmer px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg hover:opacity-90 transition-opacity">
+            <a
+              href="https://github.com/mamoor123/agentforge/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-shimmer px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg hover:opacity-90 transition-opacity"
+            >
               Submit Agent
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu */}
@@ -67,9 +75,14 @@ export default function Navbar() {
               <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2" onClick={() => setMobileOpen(false)}>
                 Categories
               </Link>
-              <button type="button" className="btn-shimmer mt-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg">
+              <a
+                href="https://github.com/mamoor123/agentforge/issues/new"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-shimmer mt-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg text-center"
+              >
                 Submit Agent
-              </button>
+              </a>
             </div>
           </div>
         )}

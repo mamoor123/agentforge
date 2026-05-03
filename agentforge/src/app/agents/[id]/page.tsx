@@ -1,17 +1,34 @@
 import Link from "next/link";
-import { ArrowLeft, Star, Users, ExternalLink, Shield, Zap, Clock, Check, ChevronRight } from "lucide-react";
+import { ArrowLeft, ChevronRight } from "lucide-react";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
-import { getAgentById, agents } from "@/data/agents";
+import { getAgentById, agents, formatUsers } from "@/data/agents";
 import AgentDetailClient from "./AgentDetailClient";
 
 export function generateStaticParams() {
   return agents.map((agent) => ({ id: agent.id }));
 }
 
-export default function AgentDetailPage({ params }: { params: { id: string } }) {
-  const agent = getAgentById(params.id);
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const { id } = await params;
+  const agent = getAgentById(id);
+  if (!agent) return { title: "Agent Not Found — AgentForge" };
+  return {
+    title: `${agent.name} — AI Agent | AgentForge`,
+    description: agent.tagline,
+    openGraph: {
+      title: `${agent.name} — AI Agent`,
+      description: agent.description,
+      type: "website",
+    },
+  };
+}
+
+export default async function AgentDetailPage({ params }: { params: { id: string } }) {
+  const { id } = await params;
+  const agent = getAgentById(id);
 
   if (!agent) {
     return (
@@ -91,7 +108,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
                 {agent.features.map((feature, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="mt-0.5 w-5 h-5 rounded-full bg-gradient-to-br from-[var(--primary)]/20 to-[var(--accent)]/20 flex items-center justify-center flex-shrink-0">
-                      <Check className="w-3 h-3 text-[var(--primary)]" aria-hidden="true" />
+                      <span className="w-3 h-3 text-[var(--primary)] flex items-center justify-center text-xs">✓</span>
                     </div>
                     <span className="text-[var(--text-secondary)]">{feature}</span>
                   </li>

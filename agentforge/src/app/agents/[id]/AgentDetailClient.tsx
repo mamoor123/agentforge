@@ -2,6 +2,7 @@
 
 import { Star, Users, ExternalLink, Shield, Zap, Clock } from "lucide-react";
 import type { Agent } from "@/data/agents";
+import { formatUsers } from "@/data/agents";
 
 interface Props {
   agent: Agent;
@@ -27,7 +28,7 @@ export default function AgentDetailClient({ agent, priceColor }: Props) {
       <div className="grid grid-cols-2 gap-3 mb-6">
         <div className="rounded-lg bg-white/5 p-3 text-center">
           <Users className="w-4 h-4 text-[var(--text-secondary)] mx-auto mb-1" aria-hidden="true" />
-          <p className="text-sm font-medium text-white">{agent.users}</p>
+          <p className="text-sm font-medium text-white">{formatUsers(agent.users)}</p>
           <p className="text-xs text-[var(--text-secondary)]">Users</p>
         </div>
         <div className="rounded-lg bg-white/5 p-3 text-center">
@@ -45,16 +46,16 @@ export default function AgentDetailClient({ agent, priceColor }: Props) {
         className="w-full btn-shimmer py-3 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white font-medium rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 mb-3"
       >
         <Zap className="w-4 h-4" aria-hidden="true" />
-        Visit {agent.name}
+        Try {agent.name}
       </a>
       <a
         href={agent.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-full py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors flex items-center justify-center gap-2"
+        className="w-full py-3 border border-[var(--border)] text-[var(--text-secondary)] font-medium rounded-lg hover:bg-white/5 hover:text-white transition-colors flex items-center justify-center gap-2"
       >
         <ExternalLink className="w-4 h-4" aria-hidden="true" />
-        View Website
+        Visit Website
       </a>
 
       {/* Trust */}

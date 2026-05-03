@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { Zap, Globe, ExternalLink } from "lucide-react";
 
@@ -20,10 +18,10 @@ export default function Footer() {
               The marketplace for AI agents. Discover, deploy, and build the future of automation.
             </p>
             <div className="flex gap-3">
-              <a href="https://openclaw.ai" aria-label="Website" className="text-[var(--text-secondary)] hover:text-white transition-colors">
+              <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" aria-label="Website" className="text-[var(--text-secondary)] hover:text-white transition-colors">
                 <Globe className="w-5 h-5" />
               </a>
-              <a href="https://github.com" aria-label="GitHub" className="text-[var(--text-secondary)] hover:text-white transition-colors">
+              <a href="https://github.com/mamoor123/agentforge" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-[var(--text-secondary)] hover:text-white transition-colors">
                 <ExternalLink className="w-5 h-5" />
               </a>
             </div>
@@ -35,8 +33,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/agents" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Browse Agents</Link></li>
               <li><Link href="/categories" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Categories</Link></li>
-              <li><Link href="/agents" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Pricing</Link></li>
-              <li><Link href="/agents" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Submit Agent</Link></li>
+              <li><Link href="/agents?sort=newest" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">New Agents</Link></li>
+              <li><a href="https://github.com/mamoor123/agentforge/issues/new" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Submit Agent</a></li>
             </ul>
           </div>
 
@@ -44,10 +42,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="https://docs.agentforge.ai" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Documentation</a></li>
-              <li><a href="https://blog.agentforge.ai" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Blog</a></li>
-              <li><a href="https://changelog.agentforge.ai" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Changelog</a></li>
-              <li><a href="https://status.agentforge.ai" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Status</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/issues" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Report Issue</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">License (MIT)</a></li>
             </ul>
           </div>
 
@@ -55,10 +53,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="https://agentforge.ai/about" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">About</a></li>
-              <li><a href="https://agentforge.ai/contact" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Contact</a></li>
-              <li><a href="https://agentforge.ai/privacy" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Privacy</a></li>
-              <li><a href="https://agentforge.ai/terms" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Terms</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge#readme" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">About</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/issues/new" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Contact</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Privacy</a></li>
+              <li><a href="https://github.com/mamoor123/agentforge/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Terms</a></li>
             </ul>
           </div>
         </div>

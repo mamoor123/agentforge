@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Star, Users, ArrowRight } from "lucide-react";
-import { Agent } from "@/data/agents";
+import { Agent, formatUsers } from "@/data/agents";
 
 export default function AgentCard({ agent }: { agent: Agent }) {
   const priceColor = agent.price === "Free"
@@ -61,7 +61,7 @@ export default function AgentCard({ agent }: { agent: Agent }) {
           </div>
           <div className="flex items-center gap-1">
             <Users className="w-3.5 h-3.5 text-[var(--text-secondary)]" aria-hidden="true" />
-            <span className="text-sm text-[var(--text-secondary)]">{agent.users}</span>
+            <span className="text-sm text-[var(--text-secondary)]">{formatUsers(agent.users)}</span>
             <span className="sr-only">users</span>
           </div>
         </div>

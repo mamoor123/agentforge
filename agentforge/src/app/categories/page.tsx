@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CategoryCard from "@/components/CategoryCard";
 import { categories } from "@/data/agents";
+
+export const metadata: Metadata = {
+  title: "Categories — AgentForge",
+  description: "Browse AI agents organized by category. Find the perfect agent for marketing, coding, business, creative, data, productivity, education, health, sales, or customer support.",
+};
 
 export default function CategoriesPage() {
   return (

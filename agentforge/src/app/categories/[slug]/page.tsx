@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
@@ -9,8 +10,18 @@ export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }
 
-export default function CategoryDetailPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const { slug } = await params;
+  const category = categories.find(c => c.slug === slug);
+  if (!category) return { title: "Category Not Found — AgentForge" };
+  return {
+    title: `${category.name} AI Agents — AgentForge`,
+    description: `${category.description}. Browse ${category.count}+ AI agents in the ${category.name} category.`,
+  };
+}
+
+export default async function CategoryDetailPage({ params }: { params: { slug: string } }) {
+  const { slug } = await params;
   const category = categories.find(c => c.slug === slug);
   const agentsList = getAgentsByCategory(slug);
 

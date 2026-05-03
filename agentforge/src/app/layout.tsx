@@ -13,10 +13,6 @@ export const metadata: Metadata = {
     description: "Discover, deploy, and automate with 500+ AI agents. No code required.",
     type: "website",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
 };
 
 export default function RootLayout({
