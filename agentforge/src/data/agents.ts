@@ -18,21 +18,21 @@ export interface Agent {
 }
 
 export const categories = [
-  { name: "Marketing", slug: "marketing", icon: "📢", count: 69, description: "Automate content, ads, SEO & social media" },
-  { name: "Coding", slug: "coding", icon: "💻", count: 71, description: "Code review, debugging, deployment & more" },
-  { name: "Business", slug: "business", icon: "📊", count: 70, description: "CRM, invoicing, email & operations" },
-  { name: "Creative", slug: "creative", icon: "🎨", count: 58, description: "Design, video, music & content creation" },
-  { name: "Data", slug: "data", icon: "📈", count: 69, description: "Analytics, scraping, visualization & insights" },
-  { name: "Productivity", slug: "productivity", icon: "⚡", count: 42, description: "Task management, scheduling & automation" },
-  { name: "Education", slug: "education", icon: "📚", count: 31, description: "Tutoring, research, writing & learning" },
+  { name: "Marketing", slug: "marketing", icon: "📢", count: 66, description: "Automate content, ads, SEO & social media" },
+  { name: "Coding", slug: "coding", icon: "💻", count: 69, description: "Code review, debugging, deployment & more" },
+  { name: "Business", slug: "business", icon: "📊", count: 57, description: "CRM, invoicing, email & operations" },
+  { name: "Creative", slug: "creative", icon: "🎨", count: 57, description: "Design, video, music & content creation" },
+  { name: "Data", slug: "data", icon: "📈", count: 56, description: "Analytics, scraping, visualization & insights" },
+  { name: "Productivity", slug: "productivity", icon: "⚡", count: 41, description: "Task management, scheduling & automation" },
+  { name: "Education", slug: "education", icon: "📚", count: 30, description: "Tutoring, research, writing & learning" },
   { name: "Health", slug: "health", icon: "🏥", count: 30, description: "Fitness, nutrition, wellness & tracking" },
   { name: "Sales", slug: "sales", icon: "💼", count: 27, description: "Lead gen, outreach, pipeline & closing" },
-  { name: "Customer Support", slug: "support", icon: "🎧", count: 33, description: "Chatbots, helpdesk & ticket automation" },
-  { name: "AI & ML", slug: "ai-ml", icon: "🤖", count: 34, description: "LLMs, model APIs, training & AI infrastructure" },
-  { name: "Finance", slug: "finance", icon: "💰", count: 29, description: "Accounting, investing, crypto & financial analysis" },
-  { name: "HR & Recruiting", slug: "hr", icon: "👥", count: 29, description: "Hiring, onboarding, payroll & people management" },
+  { name: "Customer Support", slug: "support", icon: "🎧", count: 32, description: "Chatbots, helpdesk & ticket automation" },
+  { name: "AI & ML", slug: "ai-ml", icon: "🤖", count: 27, description: "LLMs, model APIs, training & AI infrastructure" },
+  { name: "Finance", slug: "finance", icon: "💰", count: 26, description: "Accounting, investing, crypto & financial analysis" },
+  { name: "HR & Recruiting", slug: "hr", icon: "👥", count: 28, description: "Hiring, onboarding, payroll & people management" },
   { name: "Legal", slug: "legal", icon: "⚖️", count: 29, description: "Contracts, compliance, legal research & IP" },
-  { name: "E-commerce", slug: "ecommerce", icon: "🛒", count: 29, description: "Online stores, product listings, inventory & fulfillment" },
+  { name: "E-commerce", slug: "ecommerce", icon: "🛒", count: 28, description: "Online stores, product listings, inventory & fulfillment" },
 ];
 
 export const agents: Agent[] = [
@@ -54,6 +54,7 @@ export const agents: Agent[] = [
     url: "https://jasper.ai",
     features: ["Brand voice training", "Multi-channel content generation", "Marketing workflow automation", "Team collaboration", "50+ templates"]
   },
+
 {
     id: "copy-ai",
     name: "Copy.ai",
@@ -72,6 +73,7 @@ export const agents: Agent[] = [
     url: "https://copy.ai",
     features: ["GTM workflow automation", "Prospecting agents", "Content generation", "Brand voice", "90+ templates"]
   },
+
 {
     id: "surfer-seo",
     name: "Surfer SEO",
@@ -90,6 +92,7 @@ export const agents: Agent[] = [
     url: "https://surferseo.com",
     features: ["Content score optimization", "SERP analyzer", "Keyword research", "Content editor", "Audit tool"]
   },
+
 {
     id: "semrush",
     name: "SEMrush",
@@ -108,6 +111,7 @@ export const agents: Agent[] = [
     url: "https://semrush.com",
     features: ["Keyword research", "Site audit", "Backlink analysis", "PPC research", "Content marketing toolkit"]
   },
+
 {
     id: "hubspot-ai",
     name: "HubSpot AI",
@@ -126,6 +130,7 @@ export const agents: Agent[] = [
     url: "https://hubspot.com",
     features: ["AI content writer", "Smart email scheduling", "Lead scoring", "Social media management", "Marketing analytics"]
   },
+
 {
     id: "buffer-ai",
     name: "Buffer AI",
@@ -144,6 +149,7 @@ export const agents: Agent[] = [
     url: "https://buffer.com",
     features: ["AI post generator", "Optimal posting times", "Multi-platform scheduling", "Analytics dashboard", "Content repurposing"]
   },
+
 {
     id: "phrasee",
     name: "Phrasee",
@@ -162,6 +168,7 @@ export const agents: Agent[] = [
     url: "https://phrasee.co",
     features: ["AI subject line generation", "Brand language optimization", "Predictive performance scoring", "A/B test automation", "Multi-channel copy"]
   },
+
 {
     id: "marketmuse",
     name: "MarketMuse",
@@ -180,6 +187,7 @@ export const agents: Agent[] = [
     url: "https://marketmuse.com",
     features: ["Content inventory analysis", "Topic clustering", "Content briefs", "Competitive analysis", "Content scoring"]
   },
+
 {
     id: "cursor",
     name: "Cursor",
@@ -198,6 +206,7 @@ export const agents: Agent[] = [
     url: "https://cursor.com",
     features: ["Whole-codebase understanding", "Multi-file editing", "Terminal integration", "Codebase-aware chat", "Tab autocomplete"]
   },
+
 {
     id: "claude-code",
     name: "Claude Code",
@@ -216,6 +225,7 @@ export const agents: Agent[] = [
     url: "https://claude.ai",
     features: ["Terminal-native agent", "Full repo understanding", "Multi-file changes", "Test execution", "Git integration"]
   },
+
 {
     id: "github-copilot",
     name: "GitHub Copilot",
@@ -234,6 +244,7 @@ export const agents: Agent[] = [
     url: "https://github.com/features/copilot",
     features: ["Real-time code suggestions", "Chat in IDE", "Pull request summaries", "Test generation", "CLI assistance"]
   },
+
 {
     id: "openai-codex",
     name: "OpenAI Codex",
@@ -252,6 +263,7 @@ export const agents: Agent[] = [
     url: "https://openai.com",
     features: ["Cloud-based execution", "Parallel task handling", "PR-ready output", "Test-driven coding", "Multi-language support"]
   },
+
 {
     id: "cline",
     name: "Cline",
@@ -270,6 +282,7 @@ export const agents: Agent[] = [
     url: "https://github.com/cline/cline",
     features: ["VS Code integration", "File editing", "Terminal commands", "Web browsing", "MCP support"]
   },
+
 {
     id: "windsurf",
     name: "Windsurf",
@@ -288,6 +301,7 @@ export const agents: Agent[] = [
     url: "https://codeium.com",
     features: ["AI autocomplete", "Cascade agentic flow", "Multi-file editing", "Terminal commands", "Codebase indexing"]
   },
+
 {
     id: "replit-agent",
     name: "Replit Agent",
@@ -306,6 +320,7 @@ export const agents: Agent[] = [
     url: "https://replit.com",
     features: ["Natural language to app", "Instant deployment", "Built-in hosting", "Collaborative editing", "Multi-language support"]
   },
+
 {
     id: "aider",
     name: "Aider",
@@ -324,6 +339,7 @@ export const agents: Agent[] = [
     url: "https://aider.chat",
     features: ["Terminal-based", "Git-aware", "Multi-LLM support", "Local code editing", "Auto-commits"]
   },
+
 {
     id: "sweep-ai",
     name: "Sweep",
@@ -342,6 +358,7 @@ export const agents: Agent[] = [
     url: "https://sweep.dev",
     features: ["GitHub issue to PR", "Codebase understanding", "Plan & execute", "Auto-testing", "Code review"]
   },
+
 {
     id: "zapier-ai",
     name: "Zapier AI",
@@ -360,6 +377,7 @@ export const agents: Agent[] = [
     url: "https://zapier.com",
     features: ["7,000+ app integrations", "AI-powered workflows", "Natural language automation", "Multi-step Zaps", "AI actions"]
   },
+
 {
     id: "n8n",
     name: "n8n",
@@ -378,6 +396,7 @@ export const agents: Agent[] = [
     url: "https://n8n.io",
     features: ["Open source", "Self-hostable", "AI agent nodes", "400+ integrations", "Visual workflow builder"]
   },
+
 {
     id: "salesforce-einstein",
     name: "Salesforce Einstein",
@@ -396,6 +415,7 @@ export const agents: Agent[] = [
     url: "https://salesforce.com/einstein",
     features: ["Predictive lead scoring", "Opportunity insights", "Automated data entry", "AI email generation", "Einstein Copilot"]
   },
+
 {
     id: "intercom-ai",
     name: "Intercom Fin",
@@ -414,6 +434,7 @@ export const agents: Agent[] = [
     url: "https://intercom.com",
     features: ["Instant resolution", "Help center learning", "Complex query handling", "Smart escalation", "Multi-language"]
   },
+
 {
     id: "notion-ai",
     name: "Notion AI",
@@ -432,6 +453,7 @@ export const agents: Agent[] = [
     url: "https://notion.so",
     features: ["AI writing assistant", "Document summarization", "Action item extraction", "Q&A over workspace", "Template generation"]
   },
+
 {
     id: "make-ai",
     name: "Make",
@@ -450,6 +472,7 @@ export const agents: Agent[] = [
     url: "https://make.com",
     features: ["Visual scenario builder", "1,500+ integrations", "AI modules", "Error handling", "Data transformation"]
   },
+
 {
     id: "slack-ai",
     name: "Slack AI",
@@ -468,6 +491,7 @@ export const agents: Agent[] = [
     url: "https://slack.com",
     features: ["Channel summaries", "AI search", "Agent integrations", "Workflow builder", "Huddle AI notes"]
   },
+
 {
     id: "gumloop",
     name: "Gumloop",
@@ -486,6 +510,7 @@ export const agents: Agent[] = [
     url: "https://gumloop.com",
     features: ["Natural language agent building", "MCP server integrations", "Built-in LLM access", "Slack integration", "Visual flow builder"]
   },
+
 {
     id: "midjourney",
     name: "Midjourney",
@@ -504,6 +529,7 @@ export const agents: Agent[] = [
     url: "https://midjourney.com",
     features: ["Text-to-image", "Style mixing", "Upscaling", "Variations", "Pan & zoom"]
   },
+
 {
     id: "dall-e-3",
     name: "DALL·E 3",
@@ -522,6 +548,7 @@ export const agents: Agent[] = [
     url: "https://openai.com/dall-e-3",
     features: ["High-detail generation", "Text rendering in images", "Complex prompt following", "Inpainting", "API access"]
   },
+
 {
     id: "runway",
     name: "Runway",
@@ -540,6 +567,7 @@ export const agents: Agent[] = [
     url: "https://runwayml.com",
     features: ["Text-to-video", "Image-to-video", "AI background removal", "Motion tracking", "Green screen"]
   },
+
 {
     id: "eleven-labs",
     name: "ElevenLabs",
@@ -558,6 +586,7 @@ export const agents: Agent[] = [
     url: "https://elevenlabs.io",
     features: ["Ultra-realistic voices", "Voice cloning", "29 languages", "Dubbing studio", "API access"]
   },
+
 {
     id: "suno",
     name: "Suno",
@@ -576,6 +605,7 @@ export const agents: Agent[] = [
     url: "https://suno.com",
     features: ["Full song generation", "Custom lyrics", "Multiple genres", "Vocal synthesis", "Instrumental tracks"]
   },
+
 {
     id: "canva-ai",
     name: "Canva AI",
@@ -594,6 +624,7 @@ export const agents: Agent[] = [
     url: "https://canva.com",
     features: ["Magic Design", "Background remover", "Magic Eraser", "AI image generation", "Brand kit"]
   },
+
 {
     id: "adobe-firefly",
     name: "Adobe Firefly",
@@ -612,6 +643,7 @@ export const agents: Agent[] = [
     url: "https://firefly.adobe.com",
     features: ["Commercially safe output", "Photoshop integration", "Text effects", "Generative fill", "Style matching"]
   },
+
 {
     id: "pika",
     name: "Pika",
@@ -630,6 +662,7 @@ export const agents: Agent[] = [
     url: "https://pika.art",
     features: ["Image-to-video", "Text-to-video", "Video effects", "Clip extension", "Lip sync"]
   },
+
 {
     id: "kling-ai",
     name: "Kling AI",
@@ -648,6 +681,7 @@ export const agents: Agent[] = [
     url: "https://klingai.com",
     features: ["Long-form video", "Consistent characters", "Smooth motion", "Image-to-video", "High resolution"]
   },
+
 {
     id: "chatgpt",
     name: "ChatGPT",
@@ -666,6 +700,7 @@ export const agents: Agent[] = [
     url: "https://chat.openai.com",
     features: ["Conversational AI", "Code interpreter", "Web browsing", "Image generation", "File analysis"]
   },
+
 {
     id: "claude",
     name: "Claude",
@@ -684,6 +719,7 @@ export const agents: Agent[] = [
     url: "https://claude.ai",
     features: ["200K context window", "Nuanced reasoning", "Code generation", "Document analysis", "Artifacts"]
   },
+
 {
     id: "gemini",
     name: "Google Gemini",
@@ -702,6 +738,7 @@ export const agents: Agent[] = [
     url: "https://gemini.google.com",
     features: ["Multimodal understanding", "Google integration", "Real-time info", "Code generation", "Image analysis"]
   },
+
 {
     id: "perplexity",
     name: "Perplexity",
@@ -720,6 +757,7 @@ export const agents: Agent[] = [
     url: "https://perplexity.ai",
     features: ["Cited answers", "Web search", "Source verification", "Follow-up questions", "Pro Search"]
   },
+
 {
     id: "deepseek",
     name: "DeepSeek",
@@ -738,6 +776,7 @@ export const agents: Agent[] = [
     url: "https://deepseek.com",
     features: ["Open-source models", "Strong reasoning", "Coding excellence", "Cost-effective", "Math capabilities"]
   },
+
 {
     id: "julius",
     name: "Julius",
@@ -756,6 +795,7 @@ export const agents: Agent[] = [
     url: "https://julius.ai",
     features: ["Chat with data", "Auto visualizations", "Statistical analysis", "Multi-format support", "Export reports"]
   },
+
 {
     id: "hevo-data",
     name: "Hevo Data",
@@ -774,6 +814,7 @@ export const agents: Agent[] = [
     url: "https://hevodata.com",
     features: ["150+ connectors", "No-code setup", "Auto-schema mapping", "Real-time sync", "Data transformation"]
   },
+
 {
     id: "openclaw",
     name: "OpenClaw",
@@ -792,6 +833,7 @@ export const agents: Agent[] = [
     url: "https://openclaw.ai",
     features: ["Multi-platform messaging", "Device control", "Calendar management", "Custom skills", "Self-hosted"]
   },
+
 {
     id: "reclaim-ai",
     name: "Reclaim AI",
@@ -810,6 +852,7 @@ export const agents: Agent[] = [
     url: "https://reclaim.ai",
     features: ["Smart scheduling", "Focus time protection", "Habit scheduling", "Multi-calendar sync", "Meeting links"]
   },
+
 {
     id: "todoist-ai",
     name: "Todoist AI",
@@ -828,6 +871,7 @@ export const agents: Agent[] = [
     url: "https://todoist.com",
     features: ["AI task suggestions", "Auto-categorization", "Smart scheduling", "Natural language input", "Project templates"]
   },
+
 {
     id: "otter-ai",
     name: "Otter.ai",
@@ -846,6 +890,7 @@ export const agents: Agent[] = [
     url: "https://otter.ai",
     features: ["Real-time transcription", "Meeting summaries", "Action items", "Speaker identification", "Zoom/Teams integration"]
   },
+
 {
     id: "mem-ai",
     name: "Mem",
@@ -864,6 +909,7 @@ export const agents: Agent[] = [
     url: "https://mem.ai",
     features: ["Auto-organization", "Related note suggestions", "AI search", "Smart templates", "Knowledge graph"]
   },
+
 {
     id: "magical-ai",
     name: "Magical",
@@ -882,6 +928,7 @@ export const agents: Agent[] = [
     url: "https://getmagical.com",
     features: ["One-click automation", "Form filling", "Template expansion", "Data transfer", "No integrations needed"]
   },
+
 {
     id: "khan-academy-ai",
     name: "Khanmigo",
@@ -900,6 +947,7 @@ export const agents: Agent[] = [
     url: "https://khanacademy.org/khan-labs",
     features: ["Socratic teaching method", "Step-by-step guidance", "Multi-subject support", "Progress tracking", "Teacher tools"]
   },
+
 {
     id: "duolingo-max",
     name: "Duolingo Max",
@@ -918,6 +966,7 @@ export const agents: Agent[] = [
     url: "https://duolingo.com",
     features: ["AI roleplay conversations", "Explain My Answer", "40+ languages", "Personalized learning", "Streak system"]
   },
+
 {
     id: "consensus",
     name: "Consensus",
@@ -936,6 +985,7 @@ export const agents: Agent[] = [
     url: "https://consensus.app",
     features: ["200M+ papers", "Evidence synthesis", "Consensus meter", "Study snapshots", "Citation export"]
   },
+
 {
     id: "elicit",
     name: "Elicit",
@@ -954,6 +1004,7 @@ export const agents: Agent[] = [
     url: "https://elicit.com",
     features: ["Paper search", "Auto-summarization", "Data extraction", "Literature review", "Export to CSV"]
   },
+
 {
     id: "quizlet-ai",
     name: "Quizlet AI",
@@ -972,6 +1023,7 @@ export const agents: Agent[] = [
     url: "https://quizlet.com",
     features: ["AI-generated flashcards", "Practice tests", "Learn mode", "Spaced repetition", "Expert solutions"]
   },
+
 {
     id: "cal-ai",
     name: "Cal AI",
@@ -990,6 +1042,7 @@ export const agents: Agent[] = [
     url: "https://calai.app",
     features: ["Photo-based calorie tracking", "Macro breakdown", "Meal logging", "Progress tracking", "Barcode scanner"]
   },
+
 {
     id: "whoop-ai",
     name: "WHOOP",
@@ -1008,6 +1061,7 @@ export const agents: Agent[] = [
     url: "https://whoop.com",
     features: ["Strain coaching", "Recovery scores", "Sleep optimization", "Health monitoring", "Personalized insights"]
   },
+
 {
     id: "noom-ai",
     name: "Noom",
@@ -1026,6 +1080,7 @@ export const agents: Agent[] = [
     url: "https://noom.com",
     features: ["Psychology-based approach", "Personalized plans", "Food logging", "Exercise tracking", "Coaching support"]
   },
+
 {
     id: "fitbod-ai",
     name: "Fitbod",
@@ -1044,6 +1099,7 @@ export const agents: Agent[] = [
     url: "https://fitbod.me",
     features: ["Adaptive workout plans", "Equipment-aware", "Recovery tracking", "Exercise library", "Progress analytics"]
   },
+
 {
     id: "apollo-ai",
     name: "Apollo.io",
@@ -1062,6 +1118,7 @@ export const agents: Agent[] = [
     url: "https://apollo.io",
     features: ["275M+ contacts", "AI email writer", "Sequence automation", "Lead scoring", "CRM integration"]
   },
+
 {
     id: "clay",
     name: "Clay",
@@ -1080,6 +1137,7 @@ export const agents: Agent[] = [
     url: "https://clay.com",
     features: ["100+ data sources", "AI personalization", "Waterfall enrichment", "CRM sync", "Automated workflows"]
   },
+
 {
     id: "gong",
     name: "Gong",
@@ -1098,6 +1156,7 @@ export const agents: Agent[] = [
     url: "https://gong.io",
     features: ["Call recording & analysis", "Deal forecasting", "Rep coaching", "Competitor tracking", "Pipeline insights"]
   },
+
 {
     id: "outreach-ai",
     name: "Outreach",
@@ -1116,6 +1175,7 @@ export const agents: Agent[] = [
     url: "https://outreach.io",
     features: ["Multi-channel sequences", "AI email generation", "Meeting scheduling", "Pipeline analytics", "CRM sync"]
   },
+
 {
     id: "instantly-ai",
     name: "Instantly",
@@ -1134,6 +1194,7 @@ export const agents: Agent[] = [
     url: "https://instantly.ai",
     features: ["Unlimited email accounts", "AI personalization", "Email warmup", "Deliverability tools", "Lead finder"]
   },
+
 {
     id: "zendesk-ai",
     name: "Zendesk AI",
@@ -1152,6 +1213,7 @@ export const agents: Agent[] = [
     url: "https://zendesk.com",
     features: ["AI agents", "Auto-triage", "Suggested responses", "Knowledge base", "Analytics"]
   },
+
 {
     id: "freshdesk-ai",
     name: "Freshdesk",
@@ -1170,6 +1232,7 @@ export const agents: Agent[] = [
     url: "https://freshdesk.com",
     features: ["Freddy AI agent", "Auto-triage", "Canned responses", "Knowledge base", "SLA management"]
   },
+
 {
     id: "crisp-ai",
     name: "Crisp",
@@ -1188,6 +1251,7 @@ export const agents: Agent[] = [
     url: "https://crisp.chat",
     features: ["AI chatbot", "Live chat", "Shared inbox", "Knowledge base", "CRM"]
   },
+
 {
     id: "tidio-ai",
     name: "Tidio",
@@ -1206,6 +1270,7 @@ export const agents: Agent[] = [
     url: "https://tidio.com",
     features: ["Lyro AI agent", "Live chat", "FAQ automation", "Visitor tracking", "E-commerce integrations"]
   },
+
 {
     id: "hootsuite-ai",
     name: "Hootsuite",
@@ -1224,6 +1289,7 @@ export const agents: Agent[] = [
     url: "https://hootsuite.com",
     features: ["OwlyWriter AI", "Multi-platform scheduling", "Analytics dashboard", "Social listening", "Team collaboration"]
   },
+
 {
     id: "mailchimp-ai",
     name: "Mailchimp AI",
@@ -1242,6 +1308,7 @@ export const agents: Agent[] = [
     url: "https://mailchimp.com",
     features: ["AI email writer", "Send time optimization", "Audience predictions", "A/B testing", "Customer journey builder"]
   },
+
 {
     id: "ahrefs-ai",
     name: "Ahrefs",
@@ -1260,6 +1327,7 @@ export const agents: Agent[] = [
     url: "https://ahrefs.com",
     features: ["Site Explorer", "Keywords Explorer", "Content Explorer", "Site Audit", "Rank Tracker"]
   },
+
 {
     id: "convertkit-ai",
     name: "Kit",
@@ -1278,6 +1346,7 @@ export const agents: Agent[] = [
     url: "https://kit.com",
     features: ["AI email sequences", "Landing pages", "Creator network", "Commerce tools", "Automation"]
   },
+
 {
     id: "brandwatch",
     name: "Brandwatch",
@@ -1296,6 +1365,7 @@ export const agents: Agent[] = [
     url: "https://brandwatch.com",
     features: ["Social listening", "Sentiment analysis", "Trend detection", "Competitor tracking", "Influencer identification"]
   },
+
 {
     id: "grammarly",
     name: "Grammarly",
@@ -1314,6 +1384,7 @@ export const agents: Agent[] = [
     url: "https://grammarly.com",
     features: ["Grammar checking", "Tone detection", "Clarity suggestions", "Plagiarism checker", "Brand tones"]
   },
+
 {
     id: "buzzsumo",
     name: "BuzzSumo",
@@ -1332,6 +1403,7 @@ export const agents: Agent[] = [
     url: "https://buzzsumo.com",
     features: ["Content analyzer", "Influencer discovery", "Content alerts", "Question analyzer", "Backlink analysis"]
   },
+
 {
     id: "adcreative-ai",
     name: "AdCreative.ai",
@@ -1350,6 +1422,7 @@ export const agents: Agent[] = [
     url: "https://adcreative.ai",
     features: ["AI ad generation", "Conversion scoring", "Brand learning", "Multi-platform", "Text generator"]
   },
+
 {
     id: "tabnine",
     name: "Tabnine",
@@ -1368,6 +1441,7 @@ export const agents: Agent[] = [
     url: "https://tabnine.com",
     features: ["Local AI completion", "Privacy-first", "30+ languages", "Team learning", "IDE support"]
   },
+
 {
     id: "amazon-codewhisperer",
     name: "Amazon Q Developer",
@@ -1386,6 +1460,7 @@ export const agents: Agent[] = [
     url: "https://aws.amazon.com/q/developer",
     features: ["Code suggestions", "Security scanning", "AWS integration", "Reference tracking", "CLI assistance"]
   },
+
 {
     id: "sourcegraph-cody",
     name: "Cody",
@@ -1404,6 +1479,7 @@ export const agents: Agent[] = [
     url: "https://sourcegraph.com/cody",
     features: ["Full codebase context", "Multi-repo support", "Code search", "Autocomplete", "Custom commands"]
   },
+
 {
     id: "qodo",
     name: "Qodo",
@@ -1422,6 +1498,7 @@ export const agents: Agent[] = [
     url: "https://qodo.ai",
     features: ["Test generation", "Code review", "Documentation", "PR analysis", "Behavior coverage"]
   },
+
 {
     id: "v0-dev",
     name: "v0",
@@ -1440,6 +1517,7 @@ export const agents: Agent[] = [
     url: "https://v0.dev",
     features: ["Text-to-UI", "React components", "shadcn/ui", "Tailwind CSS", "Instant preview"]
   },
+
 {
     id: "bolt-new",
     name: "Bolt.new",
@@ -1458,6 +1536,7 @@ export const agents: Agent[] = [
     url: "https://bolt.new",
     features: ["Prompt-to-app", "Full-stack", "In-browser", "Instant deploy", "Multiple frameworks"]
   },
+
 {
     id: "lovable-dev",
     name: "Lovable",
@@ -1476,6 +1555,7 @@ export const agents: Agent[] = [
     url: "https://lovable.dev",
     features: ["Natural language to app", "Visual editor", "Supabase integration", "GitHub sync", "One-click deploy"]
   },
+
 {
     id: "microsoft-copilot",
     name: "Microsoft Copilot",
@@ -1494,6 +1574,7 @@ export const agents: Agent[] = [
     url: "https://copilot.microsoft.com",
     features: ["Word document generation", "Excel analysis", "PowerPoint creation", "Email drafting", "Teams summaries"]
   },
+
 {
     id: "gumroad-ai",
     name: "Gumroad",
@@ -1512,6 +1593,7 @@ export const agents: Agent[] = [
     url: "https://gumroad.com",
     features: ["Product pages", "Payment processing", "Email marketing", "Analytics", "Affiliate program"]
   },
+
 {
     id: "airtable-ai",
     name: "Airtable",
@@ -1530,6 +1612,7 @@ export const agents: Agent[] = [
     url: "https://airtable.com",
     features: ["AI field generation", "Automations", "Interface designer", "Views & filters", "API"]
   },
+
 {
     id: "clickup-ai",
     name: "ClickUp AI",
@@ -1548,6 +1631,7 @@ export const agents: Agent[] = [
     url: "https://clickup.com",
     features: ["AI task summaries", "Doc generation", "Sprint automation", "Time tracking", "Goal tracking"]
   },
+
 {
     id: "relayed-app",
     name: "Relay.app",
@@ -1566,6 +1650,7 @@ export const agents: Agent[] = [
     url: "https://relay.app",
     features: ["Human checkpoints", "AI actions", "Visual builder", "100+ integrations", "Team collaboration"]
   },
+
 {
     id: "mixpanel-ai",
     name: "Mixpanel",
@@ -1584,6 +1669,7 @@ export const agents: Agent[] = [
     url: "https://mixpanel.com",
     features: ["Natural language queries", "Funnel analysis", "Retention tracking", "A/B testing", "User flows"]
   },
+
 {
     id: "figma-ai",
     name: "Figma AI",
@@ -1602,6 +1688,7 @@ export const agents: Agent[] = [
     url: "https://figma.com",
     features: ["AI layout suggestions", "Auto-design", "Prototyping", "Dev mode", "Real-time collaboration"]
   },
+
 {
     id: "descript",
     name: "Descript",
@@ -1620,6 +1707,7 @@ export const agents: Agent[] = [
     url: "https://descript.com",
     features: ["Text-based editing", "Filler word removal", "Voice cloning", "Screen recording", "AI green screen"]
   },
+
 {
     id: "synthesia",
     name: "Synthesia",
@@ -1638,6 +1726,7 @@ export const agents: Agent[] = [
     url: "https://synthesia.io",
     features: ["230+ AI avatars", "140+ languages", "Custom avatars", "Templates", "Brand kit"]
   },
+
 {
     id: "heygen",
     name: "HeyGen",
@@ -1656,6 +1745,7 @@ export const agents: Agent[] = [
     url: "https://heygen.com",
     features: ["Instant avatar", "Video translation", "Voice cloning", "API access", "Multi-language"]
   },
+
 {
     id: "flora-ai",
     name: "Flora AI",
@@ -1674,6 +1764,7 @@ export const agents: Agent[] = [
     url: "https://flora.com",
     features: ["Asset management", "Brand consistency", "AI variations", "Creative workflows", "Team collaboration"]
   },
+
 {
     id: "leonardo-ai",
     name: "Leonardo AI",
@@ -1692,6 +1783,7 @@ export const agents: Agent[] = [
     url: "https://leonardo.ai",
     features: ["Style consistency", "Fast generation", "Fine-tuning", "Canvas editor", "3D texture generation"]
   },
+
 {
     id: "sadtalker",
     name: "Hedra",
@@ -1710,6 +1802,7 @@ export const agents: Agent[] = [
     url: "https://hedra.com",
     features: ["Audio-to-video", "Character generation", "Expressive animation", "Custom characters", "Lip sync"]
   },
+
 {
     id: "mistral",
     name: "Mistral",
@@ -1728,96 +1821,7 @@ export const agents: Agent[] = [
     url: "https://mistral.ai",
     features: ["Open-source models", "Multilingual", "Strong reasoning", "API access", "Self-hostable"]
   },
-{
-    id: "groq",
-    name: "Groq",
-    tagline: "Ultra-fast AI inference",
-    description: "Groq runs AI models at lightning speed with its custom LPU chips. Get instant responses from Llama, Mixtral, and other models with sub-second latency.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "⚡",
-    rating: 4.7,
-    users: 2000000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["inference", "fast", "API", "LPU"],
-    creator: "Groq",
-    url: "https://groq.com",
-    features: ["Ultra-fast inference", "Multiple models", "API access", "Low latency", "Free tier"]
-  },
-{
-    id: "together-ai",
-    name: "Together AI",
-    tagline: "Cloud platform for open-source AI models",
-    description: "Together AI lets you run 100+ open-source AI models in the cloud. Fine-tune, deploy, and scale any open model with optimized inference.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🤝",
-    rating: 3.7,
-    users: 500000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["open source", "cloud", "fine-tuning", "inference"],
-    creator: "Together AI",
-    url: "https://together.ai",
-    features: ["100+ models", "Fine-tuning", "Optimized inference", "API access", "GPU clusters"]
-  },
-{
-    id: "replicate",
-    name: "Replicate",
-    tagline: "Run and fine-tune open-source models",
-    description: "Replicate makes it easy to run machine learning models in the cloud. Deploy any model with one API call, fine-tune on your data, and scale automatically.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🔁",
-    rating: 4.2,
-    users: 500000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["ML models", "API", "cloud", "fine-tuning"],
-    creator: "Replicate",
-    url: "https://replicate.com",
-    features: ["One-call deployment", "Fine-tuning", "Auto-scaling", "Webhooks", "Model sharing"]
-  },
-{
-    id: "openrouter",
-    name: "OpenRouter",
-    tagline: "Unified API for 200+ AI models",
-    description: "OpenRouter provides a single API to access 200+ AI models from OpenAI, Anthropic, Google, Meta, and more. Compare models and switch seamlessly.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🔀",
-    rating: 4.7,
-    users: 1000000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["API", "multi-model", "routing", "comparison"],
-    creator: "OpenRouter",
-    url: "https://openrouter.ai",
-    features: ["200+ models", "Single API", "Model comparison", "Cost optimization", "Fallback routing"]
-  },
-{
-    id: "huggingface",
-    name: "Hugging Face",
-    tagline: "The GitHub of machine learning",
-    description: "Hugging Face hosts 500K+ ML models, datasets, and spaces. Discover, share, and deploy AI models. The largest open-source AI community.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🤗",
-    rating: 4.8,
-    users: 5000000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["open source", "models", "community", "ML"],
-    creator: "Hugging Face",
-    url: "https://huggingface.co",
-    features: ["500K+ models", "Model hub", "Spaces (demo apps)", "Inference API", "Fine-tuning"]
-  },
+
 {
     id: "firecrawl",
     name: "Firecrawl",
@@ -1836,6 +1840,7 @@ export const agents: Agent[] = [
     url: "https://firecrawl.dev",
     features: ["JavaScript rendering", "Pagination handling", "Structured output", "Batch scraping", "LLM-ready format"]
   },
+
 {
     id: "superhuman-ai",
     name: "Superhuman",
@@ -1854,6 +1859,7 @@ export const agents: Agent[] = [
     url: "https://superhuman.com",
     features: ["AI email writing", "Auto-triage", "Follow-up reminders", "Calendar scheduling", "Keyboard shortcuts"]
   },
+
 {
     id: "raycast",
     name: "Raycast",
@@ -1872,6 +1878,7 @@ export const agents: Agent[] = [
     url: "https://raycast.com",
     features: ["AI chat", "Quick commands", "App integrations", "Snippets", "Clipboard history"]
   },
+
 {
     id: "linear-ai",
     name: "Linear",
@@ -1890,6 +1897,7 @@ export const agents: Agent[] = [
     url: "https://linear.app",
     features: ["AI triage", "Auto-prioritization", "Cycles", "Roadmaps", "GitHub integration"]
   },
+
 {
     id: "obsidian-ai",
     name: "Obsidian",
@@ -1908,6 +1916,7 @@ export const agents: Agent[] = [
     url: "https://obsidian.md",
     features: ["Local Markdown files", "Graph view", "Plugin ecosystem", "AI plugins", "Linking"]
   },
+
 {
     id: "readwise-ai",
     name: "Readwise",
@@ -1926,6 +1935,7 @@ export const agents: Agent[] = [
     url: "https://readwise.io",
     features: ["Highlight syncing", "Daily review", "AI summaries", "RSS reader", "EPUB support"]
   },
+
 {
     id: "coursera-ai",
     name: "Coursera AI",
@@ -1944,6 +1954,7 @@ export const agents: Agent[] = [
     url: "https://coursera.org",
     features: ["AI tutoring", "Personalized paths", "7,000+ courses", "Certificates", "Peer-reviewed"]
   },
+
 {
     id: "notebooklm",
     name: "NotebookLM",
@@ -1962,6 +1973,7 @@ export const agents: Agent[] = [
     url: "https://notebooklm.google.com",
     features: ["Source-grounded answers", "Audio overviews", "Document chat", "Citation tracking", "Multi-source"]
   },
+
 {
     id: "wolfram-alpha",
     name: "Wolfram Alpha",
@@ -1980,6 +1992,7 @@ export const agents: Agent[] = [
     url: "https://wolframalpha.com",
     features: ["Step-by-step solutions", "Math computation", "Scientific data", "Natural language input", "API access"]
   },
+
 {
     id: "photomath",
     name: "Photomath",
@@ -1998,6 +2011,7 @@ export const agents: Agent[] = [
     url: "https://photomath.com",
     features: ["Camera scanning", "Step-by-step solutions", "Multiple methods", "Graphs", "Word problems"]
   },
+
 {
     id: "apple-fitness-ai",
     name: "Apple Fitness+",
@@ -2016,6 +2030,7 @@ export const agents: Agent[] = [
     url: "https://apple.com/apple-fitness-plus",
     features: ["Personalized recommendations", "Apple Watch integration", "11 workout types", "Meditation", "Time to Walk"]
   },
+
 {
     id: "myfitnesspal-ai",
     name: "MyFitnessPal",
@@ -2034,6 +2049,7 @@ export const agents: Agent[] = [
     url: "https://myfitnesspal.com",
     features: ["14M+ food database", "Barcode scanner", "AI meal suggestions", "Macro tracking", "App integrations"]
   },
+
 {
     id: "strava-ai",
     name: "Strava",
@@ -2052,6 +2068,7 @@ export const agents: Agent[] = [
     url: "https://strava.com",
     features: ["GPS tracking", "AI pace predictions", "Route suggestions", "Training plans", "Social features"]
   },
+
 {
     id: "tempo-ai",
     name: "Tempo",
@@ -2070,6 +2087,7 @@ export const agents: Agent[] = [
     url: "https://tempo.fit",
     features: ["3D form tracking", "Rep counting", "Weight recommendations", "Live classes", "Progress tracking"]
   },
+
 {
     id: "lemlist",
     name: "Lemlist",
@@ -2088,6 +2106,7 @@ export const agents: Agent[] = [
     url: "https://lemlist.com",
     features: ["AI personalization", "Email warmup", "Multi-channel sequences", "A/B testing", "CRM integration"]
   },
+
 {
     id: "lusha",
     name: "Lusha",
@@ -2106,6 +2125,7 @@ export const agents: Agent[] = [
     url: "https://lusha.com",
     features: ["Direct dials", "Email finder", "Company data", "Chrome extension", "API access"]
   },
+
 {
     id: "seamless-ai",
     name: "Seamless.AI",
@@ -2124,6 +2144,7 @@ export const agents: Agent[] = [
     url: "https://seamless.ai",
     features: ["Real-time verification", "Chrome extension", "Lead lists", "Company data", "CRM sync"]
   },
+
 {
     id: "drift-ai",
     name: "Drift",
@@ -2142,6 +2163,7 @@ export const agents: Agent[] = [
     url: "https://salesloft.com/drift",
     features: ["AI chatbot", "Lead qualification", "Meeting booking", "Personalization", "Revenue reporting"]
   },
+
 {
     id: "ada-ai",
     name: "Ada",
@@ -2160,6 +2182,7 @@ export const agents: Agent[] = [
     url: "https://ada.cx",
     features: ["Multi-channel support", "AI resolution", "Knowledge integration", "Analytics", "Handoff to humans"]
   },
+
 {
     id: "forethought-ai",
     name: "Forethought",
@@ -2178,6 +2201,7 @@ export const agents: Agent[] = [
     url: "https://forethought.ai",
     features: ["AI ticket triage", "Suggested responses", "Auto-resolution", "Knowledge surfacing", "Analytics"]
   },
+
 {
     id: "kustomer-ai",
     name: "Kustomer",
@@ -2196,6 +2220,7 @@ export const agents: Agent[] = [
     url: "https://kustomer.com",
     features: ["Unified customer timeline", "AI agents", "Omnichannel", "Workflow automation", "CSAT tracking"]
   },
+
 {
     id: "activecampaign-ai",
     name: "ActiveCampaign",
@@ -2214,6 +2239,7 @@ export const agents: Agent[] = [
     url: "https://activecampaign.com",
     features: ["AI-powered automation", "Predictive sending", "Customer journeys", "CRM integration", "Segmentation"]
   },
+
 {
     id: "loom-ai",
     name: "Loom AI",
@@ -2232,6 +2258,7 @@ export const agents: Agent[] = [
     url: "https://loom.com",
     features: ["AI summaries", "Auto chapters", "Action items", "Screen recording", "Viewer analytics"]
   },
+
 {
     id: "vidyard-ai",
     name: "Vidyard",
@@ -2250,6 +2277,7 @@ export const agents: Agent[] = [
     url: "https://vidyard.com",
     features: ["AI script generation", "Video analytics", "Personalized video", "Chrome extension", "CRM integration"]
   },
+
 {
     id: "hotjar-ai",
     name: "Hotjar",
@@ -2268,6 +2296,7 @@ export const agents: Agent[] = [
     url: "https://hotjar.com",
     features: ["Heatmaps", "Session recordings", "AI insights", "Surveys", "Funnel analysis"]
   },
+
 {
     id: "optimizely-ai",
     name: "Optimizely",
@@ -2286,6 +2315,7 @@ export const agents: Agent[] = [
     url: "https://optimizely.com",
     features: ["A/B testing", "AI recommendations", "Feature flags", "Content management", "Analytics"]
   },
+
 {
     id: "jetbrains-ai",
     name: "JetBrains AI",
@@ -2304,6 +2334,7 @@ export const agents: Agent[] = [
     url: "https://jetbrains.com/ai",
     features: ["IDE-native AI", "Code refactoring", "Documentation generation", "Commit messages", "Chat"]
   },
+
 {
     id: "gitlab-duo",
     name: "GitLab Duo",
@@ -2322,6 +2353,7 @@ export const agents: Agent[] = [
     url: "https://gitlab.com",
     features: ["Code suggestions", "Vulnerability explanation", "MR summaries", "Root cause analysis", "Issue generation"]
   },
+
 {
     id: "bitbucket-ai",
     name: "Bitbucket AI",
@@ -2340,6 +2372,7 @@ export const agents: Agent[] = [
     url: "https://bitbucket.org",
     features: ["AI code review", "PR summaries", "Jira integration", "Pipelines", "Branch permissions"]
   },
+
 {
     id: "phind",
     name: "Phind",
@@ -2358,6 +2391,7 @@ export const agents: Agent[] = [
     url: "https://phind.com",
     features: ["Code-level answers", "Web search", "VS Code extension", "Custom models", "Pair programming"]
   },
+
 {
     id: "ask-codi",
     name: "AskCodi",
@@ -2376,6 +2410,7 @@ export const agents: Agent[] = [
     url: "https://askcodi.com",
     features: ["Code generation", "Test writing", "Doc generation", "Code conversion", "50+ languages"]
   },
+
 {
     id: "mintlify",
     name: "Mintlify",
@@ -2394,6 +2429,7 @@ export const agents: Agent[] = [
     url: "https://mintlify.com",
     features: ["AI doc generation", "API playground", "Beautiful themes", "GitHub sync", "Analytics"]
   },
+
 {
     id: "databricks-ai",
     name: "Databricks",
@@ -2412,42 +2448,7 @@ export const agents: Agent[] = [
     url: "https://databricks.com",
     features: ["Unity Catalog", "MLflow integration", "Delta Lake", "Collaborative notebooks", "AutoML"]
   },
-{
-    id: "anthropic-api",
-    name: "Anthropic API",
-    tagline: "Build with Claude's AI models",
-    description: "Anthropic's API gives developers access to Claude models. Build AI-powered applications with the most thoughtful and capable language models available.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🔑",
-    rating: 4.7,
-    users: 500000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["API", "LLM", "Claude", "development"],
-    creator: "Anthropic",
-    url: "https://anthropic.com",
-    features: ["Claude 3.5 Sonnet", "200K context", "Tool use", "Vision", "JSON mode"]
-  },
-{
-    id: "openai-api",
-    name: "OpenAI API",
-    tagline: "Build with GPT-4, DALL·E & Whisper",
-    description: "OpenAI's API platform gives developers access to GPT-4, DALL·E, Whisper, and more. The most widely used AI API for building intelligent applications.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🤖",
-    rating: 4.6,
-    users: 2000000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["API", "GPT-4", "LLM", "development"],
-    creator: "OpenAI",
-    url: "https://platform.openai.com",
-    features: ["GPT-4 Turbo", "DALL·E 3", "Whisper", "Function calling", "Assistants API"]
-  },
+
 {
     id: "pinecone",
     name: "Pinecone",
@@ -2466,6 +2467,7 @@ export const agents: Agent[] = [
     url: "https://pinecone.io",
     features: ["Vector search", "Hybrid search", "Serverless", "RAG support", "Auto-scaling"]
   },
+
 {
     id: "supabase-ai",
     name: "Supabase",
@@ -2484,6 +2486,7 @@ export const agents: Agent[] = [
     url: "https://supabase.com",
     features: ["PostgreSQL", "Auth", "Storage", "Vector embeddings", "Real-time"]
   },
+
 {
     id: "udio",
     name: "Udio",
@@ -2502,6 +2505,7 @@ export const agents: Agent[] = [
     url: "https://udio.com",
     features: ["Realistic vocals", "Genre variety", "Custom lyrics", "High quality audio", "Extend tracks"]
   },
+
 {
     id: "suno-v4",
     name: "Suno v4",
@@ -2520,6 +2524,7 @@ export const agents: Agent[] = [
     url: "https://suno.com",
     features: ["Improved vocals", "Better production", "Genre control", "Lyrics editor", "Stem separation"]
   },
+
 {
     id: "ideogram",
     name: "Ideogram",
@@ -2538,6 +2543,7 @@ export const agents: Agent[] = [
     url: "https://ideogram.ai",
     features: ["Text rendering", "Style control", "Magic prompt", "Image editing", "High resolution"]
   },
+
 {
     id: "luma-ai",
     name: "Luma AI",
@@ -2556,6 +2562,7 @@ export const agents: Agent[] = [
     url: "https://lumalabs.ai",
     features: ["3D capture", "Dream Machine video", "NeRF generation", "API access", "Scene reconstruction"]
   },
+
 {
     id: "capcut-ai",
     name: "CapCut",
@@ -2574,6 +2581,7 @@ export const agents: Agent[] = [
     url: "https://capcut.com",
     features: ["Auto-captions", "Background removal", "AI effects", "Trending templates", "Multi-platform"]
   },
+
 {
     id: "cohere",
     name: "Cohere",
@@ -2592,60 +2600,7 @@ export const agents: Agent[] = [
     url: "https://cohere.com",
     features: ["Command models", "Embed models", "RAG support", "Enterprise security", "Multi-language"]
   },
-{
-    id: "weaviate",
-    name: "Weaviate",
-    tagline: "Open-source vector database for AI",
-    description: "Weaviate is the open-source vector database that stores both objects and vectors. Build semantic search, RAG, and recommendation systems with ease.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🔍",
-    rating: 4.3,
-    users: 50000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["vector database", "semantic search", "open source", "RAG"],
-    creator: "Weaviate",
-    url: "https://weaviate.io",
-    features: ["Vector + object storage", "Hybrid search", "Multi-modal", "Cloud & self-hosted", "GraphQL API"]
-  },
-{
-    id: "langchain",
-    name: "LangChain",
-    tagline: "Framework for building LLM applications",
-    description: "LangChain is the most popular framework for building applications with LLMs. Chain together prompts, tools, and memory to create powerful AI agents.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🔗",
-    rating: 4.2,
-    users: 500000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["framework", "LLM", "agents", "open source"],
-    creator: "LangChain",
-    url: "https://langchain.com",
-    features: ["Chain abstraction", "Agent framework", "Memory management", "Tool integration", "LangSmith observability"]
-  },
-{
-    id: "llamaindex",
-    name: "LlamaIndex",
-    tagline: "Data framework for LLM applications",
-    description: "LlamaIndex connects your data to LLMs. Build RAG applications, knowledge agents, and data-augmented AI with the leading data framework.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "🦙",
-    rating: 4.2,
-    users: 200000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["RAG", "data framework", "knowledge base", "open source"],
-    creator: "LlamaIndex",
-    url: "https://llamaindex.ai",
-    features: ["Data connectors", "RAG pipelines", "Knowledge agents", "Query engines", "Observability"]
-  },
+
 {
     id: "nebius",
     name: "Nebius",
@@ -2664,6 +2619,7 @@ export const agents: Agent[] = [
     url: "https://nebius.com",
     features: ["Latest NVIDIA GPUs", "Managed Kubernetes", "Object storage", "Auto-scaling", "SLURM clusters"]
   },
+
 {
     id: "modal",
     name: "Modal",
@@ -2682,6 +2638,7 @@ export const agents: Agent[] = [
     url: "https://modal.com",
     features: ["Serverless GPUs", "Python-native", "Instant scaling", "Container building", "Web endpoints"]
   },
+
 {
     id: "motion-ai",
     name: "Motion",
@@ -2700,6 +2657,7 @@ export const agents: Agent[] = [
     url: "https://usemotion.com",
     features: ["Auto-scheduling", "Task prioritization", "Project management", "Meeting scheduling", "Focus time"]
   },
+
 {
     id: "cron-ai",
     name: "Cron Calendar",
@@ -2718,6 +2676,7 @@ export const agents: Agent[] = [
     url: "https://cron.com",
     features: ["AI scheduling", "Multi-calendar", "Keyboard shortcuts", "Time zone support", "Notion integration"]
   },
+
 {
     id: "tldv-ai",
     name: "tl;dv",
@@ -2736,6 +2695,7 @@ export const agents: Agent[] = [
     url: "https://tldv.io",
     features: ["AI transcription", "Meeting summaries", "Clip creation", "CRM integration", "Multi-language"]
   },
+
 {
     id: "fireflies-ai",
     name: "Fireflies.ai",
@@ -2754,6 +2714,7 @@ export const agents: Agent[] = [
     url: "https://fireflies.ai",
     features: ["Auto-recording", "AI transcription", "Topic tracking", "Sentiment analysis", "API access"]
   },
+
 {
     id: "durable-ai",
     name: "Durable",
@@ -2772,6 +2733,7 @@ export const agents: Agent[] = [
     url: "https://durable.co",
     features: ["30-second websites", "AI copywriting", "Custom domains", "Analytics", "CRM"]
   },
+
 {
     id: "socratic-ai",
     name: "Socratic by Google",
@@ -2790,6 +2752,7 @@ export const agents: Agent[] = [
     url: "https://socratic.org",
     features: ["Photo scanning", "Step-by-step solutions", "Video explanations", "Multi-subject", "Free"]
   },
+
 {
     id: "knowt-ai",
     name: "Knowt",
@@ -2808,6 +2771,7 @@ export const agents: Agent[] = [
     url: "https://knowt.com",
     features: ["Auto-flashcards", "Quiz generation", "Spaced repetition", "Lecture import", "Learn mode"]
   },
+
 {
     id: "gradescope-ai",
     name: "Gradescope",
@@ -2826,6 +2790,7 @@ export const agents: Agent[] = [
     url: "https://gradescope.com",
     features: ["AI-assisted grading", "Answer grouping", "Rubric templates", "Online assignments", "Analytics"]
   },
+
 {
     id: "perplexity-education",
     name: "Perplexity for Education",
@@ -2844,6 +2809,7 @@ export const agents: Agent[] = [
     url: "https://perplexity.ai",
     features: ["Cited answers", "Academic focus", "Source verification", "Collections", "Pro Search"]
   },
+
 {
     id: "garmin-ai",
     name: "Garmin Connect",
@@ -2862,6 +2828,7 @@ export const agents: Agent[] = [
     url: "https://connect.garmin.com",
     features: ["Training plans", "Recovery advisor", "Performance predictions", "Sleep tracking", "Body battery"]
   },
+
 {
     id: "withings-ai",
     name: "Withings",
@@ -2880,6 +2847,7 @@ export const agents: Agent[] = [
     url: "https://withings.com",
     features: ["Smart scale", "BP monitor", "Sleep tracker", "Health insights", "App integration"]
   },
+
 {
     id: "oura-ring",
     name: "Oura Ring",
@@ -2898,6 +2866,7 @@ export const agents: Agent[] = [
     url: "https://ouraring.com",
     features: ["Sleep tracking", "Readiness score", "Activity tracking", "Stress monitoring", "Temperature sensing"]
   },
+
 {
     id: "zoominfo-ai",
     name: "ZoomInfo",
@@ -2916,6 +2885,7 @@ export const agents: Agent[] = [
     url: "https://zoominfo.com",
     features: ["Contact database", "Company insights", "Intent data", "Engagement platform", "API"]
   },
+
 {
     id: "salesloft",
     name: "Salesloft",
@@ -2934,6 +2904,7 @@ export const agents: Agent[] = [
     url: "https://salesloft.com",
     features: ["Cadence automation", "Conversation intelligence", "Forecasting", "Deal management", "Analytics"]
   },
+
 {
     id: "hubspot-sales-ai",
     name: "HubSpot Sales Hub",
@@ -2952,6 +2923,7 @@ export const agents: Agent[] = [
     url: "https://hubspot.com/sales",
     features: ["Free CRM", "AI email writer", "Deal forecasting", "Meeting scheduler", "Sequences"]
   },
+
 {
     id: "helpscout-ai",
     name: "Help Scout",
@@ -2970,6 +2942,7 @@ export const agents: Agent[] = [
     url: "https://helpscout.com",
     features: ["AI draft replies", "Thread summaries", "Knowledge base", "Live chat", "Reporting"]
   },
+
 {
     id: "front-ai",
     name: "Front",
@@ -2988,6 +2961,7 @@ export const agents: Agent[] = [
     url: "https://front.com",
     features: ["Unified inbox", "AI tagging", "Response suggestions", "Rules & automation", "Analytics"]
   },
+
 {
     id: "chatwoot",
     name: "Chatwoot",
@@ -3006,6 +2980,7 @@ export const agents: Agent[] = [
     url: "https://chatwoot.com",
     features: ["Open source", "Multi-channel", "Chatbot builder", "Team collaboration", "Self-hosted"]
   },
+
 {
     id: "bland-ai",
     name: "Bland AI",
@@ -3025,7 +3000,8 @@ export const agents: Agent[] = [
     features: ["AI phone calls", "Custom voices", "Call analytics", "API integration", "Scheduling"]
   },
   // ===== FINANCE & LEGAL =====
-  {
+  
+{
     id: "ramp-ai",
     name: "Ramp",
     tagline: "AI-powered corporate card & spend management",
@@ -3043,25 +3019,8 @@ export const agents: Agent[] = [
     url: "https://ramp.com",
     features: ["AI expense categorization", "Savings recommendations", "Policy enforcement", "Bill payments", "1.5% cashback"]
   },
-  {
-    id: "brex-ai",
-    name: "Brex",
-    tagline: "AI-powered business finance platform",
-    description: "Brex combines corporate cards, expense management, and banking with AI. Automate receipts, categorize spending, and get real-time financial insights.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🏦",
-    rating: 4.3,
-    users: 30000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["corporate card", "banking", "expenses", "startup"],
-    creator: "Brex",
-    url: "https://brex.com",
-    features: ["AI receipt matching", "Auto-categorization", "Global payments", "Budget controls", "Accounting sync"]
-  },
-  {
+  
+{
     id: "harvey-ai",
     name: "Harvey",
     tagline: "AI for legal professionals",
@@ -3079,7 +3038,8 @@ export const agents: Agent[] = [
     url: "https://harvey.ai",
     features: ["Contract drafting", "Legal research", "Document review", "Case analysis", "Multi-jurisdiction"]
   },
-  {
+  
+{
     id: "ross-intelligence",
     name: "ROSS Intelligence",
     tagline: "AI legal research assistant",
@@ -3097,25 +3057,8 @@ export const agents: Agent[] = [
     url: "https://rossintelligence.com",
     features: ["Natural language legal search", "Case law analysis", "Citation tracking", "Legal alerts", "Brief analysis"]
   },
-  {
-    id: "truewind-ai",
-    name: "Truewind",
-    tagline: "AI-powered bookkeeping & finance for startups",
-    description: "Truewind automates bookkeeping, categorizes transactions, and provides financial insights for startups. Close your books faster with AI.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "📊",
-    rating: 4.3,
-    users: 5000,
-    price: "Premium",
-    featured: false,
-    new: true,
-    tags: ["bookkeeping", "accounting", "startup", "finance"],
-    creator: "Truewind",
-    url: "https://truewind.ai",
-    features: ["Auto-bookkeeping", "Transaction categorization", "Financial reports", "Tax prep", "Burn rate tracking"]
-  },
-  {
+  
+{
     id: "pennylane-ai",
     name: "Pennylane",
     tagline: "AI accounting & financial management",
@@ -3135,7 +3078,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MARKETING (MORE) =====
-  {
+  
+{
     id: "klaviyo-ai",
     name: "Klaviyo",
     tagline: "AI-powered email & SMS for e-commerce",
@@ -3153,7 +3097,8 @@ export const agents: Agent[] = [
     url: "https://klaviyo.com",
     features: ["AI predictions", "Email & SMS automation", "Segmentation", "Revenue attribution", "A/B testing"]
   },
-  {
+  
+{
     id: "persado",
     name: "Persado",
     tagline: "AI-generated marketing language that converts",
@@ -3171,7 +3116,8 @@ export const agents: Agent[] = [
     url: "https://persado.com",
     features: ["Emotion-based copy", "Language optimization", "Multi-channel", "A/B testing", "Performance prediction"]
   },
-  {
+  
+{
     id: "clearscope",
     name: "Clearscope",
     tagline: "AI content optimization for SEO",
@@ -3191,7 +3137,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CODING (MORE) =====
-  {
+  
+{
     id: "github-copilot-workspace",
     name: "Copilot Workspace",
     tagline: "AI-native dev environment from GitHub",
@@ -3209,7 +3156,8 @@ export const agents: Agent[] = [
     url: "https://github.com/features/copilot/workspace",
     features: ["Task-based planning", "Multi-file editing", "Terminal integration", "PR creation", "Testing"]
   },
-  {
+  
+{
     id: "codeium",
     name: "Codeium",
     tagline: "Free AI code completion & chat",
@@ -3227,7 +3175,8 @@ export const agents: Agent[] = [
     url: "https://codeium.com",
     features: ["Free for individuals", "70+ languages", "All major IDEs", "Chat", "Search"]
   },
-  {
+  
+{
     id: "semgrep-ai",
     name: "Semgrep",
     tagline: "AI-powered code security scanner",
@@ -3247,7 +3196,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CREATIVE (MORE) =====
-  {
+  
+{
     id: "photoshop-ai",
     name: "Adobe Photoshop AI",
     tagline: "AI-powered image editing",
@@ -3265,7 +3215,8 @@ export const agents: Agent[] = [
     url: "https://adobe.com/products/photoshop",
     features: ["Generative Fill", "Generative Expand", "Remove tool", "Neural filters", "Sky replacement"]
   },
-  {
+  
+{
     id: "topaz-ai",
     name: "Topaz Photo AI",
     tagline: "AI photo enhancement & upscaling",
@@ -3283,7 +3234,8 @@ export const agents: Agent[] = [
     url: "https://topazlabs.com",
     features: ["AI upscaling", "Noise removal", "Sharpening", "Face recovery", "Batch processing"]
   },
-  {
+  
+{
     id: "remove-bg",
     name: "remove.bg",
     tagline: "AI background removal in 5 seconds",
@@ -3303,7 +3255,8 @@ export const agents: Agent[] = [
   },
 
   // ===== DATA (MORE) =====
-  {
+  
+{
     id: "anthropic-claude-3-opus",
     name: "Claude 3.5 Sonnet",
     tagline: "Anthropic's most capable model",
@@ -3321,7 +3274,8 @@ export const agents: Agent[] = [
     url: "https://claude.ai",
     features: ["200K context", "Vision", "Tool use", "Code generation", "JSON mode"]
   },
-  {
+  
+{
     id: "gpt-4o",
     name: "GPT-4o",
     tagline: "OpenAI's fastest multimodal model",
@@ -3339,7 +3293,8 @@ export const agents: Agent[] = [
     url: "https://openai.com",
     features: ["Text + audio + image + video", "Real-time voice", "Fast inference", "Affordable", "Function calling"]
   },
-  {
+  
+{
     id: "gemini-2",
     name: "Gemini 2.0",
     tagline: "Google's next-gen multimodal AI",
@@ -3359,25 +3314,8 @@ export const agents: Agent[] = [
   },
 
   // ===== PRODUCTIVITY (MORE) =====
-  {
-    id: "deel-ai",
-    name: "Deel",
-    tagline: "AI-powered global HR & payroll",
-    description: "Deel automates global hiring, payroll, and compliance with AI. Hire anyone in 150+ countries, manage contracts, and stay compliant automatically.",
-    category: "Productivity",
-    categorySlug: "productivity",
-    icon: "🌍",
-    rating: 4.3,
-    users: 35000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["HR", "payroll", "global hiring", "compliance"],
-    creator: "Deel",
-    url: "https://deel.com",
-    features: ["Global payroll", "Contractor management", "Compliance automation", "EOR services", "Benefits admin"]
-  },
-  {
+  
+{
     id: "rippling-ai",
     name: "Rippling",
     tagline: "AI-powered workforce platform",
@@ -3397,7 +3335,8 @@ export const agents: Agent[] = [
   },
 
   // ===== EDUCATION (MORE) =====
-  {
+  
+{
     id: "synthesis-tutor",
     name: "Synthesis Tutor",
     tagline: "AI math tutor for kids",
@@ -3415,7 +3354,8 @@ export const agents: Agent[] = [
     url: "https://synthesis.com",
     features: ["Adaptive difficulty", "Visual explanations", "Progress tracking", "Gamified learning", "Parent dashboard"]
   },
-  {
+  
+{
     id: "kiwi-ai",
     name: "Goblin.tools",
     tagline: "AI tools for neurodivergent users",
@@ -3435,7 +3375,8 @@ export const agents: Agent[] = [
   },
 
   // ===== HEALTH (MORE) =====
-  {
+  
+{
     id: "talkspace-ai",
     name: "Talkspace",
     tagline: "AI-matched online therapy",
@@ -3453,7 +3394,8 @@ export const agents: Agent[] = [
     url: "https://talkspace.com",
     features: ["AI therapist matching", "Text therapy", "Video sessions", "Insurance accepted", "Psychiatry"]
   },
-  {
+  
+{
     id: "woebot-ai",
     name: "Woebot",
     tagline: "AI mental health chatbot",
@@ -3473,7 +3415,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SALES (MORE) =====
-  {
+  
+{
     id: "people-ai",
     name: "People.ai",
     tagline: "AI revenue intelligence platform",
@@ -3491,7 +3434,8 @@ export const agents: Agent[] = [
     url: "https://people.ai",
     features: ["Activity capture", "Revenue intelligence", "Account scoring", "Deal insights", "Coaching"]
   },
-  {
+  
+{
     id: "chorus-ai",
     name: "Chorus by ZoomInfo",
     tagline: "AI conversation intelligence for sales",
@@ -3511,7 +3455,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SUPPORT (MORE) =====
-  {
+  
+{
     id: "tavus-ai",
     name: "Tavus",
     tagline: "AI-generated personalized videos",
@@ -3529,7 +3474,8 @@ export const agents: Agent[] = [
     url: "https://tavus.io",
     features: ["AI video personalization", "Lip sync", "API access", "Bulk generation", "CRM integration"]
   },
-  {
+  
+{
     id: "water-ai",
     name: "Watermelon",
     tagline: "AI chatbot builder for customer service",
@@ -3547,7 +3493,8 @@ export const agents: Agent[] = [
     url: "https://watermelon.ai",
     features: ["GPT-powered chatbots", "Multi-channel", "Knowledge base", "Analytics", "Human handoff"]
   },
-  {
+  
+{
     id: "echowin",
     name: "echowin",
     tagline: "AI phone agent for business",
@@ -3567,7 +3514,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MARKETING — MORE =====
-  {
+  
+{
     id: "beehiiv-ai",
     name: "beehiiv",
     tagline: "AI-powered newsletter platform",
@@ -3585,7 +3533,8 @@ export const agents: Agent[] = [
     url: "https://beehiiv.com",
     features: ["AI subject lines", "Referral programs", "Ad network", "Analytics", "Custom domains"]
   },
-  {
+  
+{
     id: "substack-ai",
     name: "Substack",
     tagline: "AI-enhanced publishing & newsletter platform",
@@ -3603,7 +3552,8 @@ export const agents: Agent[] = [
     url: "https://substack.com",
     features: ["Newsletter publishing", "Paid subscriptions", "Reader app", "Podcast hosting", "Community"]
   },
-  {
+  
+{
     id: "manychat-ai",
     name: "ManyChat",
     tagline: "AI chatbot for Instagram, WhatsApp & Messenger",
@@ -3621,7 +3571,8 @@ export const agents: Agent[] = [
     url: "https://manychat.com",
     features: ["Instagram automation", "WhatsApp flows", "Comment triggers", "SMS marketing", "Live chat handoff"]
   },
-  {
+  
+{
     id: "gupshup-ai",
     name: "Gupshup",
     tagline: "AI conversational messaging platform",
@@ -3639,7 +3590,8 @@ export const agents: Agent[] = [
     url: "https://gupshup.io",
     features: ["WhatsApp Business API", "AI chatbots", "Multi-channel", "Campaign manager", "Analytics"]
   },
-  {
+  
+{
     id: "ttd-trade-desk",
     name: "The Trade Desk",
     tagline: "AI-powered programmatic advertising",
@@ -3657,7 +3609,8 @@ export const agents: Agent[] = [
     url: "https://thetradedesk.com",
     features: ["AI bidding", "Cross-channel", "Audience targeting", "CTV advertising", "Reporting"]
   },
-  {
+  
+{
     id: "smartly-io",
     name: "Smartly",
     tagline: "AI-powered social advertising platform",
@@ -3675,7 +3628,8 @@ export const agents: Agent[] = [
     url: "https://smartly.io",
     features: ["Creative automation", "Dynamic ads", "Cross-platform", "A/B testing", "Reporting"]
   },
-  {
+  
+{
     id: "typefully-ai",
     name: "Typefully",
     tagline: "AI-powered Twitter/X content tool",
@@ -3693,7 +3647,8 @@ export const agents: Agent[] = [
     url: "https://typefully.com",
     features: ["AI tweet rewriting", "Thread builder", "Analytics", "Scheduling", "Collaboration"]
   },
-  {
+  
+{
     id: "taplio-ai",
     name: "Taplio",
     tagline: "AI LinkedIn content & growth tool",
@@ -3711,7 +3666,8 @@ export const agents: Agent[] = [
     url: "https://taplio.com",
     features: ["AI post generation", "Scheduling", "Analytics", "Lead generation", "Carousel builder"]
   },
-  {
+  
+{
     id: "opus-clip",
     name: "Opus Clip",
     tagline: "AI short video repurposing tool",
@@ -3729,7 +3685,8 @@ export const agents: Agent[] = [
     url: "https://opus.pro",
     features: ["AI clip detection", "Auto-captioning", "Reframing", "B-roll matching", "Virality scoring"]
   },
-  {
+  
+{
     id: "predis-ai",
     name: "Predis.ai",
     tagline: "AI social media content generator",
@@ -3747,7 +3704,8 @@ export const agents: Agent[] = [
     url: "https://predis.ai",
     features: ["Post generation", "Reel creation", "Carousel builder", "Brand presets", "Competitor analysis"]
   },
-  {
+  
+{
     id: "storychief-ai",
     name: "StoryChief",
     tagline: "AI content marketing & distribution platform",
@@ -3765,7 +3723,8 @@ export const agents: Agent[] = [
     url: "https://storychief.io",
     features: ["AI writing assistant", "Multi-channel publishing", "SEO optimization", "Content calendar", "Analytics"]
   },
-  {
+  
+{
     id: "rankmath-ai",
     name: "Rank Math SEO",
     tagline: "AI-powered WordPress SEO plugin",
@@ -3783,7 +3742,8 @@ export const agents: Agent[] = [
     url: "https://rankmath.com",
     features: ["AI meta generation", "Schema markup", "Content analysis", "Redirect manager", "Keyword tracking"]
   },
-  {
+  
+{
     id: "surfer-seo-writer",
     name: "Surfer AI Writer",
     tagline: "AI long-form content writer for SEO",
@@ -3801,7 +3761,8 @@ export const agents: Agent[] = [
     url: "https://surferseo.com",
     features: ["SEO article generation", "Outline builder", "Content scoring", "Auto-optimize", "Plagiarism check"]
   },
-  {
+  
+{
     id: "neuronwriter-ai",
     name: "NeuronWriter",
     tagline: "AI content optimization with NLP",
@@ -3819,7 +3780,8 @@ export const agents: Agent[] = [
     url: "https://neuronwriter.com",
     features: ["NLP analysis", "SERP analysis", "Content scoring", "Keyword suggestions", "AI writing"]
   },
-  {
+  
+{
     id: "ocean-io",
     name: "Ocean.io",
     tagline: "AI-powered B2B account targeting",
@@ -3837,7 +3799,8 @@ export const agents: Agent[] = [
     url: "https://ocean.io",
     features: ["Lookalike companies", "Data enrichment", "ABM campaigns", "Intent signals", "CRM sync"]
   },
-  {
+  
+{
     id: "unbounce-ai",
     name: "Unbounce",
     tagline: "AI landing page builder & optimizer",
@@ -3855,7 +3818,8 @@ export const agents: Agent[] = [
     url: "https://unbounce.com",
     features: ["AI landing pages", "Smart Traffic", "A/B testing", "Popups & sticky bars", "Analytics"]
   },
-  {
+  
+{
     id: "instapage-ai",
     name: "Instapage",
     tagline: "AI-powered landing page platform",
@@ -3873,7 +3837,8 @@ export const agents: Agent[] = [
     url: "https://instapage.com",
     features: ["Dynamic personalization", "AI experiments", "AdMap", "Thor Render Engine", "Heatmaps"]
   },
-  {
+  
+{
     id: "contentful-ai",
     name: "Contentful",
     tagline: "AI-powered content platform",
@@ -3893,7 +3858,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CODING — MORE =====
-  {
+  
+{
     id: "devin-ai",
     name: "Devin",
     tagline: "AI software engineer by Cognition",
@@ -3911,7 +3877,8 @@ export const agents: Agent[] = [
     url: "https://devin.ai",
     features: ["Autonomous coding", "Full-stack capability", "Test writing", "Debugging", "Pull request creation"]
   },
-  {
+  
+{
     id: "factory-ai",
     name: "Factory",
     tagline: "AI-powered software development platform",
@@ -3929,7 +3896,8 @@ export const agents: Agent[] = [
     url: "https://factory.ai",
     features: ["AI code review", "Test generation", "Documentation", "CI/CD integration", "GitHub integration"]
   },
-  {
+  
+{
     id: "augment-code",
     name: "Augment Code",
     tagline: "AI coding assistant for enterprise",
@@ -3947,7 +3915,8 @@ export const agents: Agent[] = [
     url: "https://augmentcode.com",
     features: ["Full codebase context", "Enterprise security", "IDE integration", "Multi-repo", "Team learning"]
   },
-  {
+  
+{
     id: "magic-ai",
     name: "Magic",
     tagline: "AI software engineer with 100M token context",
@@ -3965,7 +3934,8 @@ export const agents: Agent[] = [
     url: "https://magic.dev",
     features: ["100M token context", "Code generation", "Full codebase understanding", "Multi-language", "Enterprise"]
   },
-  {
+  
+{
     id: "supermaven",
     name: "Supermaven",
     tagline: "Fastest AI code completion",
@@ -3983,7 +3953,8 @@ export const agents: Agent[] = [
     url: "https://supermaven.com",
     features: ["50ms latency", "1M token context", "VS Code & JetBrains", "Multi-language", "Free tier"]
   },
-  {
+  
+{
     id: "coderabbit-ai",
     name: "CodeRabbit",
     tagline: "AI-powered code review for every PR",
@@ -4001,7 +3972,8 @@ export const agents: Agent[] = [
     url: "https://coderabbit.ai",
     features: ["Auto PR review", "Line-by-line feedback", "Bug detection", "Multi-language", "GitHub/GitLab"]
   },
-  {
+  
+{
     id: "greptile-ai",
     name: "Greptile",
     tagline: "AI codebase understanding for teams",
@@ -4019,7 +3991,8 @@ export const agents: Agent[] = [
     url: "https://greptile.com",
     features: ["Codebase indexing", "Natural language Q&A", "Code review", "API access", "GitHub integration"]
   },
-  {
+  
+{
     id: "codegen-ai",
     name: "CodeGen",
     tagline: "AI agent for autonomous code changes",
@@ -4037,7 +4010,8 @@ export const agents: Agent[] = [
     url: "https://codegen.com",
     features: ["Autonomous changes", "Multi-file editing", "Test creation", "PR generation", "Migration support"]
   },
-  {
+  
+{
     id: "pieces-ai",
     name: "Pieces",
     tagline: "AI-powered developer productivity toolkit",
@@ -4055,7 +4029,8 @@ export const agents: Agent[] = [
     url: "https://pieces.app",
     features: ["Snippet saving", "AI enrichment", "Context capture", "IDE plugins", "Search"]
   },
-  {
+  
+{
     id: "gitpod-ai",
     name: "Gitpod",
     tagline: "AI-powered cloud development environments",
@@ -4073,7 +4048,8 @@ export const agents: Agent[] = [
     url: "https://gitpod.io",
     features: ["Instant workspaces", "Prebuilds", "VS Code in browser", "GitHub integration", "Docker support"]
   },
-  {
+  
+{
     id: "coder-ai",
     name: "Coder",
     tagline: "Self-hosted cloud development environments",
@@ -4091,25 +4067,8 @@ export const agents: Agent[] = [
     url: "https://coder.com",
     features: ["Self-hosted", "IDE support", "Terraform workspaces", "Air-gapped", "Enterprise SSO"]
   },
-  {
-    id: "sweep-dev",
-    name: "Sweep",
-    tagline: "AI junior developer for bug fixes",
-    description: "Sweep handles bug fixes and small features through GitHub issues. It reads your codebase, plans changes, and creates pull requests automatically.",
-    category: "Coding",
-    categorySlug: "coding",
-    icon: "🧹",
-    rating: 3.5,
-    users: 20000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["GitHub", "bug fixes", "PR", "automation"],
-    creator: "Sweep AI",
-    url: "https://sweep.dev",
-    features: ["Issue to PR", "Codebase understanding", "Auto-testing", "Plan & execute", "Code review"]
-  },
-  {
+  
+{
     id: "tauri-ai",
     name: "Tauri",
     tagline: "Build cross-platform apps with AI assistance",
@@ -4127,7 +4086,8 @@ export const agents: Agent[] = [
     url: "https://tauri.app",
     features: ["Rust backend", "Web frontend", "Small bundle size", "Cross-platform", "Plugin system"]
   },
-  {
+  
+{
     id: "warp-ai",
     name: "Warp",
     tagline: "AI-powered modern terminal",
@@ -4145,7 +4105,8 @@ export const agents: Agent[] = [
     url: "https://warp.dev",
     features: ["AI command search", "Natural language", "Block output", "Team sharing", "Themes"]
   },
-  {
+  
+{
     id: "iterm2-ai",
     name: "iTerm2 + AI",
     tagline: "AI-enhanced terminal for macOS",
@@ -4165,7 +4126,8 @@ export const agents: Agent[] = [
   },
 
   // ===== BUSINESS — MORE =====
-  {
+  
+{
     id: "deel-hr-ai",
     name: "Deel HR",
     tagline: "AI global HR platform",
@@ -4183,7 +4145,8 @@ export const agents: Agent[] = [
     url: "https://deel.com",
     features: ["Global payroll", "EOR services", "Compliance automation", "Benefits admin", "Contractor management"]
   },
-  {
+  
+{
     id: "gusto-ai",
     name: "Gusto",
     tagline: "AI-powered payroll & HR for small business",
@@ -4201,25 +4164,8 @@ export const agents: Agent[] = [
     url: "https://gusto.com",
     features: ["Auto payroll", "Benefits management", "Onboarding", "Time tracking", "Tax filing"]
   },
-  {
-    id: "quickbooks-ai",
-    name: "QuickBooks AI",
-    tagline: "AI-powered accounting for small business",
-    description: "QuickBooks uses AI to automate bookkeeping, categorize transactions, and provide financial insights. The #1 accounting software for small businesses.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "📊",
-    rating: 3.9,
-    users: 7000000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["accounting", "bookkeeping", "invoicing", "taxes"],
-    creator: "Intuit",
-    url: "https://quickbooks.intuit.com",
-    features: ["AI categorization", "Invoice management", "Expense tracking", "Tax preparation", "Reports"]
-  },
-  {
+  
+{
     id: "xero-ai",
     name: "Xero",
     tagline: "AI-powered cloud accounting",
@@ -4237,7 +4183,8 @@ export const agents: Agent[] = [
     url: "https://xero.com",
     features: ["Auto bank reconciliation", "AI invoicing", "Expense claims", "Payroll", "Multi-currency"]
   },
-  {
+  
+{
     id: "bill-ai",
     name: "BILL",
     tagline: "AI-powered accounts payable & receivable",
@@ -4255,7 +4202,8 @@ export const agents: Agent[] = [
     url: "https://bill.com",
     features: ["AI invoice capture", "Approval workflows", "Payment automation", "Sync with accounting", "International payments"]
   },
-  {
+  
+{
     id: "stripe-ai",
     name: "Stripe",
     tagline: "AI-powered payment infrastructure",
@@ -4273,25 +4221,8 @@ export const agents: Agent[] = [
     url: "https://stripe.com",
     features: ["Payment processing", "AI fraud detection", "Subscription billing", "Invoicing", "Revenue recognition"]
   },
-  {
-    id: "plaid-ai",
-    name: "Plaid",
-    tagline: "AI-powered financial data connectivity",
-    description: "Plaid connects apps to bank accounts with AI-powered verification and categorization. Build fintech products with secure financial data access.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🏦",
-    rating: 4.3,
-    users: 12000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["fintech", "banking", "financial data", "API"],
-    creator: "Plaid",
-    url: "https://plaid.com",
-    features: ["Bank linking", "Identity verification", "Transaction categorization", "Balance checks", "Transfer"]
-  },
-  {
+  
+{
     id: "brex-ai-card",
     name: "Brex Card",
     tagline: "AI-powered corporate card for startups",
@@ -4309,43 +4240,8 @@ export const agents: Agent[] = [
     url: "https://brex.com",
     features: ["Higher credit limits", "AI expense management", "No personal guarantee", "Rewards", "Accounting sync"]
   },
-  {
-    id: "mercury-ai",
-    name: "Mercury",
-    tagline: "AI-powered banking for startups",
-    description: "Mercury provides banking built for startups with AI-powered insights. Manage cash, issue cards, and get financial intelligence in one dashboard.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "☿",
-    rating: 4.6,
-    users: 100000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["banking", "startup", "fintech", "treasury"],
-    creator: "Mercury",
-    url: "https://mercury.com",
-    features: ["Free banking", "Treasury management", "Corporate cards", "Bill pay", "API"]
-  },
-  {
-    id: "wise-ai",
-    name: "Wise",
-    tagline: "AI-powered international money transfers",
-    description: "Wise (formerly TransferWise) uses AI to find the cheapest and fastest way to send money internationally. Real exchange rates, low transparent fees.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "💸",
-    rating: 4.7,
-    users: 16000000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["international payments", "money transfer", "fintech", "multi-currency"],
-    creator: "Wise",
-    url: "https://wise.com",
-    features: ["Real exchange rates", "Multi-currency account", "Debit card", "Business payments", "API"]
-  },
-  {
+  
+{
     id: "notion-calendar",
     name: "Notion Calendar",
     tagline: "AI-powered calendar integrated with Notion",
@@ -4363,7 +4259,8 @@ export const agents: Agent[] = [
     url: "https://cron.com",
     features: ["Notion integration", "AI scheduling", "Multi-calendar", "Time blocking", "Meeting links"]
   },
-  {
+  
+{
     id: "monday-ai",
     name: "Monday.com",
     tagline: "AI-powered work management platform",
@@ -4381,7 +4278,8 @@ export const agents: Agent[] = [
     url: "https://monday.com",
     features: ["AI workflows", "Custom apps", "Automations", "Dashboards", "Integrations"]
   },
-  {
+  
+{
     id: "asana-ai",
     name: "Asana",
     tagline: "AI-powered project management",
@@ -4399,7 +4297,8 @@ export const agents: Agent[] = [
     url: "https://asana.com",
     features: ["AI smart fields", "Status updates", "Timeline", "Portfolios", "Goals"]
   },
-  {
+  
+{
     id: "smartsheet-ai",
     name: "Smartsheet",
     tagline: "AI-powered work management platform",
@@ -4419,7 +4318,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CREATIVE — MORE =====
-  {
+  
+{
     id: "premiere-ai",
     name: "Adobe Premiere Pro AI",
     tagline: "AI-powered video editing",
@@ -4437,7 +4337,8 @@ export const agents: Agent[] = [
     url: "https://adobe.com/products/premiere",
     features: ["Auto-reframing", "Scene edit detection", "Color match", "Speech-to-text", "AI audio"]
   },
-  {
+  
+{
     id: "final-cut-ai",
     name: "Final Cut Pro AI",
     tagline: "AI-powered video editing for Mac",
@@ -4455,7 +4356,8 @@ export const agents: Agent[] = [
     url: "https://apple.com/final-cut-pro",
     features: ["Object tracking", "Scene removal mask", "Auto-cropping", "Color correction", "Apple silicon optimized"]
   },
-  {
+  
+{
     id: "davinci-ai",
     name: "DaVinci Resolve AI",
     tagline: "AI-powered video editing & color grading",
@@ -4473,7 +4375,8 @@ export const agents: Agent[] = [
     url: "https://blackmagicdesign.com/products/davinciresolve",
     features: ["Magic Mask", "Speed warp", "Facial recognition", "Neural engine", "Fairlight audio"]
   },
-  {
+  
+{
     id: "runway-gen3",
     name: "Runway Gen-3",
     tagline: "Next-gen AI video generation",
@@ -4491,7 +4394,8 @@ export const agents: Agent[] = [
     url: "https://runwayml.com",
     features: ["Text-to-video", "Image-to-video", "Motion brush", "Camera controls", "Character consistency"]
   },
-  {
+  
+{
     id: "stable-diffusion",
     name: "Stable Diffusion",
     tagline: "Open-source AI image generation",
@@ -4509,7 +4413,8 @@ export const agents: Agent[] = [
     url: "https://stability.ai",
     features: ["Open source", "Local execution", "Fine-tuning", "ControlNet", "Multiple models"]
   },
-  {
+  
+{
     id: "comfyui",
     name: "ComfyUI",
     tagline: "Node-based AI image generation workflow",
@@ -4527,7 +4432,8 @@ export const agents: Agent[] = [
     url: "https://github.com/comfyanonymous/ComfyUI",
     features: ["Node-based workflow", "Batch processing", "Custom nodes", "API", "Multi-model"]
   },
-  {
+  
+{
     id: "automatic1111",
     name: "Stable Diffusion WebUI",
     tagline: "Popular UI for Stable Diffusion",
@@ -4545,7 +4451,8 @@ export const agents: Agent[] = [
     url: "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     features: ["txt2img", "img2img", "ControlNet", "Extensions", "Inpainting"]
   },
-  {
+  
+{
     id: "flux-ai",
     name: "FLUX",
     tagline: "Next-gen open-source image generation",
@@ -4563,7 +4470,8 @@ export const agents: Agent[] = [
     url: "https://blackforestlabs.ai",
     features: ["High quality output", "Fast generation", "Open source", "Multiple variants", "API available"]
   },
-  {
+  
+{
     id: "mj-v6",
     name: "Midjourney v6",
     tagline: "Latest Midjourney model with improved realism",
@@ -4581,7 +4489,8 @@ export const agents: Agent[] = [
     url: "https://midjourney.com",
     features: ["Photorealistic output", "Text rendering", "Style control", "Zoom out", "Variations"]
   },
-  {
+  
+{
     id: "resemble-ai",
     name: "Resemble AI",
     tagline: "AI voice cloning & text-to-speech",
@@ -4599,7 +4508,8 @@ export const agents: Agent[] = [
     url: "https://resemble.ai",
     features: ["Voice cloning", "Real-time TTS", "Localization", "API", "Audio editing"]
   },
-  {
+  
+{
     id: "play-ht",
     name: "Play.ht",
     tagline: "AI voice generation & text-to-speech",
@@ -4617,7 +4527,8 @@ export const agents: Agent[] = [
     url: "https://play.ht",
     features: ["900+ voices", "142 languages", "Voice cloning", "Podcast hosting", "WordPress plugin"]
   },
-  {
+  
+{
     id: "murf-ai",
     name: "Murf",
     tagline: "AI voice generator for professionals",
@@ -4635,7 +4546,8 @@ export const agents: Agent[] = [
     url: "https://murf.ai",
     features: ["120+ voices", "Pitch control", "Speed adjustment", "Background music", "Collaboration"]
   },
-  {
+  
+{
     id: "artlist-ai",
     name: "Artlist",
     tagline: "AI-powered creative assets platform",
@@ -4653,7 +4565,8 @@ export const agents: Agent[] = [
     url: "https://artlist.io",
     features: ["AI music search", "Unlimited downloads", "Stock footage", "Sound effects", "Templates"]
   },
-  {
+  
+{
     id: "epidemic-sound",
     name: "Epidemic Sound",
     tagline: "AI-curated royalty-free music",
@@ -4671,7 +4584,8 @@ export const agents: Agent[] = [
     url: "https://epidemicsound.com",
     features: ["AI music discovery", "Stems available", "Unlimited licensing", "Mood search", "Playlist curation"]
   },
-  {
+  
+{
     id: "freepik-ai",
     name: "Freepik AI",
     tagline: "AI image generation & design assets",
@@ -4691,7 +4605,8 @@ export const agents: Agent[] = [
   },
 
   // ===== DATA — MORE =====
-  {
+  
+{
     id: "perplexity-sonar",
     name: "Perplexity Sonar",
     tagline: "AI search API for developers",
@@ -4709,7 +4624,8 @@ export const agents: Agent[] = [
     url: "https://perplexity.ai",
     features: ["Real-time search", "Cited answers", "API access", "Multiple models", "Low latency"]
   },
-  {
+  
+{
     id: "exa-ai",
     name: "Exa",
     tagline: "AI search engine API for developers",
@@ -4727,7 +4643,8 @@ export const agents: Agent[] = [
     url: "https://exa.ai",
     features: ["Semantic search", "Content retrieval", "Embeddings", "Similarity search", "API"]
   },
-  {
+  
+{
     id: "tavily-ai",
     name: "Tavily",
     tagline: "AI search API for agents",
@@ -4745,7 +4662,8 @@ export const agents: Agent[] = [
     url: "https://tavily.com",
     features: ["Agent-optimized search", "Real-time results", "RAG support", "API", "Low latency"]
   },
-  {
+  
+{
     id: "serper-ai",
     name: "Serper",
     tagline: "Google Search API for AI applications",
@@ -4763,7 +4681,8 @@ export const agents: Agent[] = [
     url: "https://serper.dev",
     features: ["Google Search API", "Low latency", "Structured results", "Location support", "Batch queries"]
   },
-  {
+  
+{
     id: "bright-data",
     name: "Bright Data",
     tagline: "AI-powered web data collection platform",
@@ -4781,7 +4700,8 @@ export const agents: Agent[] = [
     url: "https://brightdata.com",
     features: ["Proxy network", "Web scraper IDE", "Ready datasets", "SERP API", "Browser automation"]
   },
-  {
+  
+{
     id: "browserbase",
     name: "Browserbase",
     tagline: "Headless browser infrastructure for AI agents",
@@ -4799,7 +4719,8 @@ export const agents: Agent[] = [
     url: "https://browserbase.com",
     features: ["Headless browsers", "AI agent support", "Session management", "Proxy support", "API"]
   },
-  {
+  
+{
     id: "scrapingbee",
     name: "ScrapingBee",
     tagline: "AI web scraping API",
@@ -4817,7 +4738,8 @@ export const agents: Agent[] = [
     url: "https://scrapingbee.com",
     features: ["JavaScript rendering", "Proxy rotation", "Screenshot API", "Chrome", "Data extraction"]
   },
-  {
+  
+{
     id: "apify-ai",
     name: "Apify",
     tagline: "AI-powered web scraping & automation platform",
@@ -4835,7 +4757,8 @@ export const agents: Agent[] = [
     url: "https://apify.com",
     features: ["Actor marketplace", "AI extraction", "Proxy management", "Scheduling", "Integrations"]
   },
-  {
+  
+{
     id: "deepgram-ai",
     name: "Deepgram",
     tagline: "AI speech-to-text API",
@@ -4853,7 +4776,8 @@ export const agents: Agent[] = [
     url: "https://deepgram.com",
     features: ["Real-time transcription", "Batch processing", "Speaker diarization", "Sentiment analysis", "API"]
   },
-  {
+  
+{
     id: "assembly-ai",
     name: "AssemblyAI",
     tagline: "AI speech recognition & understanding API",
@@ -4871,7 +4795,8 @@ export const agents: Agent[] = [
     url: "https://assemblyai.com",
     features: ["Transcription", "Summarization", "Content moderation", "Topic detection", "PII redaction"]
   },
-  {
+  
+{
     id: "whisper-api",
     name: "OpenAI Whisper",
     tagline: "Open-source speech recognition model",
@@ -4889,7 +4814,8 @@ export const agents: Agent[] = [
     url: "https://github.com/openai/whisper",
     features: ["99 languages", "Open source", "Local execution", "High accuracy", "Translation"]
   },
-  {
+  
+{
     id: "qdrant-ai",
     name: "Qdrant",
     tagline: "Open-source vector database",
@@ -4907,7 +4833,8 @@ export const agents: Agent[] = [
     url: "https://qdrant.tech",
     features: ["High performance", "Advanced filtering", "Multi-vector", "Cloud & self-hosted", "gRPC & REST"]
   },
-  {
+  
+{
     id: "chroma-ai",
     name: "Chroma",
     tagline: "Open-source embedding database",
@@ -4925,7 +4852,8 @@ export const agents: Agent[] = [
     url: "https://trychroma.com",
     features: ["Simple API", "Open source", "Python & JS", "Local & cloud", "RAG support"]
   },
-  {
+  
+{
     id: "milvus-ai",
     name: "Milvus",
     tagline: "Open-source vector database at scale",
@@ -4943,7 +4871,8 @@ export const agents: Agent[] = [
     url: "https://milvus.io",
     features: ["Billion-scale vectors", "High performance", "Cloud native", "GPU support", "Hybrid search"]
   },
-  {
+  
+{
     id: "unstructured-ai",
     name: "Unstructured",
     tagline: "AI data preprocessing for LLMs",
@@ -4961,7 +4890,8 @@ export const agents: Agent[] = [
     url: "https://unstructured.io",
     features: ["PDF parsing", "Image extraction", "HTML cleaning", "API", "Partitioning"]
   },
-  {
+  
+{
     id: "llamaparse-ai",
     name: "LlamaParse",
     tagline: "AI document parsing for RAG",
@@ -4981,7 +4911,8 @@ export const agents: Agent[] = [
   },
 
   // ===== PRODUCTIVITY — MORE =====
-  {
+  
+{
     id: "notion-q-and-a",
     name: "Notion Q&A",
     tagline: "AI search across your Notion workspace",
@@ -4999,7 +4930,8 @@ export const agents: Agent[] = [
     url: "https://notion.so",
     features: ["Workspace search", "AI answers", "Source citations", "Multi-language", "Real-time"]
   },
-  {
+  
+{
     id: "tana-ai",
     name: "Tana",
     tagline: "AI-powered knowledge graph workspace",
@@ -5017,7 +4949,8 @@ export const agents: Agent[] = [
     url: "https://tana.inc",
     features: ["Knowledge graph", "AI capture", "Supertags", "Commands", "Daily journal"]
   },
-  {
+  
+{
     id: "craft-ai",
     name: "Craft",
     tagline: "AI-powered document & note-taking app",
@@ -5035,7 +4968,8 @@ export const agents: Agent[] = [
     url: "https://craft.do",
     features: ["AI writing", "Beautiful docs", "Collaboration", "Templates", "Offline support"]
   },
-  {
+  
+{
     id: "heptabase-ai",
     name: "Heptabase",
     tagline: "AI-powered visual knowledge management",
@@ -5053,7 +4987,8 @@ export const agents: Agent[] = [
     url: "https://heptabase.com",
     features: ["Visual workspace", "Card linking", "AI assistant", "PDF annotation", "Daily journal"]
   },
-  {
+  
+{
     id: "capacities-ai",
     name: "Capacities",
     tagline: "AI-powered object-based note-taking",
@@ -5071,7 +5006,8 @@ export const agents: Agent[] = [
     url: "https://capacities.io",
     features: ["Object-based notes", "AI assistant", "Daily notes", "Web clipper", "Graph view"]
   },
-  {
+  
+{
     id: "logseq-ai",
     name: "Logseq",
     tagline: "AI-enhanced open-source knowledge base",
@@ -5089,7 +5025,8 @@ export const agents: Agent[] = [
     url: "https://logseq.com",
     features: ["Outliner", "Bidirectional links", "Graph view", "PDF annotation", "Local-first"]
   },
-  {
+  
+{
     id: "any-do-ai",
     name: "Any.do",
     tagline: "AI-powered task & calendar manager",
@@ -5107,7 +5044,8 @@ export const agents: Agent[] = [
     url: "https://any.do",
     features: ["AI task suggestions", "Calendar integration", "Daily planner", "Grocery lists", "WhatsApp reminders"]
   },
-  {
+  
+{
     id: "fantastical-ai",
     name: "Fantastical",
     tagline: "AI-powered calendar & tasks for Apple",
@@ -5125,7 +5063,8 @@ export const agents: Agent[] = [
     url: "https://flexibits.com/fantastical",
     features: ["Natural language input", "Scheduling proposals", "Weather integration", "Tasks", "Widgets"]
   },
-  {
+  
+{
     id: "routine-ai",
     name: "Routine",
     tagline: "AI-powered day planner & notes",
@@ -5143,7 +5082,8 @@ export const agents: Agent[] = [
     url: "https://routine.co",
     features: ["Day planning", "Calendar + tasks", "Notes", "AI assistant", "Multi-platform"]
   },
-  {
+  
+{
     id: "morgen-ai",
     name: "Morgen",
     tagline: "AI calendar & task manager in one",
@@ -5163,7 +5103,8 @@ export const agents: Agent[] = [
   },
 
   // ===== EDUCATION — MORE =====
-  {
+  
+{
     id: "chatgpt-education",
     name: "ChatGPT Edu",
     tagline: "AI assistant for universities",
@@ -5181,7 +5122,8 @@ export const agents: Agent[] = [
     url: "https://openai.com/education",
     features: ["GPT-4 access", "Admin controls", "Data privacy", "Campus deployment", "Custom GPTs"]
   },
-  {
+  
+{
     id: "tutor-ai",
     name: "Tutor AI",
     tagline: "AI personal tutor for any subject",
@@ -5199,7 +5141,8 @@ export const agents: Agent[] = [
     url: "https://tutorai.me",
     features: ["Custom courses", "Adaptive learning", "Quizzes", "Progress tracking", "Multi-subject"]
   },
-  {
+  
+{
     id: "mindsmith-ai",
     name: "Mindsmith",
     tagline: "AI-powered course & training builder",
@@ -5217,7 +5160,8 @@ export const agents: Agent[] = [
     url: "https://mindsmith.ai",
     features: ["AI course generation", "Interactive lessons", "Assessments", "SCORM export", "Collaboration"]
   },
-  {
+  
+{
     id: "gamma-ai",
     name: "Gamma",
     tagline: "AI-powered presentations & docs",
@@ -5235,7 +5179,8 @@ export const agents: Agent[] = [
     url: "https://gamma.app",
     features: ["AI presentations", "Document creation", "Webpages", "Templates", "Analytics"]
   },
-  {
+  
+{
     id: "beautiful-ai",
     name: "Beautiful.ai",
     tagline: "AI-powered presentation design",
@@ -5253,7 +5198,8 @@ export const agents: Agent[] = [
     url: "https://beautiful.ai",
     features: ["Smart templates", "Auto-layout", "AI design", "Collaboration", "Analytics"]
   },
-  {
+  
+{
     id: "tome-ai",
     name: "Tome",
     tagline: "AI-powered storytelling & presentations",
@@ -5271,27 +5217,8 @@ export const agents: Agent[] = [
     url: "https://tome.app",
     features: ["AI presentation generation", "Narrative structure", "Image generation", "Templates", "Analytics"]
   },
-  {
-    id: "kaiden-ai",
-    name: "Khanmigo",
-    tagline: "AI tutor by Khan Academy",
-    description: "Khanmigo is Khan Academy's AI tutor that guides students through problems using Socratic questioning. Available for math, science, and humanities.",
-    category: "Education",
-    categorySlug: "education",
-    icon: "🎓",
-    rating: 4.9,
-    users: 10000000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["tutoring", "math", "Khan Academy", "Socratic"],
-    creator: "Khan Academy",
-    url: "https://khanacademy.org",
-    features: ["Socratic method", "Step-by-step", "Multi-subject", "Teacher tools", "Progress tracking"]
-  },
-
-  // ===== HEALTH — MORE =====
-  {
+  
+{
     id: "betterhelp-ai",
     name: "BetterHelp",
     tagline: "AI-matched online therapy platform",
@@ -5309,7 +5236,8 @@ export const agents: Agent[] = [
     url: "https://betterhelp.com",
     features: ["AI therapist matching", "Text/phone/video", "Unlimited messaging", "Group webinars", "Journal"]
   },
-  {
+  
+{
     id: "calm-ai",
     name: "Calm",
     tagline: "AI-personalized meditation & sleep",
@@ -5327,7 +5255,8 @@ export const agents: Agent[] = [
     url: "https://calm.com",
     features: ["Personalized meditations", "Sleep stories", "Daily calm", "Breathing exercises", "Music"]
   },
-  {
+  
+{
     id: "headspace-ai",
     name: "Headspace",
     tagline: "AI-guided meditation & mental health",
@@ -5345,7 +5274,8 @@ export const agents: Agent[] = [
     url: "https://headspace.com",
     features: ["AI-guided sessions", "Sleep sounds", "Focus music", "Move workouts", "Stress relief"]
   },
-  {
+  
+{
     id: "peloton-ai",
     name: "Peloton",
     tagline: "AI-personalized fitness classes",
@@ -5363,7 +5293,8 @@ export const agents: Agent[] = [
     url: "https://onepeloton.com",
     features: ["AI class recommendations", "Performance tracking", "Live classes", "Leaderboard", "Multi-device"]
   },
-  {
+  
+{
     id: "freeletics-ai",
     name: "Freeletics",
     tagline: "AI personal trainer in your pocket",
@@ -5381,7 +5312,8 @@ export const agents: Agent[] = [
     url: "https://freeletics.com",
     features: ["AI training plans", "Bodyweight exercises", "Nutrition coaching", "Running plans", "Community"]
   },
-  {
+  
+{
     id: "lifesum-ai",
     name: "Lifesum",
     tagline: "AI nutrition & diet tracker",
@@ -5399,7 +5331,8 @@ export const agents: Agent[] = [
     url: "https://lifesum.com",
     features: ["AI meal plans", "Calorie tracking", "Barcode scanner", "Recipes", "Macro tracking"]
   },
-  {
+  
+{
     id: "sleep-cycle-ai",
     name: "Sleep Cycle",
     tagline: "AI-powered sleep analysis & alarm",
@@ -5419,7 +5352,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SALES — MORE =====
-  {
+  
+{
     id: "relevance-ai",
     name: "Relevance AI",
     tagline: "Build AI sales agents without code",
@@ -5437,7 +5371,8 @@ export const agents: Agent[] = [
     url: "https://relevanceai.com",
     features: ["Agent builder", "Lead research", "Outreach automation", "Data enrichment", "Templates"]
   },
-  {
+  
+{
     id: "regie-ai",
     name: "Regie.ai",
     tagline: "AI sales content & prospecting",
@@ -5455,7 +5390,8 @@ export const agents: Agent[] = [
     url: "https://regie.ai",
     features: ["AI email generation", "Sequence building", "A/B testing", "Analytics", "CRM integration"]
   },
-  {
+  
+{
     id: "avoma-ai",
     name: "Avoma",
     tagline: "AI meeting assistant & revenue intelligence",
@@ -5473,7 +5409,8 @@ export const agents: Agent[] = [
     url: "https://avoma.com",
     features: ["AI transcription", "Meeting analytics", "Deal intelligence", "Coaching", "CRM sync"]
   },
-  {
+  
+{
     id: "wingman-ai",
     name: "Clari Copilot",
     tagline: "AI sales call assistant",
@@ -5491,7 +5428,8 @@ export const agents: Agent[] = [
     url: "https://clari.com",
     features: ["Real-time coaching", "Battle cards", "Talk time analytics", "Recordings", "Deal intelligence"]
   },
-  {
+  
+{
     id: "apollo-io-sequences",
     name: "Apollo Sequences",
     tagline: "AI-powered multi-channel sales sequences",
@@ -5509,7 +5447,8 @@ export const agents: Agent[] = [
     url: "https://apollo.io",
     features: ["AI sequences", "Multi-channel", "A/B testing", "Smart timing", "Analytics"]
   },
-  {
+  
+{
     id: "cognism-ai",
     name: "Cognism",
     tagline: "AI-powered B2B sales intelligence",
@@ -5529,7 +5468,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CUSTOMER SUPPORT — MORE =====
-  {
+  
+{
     id: "kustomer-ai-bot",
     name: "Kustomer AI",
     tagline: "AI-first customer service platform",
@@ -5547,25 +5487,8 @@ export const agents: Agent[] = [
     url: "https://kustomer.com",
     features: ["AI agents", "Unified timeline", "Omnichannel", "Predictive analytics", "Automation"]
   },
-  {
-    id: "gorgias-ai",
-    name: "Gorgias",
-    tagline: "AI customer service for e-commerce",
-    description: "Gorgias is the AI-powered helpdesk built for e-commerce. Automate responses, manage tickets, and boost revenue from customer conversations.",
-    category: "Customer Support",
-    categorySlug: "support",
-    icon: "🛒",
-    rating: 4.5,
-    users: 15000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["e-commerce", "helpdesk", "Shopify", "automation"],
-    creator: "Gorgias",
-    url: "https://gorgias.com",
-    features: ["AI auto-responders", "Shopify integration", "Revenue tracking", "Macros", "Multi-channel"]
-  },
-  {
+  
+{
     id: "intercom-ai-chat",
     name: "Intercom",
     tagline: "AI-first customer messaging platform",
@@ -5583,7 +5506,8 @@ export const agents: Agent[] = [
     url: "https://intercom.com",
     features: ["Fin AI agent", "Product tours", "Help center", "Outbound messaging", "Reporting"]
   },
-  {
+  
+{
     id: "hubspot-service-ai",
     name: "HubSpot Service Hub",
     tagline: "AI-powered customer service platform",
@@ -5601,7 +5525,8 @@ export const agents: Agent[] = [
     url: "https://hubspot.com/service",
     features: ["AI chatbot", "Ticket routing", "Knowledge base", "Customer feedback", "Live chat"]
   },
-  {
+  
+{
     id: "zoho-desk-ai",
     name: "Zoho Desk",
     tagline: "AI-powered context-aware helpdesk",
@@ -5619,7 +5544,8 @@ export const agents: Agent[] = [
     url: "https://zoho.com/desk",
     features: ["Zia AI assistant", "Sentiment analysis", "Anomaly detection", "Response suggestions", "Workflows"]
   },
-  {
+  
+{
     id: "voiceflow-ai",
     name: "Voiceflow",
     tagline: "AI agent building platform",
@@ -5637,7 +5563,8 @@ export const agents: Agent[] = [
     url: "https://voiceflow.com",
     features: ["Visual agent builder", "Knowledge base", "Multi-channel", "Analytics", "Collaboration"]
   },
-  {
+  
+{
     id: "botpress-ai",
     name: "Botpress",
     tagline: "Open-source AI chatbot platform",
@@ -5655,7 +5582,8 @@ export const agents: Agent[] = [
     url: "https://botpress.com",
     features: ["GPT-powered bots", "Visual builder", "Open source", "Multi-channel", "Analytics"]
   },
-  {
+  
+{
     id: "landbot-ai",
     name: "Landbot",
     tagline: "AI-powered no-code chatbot builder",
@@ -5673,7 +5601,8 @@ export const agents: Agent[] = [
     url: "https://landbot.io",
     features: ["Drag-and-drop builder", "AI responses", "WhatsApp integration", "Webhooks", "Analytics"]
   },
-  {
+  
+{
     id: "tawk-to-ai",
     name: "Tawk.to",
     tagline: "Free AI-powered live chat",
@@ -5691,7 +5620,8 @@ export const agents: Agent[] = [
     url: "https://tawk.to",
     features: ["Free live chat", "AI responses", "Ticketing", "Knowledge base", "Mobile apps"]
   },
-  {
+  
+{
     id: "crescendo-ai",
     name: "Crescendo.ai",
     tagline: "AI-powered customer support analytics",
@@ -5711,7 +5641,8 @@ export const agents: Agent[] = [
   },
 
   // ===== FINTECH & LEGAL =====
-  {
+  
+{
     id: "alphasense-ai",
     name: "AlphaSense",
     tagline: "AI-powered market intelligence",
@@ -5729,7 +5660,8 @@ export const agents: Agent[] = [
     url: "https://alphasense.com",
     features: ["Document analysis", "Earnings transcripts", "Expert calls", "Sentiment analysis", "Alerts"]
   },
-  {
+  
+{
     id: "kensho-ai",
     name: "Kensho",
     tagline: "AI analytics for finance",
@@ -5747,7 +5679,8 @@ export const agents: Agent[] = [
     url: "https://kensho.com",
     features: ["Speech transcription", "Entity recognition", "Document comparison", "Market analytics", "API"]
   },
-  {
+  
+{
     id: "durable-law",
     name: "CoCounsel",
     tagline: "AI legal assistant by Thomson Reuters",
@@ -5767,7 +5700,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE CODING — DEVOPS & INFRASTRUCTURE =====
-  {
+  
+{
     id: "vercel-ai",
     name: "Vercel",
     tagline: "AI-powered frontend cloud platform",
@@ -5785,7 +5719,8 @@ export const agents: Agent[] = [
     url: "https://vercel.com",
     features: ["Instant deployments", "AI error analysis", "Edge functions", "Analytics", "Preview URLs"]
   },
-  {
+  
+{
     id: "netlify-ai",
     name: "Netlify",
     tagline: "AI-powered web development platform",
@@ -5803,7 +5738,8 @@ export const agents: Agent[] = [
     url: "https://netlify.com",
     features: ["Auto-deploy", "Serverless functions", "Forms", "Identity", "Analytics"]
   },
-  {
+  
+{
     id: "railway-ai",
     name: "Railway",
     tagline: "AI-assisted app deployment platform",
@@ -5821,7 +5757,8 @@ export const agents: Agent[] = [
     url: "https://railway.app",
     features: ["GitHub deploy", "Instant URLs", "Databases", "Auto-scaling", "Templates"]
   },
-  {
+  
+{
     id: "fly-io",
     name: "Fly.io",
     tagline: "AI-powered edge application platform",
@@ -5839,7 +5776,8 @@ export const agents: Agent[] = [
     url: "https://fly.io",
     features: ["Global edge", "GPU support", "Auto-scaling", "Postgres", "WireGuard"]
   },
-  {
+  
+{
     id: "supabase-edge",
     name: "Supabase Edge Functions",
     tagline: "AI-powered serverless functions",
@@ -5859,25 +5797,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE DATA — AI INFRASTRUCTURE =====
-  {
-    id: "anyscale-ai",
-    name: "Anyscale",
-    tagline: "AI workload infrastructure platform",
-    description: "Anyscale provides infrastructure for running AI workloads at scale. Deploy, manage, and scale Ray clusters for training and inference.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "☁️",
-    rating: 4,
-    users: 20000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["AI infrastructure", "Ray", "distributed computing", "ML"],
-    creator: "Anyscale",
-    url: "https://anyscale.com",
-    features: ["Ray clusters", "Auto-scaling", "GPU management", "Model serving", "Batch processing"]
-  },
-  {
+  
+{
     id: "banana-ai",
     name: "Banana",
     tagline: "GPU-powered serverless inference",
@@ -5895,7 +5816,8 @@ export const agents: Agent[] = [
     url: "https://banana.dev",
     features: ["Serverless GPUs", "One-click deploy", "Auto-scaling", "Webhooks", "Monitoring"]
   },
-  {
+  
+{
     id: "baseten-ai",
     name: "Baseten",
     tagline: "ML model inference infrastructure",
@@ -5913,7 +5835,8 @@ export const agents: Agent[] = [
     url: "https://baseten.co",
     features: ["Model serving", "Auto-scaling", "GPU support", "Monitoring", "Truss framework"]
   },
-  {
+  
+{
     id: "octo-ai",
     name: "OctoAI",
     tagline: "Cloud platform for AI inference",
@@ -5931,7 +5854,8 @@ export const agents: Agent[] = [
     url: "https://octo.ai",
     features: ["Optimized inference", "Multiple models", "API access", "Cost efficient", "Auto-scaling"]
   },
-  {
+  
+{
     id: "fal-ai",
     name: "fal.ai",
     tagline: "AI model inference platform",
@@ -5951,7 +5875,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE CREATIVE — 3D & DESIGN =====
-  {
+  
+{
     id: "spline-ai",
     name: "Spline AI",
     tagline: "AI-powered 3D design tool",
@@ -5969,7 +5894,8 @@ export const agents: Agent[] = [
     url: "https://spline.design",
     features: ["AI 3D generation", "Physics engine", "Web export", "Collaboration", "Real-time"]
   },
-  {
+  
+{
     id: "meshy-ai",
     name: "Meshy",
     tagline: "AI 3D model generation",
@@ -5987,7 +5913,8 @@ export const agents: Agent[] = [
     url: "https://meshy.ai",
     features: ["Text-to-3D", "Image-to-3D", "Texture generation", "Multiple formats", "API"]
   },
-  {
+  
+{
     id: "triposr-ai",
     name: "TripoSR",
     tagline: "Fast AI 3D reconstruction",
@@ -6005,7 +5932,8 @@ export const agents: Agent[] = [
     url: "https://stability.ai",
     features: ["Single image input", "Sub-second generation", "Open source", "High quality", "Multiple formats"]
   },
-  {
+  
+{
     id: "cursor-design",
     name: "Cursor Design",
     tagline: "AI design tool with code export",
@@ -6025,7 +5953,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE PRODUCTIVITY — AI NATIVE =====
-  {
+  
+{
     id: "induced-ai",
     name: "Induced",
     tagline: "AI browser agent for workflows",
@@ -6043,7 +5972,8 @@ export const agents: Agent[] = [
     url: "https://induced.ai",
     features: ["Browser agent", "Form filling", "Data extraction", "Multi-step workflows", "No code"]
   },
-  {
+  
+{
     id: "bardeen-ai",
     name: "Bardeen",
     tagline: "AI-powered workflow automation",
@@ -6061,7 +5991,8 @@ export const agents: Agent[] = [
     url: "https://bardeen.ai",
     features: ["AI automations", "Web scraping", "Form filling", "App integrations", "Playbooks"]
   },
-  {
+  
+{
     id: "uipath-ai",
     name: "UiPath",
     tagline: "AI-powered robotic process automation",
@@ -6079,7 +6010,8 @@ export const agents: Agent[] = [
     url: "https://uipath.com",
     features: ["AI document understanding", "Process mining", "Task automation", "Orchestrator", "Marketplace"]
   },
-  {
+  
+{
     id: "automation-anywhere",
     name: "Automation Anywhere",
     tagline: "AI-powered intelligent automation",
@@ -6099,7 +6031,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE MARKETING — ANALYTICS =====
-  {
+  
+{
     id: "mixpanel-marketing",
     name: "Mixpanel Marketing",
     tagline: "AI-powered marketing analytics",
@@ -6117,7 +6050,8 @@ export const agents: Agent[] = [
     url: "https://mixpanel.com",
     features: ["Campaign tracking", "Attribution modeling", "Cohort analysis", "A/B testing", "Dashboards"]
   },
-  {
+  
+{
     id: "amplitude-ai",
     name: "Amplitude",
     tagline: "AI-powered product & marketing analytics",
@@ -6135,7 +6069,8 @@ export const agents: Agent[] = [
     url: "https://amplitude.com",
     features: ["Predictive analytics", "Audience segmentation", "Experimentation", "Journeys", "Attribution"]
   },
-  {
+  
+{
     id: "segment-ai",
     name: "Segment",
     tagline: "AI-powered customer data platform",
@@ -6153,27 +6088,8 @@ export const agents: Agent[] = [
     url: "https://segment.com",
     features: ["Data collection", "Identity resolution", "Audiences", "Journeys", "450+ integrations"]
   },
-  {
-    id: "clearbit-ai",
-    name: "Clearbit",
-    tagline: "AI-powered B2B data enrichment",
-    description: "Clearbit enriches leads and accounts with AI. Get company data, contact info, and intent signals to power your marketing and sales efforts.",
-    category: "Marketing",
-    categorySlug: "marketing",
-    icon: "🔍",
-    rating: 4,
-    users: 50000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["data enrichment", "B2B", "lead scoring", "personalization"],
-    creator: "HubSpot",
-    url: "https://clearbit.com",
-    features: ["Company enrichment", "Contact discovery", "Lead scoring", "Reveal", "Forms"]
-  },
-
-  // ===== GAMING & ENTERTAINMENT =====
-  {
+  
+{
     id: "inworld-ai",
     name: "Inworld AI",
     tagline: "AI NPCs for games",
@@ -6191,7 +6107,8 @@ export const agents: Agent[] = [
     url: "https://inworld.ai",
     features: ["AI NPCs", "Dynamic dialogue", "Character memory", "Voice", "Unity/Unreal"]
   },
-  {
+  
+{
     id: "convai-ai",
     name: "Convai",
     tagline: "AI characters for games & virtual worlds",
@@ -6209,7 +6126,8 @@ export const agents: Agent[] = [
     url: "https://convai.com",
     features: ["Conversational NPCs", "Voice synthesis", "Knowledge base", "Unity plugin", "Multi-language"]
   },
-  {
+  
+{
     id: "scenario-ai",
     name: "Scenario",
     tagline: "AI game asset generation",
@@ -6229,7 +6147,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SECURITY & COMPLIANCE =====
-  {
+  
+{
     id: "snyk-ai",
     name: "Snyk",
     tagline: "AI-powered developer security",
@@ -6247,7 +6166,8 @@ export const agents: Agent[] = [
     url: "https://snyk.io",
     features: ["Vulnerability scanning", "AI fix suggestions", "IDE integration", "Container security", "IaC security"]
   },
-  {
+  
+{
     id: "github-advanced-security",
     name: "GitHub Advanced Security",
     tagline: "AI-powered code security for GitHub",
@@ -6265,7 +6185,8 @@ export const agents: Agent[] = [
     url: "https://github.com/features/security",
     features: ["Code scanning", "Secret detection", "Dependency review", "Supply chain", "Custom patterns"]
   },
-  {
+  
+{
     id: "wiz-ai",
     name: "Wiz",
     tagline: "AI-powered cloud security platform",
@@ -6285,7 +6206,8 @@ export const agents: Agent[] = [
   },
 
   // ===== COMMUNICATION =====
-  {
+  
+{
     id: "twilio-ai",
     name: "Twilio",
     tagline: "AI-powered communication APIs",
@@ -6303,7 +6225,8 @@ export const agents: Agent[] = [
     url: "https://twilio.com",
     features: ["SMS API", "Voice API", "Video API", "AI routing", "Segment CDP"]
   },
-  {
+  
+{
     id: "vonage-ai",
     name: "Vonage",
     tagline: "AI-enhanced communication APIs",
@@ -6321,7 +6244,8 @@ export const agents: Agent[] = [
     url: "https://vonage.com",
     features: ["Voice API", "Messages API", "Video API", "AI Studio", "Verify"]
   },
-  {
+  
+{
     id: "sendgrid-ai",
     name: "SendGrid",
     tagline: "AI-powered email delivery platform",
@@ -6341,7 +6265,8 @@ export const agents: Agent[] = [
   },
 
   // ===== AI-NATIVE TOOLS =====
-  {
+  
+{
     id: "langsmith",
     name: "LangSmith",
     tagline: "AI observability & evaluation platform",
@@ -6359,25 +6284,8 @@ export const agents: Agent[] = [
     url: "https://smith.langchain.com",
     features: ["Tracing", "Evaluation", "Prompt management", "Dataset curation", "Monitoring"]
   },
-  {
-    id: "weights-biases",
-    name: "Weights & Biases",
-    tagline: "AI experiment tracking & MLOps",
-    description: "Weights & Biases tracks ML experiments, manages models, and monitors AI systems. The standard tool for ML teams to iterate faster.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "📊",
-    rating: 4.8,
-    users: 500000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["experiment tracking", "MLOps", "model management", "ML"],
-    creator: "Weights & Biases",
-    url: "https://wandb.ai",
-    features: ["Experiment tracking", "Model registry", "Sweeps", "Artifacts", "Reports"]
-  },
-  {
+  
+{
     id: "neptune-ai",
     name: "Neptune",
     tagline: "AI experiment tracking & model registry",
@@ -6395,27 +6303,8 @@ export const agents: Agent[] = [
     url: "https://neptune.ai",
     features: ["Experiment logging", "Model registry", "Collaboration", "Integrations", "Monitoring"]
   },
-  {
-    id: "comet-ml",
-    name: "Comet ML",
-    tagline: "AI experiment management platform",
-    description: "Comet ML tracks experiments, manages models, and optimizes hyperparameters. Build better AI models faster with comprehensive experiment management.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "☄️",
-    rating: 3.5,
-    users: 30000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["experiment tracking", "hyperparameter optimization", "MLOps", "ML"],
-    creator: "Comet",
-    url: "https://comet.com",
-    features: ["Experiment tracking", "Model management", "Hyperparameter sweeps", "Artifacts", "Collaboration"]
-  },
-
-  // ===== VERTICAL AI =====
-  {
+  
+{
     id: "verneek-ai",
     name: "Verneek",
     tagline: "AI search engine for structured data",
@@ -6433,7 +6322,8 @@ export const agents: Agent[] = [
     url: "https://verneek.com",
     features: ["Natural language queries", "Multi-source", "API access", "Real-time", "Structured output"]
   },
-  {
+  
+{
     id: "textql-ai",
     name: "TextQL",
     tagline: "AI data analyst for enterprise",
@@ -6453,7 +6343,8 @@ export const agents: Agent[] = [
   },
 
   // ===== WRITING & CONTENT =====
-  {
+  
+{
     id: "jasper-ai-writer",
     name: "Jasper AI Writer",
     tagline: "AI long-form content writer",
@@ -6471,7 +6362,8 @@ export const agents: Agent[] = [
     url: "https://jasper.ai",
     features: ["Brand voice", "Blog wizard", "SEO mode", "Templates", "Chrome extension"]
   },
-  {
+  
+{
     id: "writesonic-ai",
     name: "Writesonic",
     tagline: "AI writing & content creation platform",
@@ -6489,7 +6381,8 @@ export const agents: Agent[] = [
     url: "https://writesonic.com",
     features: ["100+ templates", "Article writer", "Ad copy", "Email writer", "Chatsonic"]
   },
-  {
+  
+{
     id: "rytr-ai",
     name: "Rytr",
     tagline: "AI writing assistant",
@@ -6507,7 +6400,8 @@ export const agents: Agent[] = [
     url: "https://rytr.me",
     features: ["40+ use cases", "30+ languages", "Tone selection", "Plagiarism check", "Chrome extension"]
   },
-  {
+  
+{
     id: "copysmith-ai",
     name: "Copysmith",
     tagline: "AI copywriting for e-commerce",
@@ -6525,7 +6419,8 @@ export const agents: Agent[] = [
     url: "https://copysmith.ai",
     features: ["Product descriptions", "Bulk generation", "Ad copy", "SEO content", "Integrations"]
   },
-  {
+  
+{
     id: "anyword-ai",
     name: "Anyword",
     tagline: "AI copywriting with performance prediction",
@@ -6545,7 +6440,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE HEALTH & WELLNESS =====
-  {
+  
+{
     id: "wysa-ai",
     name: "Wysa",
     tagline: "AI mental health chatbot",
@@ -6563,7 +6459,8 @@ export const agents: Agent[] = [
     url: "https://wysa.com",
     features: ["AI chatbot", "CBT techniques", "Mood tracking", "Meditation", "Therapist add-on"]
   },
-  {
+  
+{
     id: "healthify-ai",
     name: "HealthifyMe",
     tagline: "AI nutrition & fitness coach",
@@ -6583,7 +6480,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE SALES =====
-  {
+  
+{
     id: "convin-ai",
     name: "Convin",
     tagline: "AI conversation intelligence for sales",
@@ -6601,7 +6499,8 @@ export const agents: Agent[] = [
     url: "https://convin.ai",
     features: ["Call analysis", "Deal intelligence", "Rep coaching", "Compliance", "CRM sync"]
   },
-  {
+  
+{
     id: "mixmax-ai",
     name: "Mixmax",
     tagline: "AI-powered Gmail sales engagement",
@@ -6621,7 +6520,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE SUPPORT =====
-  {
+  
+{
     id: "knowledge-ai",
     name: "KnowledgeOwl",
     tagline: "AI-powered knowledge base software",
@@ -6639,7 +6539,8 @@ export const agents: Agent[] = [
     url: "https://knowledgeowl.com",
     features: ["AI search", "Custom branding", "Reader groups", "API", "Analytics"]
   },
-  {
+  
+{
     id: "document360",
     name: "Document360",
     tagline: "AI-powered knowledge base platform",
@@ -6659,7 +6560,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MARKETING — SOCIAL & INFLUENCER =====
-  {
+  
+{
     id: "creatoriq-ai",
     name: "CreatorIQ",
     tagline: "AI-powered influencer marketing platform",
@@ -6677,7 +6579,8 @@ export const agents: Agent[] = [
     url: "https://creatoriq.com",
     features: ["AI influencer discovery", "Campaign management", "ROI measurement", "Audience insights", "Payment processing"]
   },
-  {
+  
+{
     id: "grin-ai",
     name: "GRIN",
     tagline: "AI influencer marketing for e-commerce",
@@ -6695,7 +6598,8 @@ export const agents: Agent[] = [
     url: "https://grin.co",
     features: ["Creator discovery", "Relationship management", "Content repurposing", "ROI tracking", "Shopify integration"]
   },
-  {
+  
+{
     id: "socialbee-ai",
     name: "SocialBee",
     tagline: "AI social media management & scheduling",
@@ -6713,7 +6617,8 @@ export const agents: Agent[] = [
     url: "https://socialbee.com",
     features: ["AI post generation", "Content categories", "Evergreen recycling", "Multi-platform", "Analytics"]
   },
-  {
+  
+{
     id: "later-ai",
     name: "Later",
     tagline: "AI social media scheduling & link in bio",
@@ -6731,7 +6636,8 @@ export const agents: Agent[] = [
     url: "https://later.com",
     features: ["Visual planner", "AI captions", "Link in bio", "Best time to post", "Analytics"]
   },
-  {
+  
+{
     id: "sprout-social-ai",
     name: "Sprout Social",
     tagline: "AI-powered social media management",
@@ -6749,7 +6655,8 @@ export const agents: Agent[] = [
     url: "https://sproutsocial.com",
     features: ["AI suggestions", "Social listening", "Unified inbox", "Publishing", "Analytics"]
   },
-  {
+  
+{
     id: "social-pilot-ai",
     name: "SocialPilot",
     tagline: "AI social media scheduling & analytics",
@@ -6767,7 +6674,8 @@ export const agents: Agent[] = [
     url: "https://socialpilot.co",
     features: ["AI content generation", "Bulk scheduling", "White-label reports", "Client management", "Content library"]
   },
-  {
+  
+{
     id: "coSchedule-ai",
     name: "CoSchedule",
     tagline: "AI marketing calendar & content organizer",
@@ -6785,25 +6693,8 @@ export const agents: Agent[] = [
     url: "https://coschedule.com",
     features: ["Marketing calendar", "AI content optimizer", "Social scheduling", "Team collaboration", "Analytics"]
   },
-  {
-    id: "descript-marketing",
-    name: "Descript",
-    tagline: "AI video & podcast editor for marketers",
-    description: "Descript edits video and audio like a doc. Perfect for marketers creating podcasts, social videos, and training content with AI-powered editing.",
-    category: "Marketing",
-    categorySlug: "marketing",
-    icon: "🎬",
-    rating: 4.7,
-    users: 2000000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["video editing", "podcast", "content creation", "transcription"],
-    creator: "Descript",
-    url: "https://descript.com",
-    features: ["Text-based editing", "Filler removal", "Overdub", "Screen recording", "Templates"]
-  },
-  {
+  
+{
     id: "invideo-ai",
     name: "InVideo AI",
     tagline: "AI video generator from text prompts",
@@ -6821,7 +6712,8 @@ export const agents: Agent[] = [
     url: "https://invideo.io",
     features: ["Text-to-video", "AI scriptwriting", "Stock footage", "Voiceover", "Multi-language"]
   },
-  {
+  
+{
     id: "pictory-ai",
     name: "Pictory",
     tagline: "AI video creation from articles & blogs",
@@ -6839,25 +6731,8 @@ export const agents: Agent[] = [
     url: "https://pictory.ai",
     features: ["Article to video", "Auto-captioning", "Brand customization", "Stock library", "Voiceover"]
   },
-  {
-    id: "synthesia-marketing",
-    name: "Synthesia",
-    tagline: "AI avatar videos for marketing",
-    description: "Synthesia creates professional marketing videos with AI avatars. No cameras, no studios — just type your script and get a polished video in minutes.",
-    category: "Marketing",
-    categorySlug: "marketing",
-    icon: "🧑",
-    rating: 4.5,
-    users: 50000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["AI video", "avatars", "marketing", "corporate"],
-    creator: "Synthesia",
-    url: "https://synthesia.io",
-    features: ["230+ avatars", "140+ languages", "Custom avatars", "Templates", "Brand kit"]
-  },
-  {
+  
+{
     id: "repurpose-io",
     name: "Repurpose.io",
     tagline: "AI content repurposing platform",
@@ -6875,7 +6750,8 @@ export const agents: Agent[] = [
     url: "https://repurpose.io",
     features: ["Auto-republishing", "Multi-platform", "Podcast distribution", "Video clips", "Templates"]
   },
-  {
+  
+{
     id: "headliner-ai",
     name: "Headliner",
     tagline: "AI video creation for podcasters",
@@ -6895,7 +6771,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CODING — TESTING & QUALITY =====
-  {
+  
+{
     id: "testim-ai",
     name: "Testim",
     tagline: "AI-powered test automation",
@@ -6913,7 +6790,8 @@ export const agents: Agent[] = [
     url: "https://testim.io",
     features: ["AI smart locators", "Codeless tests", "CI/CD integration", "Cross-browser", "Visual testing"]
   },
-  {
+  
+{
     id: "mabl-ai",
     name: "Mabl",
     tagline: "AI-native test automation platform",
@@ -6931,7 +6809,8 @@ export const agents: Agent[] = [
     url: "https://mabl.com",
     features: ["Auto-healing tests", "Visual regression", "API testing", "CI/CD", "Low-code"]
   },
-  {
+  
+{
     id: "depot-ai",
     name: "Depot",
     tagline: "AI-powered Docker build acceleration",
@@ -6949,7 +6828,8 @@ export const agents: Agent[] = [
     url: "https://depot.dev",
     features: ["40x faster builds", "Remote cache", "Multi-platform", "GitHub integration", "Persistent storage"]
   },
-  {
+  
+{
     id: "zapt-ai",
     name: "Zapt",
     tagline: "AI app builder — describe and deploy",
@@ -6967,7 +6847,8 @@ export const agents: Agent[] = [
     url: "https://zapt.ai",
     features: ["Prompt-to-app", "Instant deploy", "Custom domains", "Database", "Auth"]
   },
-  {
+  
+{
     id: "create-xyz",
     name: "Create.xyz",
     tagline: "AI full-stack app builder",
@@ -6985,25 +6866,8 @@ export const agents: Agent[] = [
     url: "https://create.xyz",
     features: ["Text-to-app", "Backend generation", "Database", "API integrations", "Deploy"]
   },
-  {
-    id: "replit-ai-agent",
-    name: "Replit Agent",
-    tagline: "AI agent that builds full apps",
-    description: "Replit Agent is an autonomous AI that builds, deploys, and iterates on full-stack applications. Describe your app and watch it come to life.",
-    category: "Coding",
-    categorySlug: "coding",
-    icon: "🤖",
-    rating: 4.5,
-    users: 20000000,
-    price: "Freemium",
-    featured: false,
-    new: true,
-    tags: ["autonomous", "full-stack", "deployment", "AI agent"],
-    creator: "Replit",
-    url: "https://replit.com",
-    features: ["Autonomous building", "Full-stack", "Instant deploy", "Iteration", "Multi-language"]
-  },
-  {
+  
+{
     id: "onboard-ai",
     name: "Onboard",
     tagline: "AI codebase onboarding tool",
@@ -7021,7 +6885,8 @@ export const agents: Agent[] = [
     url: "https://onboard.ai",
     features: ["Architecture diagrams", "Code explanations", "Guided tours", "Q&A", "GitHub integration"]
   },
-  {
+  
+{
     id: "what-the-diff-ai",
     name: "What The Diff",
     tagline: "AI-powered PR summaries & changelogs",
@@ -7041,7 +6906,8 @@ export const agents: Agent[] = [
   },
 
   // ===== BUSINESS — COMMUNICATION & COLLAB =====
-  {
+  
+{
     id: "loom-ai-biz",
     name: "Loom",
     tagline: "AI-powered async video messaging for work",
@@ -7059,7 +6925,8 @@ export const agents: Agent[] = [
     url: "https://loom.com",
     features: ["AI summaries", "Auto chapters", "Action items", "Comments", "Analytics"]
   },
-  {
+  
+{
     id: "grammarly-biz",
     name: "Grammarly Business",
     tagline: "AI writing assistant for teams",
@@ -7077,7 +6944,8 @@ export const agents: Agent[] = [
     url: "https://grammarly.com/business",
     features: ["Brand tones", "Style guides", "Analytics dashboard", "Admin controls", "SSO"]
   },
-  {
+  
+{
     id: "quillbot-ai",
     name: "QuillBot",
     tagline: "AI paraphrasing & writing tool",
@@ -7095,7 +6963,8 @@ export const agents: Agent[] = [
     url: "https://quillbot.com",
     features: ["Paraphraser", "Grammar checker", "Summarizer", "Citation generator", "Translator"]
   },
-  {
+  
+{
     id: "deepl-ai",
     name: "DeepL",
     tagline: "AI-powered translation & writing",
@@ -7113,7 +6982,8 @@ export const agents: Agent[] = [
     url: "https://deepl.com",
     features: ["30+ languages", "Document translation", "Glossary", "API", "Write (AI writing)"]
   },
-  {
+  
+{
     id: "phrase-ai",
     name: "Phrase",
     tagline: "AI-powered localization platform",
@@ -7131,7 +7001,8 @@ export const agents: Agent[] = [
     url: "https://phrase.com",
     features: ["AI translation", "Translation memory", "Workflow automation", "MT integration", "Analytics"]
   },
-  {
+  
+{
     id: "smartling-ai",
     name: "Smartling",
     tagline: "AI-powered language translation platform",
@@ -7149,7 +7020,8 @@ export const agents: Agent[] = [
     url: "https://smartling.com",
     features: ["AI translation", "Quality scoring", "Visual context", "Workflow automation", "Analytics"]
   },
-  {
+  
+{
     id: "clockify-ai",
     name: "Clockify",
     tagline: "AI-powered time tracking & reporting",
@@ -7167,7 +7039,8 @@ export const agents: Agent[] = [
     url: "https://clockify.me",
     features: ["AI time tracking", "Project budgets", "Reports", "Invoicing", "Team management"]
   },
-  {
+  
+{
     id: "harvest-ai",
     name: "Harvest",
     tagline: "AI-powered time tracking & invoicing",
@@ -7185,7 +7058,8 @@ export const agents: Agent[] = [
     url: "https://getharvest.com",
     features: ["Time tracking", "AI insights", "Invoicing", "Expenses", "Forecasting"]
   },
-  {
+  
+{
     id: "toggl-ai",
     name: "Toggl Track",
     tagline: "AI-powered time tracking for teams",
@@ -7205,7 +7079,8 @@ export const agents: Agent[] = [
   },
 
   // ===== CREATIVE — AUDIO & MUSIC =====
-  {
+  
+{
     id: "aiva-ai",
     name: "AIVA",
     tagline: "AI music composition for creators",
@@ -7223,7 +7098,8 @@ export const agents: Agent[] = [
     url: "https://aiva.ai",
     features: ["Style-based composition", "MIDI export", "Customization", "Commercial license", "Multiple genres"]
   },
-  {
+  
+{
     id: "soundraw-ai",
     name: "Soundraw",
     tagline: "AI music generator for content creators",
@@ -7241,7 +7117,8 @@ export const agents: Agent[] = [
     url: "https://soundraw.io",
     features: ["Customizable music", "Mood selection", "Genre mixing", "Length control", "Commercial license"]
   },
-  {
+  
+{
     id: "boomy-ai",
     name: "Boomy",
     tagline: "Create & release AI music in seconds",
@@ -7259,7 +7136,8 @@ export const agents: Agent[] = [
     url: "https://boomy.com",
     features: ["Instant song creation", "Spotify distribution", "Customization", "Royalties", "Community"]
   },
-  {
+  
+{
     id: "descript-audio",
     name: "Descript Audio",
     tagline: "AI audio editing like a document",
@@ -7277,7 +7155,8 @@ export const agents: Agent[] = [
     url: "https://descript.com",
     features: ["Text-based editing", "Overdub voice clone", "Filler removal", "Studio sound", "Multi-track"]
   },
-  {
+  
+{
     id: "krisp-ai",
     name: "Krisp",
     tagline: "AI noise cancellation for calls",
@@ -7295,7 +7174,8 @@ export const agents: Agent[] = [
     url: "https://krisp.ai",
     features: ["Real-time noise removal", "Voice cancellation", "Echo removal", "Meeting notes", "Any app"]
   },
-  {
+  
+{
     id: "adobe-podcast",
     name: "Adobe Podcast",
     tagline: "AI audio recording & editing",
@@ -7315,7 +7195,8 @@ export const agents: Agent[] = [
   },
 
   // ===== DATA — VISUALIZATION & BI =====
-  {
+  
+{
     id: "tableau-ai",
     name: "Tableau AI",
     tagline: "AI-powered data visualization",
@@ -7333,7 +7214,8 @@ export const agents: Agent[] = [
     url: "https://tableau.com",
     features: ["Ask Data (NL queries)", "Explain Data", "Dashboard creation", "Mobile", "Collaboration"]
   },
-  {
+  
+{
     id: "looker-ai",
     name: "Looker",
     tagline: "AI-powered business intelligence platform",
@@ -7351,7 +7233,8 @@ export const agents: Agent[] = [
     url: "https://looker.com",
     features: ["LookML modeling", "Natural language", "Embedded analytics", "API", "BigQuery integration"]
   },
-  {
+  
+{
     id: "power-bi-ai",
     name: "Microsoft Power BI",
     tagline: "AI-powered business analytics",
@@ -7369,7 +7252,8 @@ export const agents: Agent[] = [
     url: "https://powerbi.microsoft.com",
     features: ["Q&A (natural language)", "AI visuals", "Data modeling", "Excel integration", "Mobile"]
   },
-  {
+  
+{
     id: "metabase-ai",
     name: "Metabase",
     tagline: "Open-source BI with AI features",
@@ -7387,7 +7271,8 @@ export const agents: Agent[] = [
     url: "https://metabase.com",
     features: ["Natural language queries", "Auto-visualization", "SQL editor", "Embedding", "Alerts"]
   },
-  {
+  
+{
     id: "hex-ai",
     name: "Hex",
     tagline: "AI-powered data workspace",
@@ -7405,7 +7290,8 @@ export const agents: Agent[] = [
     url: "https://hex.tech",
     features: ["AI SQL generation", "Notebooks", "Charts", "Collaboration", "Magic (AI assistant)"]
   },
-  {
+  
+{
     id: "Mode-ai",
     name: "Mode",
     tagline: "AI-powered collaborative analytics",
@@ -7423,7 +7309,8 @@ export const agents: Agent[] = [
     url: "https://mode.com",
     features: ["SQL editor", "Python notebooks", "AI assistant", "Reports", "Embedding"]
   },
-  {
+  
+{
     id: "thoughtspot-ai",
     name: "ThoughtSpot",
     tagline: "AI-powered analytics search",
@@ -7441,7 +7328,8 @@ export const agents: Agent[] = [
     url: "https://thoughtspot.com",
     features: ["Search-driven analytics", "AI insights", "Liveboards", "Embedded", "API"]
   },
-  {
+  
+{
     id: "sisense-ai",
     name: "Sisense",
     tagline: "AI-powered embedded analytics",
@@ -7461,7 +7349,8 @@ export const agents: Agent[] = [
   },
 
   // ===== PRODUCTIVITY — AUTOMATION =====
-  {
+  
+{
     id: "ifttt-ai",
     name: "IFTTT",
     tagline: "AI-powered app automation",
@@ -7479,7 +7368,8 @@ export const agents: Agent[] = [
     url: "https://ifttt.com",
     features: ["800+ services", "AI applet creation", "IoT control", "Multi-step", "Filters"]
   },
-  {
+  
+{
     id: "automate-io",
     name: "Automate.io",
     tagline: "AI-powered business app integration",
@@ -7497,7 +7387,8 @@ export const agents: Agent[] = [
     url: "https://automate.io",
     features: ["200+ apps", "Multi-step bots", "Data mapping", "Scheduling", "Error handling"]
   },
-  {
+  
+{
     id: "tray-ai",
     name: "Tray.io",
     tagline: "AI-powered integration & automation platform",
@@ -7515,7 +7406,8 @@ export const agents: Agent[] = [
     url: "https://tray.io",
     features: ["Visual builder", "600+ connectors", "AI assistance", "Enterprise security", "API"]
   },
-  {
+  
+{
     id: "workato-ai",
     name: "Workato",
     tagline: "AI-powered enterprise automation",
@@ -7533,7 +7425,8 @@ export const agents: Agent[] = [
     url: "https://workato.com",
     features: ["AI recipe suggestions", "1000+ connectors", "Enterprise security", "Bot apps", "API management"]
   },
-  {
+  
+{
     id: "parabola-ai",
     name: "Parabola",
     tagline: "AI-powered data workflow automation",
@@ -7551,7 +7444,8 @@ export const agents: Agent[] = [
     url: "https://parabola.io",
     features: ["Visual builder", "Data transforms", "API integrations", "Scheduling", "Export"]
   },
-  {
+  
+{
     id: "rows-ai",
     name: "Rows",
     tagline: "AI-powered spreadsheets",
@@ -7571,7 +7465,8 @@ export const agents: Agent[] = [
   },
 
   // ===== EDUCATION — LANGUAGE & WRITING =====
-  {
+  
+{
     id: "grammarly-edu",
     name: "Grammarly for Education",
     tagline: "AI writing assistant for students & educators",
@@ -7589,7 +7484,8 @@ export const agents: Agent[] = [
     url: "https://grammarly.com/edu",
     features: ["Grammar checking", "Citation generator", "Plagiarism detection", "Tone detection", "Feedback"]
   },
-  {
+  
+{
     id: "quillbot-edu",
     name: "QuillBot for Education",
     tagline: "AI paraphrasing & writing tool for students",
@@ -7607,7 +7503,8 @@ export const agents: Agent[] = [
     url: "https://quillbot.com",
     features: ["Paraphraser", "Summarizer", "Citation generator", "Grammar checker", "Translator"]
   },
-  {
+  
+{
     id: "scribbr-ai",
     name: "Scribbr",
     tagline: "AI-powered academic editing & plagiarism checking",
@@ -7625,7 +7522,8 @@ export const agents: Agent[] = [
     url: "https://scribbr.com",
     features: ["Plagiarism checker", "AI proofreader", "Citation generator", "Editing service", "Knowledge base"]
   },
-  {
+  
+{
     id: "jenni-ai",
     name: "Jenni AI",
     tagline: "AI writing assistant for academics",
@@ -7643,7 +7541,8 @@ export const agents: Agent[] = [
     url: "https://jenni.ai",
     features: ["AI autocomplete", "Citation management", "Research assistant", "PDF analysis", "LaTeX export"]
   },
-  {
+  
+{
     id: "scholarcy-ai",
     name: "Scholarcy",
     tagline: "AI research paper summarizer",
@@ -7661,7 +7560,8 @@ export const agents: Agent[] = [
     url: "https://scholarcy.com",
     features: ["Paper summarization", "Flashcard generation", "Key findings", "Reference extraction", "Chrome extension"]
   },
-  {
+  
+{
     id: "scite-ai",
     name: "Scite",
     tagline: "AI-powered research citation analysis",
@@ -7681,7 +7581,8 @@ export const agents: Agent[] = [
   },
 
   // ===== HEALTH — FITNESS & TRACKING =====
-  {
+  
+{
     id: "zepp-ai",
     name: "Zepp (Amazfit)",
     tagline: "AI-powered health & fitness tracking",
@@ -7699,7 +7600,8 @@ export const agents: Agent[] = [
     url: "https://zepp.com",
     features: ["AI health analysis", "Sleep tracking", "Activity tracking", "Heart rate", "Stress monitoring"]
   },
-  {
+  
+{
     id: "withings-health",
     name: "Withings Health Mate",
     tagline: "AI health monitoring app",
@@ -7717,7 +7619,8 @@ export const agents: Agent[] = [
     url: "https://withings.com",
     features: ["Multi-device sync", "AI insights", "Weight tracking", "BP monitoring", "Sleep analysis"]
   },
-  {
+  
+{
     id: "cronometer-ai",
     name: "Cronometer",
     tagline: "AI-powered nutrition tracking",
@@ -7735,7 +7638,8 @@ export const agents: Agent[] = [
     url: "https://cronometer.com",
     features: ["Micronutrient tracking", "AI food logging", "Custom targets", "Reports", "Health sync"]
   },
-  {
+  
+{
     id: "noom-glp-1",
     name: "Noom Med",
     tagline: "AI-powered medical weight loss",
@@ -7755,7 +7659,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SALES — ENABLEMENT =====
-  {
+  
+{
     id: "highspot-ai",
     name: "Highspot",
     tagline: "AI-powered sales enablement platform",
@@ -7773,7 +7678,8 @@ export const agents: Agent[] = [
     url: "https://highspot.com",
     features: ["AI content recommendations", "Training", "Guided selling", "Analytics", "CRM integration"]
   },
-  {
+  
+{
     id: "seismic-ai",
     name: "Seismic",
     tagline: "AI-powered sales enablement",
@@ -7791,7 +7697,8 @@ export const agents: Agent[] = [
     url: "https://seismic.com",
     features: ["Content management", "AI recommendations", "Training", "Engagement analytics", "Integrations"]
   },
-  {
+  
+{
     id: "mindtickle-ai",
     name: "Mindtickle",
     tagline: "AI-powered sales readiness platform",
@@ -7811,7 +7718,8 @@ export const agents: Agent[] = [
   },
 
   // ===== SUPPORT — SPECIALIZED =====
-  {
+  
+{
     id: "yext-ai",
     name: "Yext",
     tagline: "AI-powered digital presence & support",
@@ -7829,7 +7737,8 @@ export const agents: Agent[] = [
     url: "https://yext.com",
     features: ["Listing management", "AI search", "Knowledge base", "Reviews", "Analytics"]
   },
-  {
+  
+{
     id: "sitegpt-ai",
     name: "SiteGPT",
     tagline: "AI chatbot trained on your website",
@@ -7847,7 +7756,8 @@ export const agents: Agent[] = [
     url: "https://sitegpt.ai",
     features: ["Website-trained", "Instant setup", "Custom branding", "Lead capture", "Analytics"]
   },
-  {
+  
+{
     id: "dante-ai",
     name: "Dante AI",
     tagline: "AI chatbot builder with no code",
@@ -7865,7 +7775,8 @@ export const agents: Agent[] = [
     url: "https://dante-ai.com",
     features: ["Document training", "Multi-channel", "Custom branding", "API", "Analytics"]
   },
-  {
+  
+{
     id: "chatbase-ai",
     name: "Chatbase",
     tagline: "AI chatbot trained on your data",
@@ -7883,7 +7794,8 @@ export const agents: Agent[] = [
     url: "https://chatbase.co",
     features: ["Document training", "WhatsApp integration", "Custom branding", "API", "Lead capture"]
   },
-  {
+  
+{
     id: "my-ai-ai",
     name: "My AI Front Desk",
     tagline: "AI phone receptionist for small business",
@@ -7903,7 +7815,8 @@ export const agents: Agent[] = [
   },
 
   // ===== FINANCE & ACCOUNTING =====
-  {
+  
+{
     id: "paddle-ai",
     name: "Paddle",
     tagline: "AI-powered payments & billing for SaaS",
@@ -7921,7 +7834,8 @@ export const agents: Agent[] = [
     url: "https://paddle.com",
     features: ["Subscription billing", "Tax compliance", "Revenue recovery", "Analytics", "Checkout"]
   },
-  {
+  
+{
     id: "chargebee-ai",
     name: "Chargebee",
     tagline: "AI-powered subscription management",
@@ -7939,7 +7853,8 @@ export const agents: Agent[] = [
     url: "https://chargebee.com",
     features: ["Subscription management", "AI revenue insights", "Dunning management", "Invoicing", "Analytics"]
   },
-  {
+  
+{
     id: "zuora-ai",
     name: "Zuora",
     tagline: "AI-powered subscription economy platform",
@@ -7957,7 +7872,8 @@ export const agents: Agent[] = [
     url: "https://zuora.com",
     features: ["Billing automation", "Revenue recognition", "AI analytics", "Multi-currency", "Tax management"]
   },
-  {
+  
+{
     id: "tipalti-ai",
     name: "Tipalti",
     tagline: "AI-powered accounts payable automation",
@@ -7977,7 +7893,8 @@ export const agents: Agent[] = [
   },
 
   // ===== VERTICAL — REAL ESTATE =====
-  {
+  
+{
     id: "zillow-ai",
     name: "Zillow",
     tagline: "AI-powered real estate platform",
@@ -7997,7 +7914,8 @@ export const agents: Agent[] = [
   },
 
   // ===== VERTICAL — TRAVEL =====
-  {
+  
+{
     id: "hopper-ai",
     name: "Hopper",
     tagline: "AI-powered travel price prediction",
@@ -8017,7 +7935,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE CODING — API & BACKEND =====
-  {
+  
+{
     id: "postman-ai",
     name: "Postman",
     tagline: "AI-powered API development platform",
@@ -8035,7 +7954,8 @@ export const agents: Agent[] = [
     url: "https://postman.com",
     features: ["AI test generation", "API documentation", "Collections", "Mock servers", "Monitoring"]
   },
-  {
+  
+{
     id: "hoppscotch-ai",
     name: "Hoppscotch",
     tagline: "Open-source API development ecosystem",
@@ -8053,7 +7973,8 @@ export const agents: Agent[] = [
     url: "https://hoppscotch.io",
     features: ["REST/GraphQL/WebSocket", "Collections", "Team workspace", "PWA", "Open source"]
   },
-  {
+  
+{
     id: "bruno-ai",
     name: "Bruno",
     tagline: "Open-source API client",
@@ -8071,7 +7992,8 @@ export const agents: Agent[] = [
     url: "https://usebruno.com",
     features: ["File-based collections", "Git-friendly", "No cloud", "Scripting", "Environments"]
   },
-  {
+  
+{
     id: "scalar-ai",
     name: "Scalar",
     tagline: "AI-powered API documentation",
@@ -8091,7 +8013,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE CREATIVE — IMAGE EDITING =====
-  {
+  
+{
     id: "photoroom-ai",
     name: "Photoroom",
     tagline: "AI photo editing for e-commerce",
@@ -8109,7 +8032,8 @@ export const agents: Agent[] = [
     url: "https://photoroom.com",
     features: ["Background removal", "AI backgrounds", "Batch editing", "Templates", "API"]
   },
-  {
+  
+{
     id: "clipdrop-ai",
     name: "Clipdrop",
     tagline: "AI image editing toolkit",
@@ -8127,7 +8051,8 @@ export const agents: Agent[] = [
     url: "https://clipdrop.co",
     features: ["Background removal", "Image upscaling", "Relighting", "Cleanup", "Replace background"]
   },
-  {
+  
+{
     id: "letsenhance-ai",
     name: "Let's Enhance",
     tagline: "AI image upscaler & enhancer",
@@ -8145,7 +8070,8 @@ export const agents: Agent[] = [
     url: "https://letsenhance.io",
     features: ["16x upscaling", "Noise reduction", "Color correction", "Batch processing", "API"]
   },
-  {
+  
+{
     id: "luminar-ai",
     name: "Luminar Neo",
     tagline: "AI-powered photo editor",
@@ -8165,25 +8091,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE DATA — DEVELOPER TOOLS =====
-  {
-    id: "mintlify-ai",
-    name: "Mintlify",
-    tagline: "AI-powered documentation for developers",
-    description: "Mintlify generates beautiful documentation for APIs and SDKs. AI writes docs from code, keeps them updated, and provides analytics.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "📚",
-    rating: 4.8,
-    users: 100000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["documentation", "API docs", "developer experience", "SDK"],
-    creator: "Mintlify",
-    url: "https://mintlify.com",
-    features: ["AI doc generation", "API playground", "Beautiful themes", "Analytics", "GitHub sync"]
-  },
-  {
+  
+{
     id: "readme-ai",
     name: "ReadMe",
     tagline: "AI-powered developer documentation",
@@ -8201,7 +8110,8 @@ export const agents: Agent[] = [
     url: "https://readme.com",
     features: ["API Explorer", "Custom themes", "Analytics", "Changelog", "Feedback"]
   },
-  {
+  
+{
     id: "stoplight-ai",
     name: "Stoplight",
     tagline: "AI-powered API design & documentation",
@@ -8221,7 +8131,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE MARKETING — EMAIL =====
-  {
+  
+{
     id: "drip-ai",
     name: "Drip",
     tagline: "AI-powered e-commerce email marketing",
@@ -8239,7 +8150,8 @@ export const agents: Agent[] = [
     url: "https://drip.com",
     features: ["AI product recommendations", "Automated workflows", "Revenue attribution", "Segmentation", "A/B testing"]
   },
-  {
+  
+{
     id: "customer-io-ai",
     name: "Customer.io",
     tagline: "AI-powered customer messaging platform",
@@ -8257,7 +8169,8 @@ export const agents: Agent[] = [
     url: "https://customer.io",
     features: ["Multi-channel messaging", "Behavioral triggers", "AI optimization", "Segmentation", "Data pipelines"]
   },
-  {
+  
+{
     id: "brevo-ai",
     name: "Brevo",
     tagline: "AI-powered all-in-one marketing platform",
@@ -8275,7 +8188,8 @@ export const agents: Agent[] = [
     url: "https://brevo.com",
     features: ["Email campaigns", "SMS marketing", "Chat", "CRM", "Marketing automation"]
   },
-  {
+  
+{
     id: "moosend-ai",
     name: "Moosend",
     tagline: "AI-powered email marketing & automation",
@@ -8295,7 +8209,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE CODING — MONITORING =====
-  {
+  
+{
     id: "sentry-ai",
     name: "Sentry",
     tagline: "AI-powered application monitoring",
@@ -8313,7 +8228,8 @@ export const agents: Agent[] = [
     url: "https://sentry.io",
     features: ["AI error grouping", "Stack traces", "Performance monitoring", "Release tracking", "Alerts"]
   },
-  {
+  
+{
     id: "datadog-ai",
     name: "Datadog",
     tagline: "AI-powered observability platform",
@@ -8331,7 +8247,8 @@ export const agents: Agent[] = [
     url: "https://datadoghq.com",
     features: ["AI anomaly detection", "APM", "Log management", "Infrastructure", "Dashboards"]
   },
-  {
+  
+{
     id: "new-relic-ai",
     name: "New Relic",
     tagline: "AI-powered observability platform",
@@ -8349,7 +8266,8 @@ export const agents: Agent[] = [
     url: "https://newrelic.com",
     features: ["AI insights", "APM", "Infrastructure", "Logs", "Errors inbox"]
   },
-  {
+  
+{
     id: "highlight-ai",
     name: "Highlight.io",
     tagline: "Open-source full-stack monitoring",
@@ -8369,25 +8287,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE BUSINESS — HR & PEOPLE =====
-  {
-    id: "bamboohr-ai",
-    name: "BambooHR",
-    tagline: "AI-powered HR software",
-    description: "BambooHR uses AI to streamline HR processes. Onboarding, time tracking, payroll, and performance management in one platform.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🎋",
-    rating: 4.5,
-    users: 30000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["HR", "onboarding", "payroll", "performance"],
-    creator: "BambooHR",
-    url: "https://bamboohr.com",
-    features: ["AI onboarding", "Time tracking", "Payroll", "Performance reviews", "Reporting"]
-  },
-  {
+  
+{
     id: "workday-ai",
     name: "Workday",
     tagline: "AI-powered enterprise HR & finance",
@@ -8405,45 +8306,8 @@ export const agents: Agent[] = [
     url: "https://workday.com",
     features: ["AI talent insights", "Payroll", "Recruiting", "Financial planning", "Analytics"]
   },
-  {
-    id: "leapsome-ai",
-    name: "Leapsome",
-    tagline: "AI-powered people enablement platform",
-    description: "Leapsome uses AI to manage performance, engagement, and development. 360 reviews, OKRs, feedback, and learning in one platform.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "📈",
-    rating: 4.1,
-    users: 5000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["performance management", "engagement", "OKRs", "feedback"],
-    creator: "Leapsome",
-    url: "https://leapsome.com",
-    features: ["360 reviews", "OKR tracking", "Engagement surveys", "Learning", "Compensation"]
-  },
-  {
-    id: "culture-ai",
-    name: "Culture Amp",
-    tagline: "AI-powered employee experience platform",
-    description: "Culture Amp uses AI to measure and improve employee engagement, performance, and retention. Surveys, analytics, and action plans for people teams.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "🏢",
-    rating: 4,
-    users: 10000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["employee engagement", "surveys", "performance", "retention"],
-    creator: "Culture Amp",
-    url: "https://cultureamp.com",
-    features: ["Engagement surveys", "Performance reviews", "AI insights", "Action plans", "Benchmarking"]
-  },
-
-  // ===== MORE PRODUCTIVITY — KNOWLEDGE =====
-  {
+  
+{
     id: "guru-ai",
     name: "Guru",
     tagline: "AI-powered knowledge management",
@@ -8461,7 +8325,8 @@ export const agents: Agent[] = [
     url: "https://getguru.com",
     features: ["AI search", "Knowledge cards", "Verification", "Browser extension", "Integrations"]
   },
-  {
+  
+{
     id: "slite-ai",
     name: "Slite",
     tagline: "AI-powered team knowledge base",
@@ -8479,7 +8344,8 @@ export const agents: Agent[] = [
     url: "https://slite.com",
     features: ["AI Ask", "Knowledge base", "Templates", "Collaboration", "Integrations"]
   },
-  {
+  
+{
     id: "tettra-ai",
     name: "Tettra",
     tagline: "AI-powered internal knowledge base",
@@ -8497,7 +8363,8 @@ export const agents: Agent[] = [
     url: "https://tettra.com",
     features: ["AI Q&A", "Slack integration", "Page suggestions", "Verification", "Search"]
   },
-  {
+  
+{
     id: "bookstack-ai",
     name: "BookStack",
     tagline: "Open-source knowledge base with AI",
@@ -8517,45 +8384,8 @@ export const agents: Agent[] = [
   },
 
   // ===== VERTICAL — LEGAL TECH =====
-  {
-    id: "spellbook-ai",
-    name: "Spellbook",
-    tagline: "AI contract drafting for lawyers",
-    description: "Spellbook uses AI to draft and review legal contracts directly in Word. Suggest clauses, flag risks, and accelerate contract negotiations.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "📜",
-    rating: 4.1,
-    users: 5000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["legal", "contracts", "drafting", "Word"],
-    creator: "Spellbook",
-    url: "https://spellbook.legal",
-    features: ["Clause suggestions", "Risk flagging", "Word integration", "Contract review", "Templates"]
-  },
-  {
-    id: "ironclad-ai",
-    name: "Ironclad",
-    tagline: "AI-powered contract management",
-    description: "Ironclad manages the entire contract lifecycle with AI. Create, negotiate, sign, and analyze contracts with intelligent automation.",
-    category: "Business",
-    categorySlug: "business",
-    icon: "📋",
-    rating: 4,
-    users: 5000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["contract management", "legal", "CLM", "enterprise"],
-    creator: "Ironclad",
-    url: "https://ironcladapp.com",
-    features: ["AI contract analysis", "Workflow automation", "E-signature", "Analytics", "Templates"]
-  },
-
-  // ===== VERTICAL — HEALTH TECH =====
-  {
+  
+{
     id: "viz-ai",
     name: "Viz.ai",
     tagline: "AI-powered clinical intelligence",
@@ -8573,7 +8403,8 @@ export const agents: Agent[] = [
     url: "https://viz.ai",
     features: ["Medical image analysis", "Real-time alerts", "Specialist matching", "Clinical trials", "HIPAA"]
   },
-  {
+  
+{
     id: "tempus-ai",
     name: "Tempus",
     tagline: "AI-powered precision medicine",
@@ -8591,7 +8422,8 @@ export const agents: Agent[] = [
     url: "https://tempus.com",
     features: ["Genomic sequencing", "AI data analysis", "Clinical matching", "Trial matching", "Real-world data"]
   },
-  {
+  
+{
     id: "babylon-ai",
     name: "Babylon Health",
     tagline: "AI-powered digital health service",
@@ -8609,7 +8441,8 @@ export const agents: Agent[] = [
     url: "https://babylonhealth.com",
     features: ["AI symptom checker", "Virtual consultations", "Health assessments", "Prescriptions", "Monitoring"]
   },
-  {
+  
+{
     id: "ada-health-ai",
     name: "Ada Health",
     tagline: "AI symptom assessment & health guide",
@@ -8629,7 +8462,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE EDUCATION =====
-  {
+  
+{
     id: "skillshare-ai",
     name: "Skillshare",
     tagline: "AI-recommended creative learning",
@@ -8647,7 +8481,8 @@ export const agents: Agent[] = [
     url: "https://skillshare.com",
     features: ["AI recommendations", "Project-based", "Community", "Offline access", "Thousands of classes"]
   },
-  {
+  
+{
     id: "udemy-ai",
     name: "Udemy",
     tagline: "AI-powered online learning marketplace",
@@ -8665,7 +8500,8 @@ export const agents: Agent[] = [
     url: "https://udemy.com",
     features: ["AI recommendations", "Certificates", "Practice exercises", "Mobile learning", "250K+ courses"]
   },
-  {
+  
+{
     id: "linkedin-learning",
     name: "LinkedIn Learning",
     tagline: "AI-powered professional development",
@@ -8685,7 +8521,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE SALES =====
-  {
+  
+{
     id: "clearbit-ai-sales",
     name: "Clearbit",
     tagline: "AI-powered B2B data for sales",
@@ -8703,7 +8540,8 @@ export const agents: Agent[] = [
     url: "https://clearbit.com",
     features: ["Company enrichment", "Contact discovery", "Reveal (visitor ID)", "Lead scoring", "API"]
   },
-  {
+  
+{
     id: "dealfront-ai",
     name: "Dealfront",
     tagline: "AI-powered B2B sales intelligence",
@@ -8723,7 +8561,8 @@ export const agents: Agent[] = [
   },
 
   // ===== MORE SUPPORT =====
-  {
+  
+{
     id: "zendesk-ai-agent",
     name: "Zendesk AI Agent",
     tagline: "Autonomous AI customer service agent",
@@ -8741,7 +8580,8 @@ export const agents: Agent[] = [
     url: "https://zendesk.com",
     features: ["Autonomous resolution", "Help center learning", "Multi-channel", "Handoff to humans", "Analytics"]
   },
-  {
+  
+{
     id: "salesforce-service-ai",
     name: "Salesforce Service Cloud AI",
     tagline: "AI-powered customer service for Salesforce",
@@ -8761,7 +8601,8 @@ export const agents: Agent[] = [
   },
 
   // ===== FINAL BATCH — TO HIT 500 =====
-  {
+  
+{
     id: "bubble-ai",
     name: "Bubble",
     tagline: "AI-powered no-code app builder",
@@ -8779,7 +8620,8 @@ export const agents: Agent[] = [
     url: "https://bubble.io",
     features: ["Visual editor", "Database builder", "Workflows", "API connector", "Plugins"]
   },
-  {
+  
+{
     id: "webflow-ai",
     name: "Webflow",
     tagline: "AI-powered web design & development",
@@ -8797,7 +8639,8 @@ export const agents: Agent[] = [
     url: "https://webflow.com",
     features: ["Visual designer", "CMS", "AI content", "Interactions", "Hosting"]
   },
-  {
+  
+{
     id: "framer-ai",
     name: "Framer",
     tagline: "AI-powered website builder",
@@ -8815,7 +8658,8 @@ export const agents: Agent[] = [
     url: "https://framer.com",
     features: ["AI site generation", "Animations", "CMS", "Custom domains", "SEO"]
   },
-  {
+  
+{
     id: "dify-ai",
     name: "Dify",
     tagline: "Open-source LLM app development platform",
@@ -8833,7 +8677,8 @@ export const agents: Agent[] = [
     url: "https://dify.ai",
     features: ["Visual agent builder", "Workflow editor", "RAG pipeline", "API", "Multi-model"]
   },
-  {
+  
+{
     id: "flowise-ai",
     name: "Flowise",
     tagline: "Open-source LLM flow builder",
@@ -8851,7 +8696,8 @@ export const agents: Agent[] = [
     url: "https://flowiseai.com",
     features: ["Drag-and-drop builder", "RAG pipelines", "Agent flows", "API", "Self-hosted"]
   },
-  {
+  
+{
     id: "n8n-ai-agents",
     name: "n8n AI Agents",
     tagline: "Build AI agents with n8n workflows",
@@ -8869,7 +8715,8 @@ export const agents: Agent[] = [
     url: "https://n8n.io",
     features: ["AI agent nodes", "400+ integrations", "Self-hostable", "Visual builder", "Memory"]
   },
-  {
+  
+{
     id: "mindstudio-ai",
     name: "MindStudio",
     tagline: "Build custom AI apps without code",
@@ -8887,7 +8734,8 @@ export const agents: Agent[] = [
     url: "https://mindstudio.ai",
     features: ["Visual builder", "Multi-model", "Custom branding", "API", "Templates"]
   },
-  {
+  
+{
     id: "poe-ai",
     name: "Poe",
     tagline: "AI chatbot platform by Quora",
@@ -8905,7 +8753,8 @@ export const agents: Agent[] = [
     url: "https://poe.com",
     features: ["Multiple AI models", "Custom bot creation", "Bot marketplace", "API", "Mobile apps"]
   },
-  {
+  
+{
     id: "you-ai",
     name: "You.com",
     tagline: "AI search & chat platform",
@@ -8923,43 +8772,8 @@ export const agents: Agent[] = [
     url: "https://you.com",
     features: ["AI search", "Cited answers", "Multiple modes", "Code generation", "API"]
   },
-  {
-    id: "phind-ai-dev",
-    name: "Phind",
-    tagline: "AI search engine for developers",
-    description: "Phind answers technical questions with code examples. Search the web and your codebase simultaneously for developer-specific answers.",
-    category: "Data",
-    categorySlug: "data",
-    icon: "💡",
-    rating: 4.5,
-    users: 500000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["developer search", "code", "technical", "AI"],
-    creator: "Phind",
-    url: "https://phind.com",
-    features: ["Code-level answers", "Web search", "VS Code extension", "Pair programming", "Custom models"]
-  },
-  {
-    id: "heygen-ai-video",
-    name: "HeyGen",
-    tagline: "AI avatar videos at scale",
-    description: "HeyGen creates personalized AI avatar videos. Translate videos into any language, clone yourself, and generate talking head content at scale.",
-    category: "Creative",
-    categorySlug: "creative",
-    icon: "🎭",
-    rating: 4.6,
-    users: 500000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["AI video", "avatars", "translation", "personalization"],
-    creator: "HeyGen",
-    url: "https://heygen.com",
-    features: ["Instant avatar", "Video translation", "Voice cloning", "API", "Multi-language"]
-  },
-  {
+  
+{
     id: "vidu-ai",
     name: "Vidu",
     tagline: "AI video generation from China",
@@ -8977,7 +8791,8 @@ export const agents: Agent[] = [
     url: "https://vidu.studio",
     features: ["Text-to-video", "Image-to-video", "Consistent characters", "High quality", "Fast generation"]
   },
-  {
+  
+{
     id: "minimax-ai",
     name: "MiniMax",
     tagline: "Multimodal AI from China",
@@ -8995,7 +8810,8 @@ export const agents: Agent[] = [
     url: "https://minimaxi.com",
     features: ["Text models", "Voice synthesis", "Video generation", "API access", "Multi-language"]
   },
-  {
+  
+{
     id: "zhipu-ai",
     name: "Zhipu AI (ChatGLM)",
     tagline: "Chinese AI platform with GLM models",
@@ -9013,7 +8829,8 @@ export const agents: Agent[] = [
     url: "https://zhipuai.cn",
     features: ["ChatGLM models", "Multimodal", "API access", "Chinese-English", "Tool use"]
   },
-  {
+  
+{
     id: "moonshot-ai",
     name: "Moonshot AI (Kimi)",
     tagline: "Long-context Chinese AI assistant",
@@ -9031,7 +8848,8 @@ export const agents: Agent[] = [
     url: "https://moonshot.cn",
     features: ["200K context", "Document analysis", "Web browsing", "Code generation", "Chinese-English"]
   },
-  {
+  
+{
     id: "qwen-ai",
     name: "Qwen (Tongyi Qianwen)",
     tagline: "Alibaba's multimodal AI model",
@@ -9049,7 +8867,8 @@ export const agents: Agent[] = [
     url: "https://qwen.ai",
     features: ["Multimodal", "Open-source models", "Strong Chinese", "Code generation", "API"]
   },
-  {
+  
+{
     id: "baichuan-ai",
     name: "Baichuan",
     tagline: "Chinese AI foundation models",
@@ -9067,7 +8886,8 @@ export const agents: Agent[] = [
     url: "https://baichuan-ai.com",
     features: ["Chinese-optimized", "Open-source", "Search models", "API access", "Multi-size models"]
   },
-  {
+  
+{
     id: "cursor-chat",
     name: "Cursor Chat",
     tagline: "AI codebase chat in Cursor IDE",
@@ -9085,7 +8905,8 @@ export const agents: Agent[] = [
     url: "https://cursor.com",
     features: ["Codebase-aware chat", "Multi-file context", "Code generation", "Explanations", "Refactoring"]
   },
-  {
+  
+{
     id: "retool-ai",
     name: "Retool",
     tagline: "AI-powered internal tool builder",
@@ -9103,7 +8924,8 @@ export const agents: Agent[] = [
     url: "https://retool.com",
     features: ["Drag-and-drop builder", "Database connectors", "AI actions", "Workflows", "Custom components"]
   },
-  {
+  
+{
     id: "appsmith-ai",
     name: "Appsmith",
     tagline: "Open-source internal tool builder",
@@ -9121,7 +8943,8 @@ export const agents: Agent[] = [
     url: "https://appsmith.com",
     features: ["Open source", "Drag-and-drop", "Database connectors", "JS editor", "Self-hosted"]
   },
-  {
+  
+{
     id: "buddy-ai",
     name: "Buddy",
     tagline: "AI-powered CI/CD platform",
@@ -9139,7 +8962,8 @@ export const agents: Agent[] = [
     url: "https://buddy.works",
     features: ["AI pipeline creation", "100+ actions", "Docker support", "Monitoring", "Collaboration"]
   },
-  {
+  
+{
     id: "zeabur-ai",
     name: "Zeabur",
     tagline: "AI-powered app deployment platform",
@@ -9157,6 +8981,7 @@ export const agents: Agent[] = [
     url: "https://zeabur.com",
     features: ["Zero-config deploy", "Instant URLs", "Databases", "Auto-scaling", "Templates"]
   },
+
 {
     id: "openai-developer-api",
     name: "OpenAI API",
@@ -9175,6 +9000,7 @@ export const agents: Agent[] = [
     url: "https://platform.openai.com",
     features: ["GPT-4 access", "DALL·E 3 image generation", "Whisper speech-to-text", "Function calling", "Fine-tuning"]
   },
+
 {
     id: "anthropic-developer-api",
     name: "Anthropic API",
@@ -9193,6 +9019,7 @@ export const agents: Agent[] = [
     url: "https://console.anthropic.com",
     features: ["200K context window", "Tool use", "Vision capabilities", "Constitutional AI", "Batch processing"]
   },
+
 {
     id: "huggingface-hub",
     name: "Hugging Face",
@@ -9211,6 +9038,7 @@ export const agents: Agent[] = [
     url: "https://huggingface.co",
     features: ["500K+ models", "Inference API", "Spaces for demos", "AutoTrain", "Model hub"]
   },
+
 {
     id: "replicate-cloud",
     name: "Replicate",
@@ -9229,6 +9057,7 @@ export const agents: Agent[] = [
     url: "https://replicate.com",
     features: ["One-click deploy", "Custom model hosting", "Webhooks", "GPU abstraction", "Version control"]
   },
+
 {
     id: "together-inference",
     name: "Together AI",
@@ -9247,24 +9076,7 @@ export const agents: Agent[] = [
     url: "https://together.ai",
     features: ["Fast inference", "Fine-tuning", "Custom models", "Chat endpoints", "Embeddings"]
   },
-{
-    id: "cohere-enterprise",
-    name: "Cohere",
-    tagline: "Enterprise LLMs for search, chat & generation",
-    description: "Cohere provides enterprise-grade language models optimized for search, retrieval-augmented generation, and business applications. Built for production workloads.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🔷",
-    rating: 4.5,
-    users: 200000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["enterprise", "RAG", "search", "embeddings"],
-    creator: "Cohere",
-    url: "https://cohere.com",
-    features: ["Command R+", "Embed v3", "RAG pipeline", "Multilingual", "Fine-tuning"]
-  },
+
 {
     id: "groq-inference",
     name: "Groq",
@@ -9283,6 +9095,7 @@ export const agents: Agent[] = [
     url: "https://groq.com",
     features: ["500+ tokens/sec", "Deterministic latency", "Open-source models", "API compatible", "Free tier"]
   },
+
 {
     id: "perplexity-api",
     name: "Perplexity API",
@@ -9301,6 +9114,7 @@ export const agents: Agent[] = [
     url: "https://perplexity.ai",
     features: ["Real-time search", "Citations", "Sonar models", "Online LLM", "Structured output"]
   },
+
 {
     id: "fireworks-ai",
     name: "Fireworks AI",
@@ -9319,6 +9133,7 @@ export const agents: Agent[] = [
     url: "https://fireworks.ai",
     features: ["Function calling", "Structured output", "Fine-tuning", "Embeddings", "Image models"]
   },
+
 {
     id: "anyscale",
     name: "Anyscale",
@@ -9337,24 +9152,7 @@ export const agents: Agent[] = [
     url: "https://anyscale.com",
     features: ["Managed Ray", "Auto-scaling", "GPU clusters", "Serve", "Training"]
   },
-{
-    id: "modal-cloud",
-    name: "Modal",
-    tagline: "Cloud functions for AI and data",
-    description: "Modal lets you run GPU workloads without managing infrastructure. Deploy models, run batch jobs, and build APIs with Python — Modal handles the cloud.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "☁️",
-    rating: 4.5,
-    users: 120000,
-    price: "Pay-as-you-go",
-    featured: false,
-    new: false,
-    tags: ["serverless GPU", "cloud functions", "Python", "ML deploy"],
-    creator: "Modal",
-    url: "https://modal.com",
-    features: ["Serverless GPUs", "Python native", "Web endpoints", "Volumes", "Schedules"]
-  },
+
 {
     id: "langchain-framework",
     name: "LangChain",
@@ -9373,6 +9171,7 @@ export const agents: Agent[] = [
     url: "https://langchain.com",
     features: ["Prompt templates", "Chain composition", "Agent framework", "Vector stores", "Callbacks"]
   },
+
 {
     id: "llamaindex-framework",
     name: "LlamaIndex",
@@ -9391,6 +9190,7 @@ export const agents: Agent[] = [
     url: "https://llamaindex.ai",
     features: ["160+ data connectors", "Vector indexing", "Query engines", "Chat engines", "Agents"]
   },
+
 {
     id: "wandb-platform",
     name: "Weights & Biases",
@@ -9409,6 +9209,7 @@ export const agents: Agent[] = [
     url: "https://wandb.ai",
     features: ["Experiment tracking", "Model registry", "Sweeps", "Artifacts", "Reports"]
   },
+
 {
     id: "neptune-metadata",
     name: "Neptune.ai",
@@ -9427,6 +9228,7 @@ export const agents: Agent[] = [
     url: "https://neptune.ai",
     features: ["Experiment tracking", "Model registry", "Monitoring", "Collaboration", "Integrations"]
   },
+
 {
     id: "comet-platform",
     name: "Comet ML",
@@ -9445,6 +9247,7 @@ export const agents: Agent[] = [
     url: "https://comet.com",
     features: ["Experiment tracking", "Model production monitoring", "Artifact management", "Panels", "Alerts"]
   },
+
 {
     id: "runpod",
     name: "RunPod",
@@ -9463,6 +9266,7 @@ export const agents: Agent[] = [
     url: "https://runpod.io",
     features: ["GPU Pods", "Serverless", "Custom templates", "Volumes", "Networking"]
   },
+
 {
     id: "vast-ai",
     name: "Vast.ai",
@@ -9481,24 +9285,7 @@ export const agents: Agent[] = [
     url: "https://vast.ai",
     features: ["GPU marketplace", "Per-second billing", "Docker templates", "Jupyter integration", "CLI"]
   },
-{
-    id: "pinecone-vector",
-    name: "Pinecone",
-    tagline: "Vector database for AI applications",
-    description: "Pinecone is a managed vector database built for machine learning. Store, index, and query vector embeddings at scale for search, recommendations, and RAG.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🌲",
-    rating: 4.6,
-    users: 300000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["vector database", "embeddings", "search", "RAG"],
-    creator: "Pinecone",
-    url: "https://pinecone.io",
-    features: ["Vector search", "Namespaces", "Metadata filtering", "Hybrid search", "Serverless"]
-  },
+
 {
     id: "weaviate-vector",
     name: "Weaviate",
@@ -9517,60 +9304,7 @@ export const agents: Agent[] = [
     url: "https://weaviate.io",
     features: ["Vector + keyword search", "Multi-tenancy", "Generative search", "Aggregation", "Modules"]
   },
-{
-    id: "chroma",
-    name: "Chroma",
-    tagline: "Open-source embedding database",
-    description: "Chroma is an open-source embedding database for AI applications. Store embeddings and metadata, then query them with a simple Python/JS API.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🎨",
-    rating: 4.3,
-    users: 200000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["embeddings", "open-source", "vector store", "Python"],
-    creator: "Chroma",
-    url: "https://trychroma.com",
-    features: ["Embedding storage", "Metadata filtering", "Python/JS clients", "Cloud hosted", "Local mode"]
-  },
-{
-    id: "qdrant",
-    name: "Qdrant",
-    tagline: "High-performance vector similarity search",
-    description: "Qdrant is a vector database and search engine for high-dimensional vectors. Build semantic search, recommendations, and anomaly detection at scale.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🎯",
-    rating: 4.4,
-    users: 100000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["vector search", "similarity", "high-performance", "Rust"],
-    creator: "Qdrant",
-    url: "https://qdrant.tech",
-    features: ["Payload filtering", "Hybrid search", "Multi-vector", "Snapshots", "gRPC"]
-  },
-{
-    id: "milvus",
-    name: "Milvus",
-    tagline: "Open-source vector database at any scale",
-    description: "Milvus is an open-source vector database built for scalable similarity search. Handle billions of vectors with distributed architecture.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🏗️",
-    rating: 4.4,
-    users: 120000,
-    price: "Free",
-    featured: false,
-    new: false,
-    tags: ["vector database", "distributed", "scalable", "open-source"],
-    creator: "Zilliz",
-    url: "https://milvus.io",
-    features: ["Billion-scale vectors", "Distributed", "GPU acceleration", "Multi-vector", "Hybrid search"]
-  },
+
 {
     id: "roboflow",
     name: "Roboflow",
@@ -9589,6 +9323,7 @@ export const agents: Agent[] = [
     url: "https://roboflow.com",
     features: ["Auto-labeling", "Model training", "Deploy anywhere", "Dataset management", "Workflows"]
   },
+
 {
     id: "labelbox",
     name: "Labelbox",
@@ -9607,6 +9342,7 @@ export const agents: Agent[] = [
     url: "https://labelbox.com",
     features: ["Auto-labeling", "Quality assurance", "Model diagnostics", "Catalog", "Annotate"]
   },
+
 {
     id: "scale-ai",
     name: "Scale AI",
@@ -9625,6 +9361,7 @@ export const agents: Agent[] = [
     url: "https://scale.com",
     features: ["RLHF", "Data labeling", "GenAI platform", "Evaluation", "Red-teaming"]
   },
+
 {
     id: "nvidia-nim",
     name: "NVIDIA NIM",
@@ -9643,6 +9380,7 @@ export const agents: Agent[] = [
     url: "https://nim.nvidia.com",
     features: ["Optimized inference", "Pre-built containers", "Enterprise support", "Multi-model", "API endpoints"]
   },
+
 {
     id: "aws-bedrock",
     name: "Amazon Bedrock",
@@ -9661,6 +9399,7 @@ export const agents: Agent[] = [
     url: "https://aws.amazon.com/bedrock",
     features: ["Multi-model access", "Knowledge bases", "Agents", "Guardrails", "Fine-tuning"]
   },
+
 {
     id: "google-vertex",
     name: "Google Vertex AI",
@@ -9679,6 +9418,7 @@ export const agents: Agent[] = [
     url: "https://cloud.google.com/vertex-ai",
     features: ["Gemini access", "AutoML", "Model Garden", "Pipelines", "Feature Store"]
   },
+
 {
     id: "azure-ai",
     name: "Azure AI Studio",
@@ -9697,24 +9437,7 @@ export const agents: Agent[] = [
     url: "https://ai.azure.com",
     features: ["Model catalog", "Prompt flow", "Fine-tuning", "Content safety", "RAG"]
   },
-{
-    id: "deepseek-api",
-    name: "DeepSeek",
-    tagline: "Open-weight reasoning models",
-    description: "DeepSeek provides powerful open-weight models including DeepSeek-V3 and DeepSeek-R1. Strong coding and reasoning capabilities at a fraction of the cost.",
-    category: "AI & ML",
-    categorySlug: "ai-ml",
-    icon: "🌊",
-    rating: 4.6,
-    users: 1000000,
-    price: "Freemium",
-    featured: false,
-    new: true,
-    tags: ["reasoning", "open-weight", "coding", "affordable"],
-    creator: "DeepSeek",
-    url: "https://deepseek.com",
-    features: ["DeepSeek-R1 reasoning", "Code generation", "128K context", "Open weights", "Affordable"]
-  },
+
 {
     id: "mistral-api",
     name: "Mistral API",
@@ -9733,6 +9456,7 @@ export const agents: Agent[] = [
     url: "https://mistral.ai",
     features: ["Mixtral MoE", "Function calling", "JSON mode", "Vision models", "Code models"]
   },
+
 {
     id: "ollama",
     name: "Ollama",
@@ -9751,6 +9475,7 @@ export const agents: Agent[] = [
     url: "https://ollama.com",
     features: ["One-command install", "Model library", "REST API", "Custom models", "Cross-platform"]
   },
+
 {
     id: "openrouter-api",
     name: "OpenRouter",
@@ -9769,6 +9494,7 @@ export const agents: Agent[] = [
     url: "https://openrouter.ai",
     features: ["100+ models", "Single API key", "Cost comparison", "Fallback routing", "Usage tracking"]
   },
+
 {
     id: "quickbooks-ai-finance",
     name: "QuickBooks AI",
@@ -9787,6 +9513,7 @@ export const agents: Agent[] = [
     url: "https://quickbooks.intuit.com",
     features: ["Auto-categorization", "Receipt scanning", "Invoice generation", "Tax preparation", "Cash flow forecasting"]
   },
+
 {
     id: "xero-ai-finance",
     name: "Xero AI",
@@ -9805,24 +9532,7 @@ export const agents: Agent[] = [
     url: "https://xero.com",
     features: ["Bank reconciliation", "Bill payments", "Expense claims", "Projects", "Reporting"]
   },
-{
-    id: "ramp",
-    name: "Ramp",
-    tagline: "Corporate card and spend management with AI",
-    description: "Ramp is the finance automation platform that saves businesses money. AI-powered corporate cards, expense management, and bill payments in one platform.",
-    category: "Finance",
-    categorySlug: "finance",
-    icon: "💳",
-    rating: 4.7,
-    users: 500000,
-    price: "Freemium",
-    featured: true,
-    new: false,
-    tags: ["corporate card", "expense management", "savings", "automation"],
-    creator: "Ramp",
-    url: "https://ramp.com",
-    features: ["1.5% cashback", "Auto-savings alerts", "Bill pay", "Expense policy", "Accounting sync"]
-  },
+
 {
     id: "brex-ai-finance",
     name: "Brex",
@@ -9841,6 +9551,7 @@ export const agents: Agent[] = [
     url: "https://brex.com",
     features: ["Corporate cards", "Expense management", "Bill pay", "Travel booking", "Rewards"]
   },
+
 {
     id: "mercury",
     name: "Mercury",
@@ -9859,6 +9570,7 @@ export const agents: Agent[] = [
     url: "https://mercury.com",
     features: ["Checking & savings", "Team cards", "Bill pay", "Treasury", "API"]
   },
+
 {
     id: "plaid",
     name: "Plaid",
@@ -9877,6 +9589,7 @@ export const agents: Agent[] = [
     url: "https://plaid.com",
     features: ["Account linking", "Transactions", "Identity verification", "Balance check", "Assets"]
   },
+
 {
     id: "stripe-ai-payments",
     name: "Stripe AI",
@@ -9895,6 +9608,7 @@ export const agents: Agent[] = [
     url: "https://stripe.com",
     features: ["Radar fraud detection", "Revenue recovery", "Tax automation", "Billing", "Connect"]
   },
+
 {
     id: "wise-ai-transfers",
     name: "Wise",
@@ -9913,6 +9627,7 @@ export const agents: Agent[] = [
     url: "https://wise.com",
     features: ["Real exchange rates", "Multi-currency account", "Business payments", "API", "Debit card"]
   },
+
 {
     id: "coinbase-ai",
     name: "Coinbase AI",
@@ -9931,6 +9646,7 @@ export const agents: Agent[] = [
     url: "https://coinbase.com",
     features: ["Price alerts", "Portfolio analysis", "Staking", "Advanced trading", "Wallet"]
   },
+
 {
     id: "tradingview-ai",
     name: "TradingView AI",
@@ -9949,6 +9665,7 @@ export const agents: Agent[] = [
     url: "https://tradingview.com",
     features: ["AI pattern recognition", "50M+ community", "Multi-asset charts", "Alerts", "Pine Script"]
   },
+
 {
     id: "copilot-money",
     name: "Copilot Money",
@@ -9967,6 +9684,7 @@ export const agents: Agent[] = [
     url: "https://copilot.money",
     features: ["Auto-categorization", "Budget tracking", "Investment tracking", "Bill reminders", "Net worth"]
   },
+
 {
     id: "monarch-money",
     name: "Monarch Money",
@@ -9985,6 +9703,7 @@ export const agents: Agent[] = [
     url: "https://monarchmoney.com",
     features: ["Net worth tracking", "Budget categories", "Investment tracking", "Collaboration", "Reports"]
   },
+
 {
     id: "wealthfront",
     name: "Wealthfront",
@@ -10003,6 +9722,7 @@ export const agents: Agent[] = [
     url: "https://wealthfront.com",
     features: ["Tax-loss harvesting", "Direct indexing", "Financial planning", "High-yield cash", "Auto-rebalancing"]
   },
+
 {
     id: "betterment",
     name: "Betterment",
@@ -10021,6 +9741,7 @@ export const agents: Agent[] = [
     url: "https://betterment.com",
     features: ["Goal-based investing", "Tax coordination", "Socially responsible", "Retirement planning", "Checking"]
   },
+
 {
     id: "alpaca",
     name: "Alpaca",
@@ -10039,6 +9760,7 @@ export const agents: Agent[] = [
     url: "https://alpaca.markets",
     features: ["Commission-free trading", "Paper trading", "Market data", "Options", "Crypto"]
   },
+
 {
     id: "quantconnect",
     name: "QuantConnect",
@@ -10057,6 +9779,7 @@ export const agents: Agent[] = [
     url: "https://quantconnect.com",
     features: ["Backtesting", "Live trading", "Multi-asset", "Research environment", "Alpha market"]
   },
+
 {
     id: "truewind",
     name: "Truewind",
@@ -10075,6 +9798,7 @@ export const agents: Agent[] = [
     url: "https://truewind.ai",
     features: ["AI bookkeeping", "Month-end close", "Financial models", "Tax prep", "CFO services"]
   },
+
 {
     id: "pilot-ai",
     name: "Pilot",
@@ -10093,6 +9817,7 @@ export const agents: Agent[] = [
     url: "https://pilot.com",
     features: ["Expert bookkeeping", "R&D tax credit", "CFO services", "Tax prep", "Payroll"]
   },
+
 {
     id: "dext",
     name: "Dext",
@@ -10111,6 +9836,7 @@ export const agents: Agent[] = [
     url: "https://dext.com",
     features: ["Receipt scanning", "Invoice capture", "Bank statement extraction", "Line items", "Integrations"]
   },
+
 {
     id: "stampli",
     name: "Stampli",
@@ -10129,6 +9855,7 @@ export const agents: Agent[] = [
     url: "https://stampli.com",
     features: ["AI coding", "PO matching", "Approval workflows", "Payments", "ERP sync"]
   },
+
 {
     id: "vic-ai",
     name: "Vic.ai",
@@ -10147,42 +9874,7 @@ export const agents: Agent[] = [
     url: "https://vic.ai",
     features: ["Autonomous coding", "Anomaly detection", "Cash flow prediction", "Multi-entity", "Integrations"]
   },
-{
-    id: "kensho",
-    name: "Kensho",
-    tagline: "AI analytics for financial markets",
-    description: "Kensho (a S&P Global company) provides AI-powered analytics for financial markets. NLP-driven research, document analysis, and market intelligence.",
-    category: "Finance",
-    categorySlug: "finance",
-    icon: "📈",
-    rating: 4.4,
-    users: 50000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["financial analytics", "NLP", "market intelligence", "research"],
-    creator: "S&P Global",
-    url: "https://kensho.com",
-    features: ["NLP analytics", "Document extraction", "Market events", "Transcript analysis", "NER"]
-  },
-{
-    id: "alpha-sense",
-    name: "AlphaSense",
-    tagline: "AI market intelligence platform",
-    description: "AlphaSense uses AI to search and analyze millions of documents — earnings calls, SEC filings, news, and research. Used by 85% of S&P 500 companies.",
-    category: "Finance",
-    categorySlug: "finance",
-    icon: "🔬",
-    rating: 4.6,
-    users: 300000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["market intelligence", "research", "NLP", "earnings calls"],
-    creator: "AlphaSense",
-    url: "https://alpha-sense.com",
-    features: ["Smart search", "Sentiment analysis", "Earnings transcripts", "SEC filings", "Alerts"]
-  },
+
 {
     id: "brex-analytics",
     name: "Datarails",
@@ -10201,6 +9893,7 @@ export const agents: Agent[] = [
     url: "https://datarails.com",
     features: ["Budgeting", "Forecasting", "Variance analysis", "Dashboard", "Excel integration"]
   },
+
 {
     id: "jirav",
     name: "Jirav",
@@ -10219,6 +9912,7 @@ export const agents: Agent[] = [
     url: "https://jirav.com",
     features: ["Financial models", "Budgeting", "Scenario planning", "Dashboards", "Integrations"]
   },
+
 {
     id: "cryptohopper",
     name: "Cryptohopper",
@@ -10237,6 +9931,7 @@ export const agents: Agent[] = [
     url: "https://cryptohopper.com",
     features: ["Strategy designer", "Backtesting", "Social trading", "Arbitrage", "Marketplace"]
   },
+
 {
     id: "3commas",
     name: "3Commas",
@@ -10255,6 +9950,7 @@ export const agents: Agent[] = [
     url: "https://3commas.io",
     features: ["DCA bots", "Grid bots", "Smart trade", "Portfolio management", "Signals"]
   },
+
 {
     id: "deel-payroll",
     name: "Deel",
@@ -10273,6 +9969,7 @@ export const agents: Agent[] = [
     url: "https://deel.com",
     features: ["Global payroll", "Contractor management", "EOR services", "Compliance", "Benefits"]
   },
+
 {
     id: "gusto-ai-payroll",
     name: "Gusto AI",
@@ -10291,6 +9988,7 @@ export const agents: Agent[] = [
     url: "https://gusto.com",
     features: ["Payroll", "Benefits admin", "Onboarding", "Tax filing", "Time tracking"]
   },
+
 {
     id: "greenhouse-ai",
     name: "Greenhouse",
@@ -10309,6 +10007,7 @@ export const agents: Agent[] = [
     url: "https://greenhouse.com",
     features: ["Candidate scoring", "Structured interviews", "Job board posting", "Analytics", "Onboarding"]
   },
+
 {
     id: "lever-ai",
     name: "Lever",
@@ -10327,6 +10026,7 @@ export const agents: Agent[] = [
     url: "https://lever.co",
     features: ["ATS + CRM", "AI sourcing", "Diversity analytics", "Automated nurture", "Interview kits"]
   },
+
 {
     id: "ashby",
     name: "Ashby",
@@ -10345,6 +10045,7 @@ export const agents: Agent[] = [
     url: "https://ashbyhq.com",
     features: ["All-in-one ATS", "Analytics", "Scheduling", "CRM", "Custom reports"]
   },
+
 {
     id: "eightfold-ai",
     name: "Eightfold AI",
@@ -10363,6 +10064,7 @@ export const agents: Agent[] = [
     url: "https://eightfold.ai",
     features: ["AI matching", "Skills intelligence", "Diversity hiring", "Talent management", "Career site"]
   },
+
 {
     id: "hirevue",
     name: "HireVue",
@@ -10381,6 +10083,7 @@ export const agents: Agent[] = [
     url: "https://hirevue.com",
     features: ["On-demand interviews", "Game assessments", "Structured interviewing", "Analytics", "Scheduling"]
   },
+
 {
     id: "seekout",
     name: "SeekOut",
@@ -10399,6 +10102,7 @@ export const agents: Agent[] = [
     url: "https://seekout.com",
     features: ["800M+ profiles", "AI search", "Diversity filters", "Talent analytics", "CRM"]
   },
+
 {
     id: "beamery",
     name: "Beamery",
@@ -10417,6 +10121,7 @@ export const agents: Agent[] = [
     url: "https://beamery.com",
     features: ["Talent CRM", "Skills intelligence", "Career site", "Compliance", "Analytics"]
   },
+
 {
     id: "textio",
     name: "Textio",
@@ -10435,6 +10140,7 @@ export const agents: Agent[] = [
     url: "https://textio.com",
     features: ["Language scoring", "Bias detection", "Performance prediction", "Guidance", "Analytics"]
   },
+
 {
     id: "paradox-ai",
     name: "Paradox (Olivia)",
@@ -10453,6 +10159,7 @@ export const agents: Agent[] = [
     url: "https://paradox.ai",
     features: ["Conversational AI", "Auto-scheduling", "Screening", "Text recruiting", "Events"]
   },
+
 {
     id: "hireology",
     name: "Hireology",
@@ -10471,6 +10178,7 @@ export const agents: Agent[] = [
     url: "https://hireology.com",
     features: ["ATS", "Background checks", "Skills tests", "Onboarding", "Analytics"]
   },
+
 {
     id: "workday-ai-enterprise",
     name: "Workday AI",
@@ -10489,6 +10197,7 @@ export const agents: Agent[] = [
     url: "https://workday.com",
     features: ["HCM", "Skills cloud", "Talent optimization", "Workforce planning", "Analytics"]
   },
+
 {
     id: "bamboohr-ai-platform",
     name: "BambooHR",
@@ -10507,24 +10216,7 @@ export const agents: Agent[] = [
     url: "https://bamboohr.com",
     features: ["Employee records", "Payroll", "Time off tracking", "Hiring", "Reporting"]
   },
-{
-    id: "rippling-hr",
-    name: "Rippling",
-    tagline: "Unified HR, IT, and finance platform",
-    description: "Rippling unifies HR, IT, and finance in one platform. Onboard employees in 90 seconds — payroll, benefits, devices, and apps all automated.",
-    category: "HR & Recruiting",
-    categorySlug: "hr",
-    icon: "🔄",
-    rating: 4.6,
-    users: 200000,
-    price: "Premium",
-    featured: false,
-    new: false,
-    tags: ["unified platform", "onboarding", "IT management", "payroll"],
-    creator: "Rippling",
-    url: "https://rippling.com",
-    features: ["90-second onboarding", "Global payroll", "Benefits admin", "Device management", "App management"]
-  },
+
 {
     id: "lattice-ai",
     name: "Lattice",
@@ -10543,6 +10235,7 @@ export const agents: Agent[] = [
     url: "https://lattice.com",
     features: ["Performance reviews", "Engagement surveys", "Goal tracking", "1:1 agendas", "Compensation"]
   },
+
 {
     id: "culture-amp",
     name: "Culture Amp",
@@ -10561,6 +10254,7 @@ export const agents: Agent[] = [
     url: "https://cultureamp.com",
     features: ["Engagement surveys", "Performance reviews", "Goal management", "Development", "Analytics"]
   },
+
 {
     id: "15five",
     name: "15Five",
@@ -10579,6 +10273,7 @@ export const agents: Agent[] = [
     url: "https://15five.com",
     features: ["Weekly check-ins", "Performance reviews", "Engagement surveys", "Objectives", "1-on-1s"]
   },
+
 {
     id: "leapsome",
     name: "Leapsome",
@@ -10597,6 +10292,7 @@ export const agents: Agent[] = [
     url: "https://leapsome.com",
     features: ["Reviews", "Engagement surveys", "Learning paths", "Goals", "Compensation"]
   },
+
 {
     id: "bob-hr",
     name: "Bob (Hibob)",
@@ -10615,6 +10311,7 @@ export const agents: Agent[] = [
     url: "https://hibob.com",
     features: ["Onboarding", "Payroll hub", "Performance", "Surveys", "Time off"]
   },
+
 {
     id: "personio",
     name: "Personio",
@@ -10633,6 +10330,7 @@ export const agents: Agent[] = [
     url: "https://personio.com",
     features: ["Recruiting", "Onboarding", "Payroll", "Absence management", "Surveys"]
   },
+
 {
     id: "recruitee",
     name: "Recruitee",
@@ -10651,6 +10349,7 @@ export const agents: Agent[] = [
     url: "https://recruitee.com",
     features: ["Career site editor", "Pipeline management", "Sourcing tools", "Analytics", "API"]
   },
+
 {
     id: "breezy-hr",
     name: "Breezy HR",
@@ -10669,6 +10368,7 @@ export const agents: Agent[] = [
     url: "https://breezy.hr",
     features: ["AI matching", "Video interviews", "Career portal", "Automation", "Analytics"]
   },
+
 {
     id: "zoho-people",
     name: "Zoho People",
@@ -10687,6 +10387,7 @@ export const agents: Agent[] = [
     url: "https://zoho.com/people",
     features: ["Attendance tracking", "Performance reviews", "Leave management", "Onboarding", "Case management"]
   },
+
 {
     id: "jazzhr",
     name: "JazzHR",
@@ -10705,6 +10406,7 @@ export const agents: Agent[] = [
     url: "https://jazzhr.com",
     features: ["Job posting", "Resume parsing", "Interview scheduling", "Offer management", "Reporting"]
   },
+
 {
     id: "smartrecruiters",
     name: "SmartRecruiters",
@@ -10723,6 +10425,7 @@ export const agents: Agent[] = [
     url: "https://smartrecruiters.com",
     features: ["AI sourcing", "Conversational recruiting", "CRM", "Analytics", "Marketplace"]
   },
+
 {
     id: "deel-hire",
     name: "Deel Hire",
@@ -10741,6 +10444,7 @@ export const agents: Agent[] = [
     url: "https://deel.com/hire",
     features: ["EOR in 150+ countries", "Contractor management", "Compliance", "Global payroll", "Benefits"]
   },
+
 {
     id: "turing",
     name: "Turing",
@@ -10759,6 +10463,7 @@ export const agents: Agent[] = [
     url: "https://turing.com",
     features: ["AI vetting", "Skills matching", "Time tracking", "Compliance", "Management"]
   },
+
 {
     id: "toptal-hr",
     name: "Toptal",
@@ -10777,6 +10482,7 @@ export const agents: Agent[] = [
     url: "https://toptal.com",
     features: ["Top 3% talent", "AI matching", "Risk-free trial", "24-hour matching", "No-risk guarantee"]
   },
+
 {
     id: "upwork-ai",
     name: "Upwork AI",
@@ -10795,6 +10501,7 @@ export const agents: Agent[] = [
     url: "https://upwork.com",
     features: ["AI matching", "Proposal generation", "Time tracking", "Escrow", "Talent badges"]
   },
+
 {
     id: "fiverr-ai",
     name: "Fiverr AI",
@@ -10813,6 +10520,7 @@ export const agents: Agent[] = [
     url: "https://fiverr.com",
     features: ["AI recommendations", "Seller matching", "Brief generator", "Pro services", "Seller Plus"]
   },
+
 {
     id: "harvey-legal-ai",
     name: "Harvey AI",
@@ -10831,6 +10539,7 @@ export const agents: Agent[] = [
     url: "https://harvey.ai",
     features: ["Contract review", "Due diligence", "Legal research", "Regulatory analysis", "Custom training"]
   },
+
 {
     id: "co-counsel",
     name: "CoCounsel (Thomson Reuters)",
@@ -10849,6 +10558,7 @@ export const agents: Agent[] = [
     url: "https://legal.thomsonreuters.com",
     features: ["Legal research", "Document review", "Contract analysis", "Deposition prep", "Timeline creation"]
   },
+
 {
     id: "lexis-ai",
     name: "Lexis+ AI",
@@ -10867,6 +10577,7 @@ export const agents: Agent[] = [
     url: "https://lexisnexis.com",
     features: ["AI legal answers", "Brief drafting", "Case law analysis", "Citation verification", "Shepard's"]
   },
+
 {
     id: "ironclad",
     name: "Ironclad",
@@ -10885,6 +10596,7 @@ export const agents: Agent[] = [
     url: "https://ironcladapp.com",
     features: ["Contract editor", "AI review", "Approval workflows", "Analytics", "Integrations"]
   },
+
 {
     id: "juro",
     name: "Juro",
@@ -10903,6 +10615,7 @@ export const agents: Agent[] = [
     url: "https://juro.com",
     features: ["Contract editor", "AI review", "Approval workflows", "E-signatures", "Analytics"]
   },
+
 {
     id: "docusign-ai",
     name: "DocuSign AI",
@@ -10921,6 +10634,7 @@ export const agents: Agent[] = [
     url: "https://docusign.com",
     features: ["E-signatures", "Agreement analysis", "Workflow automation", "ID verification", "Notarize"]
   },
+
 {
     id: "luminance",
     name: "Luminance",
@@ -10939,6 +10653,7 @@ export const agents: Agent[] = [
     url: "https://luminance.com",
     features: ["Contract review", "Risk detection", "Anomaly flagging", "Translation", "Document comparison"]
   },
+
 {
     id: "kira-systems",
     name: "Kira Systems",
@@ -10957,6 +10672,7 @@ export const agents: Agent[] = [
     url: "https://kirasystems.com",
     features: ["Provision extraction", "Smart summaries", "Due diligence", "Custom models", "Reporting"]
   },
+
 {
     id: "everlaw",
     name: "Everlaw",
@@ -10975,6 +10691,7 @@ export const agents: Agent[] = [
     url: "https://everlaw.com",
     features: ["Predictive coding", "Story builder", "Timeline analysis", "Collaboration", "Analytics"]
   },
+
 {
     id: "relativity",
     name: "Relativity",
@@ -10993,6 +10710,7 @@ export const agents: Agent[] = [
     url: "https://relativity.com",
     features: ["Active learning", "Document clustering", "Email threading", "Legal hold", "Processing"]
   },
+
 {
     id: "case-text",
     name: "Casetext (CoCounsel)",
@@ -11011,6 +10729,7 @@ export const agents: Agent[] = [
     url: "https://casetext.com",
     features: ["AI research", "Brief analysis", "Parallel search", "Document review", "Timeline"]
   },
+
 {
     id: "briefpoint",
     name: "Briefpoint",
@@ -11029,6 +10748,7 @@ export const agents: Agent[] = [
     url: "https://briefpoint.ai",
     features: ["Brief drafting", "Motion generation", "Citation formatting", "Case law analysis", "Templates"]
   },
+
 {
     id: "spellbook",
     name: "Spellbook",
@@ -11047,6 +10767,7 @@ export const agents: Agent[] = [
     url: "https://spellbook.legal",
     features: ["Clause suggestions", "Risk flagging", "Auto-complete", "Legal dictionary", "Playbooks"]
   },
+
 {
     id: "lawyaw",
     name: "Lawyaw",
@@ -11065,6 +10786,7 @@ export const agents: Agent[] = [
     url: "https://lawyaw.com",
     features: ["Court forms", "Document templates", "Smart fields", "E-filing", "Client portal"]
   },
+
 {
     id: "neota-logic",
     name: "Neota Logic",
@@ -11083,6 +10805,7 @@ export const agents: Agent[] = [
     url: "https://neotalogic.com",
     features: ["No-code builder", "Decision trees", "Document automation", "API integrations", "Analytics"]
   },
+
 {
     id: "lemonade-legal",
     name: "Lemonade Legal",
@@ -11101,6 +10824,7 @@ export const agents: Agent[] = [
     url: "https://lemonade.com",
     features: ["Instant claims", "AI Jim bot", "Policy management", "Dispute resolution", "Transparency"]
   },
+
 {
     id: "legalrobot",
     name: "Legal Robot",
@@ -11119,6 +10843,7 @@ export const agents: Agent[] = [
     url: "https://legalrobot.com",
     features: ["Clause analysis", "Readability score", "Market comparison", "Risk scoring", "Translation"]
   },
+
 {
     id: "patentpal",
     name: "PatentPal",
@@ -11137,6 +10862,7 @@ export const agents: Agent[] = [
     url: "https://patentpal.com",
     features: ["Patent drafting", "Prior art search", "Claim generation", "Prosecution tracking", "Analytics"]
   },
+
 {
     id: "trademark-ai",
     name: "Trademarkia",
@@ -11155,6 +10881,7 @@ export const agents: Agent[] = [
     url: "https://trademarkia.com",
     features: ["AI search", "Conflict detection", "Filing services", "Monitoring", "Portfolio management"]
   },
+
 {
     id: "do-not-pay",
     name: "DoNotPay",
@@ -11173,6 +10900,7 @@ export const agents: Agent[] = [
     url: "https://donotpay.com",
     features: ["Ticket appeals", "Subscription cancellation", "Refund claims", "Virtual credit card", "Legal documents"]
   },
+
 {
     id: "lawdroid",
     name: "LawDroid",
@@ -11191,6 +10919,7 @@ export const agents: Agent[] = [
     url: "https://lawdroid.com",
     features: ["Website chatbot", "Lead qualification", "Appointment booking", "Legal Q&A", "Integrations"]
   },
+
 {
     id: "contractpod-ai",
     name: "ContractPodAi",
@@ -11209,6 +10938,7 @@ export const agents: Agent[] = [
     url: "https://contractpodai.com",
     features: ["Contract intake", "AI review", "Approval workflows", "Analytics", "Renewals"]
   },
+
 {
     id: "zeal-ai",
     name: "Zeal",
@@ -11227,6 +10957,7 @@ export const agents: Agent[] = [
     url: "https://usezeal.com",
     features: ["Template generation", "AI negotiation", "Obligation tracking", "E-signatures", "Analytics"]
   },
+
 {
     id: "simplelegal",
     name: "SimpleLegal",
@@ -11245,6 +10976,7 @@ export const agents: Agent[] = [
     url: "https://simplelegal.com",
     features: ["Matter management", "Invoice review", "Spend analytics", "Vendor management", "Accruals"]
   },
+
 {
     id: "netdocuments-ai",
     name: "NetDocuments",
@@ -11263,6 +10995,7 @@ export const agents: Agent[] = [
     url: "https://netdocuments.com",
     features: ["AI search", "Document classification", "Workflows", "Collaboration", "Security"]
   },
+
 {
     id: "clio-ai",
     name: "Clio AI",
@@ -11281,6 +11014,7 @@ export const agents: Agent[] = [
     url: "https://clio.com",
     features: ["Time tracking", "Billing", "Client management", "Document automation", "Integrations"]
   },
+
 {
     id: "mycase-ai",
     name: "MyCase",
@@ -11299,6 +11033,7 @@ export const agents: Agent[] = [
     url: "https://mycase.com",
     features: ["Case management", "Client portal", "Billing", "Document management", "Calendar"]
   },
+
 {
     id: "smokeball",
     name: "Smokeball",
@@ -11317,6 +11052,7 @@ export const agents: Agent[] = [
     url: "https://smokeball.com",
     features: ["Auto-time capture", "Document automation", "Billing", "Workflow", "Integrations"]
   },
+
 {
     id: "lawmatics",
     name: "Lawmatics",
@@ -11335,6 +11071,7 @@ export const agents: Agent[] = [
     url: "https://lawmatics.com",
     features: ["Lead tracking", "Automated follow-up", "Client intake", "E-signatures", "Analytics"]
   },
+
 {
     id: "shopify-magic",
     name: "Shopify Magic",
@@ -11353,6 +11090,7 @@ export const agents: Agent[] = [
     url: "https://shopify.com",
     features: ["AI product descriptions", "Image optimization", "Customer support bot", "Email campaigns", "Analytics"]
   },
+
 {
     id: "woocommerce-ai",
     name: "WooCommerce AI",
@@ -11371,6 +11109,7 @@ export const agents: Agent[] = [
     url: "https://woocommerce.com",
     features: ["Product recommendations", "Inventory management", "Marketing automation", "Payments", "Shipping"]
   },
+
 {
     id: "bigcommerce-ai",
     name: "BigCommerce AI",
@@ -11389,6 +11128,7 @@ export const agents: Agent[] = [
     url: "https://bigcommerce.com",
     features: ["AI merchandising", "Headless commerce", "B2B features", "Multi-storefront", "Analytics"]
   },
+
 {
     id: "algolia-ai",
     name: "Algolia",
@@ -11407,6 +11147,7 @@ export const agents: Agent[] = [
     url: "https://algolia.com",
     features: ["Instant search", "Recommendations", "Personalization", "Merchandising", "Analytics"]
   },
+
 {
     id: "nosto",
     name: "Nosto",
@@ -11425,6 +11166,7 @@ export const agents: Agent[] = [
     url: "https://nosto.com",
     features: ["Product recommendations", "Content personalization", "Popups", "A/B testing", "Analytics"]
   },
+
 {
     id: "dynamic-yield",
     name: "Dynamic Yield",
@@ -11443,6 +11185,7 @@ export const agents: Agent[] = [
     url: "https://dynamicyield.com",
     features: ["Recommendations", "A/B testing", "Personalization", "Email", "Triggered messages"]
   },
+
 {
     id: "klaviyo-ai-marketing",
     name: "Klaviyo AI",
@@ -11461,6 +11204,7 @@ export const agents: Agent[] = [
     url: "https://klaviyo.com",
     features: ["Predictive analytics", "Automated flows", "Segmentation", "A/B testing", "Attribution"]
   },
+
 {
     id: "yotpo",
     name: "Yotpo",
@@ -11479,6 +11223,7 @@ export const agents: Agent[] = [
     url: "https://yotpo.com",
     features: ["Reviews & ratings", "Loyalty programs", "SMS marketing", "Subscriptions", "Email"]
   },
+
 {
     id: "gorgias",
     name: "Gorgias",
@@ -11497,24 +11242,7 @@ export const agents: Agent[] = [
     url: "https://gorgias.com",
     features: ["AI auto-respond", "Order management", "Multi-channel", "Macros", "Revenue tracking"]
   },
-{
-    id: "tidio-ai-chat",
-    name: "Tidio",
-    tagline: "AI chatbot and live chat for online stores",
-    description: "Tidio provides AI chatbots and live chat for ecommerce. Lyro AI answers customer questions, recommends products, and recovers abandoned carts.",
-    category: "E-commerce",
-    categorySlug: "ecommerce",
-    icon: "🤖",
-    rating: 4.4,
-    users: 300000,
-    price: "Freemium",
-    featured: false,
-    new: false,
-    tags: ["chatbot", "live chat", "cart recovery", "ecommerce"],
-    creator: "Tidio",
-    url: "https://tidio.com",
-    features: ["Lyro AI chatbot", "Live chat", "Cart recovery", "Email automation", "Integrations"]
-  },
+
 {
     id: "octane-ai",
     name: "Octane AI",
@@ -11533,6 +11261,7 @@ export const agents: Agent[] = [
     url: "https://octaneai.com",
     features: ["AI quizzes", "Product recommendations", "SMS marketing", "Messenger", "Popups"]
   },
+
 {
     id: "rebuy",
     name: "Rebuy",
@@ -11551,6 +11280,7 @@ export const agents: Agent[] = [
     url: "https://rebuyengine.com",
     features: ["Smart recommendations", "Upsell & cross-sell", "Smart cart", "Bundles", "Post-purchase"]
   },
+
 {
     id: "searchspring",
     name: "Searchspring",
@@ -11569,6 +11299,7 @@ export const agents: Agent[] = [
     url: "https://searchspring.com",
     features: ["AI search", "Merchandising", "Personalization", "Recommendations", "Analytics"]
   },
+
 {
     id: "constructor",
     name: "Constructor",
@@ -11587,6 +11318,7 @@ export const agents: Agent[] = [
     url: "https://constructor.io",
     features: ["AI search", "Autosuggest", "Recommendations", "Browse", "Quiz"]
   },
+
 {
     id: "cartloop",
     name: "Cartloop",
@@ -11605,6 +11337,7 @@ export const agents: Agent[] = [
     url: "https://cartloop.io",
     features: ["SMS recovery", "Conversational AI", "Human + AI", "Analytics", "Integrations"]
   },
+
 {
     id: "rep-ai",
     name: "Rep AI",
@@ -11623,6 +11356,7 @@ export const agents: Agent[] = [
     url: "https://heymarvin.com",
     features: ["AI concierge", "Product matching", "Lead qualification", "Chat", "Analytics"]
   },
+
 {
     id: "prisync",
     name: "Prisync",
@@ -11641,6 +11375,7 @@ export const agents: Agent[] = [
     url: "https://prisync.com",
     features: ["Price monitoring", "Dynamic pricing", "MAP monitoring", "Price analytics", "API"]
   },
+
 {
     id: "competera",
     name: "Competera",
@@ -11659,6 +11394,7 @@ export const agents: Agent[] = [
     url: "https://competera.ai",
     features: ["Price optimization", "Elasticity modeling", "Competitive data", "Promotion optimization", "API"]
   },
+
 {
     id: "bluecore",
     name: "Bluecore",
@@ -11677,6 +11413,7 @@ export const agents: Agent[] = [
     url: "https://bluecore.com",
     features: ["Predictive audiences", "Product recommendations", "Triggered campaigns", "Paid media", "Analytics"]
   },
+
 {
     id: "lily-ai",
     name: "Lily AI",
@@ -11695,6 +11432,7 @@ export const agents: Agent[] = [
     url: "https://lily.ai",
     features: ["Product enrichment", "Consumer language", "Search optimization", "Recommendations", "Attribution"]
   },
+
 {
     id: "emarsys",
     name: "Emarsys",
@@ -11713,6 +11451,7 @@ export const agents: Agent[] = [
     url: "https://emarsys.com",
     features: ["Omnichannel campaigns", "Predictive analytics", "Loyalty", "Personalization", "Reporting"]
   },
+
 {
     id: "voyado",
     name: "Voyado",
@@ -11731,6 +11470,7 @@ export const agents: Agent[] = [
     url: "https://voyado.com",
     features: ["CRM", "Loyalty programs", "Marketing automation", "Personalization", "Analytics"]
   },
+
 {
     id: "inventory-planner",
     name: "Inventory Planner",
@@ -11749,6 +11489,7 @@ export const agents: Agent[] = [
     url: "https://inventory-planner.com",
     features: ["Demand forecasting", "Purchase orders", "Stock optimization", "Multi-location", "Analytics"]
   },
+
 {
     id: "forecast",
     name: "Stockly",
@@ -11767,6 +11508,7 @@ export const agents: Agent[] = [
     url: "https://stockly.ai",
     features: ["Demand prediction", "Multi-warehouse", "Auto-replenishment", "Analytics", "Integrations"]
   },
+
 {
     id: "loop-returns",
     name: "Loop Returns",
@@ -11785,6 +11527,7 @@ export const agents: Agent[] = [
     url: "https://loopreturns.com",
     features: ["Instant exchanges", "Smart routing", "Bonus credit", "Analytics", "Shopify integration"]
   },
+
 {
     id: "late-shipment",
     name: "LateShipment.com",
@@ -11803,6 +11546,7 @@ export const agents: Agent[] = [
     url: "https://lateshipment.com",
     features: ["Carrier monitoring", "Delay detection", "Auto-claims", "Delivery prediction", "Analytics"]
   },
+
 {
     id: "route",
     name: "Route",
@@ -11821,6 +11565,7 @@ export const agents: Agent[] = [
     url: "https://route.com",
     features: ["Visual tracking", "Shipping protection", "Carbon neutral", "Claims", "Analytics"]
   },
+
 {
     id: "parcel-panel",
     name: "ParcelPanel",
@@ -11839,6 +11584,7 @@ export const agents: Agent[] = [
     url: "https://parcelpanel.com",
     features: ["Branded tracking", "Delivery predictions", "Notifications", "Analytics", "Multi-carrier"]
   },
+
 {
     id: "shopify-chat",
     name: "Shopify Inbox",
