@@ -1,16 +1,17 @@
-"use client";
-
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Star, Users, ExternalLink, Shield, Zap, Clock, Check, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import { getAgentById, agents } from "@/data/agents";
+import AgentDetailClient from "./AgentDetailClient";
 
-export default function AgentDetailPage() {
-  const params = useParams();
-  const agent = getAgentById(params.id as string);
+export function generateStaticParams() {
+  return agents.map((agent) => ({ id: agent.id }));
+}
+
+export default function AgentDetailPage({ params }: { params: { id: string } }) {
+  const agent = getAgentById(params.id);
 
   if (!agent) {
     return (
@@ -45,24 +46,24 @@ export default function AgentDetailPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-8">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-8">
           <Link href="/agents" className="hover:text-white transition-colors flex items-center gap-1">
             <ArrowLeft className="w-4 h-4" /> Agents
           </Link>
-          <ChevronRight className="w-4 h-4" />
+          <ChevronRight className="w-4 h-4" aria-hidden="true" />
           <Link href={`/categories/${agent.categorySlug}`} className="hover:text-white transition-colors">
             {agent.category}
           </Link>
-          <ChevronRight className="w-4 h-4" />
-          <span className="text-white">{agent.name}</span>
-        </div>
+          <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          <span className="text-white" aria-current="page">{agent.name}</span>
+        </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2">
             {/* Header */}
             <div className="flex items-start gap-4 mb-8">
-              <div className="text-5xl">{agent.icon}</div>
+              <div className="text-5xl" aria-hidden="true">{agent.icon}</div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <h1 className="text-3xl font-bold text-white">{agent.name}</h1>
@@ -90,7 +91,7 @@ export default function AgentDetailPage() {
                 {agent.features.map((feature, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="mt-0.5 w-5 h-5 rounded-full bg-gradient-to-br from-[var(--primary)]/20 to-[var(--accent)]/20 flex items-center justify-center flex-shrink-0">
-                      <Check className="w-3 h-3 text-[var(--primary)]" />
+                      <Check className="w-3 h-3 text-[var(--primary)]" aria-hidden="true" />
                     </div>
                     <span className="text-[var(--text-secondary)]">{feature}</span>
                   </li>
@@ -114,64 +115,7 @@ export default function AgentDetailPage() {
           {/* Sidebar */}
           <div className="lg:col-span-1">
             {/* Deploy Card */}
-            <div className="glow-border rounded-xl bg-[var(--bg-card)] p-6 mb-6 sticky top-24">
-              {/* Price */}
-              <div className="flex items-center justify-between mb-4">
-                <span className={`text-sm font-medium px-3 py-1 rounded-full border ${priceColor}`}>
-                  {agent.price}
-                </span>
-                <div className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-                  <span className="font-semibold text-white">{agent.rating}</span>
-                </div>
-              </div>
-
-              {/* Stats */}
-              <div className="grid grid-cols-2 gap-3 mb-6">
-                <div className="rounded-lg bg-white/5 p-3 text-center">
-                  <Users className="w-4 h-4 text-[var(--text-secondary)] mx-auto mb-1" />
-                  <p className="text-sm font-medium text-white">{agent.users}</p>
-                  <p className="text-xs text-[var(--text-secondary)]">Users</p>
-                </div>
-                <div className="rounded-lg bg-white/5 p-3 text-center">
-                  <Clock className="w-4 h-4 text-[var(--text-secondary)] mx-auto mb-1" />
-                  <p className="text-sm font-medium text-white">24/7</p>
-                  <p className="text-xs text-[var(--text-secondary)]">Uptime</p>
-                </div>
-              </div>
-
-              {/* CTA */}
-              <a
-                href={agent.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full btn-shimmer py-3 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white font-medium rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 mb-3"
-              >
-                <Zap className="w-4 h-4" />
-                Visit {agent.name}
-              </a>
-              <a
-                href={agent.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors flex items-center justify-center gap-2"
-              >
-                <ExternalLink className="w-4 h-4" />
-                View Website
-              </a>
-
-              {/* Trust */}
-              <div className="mt-6 pt-6 border-t border-[var(--border)]">
-                <div className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-2">
-                  <Shield className="w-4 h-4 text-emerald-400" />
-                  <span>Verified by AgentForge</span>
-                </div>
-                <div className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                  <Zap className="w-4 h-4 text-amber-400" />
-                  <span>One-click deployment</span>
-                </div>
-              </div>
-            </div>
+            <AgentDetailClient agent={agent} priceColor={priceColor} />
           </div>
         </div>
 

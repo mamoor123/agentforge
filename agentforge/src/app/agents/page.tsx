@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { Search } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,7 +9,13 @@ import AgentCard from "@/components/AgentCard";
 import { agents, categories } from "@/data/agents";
 
 export default function AgentsPage() {
+  const searchParams = useSearchParams();
   const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q) setSearch(q);
+  }, [searchParams]);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedPrice, setSelectedPrice] = useState("all");
   const [sortBy, setSortBy] = useState("popular");
@@ -78,6 +85,7 @@ export default function AgentsPage() {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-secondary)]" />
             <input
               type="text"
+              aria-label="Search agents"
               placeholder="Search agents..."
               className="w-full bg-[var(--bg-card)] border border-[var(--border)] rounded-lg pl-10 pr-4 py-2.5 text-white placeholder:text-[var(--text-secondary)] outline-none focus:border-[var(--primary)] transition-colors"
               value={search}
@@ -87,6 +95,7 @@ export default function AgentsPage() {
 
           {/* Category */}
           <select
+            aria-label="Filter by category"
             className="bg-[var(--bg-card)] border border-[var(--border)] rounded-lg px-4 py-2.5 text-white outline-none focus:border-[var(--primary)] transition-colors cursor-pointer"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
@@ -99,6 +108,7 @@ export default function AgentsPage() {
 
           {/* Price */}
           <select
+            aria-label="Filter by price"
             className="bg-[var(--bg-card)] border border-[var(--border)] rounded-lg px-4 py-2.5 text-white outline-none focus:border-[var(--primary)] transition-colors cursor-pointer"
             value={selectedPrice}
             onChange={(e) => setSelectedPrice(e.target.value)}
@@ -112,6 +122,7 @@ export default function AgentsPage() {
 
           {/* Sort */}
           <select
+            aria-label="Sort agents"
             className="bg-[var(--bg-card)] border border-[var(--border)] rounded-lg px-4 py-2.5 text-white outline-none focus:border-[var(--primary)] transition-colors cursor-pointer"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}

@@ -1,6 +1,3 @@
-"use client";
-
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -8,9 +5,12 @@ import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import { categories, getAgentsByCategory } from "@/data/agents";
 
-export default function CategoryDetailPage() {
-  const params = useParams();
-  const slug = params.slug as string;
+export function generateStaticParams() {
+  return categories.map((cat) => ({ slug: cat.slug }));
+}
+
+export default function CategoryDetailPage({ params }: { params: { slug: string } }) {
+  const { slug } = params;
   const category = categories.find(c => c.slug === slug);
   const agentsList = getAgentsByCategory(slug);
 
@@ -34,17 +34,17 @@ export default function CategoryDetailPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-8">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-8">
           <Link href="/categories" className="hover:text-white transition-colors flex items-center gap-1">
             <ArrowLeft className="w-4 h-4" /> Categories
           </Link>
-          <ChevronRight className="w-4 h-4" />
-          <span className="text-white">{category.name}</span>
-        </div>
+          <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          <span className="text-white" aria-current="page">{category.name}</span>
+        </nav>
 
         {/* Header */}
         <div className="mb-12">
-          <span className="text-5xl mb-4 block">{category.icon}</span>
+          <span className="text-5xl mb-4 block" aria-hidden="true">{category.icon}</span>
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">
             {category.name} Agents
           </h1>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Search, ArrowRight, Sparkles, Zap, Shield, TrendingUp, Users, Star, Globe, Rocket } from "lucide-react";
+import { Search, ArrowRight, Sparkles, Zap, Users, Star, Globe, Rocket } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -52,6 +52,7 @@ export default function Home() {
                 <Search className="w-5 h-5 text-[var(--text-secondary)] ml-4" />
                 <input
                   type="text"
+                  aria-label="Search AI agents"
                   placeholder="Search 500+ AI agents... (e.g. 'social media', 'code review', 'invoicing')"
                   className="flex-1 bg-transparent px-4 py-4 text-white placeholder:text-[var(--text-secondary)] outline-none"
                   value={searchQuery}
@@ -159,7 +160,7 @@ export default function Home() {
               {
                 icon: <Search className="w-8 h-8" />,
                 title: "Discover",
-                description: "Browse 500+ AI agents across 8 categories. Filter by rating, price, and use case.",
+                description: "Browse 500+ AI agents across 10 categories. Filter by rating, price, and use case.",
                 step: "01"
               },
               {

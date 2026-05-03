@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Search, Menu, X, Zap } from "lucide-react";
+import { Menu, X, Zap } from "lucide-react";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -27,28 +27,31 @@ export default function Navbar() {
             <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
               Categories
             </Link>
-            <a href="#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
+            <Link href="/#featured" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
               Featured
-            </a>
-            <a href="#" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
+            </Link>
+            <Link href="/agents" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium">
               Pricing
-            </a>
+            </Link>
           </div>
 
           {/* Actions */}
           <div className="hidden md:flex items-center gap-3">
-            <button className="px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-white transition-colors">
+            <button type="button" className="px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-white transition-colors">
               Sign In
             </button>
-            <button className="btn-shimmer px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg hover:opacity-90 transition-opacity">
+            <button type="button" className="btn-shimmer px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg hover:opacity-90 transition-opacity">
               Submit Agent
             </button>
           </div>
 
           {/* Mobile menu */}
           <button
+            type="button"
             className="md:hidden text-[var(--text-secondary)]"
             onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -64,7 +67,7 @@ export default function Navbar() {
               <Link href="/categories" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2" onClick={() => setMobileOpen(false)}>
                 Categories
               </Link>
-              <button className="btn-shimmer mt-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg">
+              <button type="button" className="btn-shimmer mt-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg">
                 Submit Agent
               </button>
             </div>
