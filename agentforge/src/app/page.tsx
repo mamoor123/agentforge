@@ -20,14 +20,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Orbs */}
-        <div className="orb w-96 h-96 bg-indigo-500 top-0 left-1/4" />
-        <div className="orb w-72 h-72 bg-cyan-500 top-20 right-1/4" style={{ animationDelay: "-5s" }} />
-        <div className="orb w-64 h-64 bg-purple-500 bottom-0 left-1/3" style={{ animationDelay: "-10s" }} />
+        <div className="orb w-96 h-96 bg-indigo-500 top-0 left-1/4" aria-hidden="true" />
+        <div className="orb w-72 h-72 bg-cyan-500 top-20 right-1/4" style={{ animationDelay: "-5s" }} aria-hidden="true" />
+        <div className="orb w-64 h-64 bg-purple-500 bottom-0 left-1/3" style={{ animationDelay: "-10s" }} aria-hidden="true" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[var(--border)] bg-[var(--bg-card)] mb-8">
-            <Sparkles className="w-4 h-4 text-amber-400" />
+            <Sparkles className="w-4 h-4 text-amber-400" aria-hidden="true" />
             <span className="text-sm text-[var(--text-secondary)]">
               <span className="text-white font-medium">2,500+</span> AI agents deployed this week
             </span>
@@ -46,44 +46,52 @@ export default function Home() {
 
           {/* Search */}
           <div className="max-w-2xl mx-auto mb-8">
-            <div className="relative group">
+            <form
+              className="relative group"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const target = searchQuery ? `/agents?q=${encodeURIComponent(searchQuery)}` : "/agents";
+                window.location.href = target;
+              }}
+            >
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-xl opacity-30 group-hover:opacity-50 blur transition" />
               <div className="relative flex items-center bg-[var(--bg-card)] rounded-xl border border-[var(--border)]">
-                <Search className="w-5 h-5 text-[var(--text-secondary)] ml-4" />
+                <Search className="w-5 h-5 text-[var(--text-secondary)] ml-4" aria-hidden="true" />
+                <label htmlFor="hero-search" className="sr-only">Search AI agents</label>
                 <input
+                  id="hero-search"
                   type="text"
-                  aria-label="Search AI agents"
                   placeholder="Search 500+ AI agents... (e.g. 'social media', 'code review', 'invoicing')"
                   className="flex-1 bg-transparent px-4 py-4 text-white placeholder:text-[var(--text-secondary)] outline-none"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
-                <Link
-                  href={searchQuery ? `/agents?q=${encodeURIComponent(searchQuery)}` : "/agents"}
+                <button
+                  type="submit"
                   className="mr-2 px-5 py-2 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white text-sm font-medium rounded-lg hover:opacity-90 transition-opacity"
                 >
                   Search
-                </Link>
+                </button>
               </div>
-            </div>
+            </form>
           </div>
 
           {/* Quick stats */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-[var(--text-secondary)]">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-emerald-400 pulse-ring" />
+              <div className="w-2 h-2 rounded-full bg-emerald-400 pulse-ring" aria-hidden="true" />
               <span><span className="text-white font-medium">500+</span> agents</span>
             </div>
             <div className="flex items-center gap-2">
-              <Users className="w-4 h-4" />
+              <Users className="w-4 h-4" aria-hidden="true" />
               <span><span className="text-white font-medium">120K+</span> users</span>
             </div>
             <div className="flex items-center gap-2">
-              <Star className="w-4 h-4 text-amber-400" />
+              <Star className="w-4 h-4 text-amber-400" aria-hidden="true" />
               <span><span className="text-white font-medium">4.8</span> avg rating</span>
             </div>
             <div className="flex items-center gap-2">
-              <Globe className="w-4 h-4" />
+              <Globe className="w-4 h-4" aria-hidden="true" />
               <span><span className="text-white font-medium">50+</span> countries</span>
             </div>
           </div>
@@ -181,7 +189,7 @@ export default function Home() {
                   STEP {item.step}
                 </div>
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-[var(--primary)]/20 to-[var(--accent)]/20 text-[var(--primary)] mb-6">
-                  {item.icon}
+                  <span aria-hidden="true">{item.icon}</span>
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
                 <p className="text-[var(--text-secondary)]">{item.description}</p>
@@ -244,8 +252,8 @@ export default function Home() {
       <section className="py-20 relative">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="glow-border rounded-2xl bg-[var(--bg-card)] p-12 relative overflow-hidden">
-            <div className="orb w-48 h-48 bg-indigo-500 -top-20 -right-20 opacity-20" />
-            <div className="orb w-32 h-32 bg-cyan-500 -bottom-10 -left-10 opacity-20" />
+            <div className="orb w-48 h-48 bg-indigo-500 -top-20 -right-20 opacity-20" aria-hidden="true" />
+            <div className="orb w-32 h-32 bg-cyan-500 -bottom-10 -left-10 opacity-20" aria-hidden="true" />
             <div className="relative">
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
                 Ready to Automate?
@@ -261,7 +269,7 @@ export default function Home() {
                   Browse Agents
                 </Link>
                 <a
-                  href="#"
+                  href="/agents"
                   className="px-8 py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors"
                 >
                   Submit Your Agent
