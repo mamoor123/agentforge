@@ -7605,7 +7605,7 @@ export const agents: Agent[] = [
   {
     id: "scribbr-ai",
     name: "Scribbr",
-    title: "AI-powered academic editing & plagiarism checking",
+    tagline: "AI-powered academic editing & plagiarism checking",
     description: "Scribbr uses AI to check plagiarism, generate citations, and proofread academic papers. Trusted by millions of students worldwide.",
     category: "Education",
     categorySlug: "education",

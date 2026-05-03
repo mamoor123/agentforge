@@ -35,6 +35,8 @@ export default function AgentDetailPage() {
     ? "text-emerald-400 bg-emerald-400/10 border-emerald-400/20"
     : agent.price === "Freemium"
     ? "text-blue-400 bg-blue-400/10 border-blue-400/20"
+    : agent.price === "Pay-as-you-go"
+    ? "text-purple-400 bg-purple-400/10 border-purple-400/20"
     : "text-amber-400 bg-amber-400/10 border-amber-400/20";
 
   return (
@@ -139,14 +141,24 @@ export default function AgentDetailPage() {
               </div>
 
               {/* CTA */}
-              <button className="w-full btn-shimmer py-3 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white font-medium rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 mb-3">
+              <a
+                href={agent.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full btn-shimmer py-3 bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-white font-medium rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 mb-3"
+              >
                 <Zap className="w-4 h-4" />
-                Deploy Agent
-              </button>
-              <button className="w-full py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors flex items-center justify-center gap-2">
+                Visit {agent.name}
+              </a>
+              <a
+                href={agent.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors flex items-center justify-center gap-2"
+              >
                 <ExternalLink className="w-4 h-4" />
-                View Demo
-              </button>
+                View Website
+              </a>
 
               {/* Trust */}
               <div className="mt-6 pt-6 border-t border-[var(--border)]">

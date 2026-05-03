@@ -9,6 +9,8 @@ export default function AgentCard({ agent }: { agent: Agent }) {
     ? "text-emerald-400 bg-emerald-400/10"
     : agent.price === "Freemium"
     ? "text-blue-400 bg-blue-400/10"
+    : agent.price === "Pay-as-you-go"
+    ? "text-purple-400 bg-purple-400/10"
     : "text-amber-400 bg-amber-400/10";
 
   return (

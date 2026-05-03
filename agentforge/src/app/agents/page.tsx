@@ -38,7 +38,15 @@ export default function AgentsPage() {
 
     // Sort
     if (sortBy === "popular") {
-      result.sort((a, b) => parseFloat(b.users) - parseFloat(a.users));
+      result.sort((a, b) => {
+        const parseUsers = (u: string) => {
+          const num = parseFloat(u);
+          if (u.includes("M+")) return num * 1000000;
+          if (u.includes("K+")) return num * 1000;
+          return num;
+        };
+        return parseUsers(b.users) - parseUsers(a.users);
+      });
     } else if (sortBy === "rating") {
       result.sort((a, b) => b.rating - a.rating);
     } else if (sortBy === "newest") {
@@ -99,6 +107,7 @@ export default function AgentsPage() {
             <option value="Free">Free</option>
             <option value="Freemium">Freemium</option>
             <option value="Premium">Premium</option>
+            <option value="Pay-as-you-go">Pay-as-you-go</option>
           </select>
 
           {/* Sort */}
