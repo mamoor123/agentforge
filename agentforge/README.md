@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ AgentForge — The #1 AI Agent Marketplace
 
-## Getting Started
+> Discover, deploy, and automate with 500+ AI agents. No code required.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## 🚀 What is AgentForge?
+
+AgentForge is a curated marketplace for AI agents. Find the perfect AI tool for any task — marketing, coding, business, creative, data, productivity, education, health, sales, or customer support.
+
+### Features
+
+- 🔍 **Search & Filter** — Find agents by category, price, rating, or keyword
+- 📊 **166+ Real AI Agents** — Curated from the best tools in the ecosystem
+- 🎨 **Beautiful UI** — Dark theme, gradient animations, responsive design
+- ⚡ **Fast** — Built with Next.js 16 and Turbopack
+- 🆓 **Free to deploy** — Host on Vercel for $0
+
+## 📦 Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Hosting:** Vercel (free tier)
+
+## 🏃 Quick Start
 
 ```bash
+# Clone
+git clone https://github.com/mamoor123/agentforge.git
+cd agentforge
+
+# Install
+npm install
+
+# Run
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Deploy to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npx vercel
+```
 
-## Learn More
+Or click the button below:
 
-To learn more about Next.js, take a look at the following resources:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mamoor123/agentforge)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+agentforge/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              # Landing page
+│   │   ├── agents/
+│   │   │   ├── page.tsx          # Browse all agents
+│   │   │   └── [id]/page.tsx     # Agent detail
+│   │   ├── categories/
+│   │   │   ├── page.tsx          # All categories
+│   │   │   └── [slug]/page.tsx   # Category detail
+│   │   ├── layout.tsx            # Root layout
+│   │   └── globals.css           # Global styles
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   ├── AgentCard.tsx
+│   │   └── CategoryCard.tsx
+│   └── data/
+│       └── agents.ts             # Agent database (166 agents)
+└── public/
+```
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Want to add your AI agent? Submit a PR or open an issue!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+MIT
+
+---
+
+Built with ⚡ for the AI agent revolution
