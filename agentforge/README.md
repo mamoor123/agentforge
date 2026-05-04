@@ -4,7 +4,7 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 899 AI agents across 22 categories.**
+**Discover, compare, and deploy 1000 AI agents across 22 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -14,7 +14,7 @@
 
 <br />
 
-![Agents](https://img.shields.io/badge/🤖_Agents-899-blue?style=for-the-badge)
+![Agents](https://img.shields.io/badge/🤖_Agents-1000-blue?style=for-the-badge)
 ![Categories](https://img.shields.io/badge/📂_Categories-22-green?style=for-the-badge)
 ![Rating](https://img.shields.io/badge/⭐_Avg_Rating-4.5+-gold?style=for-the-badge)
 ![Free](https://img.shields.io/badge/🆓_Free_Agents-50+-purple?style=for-the-badge)
@@ -36,13 +36,13 @@
 
 > **Stop hunting across 50 websites. Find every AI agent in one place.**
 
-AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **899 real, verified AI tools** across **22 categories** — from Marketing to Coding, Creative to Cybersecurity — so you can discover, compare, and deploy the perfect AI agent for any task.
+AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **1000 real, verified AI tools** across **22 categories** — from Marketing to Coding, Creative to Cybersecurity — so you can discover, compare, and deploy the perfect AI agent for any task.
 
 **Think Product Hunt meets G2 for AI agents.**
 
 ### ✨ Why AgentForge?
 
-- 🔍 **899 real AI agents** — not stubs, real tools with real descriptions
+- 🔍 **1000 real AI agents** — not stubs, real tools with real descriptions
 - 📊 **22 categories** — Marketing, Coding, Business, Creative, Data, Productivity, and more
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
@@ -93,7 +93,7 @@ AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **89
 | 🎮 **Gaming** | 15 | Unity Muse, NVIDIA ACE |
 | 🏠 **Real Estate** | 13 | Restb.ai, HouseCanary |
 
-> 📈 **899 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
+> 📈 **1000 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
 
 ---
 
@@ -164,7 +164,7 @@ agentforge/
 │   │   ├── AgentCard.tsx               # 🃏 Agent card component
 │   │   └── CategoryCard.tsx            # 📦 Category card
 │   └── data/
-│       └── agents.ts                   # 🗄️ Agent database (899 agents)
+│       └── agents.ts                   # 🗄️ Agent database (1000 agents)
 ├── public/                             # 🖼️ Static assets
 ├── package.json                        # 📋 Dependencies
 ├── tailwind.config.ts                  # 🎨 Tailwind config
@@ -237,7 +237,7 @@ Want to add your AI agent? We'd love that!
 
 ## 🗺️ Roadmap
 
-- [x] ✅ 899 curated AI agents
+- [x] ✅ 1000 curated AI agents
 - [x] ✅ 22 categories
 - [x] ✅ Smart search
 - [x] ✅ Dark theme UI
@@ -262,7 +262,7 @@ Want to add your AI agent? We'd love that!
 
 <table>
 <tr>
-<td align="center"><h1>899</h1><sub>Total Agents</sub></td>
+<td align="center"><h1>1000</h1><sub>Total Agents</sub></td>
 <td align="center"><h1>22</h1><sub>Categories</sub></td>
 <td align="center"><h1>4.5+</h1><sub>Avg Rating</sub></td>
 <td align="center"><h1>50+</h1><sub>Free Tools</sub></td>

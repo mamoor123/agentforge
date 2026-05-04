@@ -23,7 +23,7 @@
 
 <br />
 
-![Agents](https://img.shields.io/badge/🤖_Agents-899-blue?style=for-the-badge)
+![Agents](https://img.shields.io/badge/🤖_Agents-1000-blue?style=for-the-badge)
 ![Categories](https://img.shields.io/badge/📂_Categories-22-green?style=for-the-badge)
 ![Rating](https://img.shields.io/badge/⭐_Avg_Rating-4.5+-gold?style=for-the-badge)
 ![Free](https://img.shields.io/badge/🆓_Free_Agents-50+-purple?style=for-the-badge)
@@ -49,7 +49,7 @@
 
 > **Stop hunting across 50 websites. Find every AI agent in one place.**
 
-AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **899 real, verified AI tools** across **22 categories** — from Marketing to Coding, Creative to Cybersecurity — so you can discover, compare, and deploy the perfect AI agent for any task.
+AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **1000 real, verified AI tools** across **22 categories** — from Marketing to Coding, Creative to Cybersecurity — so you can discover, compare, and deploy the perfect AI agent for any task.
 
 **Think Product Hunt meets G2 for AI agents.**
 
@@ -190,7 +190,7 @@ Clone and deploy to Vercel in under 60 seconds. Zero configuration needed.
 
 <br />
 
-> 📈 **899 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
+> 📈 **1000 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
 
 <br />
 
@@ -325,7 +325,7 @@ agentforge/
 │   │   ├── AgentCard.tsx               # 🃏 Agent card component
 │   │   └── CategoryCard.tsx            # 📦 Category card
 │   └── data/
-│       └── agents.ts                   # 🗄️ Agent database (899 agents)
+│       └── agents.ts                   # 🗄️ Agent database (1000 agents)
 ├── public/                             # 🖼️ Static assets
 ├── package.json                        # 📋 Dependencies
 ├── tailwind.config.ts                  # 🎨 Tailwind config
@@ -443,7 +443,7 @@ git push origin add-new-agent
 
 <br />
 
-- [x] ✅ 899 curated AI agents
+- [x] ✅ 1000 curated AI agents
 - [x] ✅ 22 categories
 - [x] ✅ Smart search
 - [x] ✅ Dark theme UI
@@ -472,7 +472,7 @@ git push origin add-new-agent
 
 <table>
 <tr>
-<td align="center"><h1>899</h1><sub>Total Agents</sub></td>
+<td align="center"><h1>1000</h1><sub>Total Agents</sub></td>
 <td align="center"><h1>22</h1><sub>Categories</sub></td>
 <td align="center"><h1>4.5+</h1><sub>Avg Rating</sub></td>
 <td align="center"><h1>50+</h1><sub>Free Tools</sub></td>
