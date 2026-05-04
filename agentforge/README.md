@@ -4,13 +4,20 @@
 
 ### The #1 AI Agent Marketplace
 
-**Discover, compare, and deploy 500+ AI agents across 10 categories.**
+**Discover, compare, and deploy 899 AI agents across 22 categories.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+
+<br />
+
+![Agents](https://img.shields.io/badge/🤖_Agents-899-blue?style=for-the-badge)
+![Categories](https://img.shields.io/badge/📂_Categories-22-green?style=for-the-badge)
+![Rating](https://img.shields.io/badge/⭐_Avg_Rating-4.5+-gold?style=for-the-badge)
+![Free](https://img.shields.io/badge/🆓_Free_Agents-50+-purple?style=for-the-badge)
 
 <br />
 
@@ -27,19 +34,35 @@
 
 ## 🤔 What is AgentForge?
 
-AgentForge is a **curated marketplace** for AI agents. Instead of hunting across dozens of websites to find the right AI tool, AgentForge puts them all in one place — searchable, comparable, and organized.
+> **Stop hunting across 50 websites. Find every AI agent in one place.**
 
-**Think of it as the "Product Hunt" for AI agents.**
+AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **899 real, verified AI tools** across **22 categories** — from Marketing to Coding, Creative to Cybersecurity — so you can discover, compare, and deploy the perfect AI agent for any task.
 
-### Why AgentForge?
+**Think Product Hunt meets G2 for AI agents.**
 
-- 🔍 **500+ real AI agents** — not stubs, real tools with real descriptions
-- 📊 **10 categories** — Marketing, Coding, Business, Creative, Data, Productivity, Education, Health, Sales, Customer Support
+### ✨ Why AgentForge?
+
+- 🔍 **899 real AI agents** — not stubs, real tools with real descriptions
+- 📊 **22 categories** — Marketing, Coding, Business, Creative, Data, Productivity, and more
 - 🎨 **Beautiful dark UI** — gradient animations, responsive design, modern aesthetics
 - ⚡ **Lightning fast** — Next.js 16 + Turbopack = instant page loads
 - 🆓 **100% free to deploy** — host on Vercel for $0
 - 🔍 **Smart search** — find agents by name, tag, category, or keyword
 - 📱 **Mobile responsive** — works perfectly on any device
+- 🆕 **Always fresh** — new agents added weekly
+
+---
+
+## 🆕 Latest Additions — 30 New Agents
+
+| Category | New Agents |
+|----------|-----------|
+| 📢 **Marketing** | Tofu, Blaze, Amplemarket, Warmly, Common Room |
+| 💼 **Business** | Manus (Meta), WorkBeaver, Dust, Salesforce Agentforce, HubSpot Breeze AI |
+| 🎨 **Creative** | Sora, Krea AI, LTX Studio, Haiper, Recraft AI |
+| 💻 **Coding** | OpenAI Codex CLI, Gemini CLI, Firebase Studio, Zed, OpenCode |
+| 📈 **Data** | AnswerRocket, IBM Cognos Analytics, Qlik Sense, Talend, Census |
+| ⚡ **Productivity** | Vellum AI, Carly AI, Cal.com, Fyxer, Shortwave |
 
 ---
 
@@ -47,16 +70,30 @@ AgentForge is a **curated marketplace** for AI agents. Instead of hunting across
 
 | Category | Agents | Examples |
 |----------|--------|----------|
-| 💻 **Coding** | 71 | Cursor, Claude Code, GitHub Copilot, Devin, v0, Bolt.new |
-| 📊 **Business** | 70 | Zapier, n8n, Notion AI, Stripe, Salesforce Einstein |
-| 📢 **Marketing** | 69 | Jasper, Copy.ai, Surfer SEO, SEMrush, HubSpot AI |
-| 📈 **Data** | 69 | ChatGPT, Claude, Perplexity, Hugging Face, LangChain |
-| 🎨 **Creative** | 58 | Midjourney, Runway, ElevenLabs, Suno, Canva AI |
-| ⚡ **Productivity** | 42 | OpenClaw, Reclaim AI, Todoist AI, Superhuman, Linear |
-| 🎧 **Support** | 33 | Intercom Fin, Zendesk AI, Ada, Freshdesk, Chatwoot |
-| 📚 **Education** | 31 | Khanmigo, Duolingo Max, Consensus, NotebookLM |
-| 🏥 **Health** | 30 | Cal AI, WHOOP, Oura Ring, Woebot, Talkspace |
-| 💼 **Sales** | 27 | Apollo.io, Clay, Gong, Outreach, Instantly |
+| 📢 **Marketing** | 113 | Jasper, Beehiiv, Klaviyo, Tofu, Blaze |
+| 📊 **Business** | 97 | Zapier, Clay, Manus, Dust, Salesforce Agentforce |
+| 💻 **Coding** | 53 | Cursor, Copilot, Claude Code, Codex CLI, Zed |
+| 📈 **Data** | 52 | ChatGPT, Claude, Gemini, Qlik Sense, Census |
+| 🎨 **Creative** | 87 | Midjourney, Sora, Krea AI, LTX Studio, Recraft |
+| ⚡ **Productivity** | 45 | OpenClaw, Reclaim, Cal.com, Shortwave, Fyxer |
+| 🤖 **AI & ML** | 42 | Groq, Fireworks, Modal |
+| 🏥 **Health** | 33 | Cal AI, WHOOP, Tempus |
+| 🎧 **Support** | 32 | Sierra, Intercom Fin, Ada |
+| ⚖️ **Legal** | 32 | Harvey, Ironclad, Spellbook |
+| 📚 **Education** | 31 | Khanmigo, Duolingo Max, Consensus |
+| 💰 **Finance** | 31 | Plaid, Brex, Ramp |
+| 👥 **HR** | 29 | Paradox, HireVue, Eightfold |
+| 💼 **Sales** | 28 | Apollo, Lavender, 11x.ai |
+| 🚀 **DevOps** | 28 | LinearB, Buildkite, Render |
+| 🔬 **Research** | 27 | Perplexity, Scite, ChatPDF |
+| 🛒 **E-commerce** | 24 | Shopify Magic, Bloomreach |
+| 🎙️ **Voice AI** | 23 | ElevenLabs, Play.ht, Deepgram |
+| 🔒 **Security** | 17 | Wiz, Snyk, Huntress |
+| 📦 **Logistics** | 17 | project44, FourKites |
+| 🎮 **Gaming** | 15 | Unity Muse, NVIDIA ACE |
+| 🏠 **Real Estate** | 13 | Restb.ai, HouseCanary |
+
+> 📈 **899 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
 
 ---
 
@@ -94,14 +131,15 @@ npx vercel
 
 ## 📦 Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **Next.js 16** | React framework with App Router |
-| **TypeScript** | Type-safe development |
-| **Tailwind CSS 4** | Utility-first styling |
-| **Framer Motion** | Animations & transitions |
-| **Lucide React** | Beautiful icons |
-| **Vercel** | Hosting & deployment |
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40" height="40" /><br /><b>Next.js 16</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" /><br /><b>TypeScript 5</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" /><br /><b>Tailwind 4</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" /><br /><b>React 19</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="40" height="40" /><br /><b>Vercel</b></td>
+</tr>
+</table>
 
 ---
 
@@ -126,7 +164,7 @@ agentforge/
 │   │   ├── AgentCard.tsx               # 🃏 Agent card component
 │   │   └── CategoryCard.tsx            # 📦 Category card
 │   └── data/
-│       └── agents.ts                   # 🗄️ Agent database (500 agents)
+│       └── agents.ts                   # 🗄️ Agent database (899 agents)
 ├── public/                             # 🖼️ Static assets
 ├── package.json                        # 📋 Dependencies
 ├── tailwind.config.ts                  # 🎨 Tailwind config
@@ -139,19 +177,20 @@ agentforge/
 
 ### For Users
 - 🔍 **Smart Search** — Find agents by name, description, tags, or category
-- 📊 **Category Browsing** — Explore 10 curated categories
+- 📊 **22 Categories** — Every AI tool properly organized
 - ⭐ **Featured Agents** — Hand-picked top agents highlighted on homepage
 - 🆕 **New Agents** — Recently added tools marked with a badge
 - 💰 **Price Filters** — Free, Freemium, Premium, Pay-as-you-go
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
+- 🎨 **Dark Theme** — Beautiful gradient UI
 
 ### For Developers
 - ⚡ **Fast** — Built with Next.js 16 and Turbopack
-- 🎨 **Beautiful UI** — Dark theme with gradient animations
 - 🧩 **Modular** — Clean component architecture
 - 📝 **TypeScript** — Fully typed for reliability
 - 🎭 **Framer Motion** — Smooth page transitions
 - 🔧 **Easy to extend** — Add new agents by editing one file
+- 🚀 **One-click deploy** — Vercel-ready out of the box
 
 ---
 
@@ -198,6 +237,12 @@ Want to add your AI agent? We'd love that!
 
 ## 🗺️ Roadmap
 
+- [x] ✅ 899 curated AI agents
+- [x] ✅ 22 categories
+- [x] ✅ Smart search
+- [x] ✅ Dark theme UI
+- [x] ✅ Mobile responsive
+- [x] ✅ Vercel deployment
 - [ ] 🔐 User accounts & authentication
 - [ ] ⭐ User reviews & ratings
 - [ ] 🔄 Agent comparison tool
@@ -208,18 +253,21 @@ Want to add your AI agent? We'd love that!
 - [ ] 📈 Trending agents section
 - [ ] 🔔 Price drop alerts
 - [ ] 🌍 Multi-language support
+- [ ] 📱 Mobile app (React Native)
+- [ ] 🤖 AI-powered agent recommendations
 
 ---
 
 ## 📈 Stats
 
-| Metric | Value |
-|--------|-------|
-| 🤖 Total Agents | **500+** |
-| 📂 Categories | **10** |
-| ⭐ Avg Rating | **4.5+** |
-| 🆓 Free Agents | **50+** |
-| 🌍 Countries | **50+** |
+<table>
+<tr>
+<td align="center"><h1>899</h1><sub>Total Agents</sub></td>
+<td align="center"><h1>22</h1><sub>Categories</sub></td>
+<td align="center"><h1>4.5+</h1><sub>Avg Rating</sub></td>
+<td align="center"><h1>50+</h1><sub>Free Tools</sub></td>
+</tr>
+</table>
 
 ---
 
@@ -227,11 +275,11 @@ Want to add your AI agent? We'd love that!
 
 Built with amazing open-source tools:
 
-- [Next.js](https://nextjs.org) — The React framework
-- [Tailwind CSS](https://tailwindcss.com) — Utility-first CSS
-- [Lucide](https://lucide.dev) — Beautiful icons
-- [Framer Motion](https://framer.com/motion) — Animations
-- [Vercel](https://vercel.com) — Hosting
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Lucide](https://img.shields.io/badge/Lucide-F97316?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://framer.com/motion)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
 ---
 
