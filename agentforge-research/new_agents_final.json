@@ -1,0 +1,3384 @@
+[
+  {
+    "id": "arcads",
+    "name": "Arcads",
+    "tagline": "AI-powered video ad creation platform",
+    "description": "Arcads lets marketers create high-performing video ads using 1,000+ AI actors and avatars. It combines AI video generation, translation, subtitles, and ad presets into one platform for D2C brands and agencies.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83c\udfac",
+    "rating": 4.5,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "video-ads",
+      "ai-actors",
+      "ad-creation"
+    ],
+    "creator": "Arcads",
+    "url": "https://www.arcads.ai",
+    "features": [
+      "1,000+ AI actors and avatars",
+      "AI video translation and captions",
+      "Performance ad presets"
+    ]
+  },
+  {
+    "id": "writer",
+    "name": "Writer",
+    "tagline": "Enterprise AI platform for agentic marketing work",
+    "description": "Writer is an enterprise-grade AI platform that builds custom AI agents trained on your brand DNA. It helps marketing teams create on-brand content, automate campaigns, and scale operations while maintaining enterprise security and compliance.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\u270d\ufe0f",
+    "rating": 4.6,
+    "users": 300000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "enterprise-ai",
+      "content-creation",
+      "brand-voice"
+    ],
+    "creator": "Writer Inc",
+    "url": "https://writer.com",
+    "features": [
+      "Custom AI agents with brand expertise",
+      "AI Studio for IT integration",
+      "Enterprise security and compliance"
+    ]
+  },
+  {
+    "id": "albert-ai",
+    "name": "Albert AI",
+    "tagline": "Autonomous AI for digital advertising optimization",
+    "description": "Albert AI autonomously manages and optimizes paid media campaigns across Google, Meta, YouTube, and more. It uses machine learning to shift ad spend in real-time based on audience performance, delivering measurable ROI improvements.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83e\udd16",
+    "rating": 4.3,
+    "users": 200000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ad-optimization",
+      "paid-media",
+      "autonomous-ai"
+    ],
+    "creator": "Zoomd",
+    "url": "https://www.albert.ai",
+    "features": [
+      "Cross-platform ad optimization",
+      "Real-time budget reallocation",
+      "Creative performance optimization"
+    ]
+  },
+  {
+    "id": "brand24",
+    "name": "Brand24",
+    "tagline": "AI-powered social listening and media monitoring",
+    "description": "Brand24 monitors over 25 million online sources in real-time including social media, news, blogs, forums, and podcasts. It provides AI-powered sentiment analysis, competitor tracking, and influencer discovery for brand reputation management.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83d\udc42",
+    "rating": 4.4,
+    "users": 180000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "social-listening",
+      "sentiment-analysis",
+      "brand-monitoring"
+    ],
+    "creator": "Brand24",
+    "url": "https://www.brand24.com",
+    "features": [
+      "Real-time monitoring of 25M+ sources",
+      "AI sentiment analysis",
+      "Competitor and influencer tracking"
+    ]
+  },
+  {
+    "id": "influencity",
+    "name": "Influencity",
+    "tagline": "AI-driven influencer marketing and social media management",
+    "description": "Influencity is an all-in-one platform for influencer marketing, social media management, and social listening. It tracks 200M+ global creators and provides end-to-end campaign management from discovery to reporting.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\u2b50",
+    "rating": 4.3,
+    "users": 150000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "influencer-marketing",
+      "social-media",
+      "creator-discovery"
+    ],
+    "creator": "Influencity",
+    "url": "https://www.influencity.com",
+    "features": [
+      "200M+ creator database",
+      "End-to-end campaign management",
+      "Social listening and analytics"
+    ]
+  },
+  {
+    "id": "chatfuel",
+    "name": "Chatfuel",
+    "tagline": "AI chatbots for WhatsApp, Instagram, and Facebook",
+    "description": "Chatfuel builds AI-powered chatbots for WhatsApp, Instagram, Facebook, and TikTok that automate customer conversations, bookings, and follow-ups. It converts inquiries into paying clients 24/7 without coding.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83d\udcac",
+    "rating": 4.3,
+    "users": 250000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "chatbots",
+      "whatsapp",
+      "customer-automation"
+    ],
+    "creator": "Chatfuel",
+    "url": "https://www.chatfuel.com",
+    "features": [
+      "Multi-platform chatbot builder",
+      "AI-powered conversation handling",
+      "CRM and payment integrations"
+    ]
+  },
+  {
+    "id": "contentshake-ai",
+    "name": "ContentShake AI",
+    "tagline": "AI-powered SEO blog writing tool by Semrush",
+    "description": "ContentShake AI helps marketers write SEO-optimized blog posts by combining AI content generation with real-time competitive data. It suggests topics, generates drafts, and optimizes content for search rankings.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83d\udcdd",
+    "rating": 4.2,
+    "users": 120000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "seo-writing",
+      "content-creation",
+      "blog-optimization"
+    ],
+    "creator": "Semrush",
+    "url": "https://www.contentshake.ai",
+    "features": [
+      "SEO-optimized content generation",
+      "Competitive data integration",
+      "Topic and keyword suggestions"
+    ]
+  },
+  {
+    "id": "crayo",
+    "name": "Crayo",
+    "tagline": "AI video editor for short-form social content",
+    "description": "Crayo is an AI-powered video editor designed for creating short-form content for TikTok, Instagram Reels, and YouTube Shorts. It automates editing, captions, and effects to help creators and marketers produce viral clips faster.",
+    "category": "Marketing",
+    "categorySlug": "marketing",
+    "icon": "\ud83c\udf9e\ufe0f",
+    "rating": 4.2,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "video-editing",
+      "short-form-content",
+      "social-media"
+    ],
+    "creator": "Crayo",
+    "url": "https://crayo.ai",
+    "features": [
+      "AI-powered video editing",
+      "Auto captions and effects",
+      "Short-form content optimization"
+    ]
+  },
+  {
+    "id": "11x-ai",
+    "name": "11x",
+    "tagline": "AI digital workers for sales and customer engagement",
+    "description": "11x provides AI digital workers including Alice (AI SDR) and Julian (AI Phone Agent) that autonomously prospect, engage leads, and run sales conversations. It delivers 1.5x increase in qualified meetings and $1M+ pipeline in first 3 months.",
+    "category": "Business",
+    "categorySlug": "business",
+    "icon": "\ud83e\uddd1\u200d\ud83d\udcbc",
+    "rating": 4.5,
+    "users": 100000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-sdr",
+      "sales-automation",
+      "digital-workers"
+    ],
+    "creator": "11x",
+    "url": "https://11x.ai",
+    "features": [
+      "Alice AI SDR for prospecting",
+      "Julian AI Phone Agent",
+      "Multi-channel engagement"
+    ]
+  },
+  {
+    "id": "lindy-ai",
+    "name": "Lindy",
+    "tagline": "AI work assistant for inbox, meetings, and calendar",
+    "description": "Lindy is a personal AI work assistant that manages inbox, meetings, calendar, and follow-ups across tools. Trusted by 400K+ professionals, it can be delegated to via iMessage/SMS and connects to Gmail, Slack, Notion, HubSpot, and more.",
+    "category": "Business",
+    "categorySlug": "business",
+    "icon": "\ud83e\udd1d",
+    "rating": 4.4,
+    "users": 400000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-assistant",
+      "email-management",
+      "meeting-assistant"
+    ],
+    "creator": "Lindy AI",
+    "url": "https://www.lindy.ai",
+    "features": [
+      "Email triage and drafting",
+      "Meeting notes and follow-ups",
+      "SMS/iMessage delegation"
+    ]
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "tagline": "Multi-agent orchestration framework for business automation",
+    "description": "CrewAI is an open-source framework for building multi-agent AI systems where specialized agents collaborate on complex tasks. It enables businesses to create orchestrated agent crews for research, content creation, sales outreach, and operational workflows.",
+    "category": "Business",
+    "categorySlug": "business",
+    "icon": "\ud83d\udc65",
+    "rating": 4.5,
+    "users": 150000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "open-source"
+    ],
+    "creator": "CrewAI",
+    "url": "https://www.crewai.com",
+    "features": [
+      "Multi-agent collaboration",
+      "Role-based agent design",
+      "Enterprise deployment support"
+    ]
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "tagline": "The first fully autonomous AI software engineer",
+    "description": "Devin by Cognition is an AI software engineer that can independently plan, code, debug, and deploy software. It handles complex multi-file refactoring, migrations, and feature development with minimal human oversight, achieving 8x engineering efficiency gains.",
+    "category": "Coding",
+    "categorySlug": "coding",
+    "icon": "\ud83e\uddd1\u200d\ud83d\udcbb",
+    "rating": 4.6,
+    "users": 100000,
+    "price": "Pay-as-you-go",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "autonomous-coding",
+      "software-engineer",
+      "code-refactoring"
+    ],
+    "creator": "Cognition",
+    "url": "https://devin.ai",
+    "features": [
+      "Autonomous code planning and execution",
+      "Multi-file refactoring",
+      "Test-driven development"
+    ]
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "tagline": "AI builder for websites, apps, and prototypes",
+    "description": "Bolt (formerly Bolt.new) is a professional vibe coding tool that creates full-stack web applications by chatting with AI. It integrates frontier coding agents, handles projects 1000x larger than before, and includes built-in hosting, databases, and SEO.",
+    "category": "Coding",
+    "categorySlug": "coding",
+    "icon": "\u26a1",
+    "rating": 4.5,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "vibe-coding",
+      "web-builder",
+      "full-stack"
+    ],
+    "creator": "StackBlitz",
+    "url": "https://bolt.new",
+    "features": [
+      "Chat-to-app creation",
+      "Design system integration",
+      "Built-in hosting and databases"
+    ]
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "tagline": "AI app builder for vibe coding enthusiasts",
+    "description": "Lovable lets anyone create apps and websites by chatting with AI. It's designed for non-technical founders, designers, and product managers who want to go from idea to working prototype without writing code.",
+    "category": "Coding",
+    "categorySlug": "coding",
+    "icon": "\ud83d\udc9c",
+    "rating": 4.4,
+    "users": 300000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "vibe-coding",
+      "no-code",
+      "app-builder"
+    ],
+    "creator": "Lovable",
+    "url": "https://lovable.dev",
+    "features": [
+      "Natural language app creation",
+      "Instant preview and deployment",
+      "GitHub integration"
+    ]
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "tagline": "AI-powered app and website builder by Vercel",
+    "description": "v0 by Vercel generates working web applications from text prompts with agentic capabilities. It plans tasks, connects to databases, deploys to production, and supports design systems \u2014 going from idea to live site in seconds.",
+    "category": "Coding",
+    "categorySlug": "coding",
+    "icon": "\u25b2",
+    "rating": 4.5,
+    "users": 400000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-builder",
+      "vercel",
+      "agentic-coding"
+    ],
+    "creator": "Vercel",
+    "url": "https://v0.dev",
+    "features": [
+      "Agentic task planning and execution",
+      "One-click Vercel deployment",
+      "Design mode with visual controls"
+    ]
+  },
+  {
+    "id": "amazon-q-developer",
+    "name": "Amazon Q Developer",
+    "tagline": "AWS-powered AI coding assistant for cloud development",
+    "description": "Amazon Q Developer is an AI coding assistant built for AWS environments. It generates code, transforms legacy applications, troubleshoots issues, and automates code reviews with deep integration into AWS services and infrastructure.",
+    "category": "Coding",
+    "categorySlug": "coding",
+    "icon": "\u2601\ufe0f",
+    "rating": 4.4,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "aws",
+      "cloud-coding",
+      "code-generation"
+    ],
+    "creator": "Amazon Web Services",
+    "url": "https://aws.amazon.com/q/developer/",
+    "features": [
+      "AWS-native code generation",
+      "Legacy code transformation",
+      "Automated code reviews"
+    ]
+  },
+  {
+    "id": "thoughtspot",
+    "name": "ThoughtSpot",
+    "tagline": "Agentic analytics platform powered by AI",
+    "description": "ThoughtSpot is an agentic analytics platform that lets users ask data questions in natural language and get instant, explainable AI insights. Its Spotter agent provides industry-tailored analytics for enterprise decision-making.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udca1",
+    "rating": 4.5,
+    "users": 250000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "analytics",
+      "natural-language-query",
+      "enterprise-bi"
+    ],
+    "creator": "ThoughtSpot",
+    "url": "https://www.thoughtspot.com",
+    "features": [
+      "Natural language data queries",
+      "Spotter AI agent for industries",
+      "Explainable AI insights"
+    ]
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer",
+    "tagline": "AI-driven embedded analytics for products",
+    "description": "Polymer lets developers embed AI-powered analytics, charts, and visualizations into their products with minimal code. It transforms spreadsheets into interactive databases and provides AI-driven insights for user retention and engagement.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udcca",
+    "rating": 4.2,
+    "users": 80000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "embedded-analytics",
+      "data-visualization",
+      "developer-tools"
+    ],
+    "creator": "Polymer",
+    "url": "https://www.polymersearch.com",
+    "features": [
+      "Embedded analytics with minimal code",
+      "AI-driven insights",
+      "Spreadsheet-to-database transformation"
+    ]
+  },
+  {
+    "id": "numerous-ai",
+    "name": "Numerous.ai",
+    "tagline": "ChatGPT-powered AI inside Google Sheets and Excel",
+    "description": "Numerous.ai brings AI capabilities directly into spreadsheets using a simple =AI function. It handles content generation, data cleaning, classification, summarization, and research at scale without requiring API keys or technical setup.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udcc8",
+    "rating": 4.3,
+    "users": 120000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "spreadsheets",
+      "data-cleaning",
+      "bulk-ai"
+    ],
+    "creator": "Numerous.ai",
+    "url": "https://numerous.ai",
+    "features": [
+      "=AI function in spreadsheets",
+      "Bulk content and data processing",
+      "No API key required"
+    ]
+  },
+  {
+    "id": "domo",
+    "name": "Domo",
+    "tagline": "End-to-end data platform with AI agents",
+    "description": "Domo is an end-to-end data platform that combines integration, transformation, BI, conversational AI, and automation. Its Agent Catalyst feature enables autonomous AI agents that monitor data and trigger workflows without human prompts.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udd37",
+    "rating": 4.4,
+    "users": 300000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "data-platform",
+      "ai-agents",
+      "business-intelligence"
+    ],
+    "creator": "Domo",
+    "url": "https://www.domo.com",
+    "features": [
+      "Agent Catalyst for autonomous monitoring",
+      "Full data journey integration",
+      "Governed semantic layer"
+    ]
+  },
+  {
+    "id": "obviously-ai",
+    "name": "Obviously AI",
+    "tagline": "No-code machine learning and predictive analytics",
+    "description": "Obviously AI enables anyone to build and deploy machine learning models without coding. Users can predict outcomes, classify data, and generate forecasts by simply uploading a dataset and selecting a target column.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udd2e",
+    "rating": 4.2,
+    "users": 60000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "no-code-ml",
+      "predictive-analytics",
+      "automl"
+    ],
+    "creator": "Obviously AI",
+    "url": "https://www.obviously.ai",
+    "features": [
+      "No-code model building",
+      "One-click predictions",
+      "Automated feature engineering"
+    ]
+  },
+  {
+    "id": "mode-analytics",
+    "name": "Mode",
+    "tagline": "Collaborative analytics platform with AI assistance",
+    "description": "Mode combines SQL, Python, and visual analytics in a collaborative platform with AI-powered features. It helps data teams build reports, dashboards, and interactive notebooks while AI assists with query generation and insight discovery.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udccb",
+    "rating": 4.3,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "collaborative-analytics",
+      "sql",
+      "data-notebooks"
+    ],
+    "creator": "Mode Analytics",
+    "url": "https://mode.com",
+    "features": [
+      "SQL + Python + visual analytics",
+      "AI-assisted query generation",
+      "Collaborative notebooks and dashboards"
+    ]
+  },
+  {
+    "id": "alteryx",
+    "name": "Alteryx",
+    "tagline": "AI-powered data preparation and analytics automation",
+    "description": "Alteryx automates data preparation, blending, and advanced analytics with AI assistance. It enables data analysts and engineers to build repeatable workflows for data cleaning, transformation, and predictive modeling without heavy coding.",
+    "category": "Data",
+    "categorySlug": "data",
+    "icon": "\ud83d\udd04",
+    "rating": 4.4,
+    "users": 300000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "data-preparation",
+      "analytics-automation",
+      "etl"
+    ],
+    "creator": "Alteryx",
+    "url": "https://www.alteryx.com",
+    "features": [
+      "Drag-and-drop workflow builder",
+      "AI-assisted data preparation",
+      "Predictive and spatial analytics"
+    ]
+  },
+  {
+    "id": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "tagline": "Next-gen AI video generation from text and images",
+    "description": "Luma's Dream Machine creates high-quality, realistic video clips from text prompts or reference images. The Ray2 model (2025) delivers impressive physics-aware motion, cinematic camera movements, and consistent character rendering. It's become a top choice for creators wanting quick, high-fidelity video generation.",
+    "category": "Creative",
+    "categorySlug": "creative",
+    "icon": "\ud83c\udfac",
+    "rating": 4.5,
+    "users": 1500000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "creator": "Luma AI",
+    "url": "https://lumalabs.ai/dream-machine",
+    "features": [
+      "Text-to-video generation",
+      "Image-to-video animation",
+      "Physics-aware motion rendering"
+    ]
+  },
+  {
+    "id": "flux",
+    "name": "Flux by Black Forest Labs",
+    "tagline": "State-of-the-art open-source image generation model",
+    "description": "Flux is a family of image generation models from Black Forest Labs (founded by ex-Stability AI researchers). Released in 2024, Flux quickly became the leading open-source alternative to Midjourney, offering exceptional prompt adherence, photorealism, and fine detail. Its open nature has spawned a massive ecosystem of fine-tuned variants.",
+    "category": "Creative",
+    "categorySlug": "creative",
+    "icon": "\ud83d\uddbc\ufe0f",
+    "rating": 4.7,
+    "users": 3000000,
+    "price": "Free",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "image-generation",
+      "open-source",
+      "photorealism"
+    ],
+    "creator": "Black Forest Labs",
+    "url": "https://blackforestlabs.ai",
+    "features": [
+      "Open-source model family",
+      "Exceptional prompt adherence",
+      "Multiple model sizes (Schnell, Dev, Pro)"
+    ]
+  },
+  {
+    "id": "veo-3",
+    "name": "Veo 3",
+    "tagline": "Google DeepMind's cinematic AI video generator",
+    "description": "Veo 3 is Google DeepMind's advanced video generation model, capable of creating cinematic-quality clips with synchronized audio, realistic physics, and coherent narratives. Launched in 2025, it represents a major leap in AI video quality and is integrated into YouTube's creation tools.",
+    "category": "Creative",
+    "categorySlug": "creative",
+    "icon": "\ud83c\udfa5",
+    "rating": 4.6,
+    "users": 1000000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "video-generation",
+      "cinematic",
+      "audio-sync"
+    ],
+    "creator": "Google DeepMind",
+    "url": "https://deepmind.google/technologies/veo/",
+    "features": [
+      "Cinematic-quality video generation",
+      "Synchronized audio generation",
+      "Physics-based motion"
+    ]
+  },
+  {
+    "id": "hailuo-ai",
+    "name": "Hailuo AI",
+    "tagline": "Fast, high-quality AI video generation from MiniMax",
+    "description": "Hailuo AI (by MiniMax) emerged in 2025 as a surprisingly capable video generation tool, offering fast generation times and impressive quality. Known for its natural motion, expressive characters, and ability to generate longer clips. Gained a large following among AI video creators for its accessibility and consistent output quality.",
+    "category": "Creative",
+    "categorySlug": "creative",
+    "icon": "\ud83c\udf0a",
+    "rating": 4.4,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "video-generation",
+      "fast-generation",
+      "text-to-video"
+    ],
+    "creator": "MiniMax",
+    "url": "https://hailuoai.video",
+    "features": [
+      "Fast video generation",
+      "Natural motion quality",
+      "Free tier available"
+    ]
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "tagline": "AI-powered answer engine with real-time web sources",
+    "description": "Perplexity combines search and AI to deliver cited, conversational answers to complex questions. Exploded in popularity in 2024-2025 as a research alternative to Google. Features include follow-up questions, file uploads, multi-model support (GPT-4, Claude, etc.), and Pro Search for deeper analysis with source verification.",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "icon": "\ud83d\udd0d",
+    "rating": 4.7,
+    "users": 10000000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "research",
+      "search-engine",
+      "knowledge"
+    ],
+    "creator": "Perplexity AI",
+    "url": "https://www.perplexity.ai",
+    "features": [
+      "Cited, sourced answers",
+      "Pro Search for deep research",
+      "Multi-model support"
+    ]
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom",
+    "tagline": "AI meeting assistant that records, transcribes, and summarizes",
+    "description": "Fathom automatically records, transcribes, and generates AI summaries of your meetings with action items and key highlights. Rose to prominence in 2024-2025 as one of the best free meeting AI tools. Works with Zoom, Google Meet, and Teams, and lets you highlight moments in real-time during calls.",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "icon": "\ud83d\udccb",
+    "rating": 4.7,
+    "users": 500000,
+    "price": "Free",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "meetings",
+      "transcription",
+      "summaries"
+    ],
+    "creator": "Fathom",
+    "url": "https://fathom.video",
+    "features": [
+      "Automatic meeting summaries",
+      "Real-time highlight bookmarking",
+      "CRM integration"
+    ]
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "tagline": "AI notepad that enhances your meeting notes",
+    "description": "Granola takes your rough meeting notes and enhances them with AI, combining what you typed with the actual conversation transcript. Unlike fully automated tools, it respects your note-taking style and adds context, action items, and structure. Launched in 2024 and quickly became a favorite among executives and managers.",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "icon": "\ud83d\udcdd",
+    "rating": 4.6,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "meetings",
+      "notes",
+      "ai-enhancement"
+    ],
+    "creator": "Granola",
+    "url": "https://granola.so",
+    "features": [
+      "Enhances your handwritten notes with AI",
+      "Meeting transcript integration",
+      "Shareable meeting summaries"
+    ]
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "tagline": "The open-source platform for ML models, datasets, and spaces",
+    "description": "Hugging Face has become the GitHub of machine learning, hosting 500K+ models, 100K+ datasets, and 300K+ demo apps (Spaces). Exploded in 2024-2025 as the central hub for open-source AI, from LLMs to diffusion models. Its Transformers library, Inference API, and Spaces platform make it indispensable for ML practitioners.",
+    "category": "AI & ML",
+    "categorySlug": "ai-ml",
+    "icon": "\ud83e\udd17",
+    "rating": 4.8,
+    "users": 5000000,
+    "price": "Free",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "open-source",
+      "model-hub",
+      "machine-learning"
+    ],
+    "creator": "Hugging Face",
+    "url": "https://huggingface.co",
+    "features": [
+      "500K+ open-source models",
+      "Spaces for ML demos",
+      "Inference API"
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "tagline": "Framework for building LLM-powered applications",
+    "description": "LangChain is the most popular framework for building applications powered by large language models. It provides abstractions for chains, agents, memory, retrieval, and tool use. The 2025 LangGraph extension added stateful multi-agent orchestration. Used by thousands of companies to build production AI applications.",
+    "category": "AI & ML",
+    "categorySlug": "ai-ml",
+    "icon": "\ud83d\udd17",
+    "rating": 4.5,
+    "users": 1000000,
+    "price": "Free",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "llm-framework",
+      "agents",
+      "rag"
+    ],
+    "creator": "LangChain",
+    "url": "https://www.langchain.com",
+    "features": [
+      "LLM chain abstractions",
+      "RAG pipeline building",
+      "LangGraph multi-agent orchestration"
+    ]
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "tagline": "Run and fine-tune ML models with a simple API",
+    "description": "Replicate lets you run open-source ML models via a simple API, without managing infrastructure. Hosts thousands of models from image generation to LLMs to audio processing. Became essential in 2024-2025 for developers who want to integrate AI capabilities without building their own ML infrastructure.",
+    "category": "AI & ML",
+    "categorySlug": "ai-ml",
+    "icon": "\ud83d\udd04",
+    "rating": 4.5,
+    "users": 500000,
+    "price": "Pay-as-you-go",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "model-hosting",
+      "api",
+      "infrastructure"
+    ],
+    "creator": "Replicate",
+    "url": "https://replicate.com",
+    "features": [
+      "One-line model deployment",
+      "Pay-per-second billing",
+      "Custom model training"
+    ]
+  },
+  {
+    "id": "weights-and-biases",
+    "name": "Weights & Biases",
+    "tagline": "ML experiment tracking, model management, and evaluation",
+    "description": "Weights & Biases (W&B) is the leading platform for ML experiment tracking, model versioning, and evaluation. Used by teams at OpenAI, NVIDIA, and thousands of ML teams worldwide. The 2025 launch of Weave added LLM-specific evaluation and tracing tools, making it essential for production AI development.",
+    "category": "AI & ML",
+    "categorySlug": "ai-ml",
+    "icon": "\ud83d\udcca",
+    "rating": 4.7,
+    "users": 700000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "experiment-tracking",
+      "mlops",
+      "evaluation"
+    ],
+    "creator": "Weights & Biases",
+    "url": "https://wandb.ai",
+    "features": [
+      "Experiment tracking and visualization",
+      "Model versioning and registry",
+      "LLM evaluation with Weave"
+    ]
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "tagline": "Cloud platform for training and running open-source AI models",
+    "description": "Together AI provides a comprehensive cloud platform for running, fine-tuning, and training open-source AI models at scale. Offers access to 100+ open models with competitive pricing. Gained significant traction in 2025 as the go-to platform for teams building on open-source AI without managing GPU infrastructure.",
+    "category": "AI & ML",
+    "categorySlug": "ai-ml",
+    "icon": "\ud83e\udd1d",
+    "rating": 4.5,
+    "users": 200000,
+    "price": "Pay-as-you-go",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "inference",
+      "training",
+      "open-source"
+    ],
+    "creator": "Together AI",
+    "url": "https://www.together.ai",
+    "features": [
+      "100+ open-source models",
+      "Distributed training",
+      "Competitive GPU pricing"
+    ]
+  },
+  {
+    "id": "macrofactor",
+    "name": "MacroFactor",
+    "tagline": "AI-powered adaptive nutrition and macro tracking",
+    "description": "MacroFactor uses AI to dynamically calculate your total daily energy expenditure (TDEE) and adapt your nutrition plan based on real-world results. Unlike static calorie counters, it adjusts recommendations weekly based on your actual weight trends. Praised by nutritionists and fitness enthusiasts for its evidence-based approach.",
+    "category": "Health",
+    "categorySlug": "health",
+    "icon": "\ud83c\udf4e",
+    "rating": 4.7,
+    "users": 200000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "nutrition",
+      "macro-tracking",
+      "adaptive-ai"
+    ],
+    "creator": "Stronger By Science",
+    "url": "https://macrofactorapp.com",
+    "features": [
+      "Adaptive TDEE calculation",
+      "AI-powered food logging",
+      "Weekly nutrition plan adjustments"
+    ]
+  },
+  {
+    "id": "gymbai",
+    "name": "Gymbai",
+    "tagline": "AI personal trainer and nutrition coach in your pocket",
+    "description": "Gymbai combines AI-powered workout coaching with nutrition tracking, acting as a full personal trainer in app form. It generates personalized workout plans, tracks your food with photo recognition, and adapts based on your progress. Launched in 2025 and quickly gained traction as an affordable AI fitness alternative.",
+    "category": "Health",
+    "categorySlug": "health",
+    "icon": "\ud83d\udcaa",
+    "rating": 4.3,
+    "users": 50000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "fitness",
+      "nutrition",
+      "ai-coach"
+    ],
+    "creator": "Gymbai",
+    "url": "https://gymbai.com",
+    "features": [
+      "AI-generated workout plans",
+      "Photo-based food logging",
+      "Progress-adaptive coaching"
+    ]
+  },
+  {
+    "id": "wysa",
+    "name": "Wysa",
+    "tagline": "AI-powered mental health support and therapy companion",
+    "description": "Wysa is an evidence-based AI mental health chatbot that uses cognitive behavioral therapy (CBT), dialectical behavior therapy (DBT), and mindfulness techniques. Used by 5M+ people worldwide and clinically validated through multiple studies. Offers 24/7 emotional support with optional human therapist escalation.",
+    "category": "Health",
+    "categorySlug": "health",
+    "icon": "\ud83e\udde0",
+    "rating": 4.5,
+    "users": 5000000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "mental-health",
+      "therapy",
+      "wellness"
+    ],
+    "creator": "Wysa",
+    "url": "https://www.wysa.com",
+    "features": [
+      "Evidence-based CBT techniques",
+      "24/7 AI emotional support",
+      "Human therapist escalation option"
+    ]
+  },
+  {
+    "id": "tempo-studio",
+    "name": "Tempo Studio",
+    "tagline": "AI-powered home gym with real-time form correction",
+    "description": "Tempo Studio uses 3D motion capture and AI to provide real-time form feedback during strength training workouts. It counts reps, suggests weight adjustments, and corrects your form to prevent injuries. The 2025 update added AI-personalized training programs that adapt based on your performance data.",
+    "category": "Health",
+    "categorySlug": "health",
+    "icon": "\ud83c\udfcb\ufe0f",
+    "rating": 4.4,
+    "users": 100000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "home-gym",
+      "form-correction",
+      "strength-training"
+    ],
+    "creator": "Tempo",
+    "url": "https://tempo.fit",
+    "features": [
+      "3D motion capture form feedback",
+      "AI-adaptive training programs",
+      "Automatic rep counting and weight tracking"
+    ]
+  },
+  {
+    "id": "foodvisor",
+    "name": "Foodvisor",
+    "tagline": "AI nutrition coach with photo-based food tracking",
+    "description": "Foodvisor uses AI to analyze photos of your meals and instantly estimate calories, macros, and portion sizes. The 2025 update improved accuracy significantly and added a virtual nutritionist that provides personalized meal suggestions based on your goals, dietary preferences, and nutritional gaps.",
+    "category": "Health",
+    "categorySlug": "health",
+    "icon": "\ud83d\udcf8",
+    "rating": 4.3,
+    "users": 5000000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "nutrition",
+      "food-tracking",
+      "photo-analysis"
+    ],
+    "creator": "Foodvisor",
+    "url": "https://www.foodvisor.io",
+    "features": [
+      "Photo-based food analysis",
+      "Instant calorie and macro estimation",
+      "AI nutrition coaching"
+    ]
+  },
+  {
+    "id": "artisan-ai",
+    "name": "Artisan",
+    "tagline": "AI BDR agent that finds leads and books meetings",
+    "description": "Artisan's AI agent Ava works as an autonomous business development representative, handling lead discovery, personalized outreach across email and LinkedIn, objection handling, and meeting booking. Designed to replace manual SDR work at a fraction of the cost.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83c\udfa8",
+    "rating": 4.5,
+    "users": 40000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-bdr",
+      "outbound-automation",
+      "lead-generation"
+    ],
+    "creator": "Artisan",
+    "url": "https://www.artisan.co",
+    "features": [
+      "AI BDR agent (Ava)",
+      "Email and LinkedIn outreach",
+      "Built-in lead database"
+    ]
+  },
+  {
+    "id": "salesforge",
+    "name": "Salesforge",
+    "tagline": "AI-powered cold email at scale",
+    "description": "Salesforge uses AI to generate and send personalized cold emails at scale, with built-in email warm-up and deliverability optimization. The platform crafts unique messages for each prospect using AI-driven personalization engines.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\u26a1",
+    "rating": 4.4,
+    "users": 30000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cold-email",
+      "email-outreach",
+      "deliverability"
+    ],
+    "creator": "Salesforge",
+    "url": "https://www.salesforge.ai",
+    "features": [
+      "AI email personalization",
+      "Email warm-up automation",
+      "Multi-mailbox management"
+    ]
+  },
+  {
+    "id": "nooks-ai",
+    "name": "Nooks",
+    "tagline": "AI parallel dialer for sales teams",
+    "description": "Nooks is an AI-powered parallel dialer that lets sales reps call multiple prospects simultaneously, with AI handling voicemail drops and call analysis. It dramatically increases connect rates and pipeline generation through intelligent call automation.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83d\udcde",
+    "rating": 4.5,
+    "users": 25000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "parallel-dialer",
+      "cold-calling",
+      "voice-ai"
+    ],
+    "creator": "Nooks",
+    "url": "https://www.nooks.ai",
+    "features": [
+      "AI parallel dialing",
+      "Automated voicemail drops",
+      "Call intelligence and analytics"
+    ]
+  },
+  {
+    "id": "attention-ai",
+    "name": "Attention",
+    "tagline": "AI-powered sales call intelligence",
+    "description": "Attention uses AI to analyze sales calls in real time, providing actionable insights, automated CRM updates, and coaching recommendations. It transcribes conversations, identifies key moments, and helps reps improve their closing techniques.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83c\udfaf",
+    "rating": 4.4,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "conversation-intelligence",
+      "call-analytics",
+      "sales-coaching"
+    ],
+    "creator": "Attention",
+    "url": "https://www.attention.tech",
+    "features": [
+      "Real-time call analysis",
+      "Automated CRM updates",
+      "AI sales coaching"
+    ]
+  },
+  {
+    "id": "persana-ai",
+    "name": "Persana AI",
+    "tagline": "Multi-agent AI sales platform",
+    "description": "Persana AI deploys specialized AI agents (Alex, Perry, Nia) for different sales functions including prospecting, outreach, and nurturing. Each agent is trained for specific GTM tasks and works collaboratively to drive pipeline growth.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83e\udde0",
+    "rating": 4.3,
+    "users": 15000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "multi-agent",
+      "prospecting",
+      "gtm-automation"
+    ],
+    "creator": "Persana AI",
+    "url": "https://www.persana.ai",
+    "features": [
+      "Multi-agent architecture",
+      "AI prospecting",
+      "Personalized outreach at scale"
+    ]
+  },
+  {
+    "id": "aisdr",
+    "name": "AiSDR",
+    "tagline": "AI sales development rep with multimedia outreach",
+    "description": "AiSDR provides an autonomous AI sales development representative that handles multi-channel outreach including email, LinkedIn, video, and phone. It generates personalized sequences and manages entire outbound workflows end-to-end.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83d\ude80",
+    "rating": 4.3,
+    "users": 18000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-sdr",
+      "multimedia-outreach",
+      "outbound-automation"
+    ],
+    "creator": "AiSDR",
+    "url": "https://www.aisdr.com",
+    "features": [
+      "Multi-channel outreach",
+      "AI-powered personalization",
+      "Autonomous workflow execution"
+    ]
+  },
+  {
+    "id": "autobound-ai",
+    "name": "Autobound",
+    "tagline": "AI-driven sales personalization engine",
+    "description": "Autobound uses AI to generate hyper-personalized sales messages by analyzing 700+ signal types including news, job changes, tech stack, and intent data. It integrates with existing sales tools to deliver contextual outreach at scale.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83d\udd04",
+    "rating": 4.4,
+    "users": 12000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "personalization",
+      "intent-data",
+      "sales-signals"
+    ],
+    "creator": "Autobound",
+    "url": "https://www.autobound.ai",
+    "features": [
+      "700+ signal types",
+      "Hyper-personalized messaging",
+      "CRM integration"
+    ]
+  },
+  {
+    "id": "unify-gtm",
+    "name": "Unify",
+    "tagline": "AI-powered go-to-market platform",
+    "description": "Unify is an AI-native GTM platform that automates sales workflows from lead research to personalized outreach. It uses AI agents to identify buying signals, enrich prospect data, and execute multi-step sequences across channels.",
+    "category": "Sales",
+    "categorySlug": "sales",
+    "icon": "\ud83d\udd17",
+    "rating": 4.5,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "gtm-platform",
+      "workflow-automation",
+      "signal-based-selling"
+    ],
+    "creator": "Unify",
+    "url": "https://www.unify.com",
+    "features": [
+      "AI workflow automation",
+      "Signal-based prospecting",
+      "Multi-channel sequencing"
+    ]
+  },
+  {
+    "id": "decagon-ai",
+    "name": "Decagon",
+    "tagline": "AI agents for enterprise customer support",
+    "description": "Decagon provides AI-powered customer support agents that handle complex queries with deep reasoning capabilities. The platform integrates with existing support stacks and delivers accurate, context-aware responses at enterprise scale.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83d\udd37",
+    "rating": 4.5,
+    "users": 50000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "enterprise-support",
+      "ai-agents",
+      "reasoning-ai"
+    ],
+    "creator": "Decagon",
+    "url": "https://www.decagon.ai",
+    "features": [
+      "AI reasoning agents",
+      "Enterprise integrations",
+      "Knowledge base automation"
+    ]
+  },
+  {
+    "id": "ada-support",
+    "name": "Ada",
+    "tagline": "AI customer service platform for automation",
+    "description": "Ada is an AI-powered customer service platform that automates support interactions across chat, email, and phone. Its AI agent resolves a high percentage of inquiries without human intervention while maintaining brand voice and customer satisfaction.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83d\udcac",
+    "rating": 4.5,
+    "users": 80000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "customer-automation",
+      "multi-channel",
+      "self-service"
+    ],
+    "creator": "Ada",
+    "url": "https://www.ada.cx",
+    "features": [
+      "Multi-channel AI support",
+      "No-code automation builder",
+      "Analytics dashboard"
+    ]
+  },
+  {
+    "id": "siena-ai",
+    "name": "Siena AI",
+    "tagline": "Empathic AI customer service agents",
+    "description": "Siena AI creates empathic AI agents for customer service that understand emotional context and respond with brand-appropriate tone. Specializing in ecommerce and DTC brands, Siena handles support tickets, order inquiries, and customer engagement with a human touch.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83c\udfad",
+    "rating": 4.3,
+    "users": 25000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "empathic-ai",
+      "ecommerce-support",
+      "brand-voice"
+    ],
+    "creator": "Siena AI",
+    "url": "https://www.sienaai.com",
+    "features": [
+      "Empathic AI responses",
+      "Ecommerce integrations",
+      "Brand voice customization"
+    ]
+  },
+  {
+    "id": "intercom-fin",
+    "name": "Intercom Fin",
+    "tagline": "AI agent built into the Intercom platform",
+    "description": "Intercom Fin is an AI-powered customer service agent that leverages Intercom's existing platform to resolve support queries instantly. It uses advanced language models to provide accurate answers, escalate complex issues, and continuously improve from interactions.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83e\udd16",
+    "rating": 4.5,
+    "users": 150000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-agent",
+      "messaging-platform",
+      "instant-resolution"
+    ],
+    "creator": "Intercom",
+    "url": "https://www.intercom.com/fin",
+    "features": [
+      "Instant query resolution",
+      "Seamless human handoff",
+      "Knowledge base integration"
+    ]
+  },
+  {
+    "id": "twig-so",
+    "name": "Twig",
+    "tagline": "AI customer support with deep integrations",
+    "description": "Twig provides AI-powered customer support agents that deeply integrate with business tools and knowledge bases. The platform focuses on resolving complex queries accurately by understanding full customer context and history across systems.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83c\udf3f",
+    "rating": 4.3,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "deep-integration",
+      "context-aware",
+      "knowledge-base"
+    ],
+    "creator": "Twig",
+    "url": "https://www.twig.so",
+    "features": [
+      "Deep tool integrations",
+      "Context-aware responses",
+      "Knowledge base sync"
+    ]
+  },
+  {
+    "id": "kommunicate-ai",
+    "name": "Kommunicate",
+    "tagline": "AI chatbot platform for customer support",
+    "description": "Kommunicate offers an AI-powered chatbot platform that combines automated support with human agent handoff. It supports multiple channels, integrates with popular helpdesks, and provides detailed analytics on customer interactions.",
+    "category": "Customer Support",
+    "categorySlug": "support",
+    "icon": "\ud83d\udde3\ufe0f",
+    "rating": 4.2,
+    "users": 35000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "chatbot-platform",
+      "hybrid-support",
+      "omnichannel"
+    ],
+    "creator": "Kommunicate",
+    "url": "https://www.kommunicate.io",
+    "features": [
+      "AI chatbot builder",
+      "Human handoff",
+      "Omnichannel support"
+    ]
+  },
+  {
+    "id": "ramp-finance",
+    "name": "Ramp",
+    "tagline": "AI-powered corporate card and spend management",
+    "description": "Ramp is a finance automation platform that combines corporate cards with AI-powered spend management, expense tracking, and bill payments. Its AI analyzes spending patterns, identifies savings opportunities, and automates accounting workflows for modern finance teams.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udcb3",
+    "rating": 4.7,
+    "users": 200000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "spend-management",
+      "corporate-card",
+      "expense-automation"
+    ],
+    "creator": "Ramp",
+    "url": "https://ramp.com",
+    "features": [
+      "AI spend analysis",
+      "Corporate cards",
+      "Automated expense management"
+    ]
+  },
+  {
+    "id": "truewind-ai",
+    "name": "Truewind",
+    "tagline": "AI-powered bookkeeping and finance",
+    "description": "Truewind provides AI-driven bookkeeping and financial management services for startups and growing businesses. Its AI handles transaction categorization, reconciliation, and financial reporting, delivering accurate books with minimal human intervention.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83e\udded",
+    "rating": 4.3,
+    "users": 15000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-bookkeeping",
+      "startup-finance",
+      "financial-reporting"
+    ],
+    "creator": "Truewind",
+    "url": "https://www.truewind.ai",
+    "features": [
+      "AI bookkeeping",
+      "Automated reconciliation",
+      "Financial reporting"
+    ]
+  },
+  {
+    "id": "stampli-ai",
+    "name": "Stampli",
+    "tagline": "AI-powered invoice management and AP automation",
+    "description": "Stampli uses AI to centralize and automate the entire accounts payable lifecycle. Its AI assistant Billy the Bot handles invoice capture, coding suggestions, duplicate detection, and approval routing, making AP processing faster and more accurate.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udcd1",
+    "rating": 4.5,
+    "users": 40000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "invoice-management",
+      "ap-automation",
+      "ai-assistant"
+    ],
+    "creator": "Stampli",
+    "url": "https://www.stampli.com",
+    "features": [
+      "AI invoice capture",
+      "Smart coding suggestions",
+      "Approval automation"
+    ]
+  },
+  {
+    "id": "nanonets-finance",
+    "name": "Nanonets",
+    "tagline": "AI document processing for finance teams",
+    "description": "Nanonets provides AI-powered document processing that extracts, classifies, and validates financial documents including invoices, receipts, and contracts. It automates data entry and integrates with accounting systems to streamline financial workflows.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udd0d",
+    "rating": 4.4,
+    "users": 35000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "document-processing",
+      "data-extraction",
+      "ocr-ai"
+    ],
+    "creator": "Nanonets",
+    "url": "https://www.nanonets.com",
+    "features": [
+      "AI document extraction",
+      "Financial document classification",
+      "Workflow automation"
+    ]
+  },
+  {
+    "id": "digits-finance",
+    "name": "Digits",
+    "tagline": "AI-native accounting and financial insights",
+    "description": "Digits is an AI-native accounting platform that provides real-time financial insights, automated bookkeeping, and intelligent reporting. It connects to bank accounts and financial tools to deliver a live, accurate picture of business finances.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udcca",
+    "rating": 4.3,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-accounting",
+      "real-time-insights",
+      "bookkeeping"
+    ],
+    "creator": "Digits",
+    "url": "https://www.digits.com",
+    "features": [
+      "Real-time financial insights",
+      "Automated bookkeeping",
+      "Intelligent reporting"
+    ]
+  },
+  {
+    "id": "zeni-finance",
+    "name": "Zeni",
+    "tagline": "AI-powered bookkeeping with CFO-level insights",
+    "description": "Zeni combines AI automation with expert financial services to deliver bookkeeping, accounting, and CFO-level insights for startups. Its AI handles transaction categorization, reconciliation, and provides real-time financial dashboards.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udca1",
+    "rating": 4.4,
+    "users": 25000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-bookkeeping",
+      "startup-cfo",
+      "financial-dashboards"
+    ],
+    "creator": "Zeni",
+    "url": "https://www.zeni.ai",
+    "features": [
+      "AI bookkeeping",
+      "CFO-level insights",
+      "Real-time dashboards"
+    ]
+  },
+  {
+    "id": "tesorio-ai",
+    "name": "Tesorio",
+    "tagline": "AI-powered cash flow management",
+    "description": "Tesorio uses AI to predict cash flow, automate collections, and optimize working capital. Its platform analyzes AR and AP data to provide accurate cash flow forecasts and helps finance teams make data-driven decisions about receivables management.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udcb0",
+    "rating": 4.3,
+    "users": 15000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cash-flow",
+      "collections-automation",
+      "working-capital"
+    ],
+    "creator": "Tesorio",
+    "url": "https://www.tesorio.com",
+    "features": [
+      "AI cash flow forecasting",
+      "Collections automation",
+      "Working capital optimization"
+    ]
+  },
+  {
+    "id": "docyt-ai",
+    "name": "Docyt",
+    "tagline": "AI-powered bookkeeping and expense management",
+    "description": "Docyt provides AI-driven bookkeeping that automates expense categorization, receipt capture, and financial reporting. Its platform is designed for small to mid-sized businesses seeking hands-off, accurate financial management powered by artificial intelligence.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83d\udcd6",
+    "rating": 4.2,
+    "users": 18000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-bookkeeping",
+      "expense-management",
+      "receipt-capture"
+    ],
+    "creator": "Docyt",
+    "url": "https://www.docyt.com",
+    "features": [
+      "Automated expense categorization",
+      "Receipt capture",
+      "Financial reporting"
+    ]
+  },
+  {
+    "id": "brex-finance",
+    "name": "Brex",
+    "tagline": "AI-powered spend management for enterprises",
+    "description": "Brex offers an AI-enhanced financial platform combining corporate cards, expense management, bill pay, and travel booking. Its AI automates expense categorization, policy enforcement, and provides real-time spend analytics for growing companies.",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "icon": "\ud83c\udfe6",
+    "rating": 4.5,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "corporate-card",
+      "expense-management",
+      "spend-analytics"
+    ],
+    "creator": "Brex",
+    "url": "https://www.brex.com",
+    "features": [
+      "AI expense automation",
+      "Corporate cards",
+      "Real-time spend analytics"
+    ]
+  },
+  {
+    "id": "paradox-olivia",
+    "name": "Paradox (Olivia)",
+    "tagline": "Conversational AI recruiting assistant",
+    "description": "Paradox's AI assistant Olivia handles high-volume recruiting through conversational AI, managing candidate screening, interview scheduling, and Q&A via chat and SMS. It's designed for frontline and hourly hiring where speed and candidate experience are critical.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83d\udcac",
+    "rating": 4.6,
+    "users": 80000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "conversational-ai",
+      "high-volume-hiring",
+      "interview-scheduling"
+    ],
+    "creator": "Paradox",
+    "url": "https://www.paradox.ai",
+    "features": [
+      "Conversational AI screening",
+      "Automated scheduling",
+      "Mobile-first candidate engagement"
+    ]
+  },
+  {
+    "id": "phenom-txm",
+    "name": "Phenom",
+    "tagline": "AI-powered talent experience management",
+    "description": "Phenom provides an AI-driven talent experience platform that personalizes every step of the candidate and employee journey. From intelligent career sites to automated sourcing and internal mobility, Phenom creates Netflix-like job recommendations tailored to each individual.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83c\udf1f",
+    "rating": 4.5,
+    "users": 50000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "talent-experience",
+      "career-sites",
+      "internal-mobility"
+    ],
+    "creator": "Phenom",
+    "url": "https://www.phenom.com",
+    "features": [
+      "AI career sites",
+      "Personalized job recommendations",
+      "Talent CRM"
+    ]
+  },
+  {
+    "id": "hireez",
+    "name": "hireEZ",
+    "tagline": "AI-powered outbound recruiting platform",
+    "description": "hireEZ is an AI sourcing platform that searches over 1 billion public profiles to find qualified passive candidates. It provides contact discovery, automated outreach, and diversity sourcing tools to help recruiting teams proactively build talent pipelines.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83d\udd0d",
+    "rating": 4.4,
+    "users": 35000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "talent-sourcing",
+      "passive-candidates",
+      "diversity-sourcing"
+    ],
+    "creator": "hireEZ",
+    "url": "https://hireez.com",
+    "features": [
+      "1B+ profile search",
+      "Contact discovery",
+      "Diversity sourcing filters"
+    ]
+  },
+  {
+    "id": "leena-ai",
+    "name": "Leena AI",
+    "tagline": "AI HR service desk and employee support",
+    "description": "Leena AI is an HR automation assistant that uses generative AI to handle employee queries, automate HR help desk operations, and streamline onboarding. Its conversational capabilities resolve HR tickets instantly, reducing service desk load significantly.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83e\udd1d",
+    "rating": 4.3,
+    "users": 30000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "hr-help-desk",
+      "employee-support",
+      "onboarding-automation"
+    ],
+    "creator": "Leena AI",
+    "url": "https://www.leena.ai",
+    "features": [
+      "AI HR chatbot",
+      "Automated document generation",
+      "Employee pulse surveys"
+    ]
+  },
+  {
+    "id": "manatal-ats",
+    "name": "Manatal",
+    "tagline": "AI recruiting software for fast-growing teams",
+    "description": "Manatal is an AI-powered recruiting platform designed for speed and simplicity. It offers AI candidate scoring, profile enrichment from 20+ social platforms, and a drag-and-drop pipeline interface that teams can master in under an hour.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83d\udccb",
+    "rating": 4.4,
+    "users": 25000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ats",
+      "candidate-scoring",
+      "recruiting-software"
+    ],
+    "creator": "Manatal",
+    "url": "https://www.manatal.com",
+    "features": [
+      "AI candidate scoring",
+      "Social profile enrichment",
+      "2500+ job board integrations"
+    ]
+  },
+  {
+    "id": "turing-ai",
+    "name": "Turing",
+    "tagline": "AI-powered global developer hiring",
+    "description": "Turing combines AI with global talent sourcing to help companies hire pre-vetted remote software developers. Its AI matches employers with developers tested for both skill and cultural fit, using automated vetting and technical assessments at scale.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83c\udf10",
+    "rating": 4.3,
+    "users": 45000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "remote-hiring",
+      "developer-vetting",
+      "global-talent"
+    ],
+    "creator": "Turing",
+    "url": "https://www.turing.com",
+    "features": [
+      "AI developer matching",
+      "Automated technical assessments",
+      "Global talent sourcing"
+    ]
+  },
+  {
+    "id": "recruitee-ats",
+    "name": "Recruitee",
+    "tagline": "Collaborative AI recruiting platform",
+    "description": "Recruitee is a collaborative recruitment platform that integrates AI to improve sourcing, screening, and pipeline management. It's built for scaling teams with features like AI candidate matching, automated job posting optimization, and collaborative hiring workflows.",
+    "category": "HR & Recruiting",
+    "categorySlug": "hr",
+    "icon": "\ud83d\udc65",
+    "rating": 4.3,
+    "users": 30000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "collaborative-hiring",
+      "ats",
+      "sourcing-automation"
+    ],
+    "creator": "Recruitee",
+    "url": "https://recruitee.com",
+    "features": [
+      "AI candidate matching",
+      "Smart scheduling",
+      "Collaborative workflows"
+    ]
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey AI",
+    "tagline": "AI platform for legal and professional services",
+    "description": "Harvey is a purpose-built AI platform for law firms and in-house legal teams, powered by GPT technology. It assists with legal research, contract review, document drafting, and case analysis with enterprise-grade security trusted by 60+ AmLaw 100 firms across 60 countries.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\u2696\ufe0f",
+    "rating": 4.7,
+    "users": 100000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "legal-research",
+      "contract-review",
+      "document-drafting",
+      "enterprise"
+    ],
+    "creator": "Harvey AI Inc.",
+    "url": "https://www.harvey.ai",
+    "features": [
+      "AI-powered legal research",
+      "Contract review and analysis",
+      "Document generation",
+      "Enterprise-grade security and compliance"
+    ]
+  },
+  {
+    "id": "cocounsel",
+    "name": "CoCounsel",
+    "tagline": "Thomson Reuters AI legal assistant",
+    "description": "CoCounsel is Thomson Reuters' AI-powered legal assistant that leverages GPT-4 technology to automate contract drafting, legal research, and document review. It integrates with popular case management software and is designed for diverse legal practices beyond contract law.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83d\udccb",
+    "rating": 4.5,
+    "users": 80000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "legal-research",
+      "contract-drafting",
+      "case-management",
+      "GPT-4"
+    ],
+    "creator": "Thomson Reuters",
+    "url": "https://www.legal.thomsonreuters.com/en/artificial-intelligence",
+    "features": [
+      "Contract drafting automation",
+      "Legal research assistance",
+      "Case management integration",
+      "Client consultation tools"
+    ]
+  },
+  {
+    "id": "leah",
+    "name": "Leah",
+    "tagline": "GenAI-powered legal operations platform",
+    "description": "Leah (formerly ContractPodAi) is a leading GenAI legal assistant featuring multi-LLM integration and tailored legal insights for contract management and legal operations. It serves as a central operating system for legal teams with strategic partnerships with KPMG and PwC UK.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83e\udde0",
+    "rating": 4.5,
+    "users": 30000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "legal-operations",
+      "contract-management",
+      "multi-LLM",
+      "enterprise"
+    ],
+    "creator": "Leah (ContractPodAi)",
+    "url": "https://leahai.com",
+    "features": [
+      "Multi-LLM AI technology",
+      "Contract lifecycle management",
+      "Legal workflow automation",
+      "Flexible AI model selection"
+    ]
+  },
+  {
+    "id": "legora",
+    "name": "Legora",
+    "tagline": "Collaborative AI workspace for lawyers",
+    "description": "Legora is a collaborative AI platform that helps lawyers review and research faster, draft smarter, and advise with precision. It adapts to existing workflows with solutions for M&A, litigation, tax, and banking, backed by ISO 42001, ISO 27001, and SOC 2 certifications.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83e\udd1d",
+    "rating": 4.5,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "legal-collaboration",
+      "document-review",
+      "legal-research",
+      "compliance"
+    ],
+    "creator": "Legora",
+    "url": "https://legora.com",
+    "features": [
+      "Tabular document review",
+      "Word and Outlook add-ins",
+      "Legal research engine",
+      "Workflow automation for M&A and litigation"
+    ]
+  },
+  {
+    "id": "paxton-ai",
+    "name": "Paxton AI",
+    "tagline": "All-in-one AI legal assistant",
+    "description": "Paxton is an essential AI legal assistant with mastery of law that integrates with how lawyers work. It answers questions, provides insights, helps with legal research, drafting memos, and identifying potential issues in policy documents \u2014 serving as both teammate and legal encyclopedia.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83d\udcda",
+    "rating": 4.4,
+    "users": 15000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "legal-assistant",
+      "legal-research",
+      "memo-drafting",
+      "policy-analysis"
+    ],
+    "creator": "Paxton AI",
+    "url": "https://www.paxton.ai",
+    "features": [
+      "Legal research and case law search",
+      "Memo and document drafting",
+      "Policy document analysis",
+      "Free trial available"
+    ]
+  },
+  {
+    "id": "clearbrief",
+    "name": "Clearbrief",
+    "tagline": "AI for legal-grade accuracy in Word",
+    "description": "Clearbrief provides AI-powered legal writing tools with verifiable, hyperlinked citations directly in Microsoft Word. Named Legalweek 2026 Litigation Technology of the Year, it's trusted by AmLaw 10 firms, federal courts, and the American Arbitration Association for fact-checking and trial preparation.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83d\udd0d",
+    "rating": 4.7,
+    "users": 25000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "legal-writing",
+      "citation-verification",
+      "litigation",
+      "trial-preparation"
+    ],
+    "creator": "Clearbrief",
+    "url": "https://www.clearbrief.com",
+    "features": [
+      "AI-powered fact-checking with hyperlinked citations",
+      "Rapid trial preparation and evidence review",
+      "Auto-generated Tables of Authorities",
+      "Real-time trial strategy tools"
+    ]
+  },
+  {
+    "id": "ebrevia",
+    "name": "eBrevia",
+    "tagline": "AI-driven contract review and drafting",
+    "description": "eBrevia uses AI to transform contract review, extraction, and drafting with 90% time savings and 60% increased accuracy. Ranked as a Tier 1 solution for contract review by LegalTech Hub, it supports 37 languages and integrates with major VDRs, SharePoint, Box, and Salesforce.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83d\udcc4",
+    "rating": 4.5,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "contract-review",
+      "document-extraction",
+      "multi-language",
+      "M&A"
+    ],
+    "creator": "eBrevia",
+    "url": "https://www.ebrevia.com",
+    "features": [
+      "Scan 50+ documents in 1 minute",
+      "Custom-trainable AI for various use cases",
+      "DraftPro for 10x faster drafting",
+      "SOC 1, SOC 2, GDPR, HIPAA compliant"
+    ]
+  },
+  {
+    "id": "ironclad-jurist",
+    "name": "Ironclad Jurist",
+    "tagline": "AI legal assistant for contract operations",
+    "description": "Jurist is Ironclad's AI legal assistant that drafts, reviews, and researches contracts as part of a full-stack contract lifecycle management platform. It auto-extracts 190+ contract metadata elements and offers AI Playbooks for custom redline logic enforcement.",
+    "category": "Legal",
+    "categorySlug": "legal",
+    "icon": "\ud83c\udfd7\ufe0f",
+    "rating": 4.6,
+    "users": 35000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "contract-lifecycle",
+      "AI-playbooks",
+      "metadata-extraction",
+      "enterprise"
+    ],
+    "creator": "Ironclad",
+    "url": "https://ironcladapp.com",
+    "features": [
+      "Auto-extraction of 190+ contract metadata elements",
+      "AI Assist for redlining and clause flagging",
+      "Custom AI Playbooks for contract standards",
+      "No-code workflow designer"
+    ]
+  },
+  {
+    "id": "knowt",
+    "name": "Knowt",
+    "tagline": "Free AI-powered study tool and Quizlet alternative",
+    "description": "Knowt is a free AI study platform used by over 5 million students and teachers, with 50% of all AP students using it for exam prep. It generates flashcards, quizzes, and practice tests from notes using AI, offering learn mode, matching games, and spaced repetition \u2014 all completely free.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\ud83d\udcdd",
+    "rating": 4.8,
+    "users": 5000000,
+    "price": "Free",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "flashcards",
+      "study-tools",
+      "AI-generated",
+      "exam-prep"
+    ],
+    "creator": "Knowt",
+    "url": "https://knowt.com",
+    "features": [
+      "AI-generated flashcards from notes",
+      "Free learn mode and practice tests",
+      "Spaced repetition system",
+      "Quizlet import support"
+    ]
+  },
+  {
+    "id": "quill-org",
+    "name": "Quill",
+    "tagline": "AI-powered interactive writing and grammar platform",
+    "description": "Quill.org is a free, AI-powered platform for teaching writing and grammar skills used by millions of students. It provides instant, targeted feedback on student writing, adapts to individual learning needs, and supports 15+ languages with tools for diagnostics, proofreading, and evidence-based writing.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\u270f\ufe0f",
+    "rating": 4.6,
+    "users": 3000000,
+    "price": "Free",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "writing-feedback",
+      "grammar",
+      "common-core",
+      "adaptive-learning"
+    ],
+    "creator": "Quill.org",
+    "url": "https://www.quill.org",
+    "features": [
+      "AI-powered writing feedback",
+      "Diagnostic assessments with personalized learning plans",
+      "Support for 15+ languages",
+      "Common Core aligned activities"
+    ]
+  },
+  {
+    "id": "nolej",
+    "name": "Nolej",
+    "tagline": "Transform content into courses in minutes",
+    "description": "Nolej is an AI-powered learning design platform that transforms existing content (videos, documents, presentations) into interactive courses in minutes. It automates course creation with AI-generated assessments, flashcards, and interactive elements, making curriculum design accessible to educators.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\ud83c\udf93",
+    "rating": 4.3,
+    "users": 50000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "course-creation",
+      "content-transformation",
+      "AI-generated",
+      "instructional-design"
+    ],
+    "creator": "Nolej",
+    "url": "https://www.nolej.io",
+    "features": [
+      "Auto-generate courses from existing content",
+      "AI-created assessments and flashcards",
+      "Interactive learning elements",
+      "Rapid curriculum development"
+    ]
+  },
+  {
+    "id": "beconfident",
+    "name": "BeConfident",
+    "tagline": "AI tutoring with conversational adaptive learning",
+    "description": "BeConfident is an AI tutoring platform that uses conversational, adaptive learning approaches across multiple subjects. Raised $15.8M in Series A funding from Prosus Ventures in 2026 for global expansion, embedding learning into everyday interfaces students already use.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\ud83d\udcaa",
+    "rating": 4.4,
+    "users": 200000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "AI-tutoring",
+      "adaptive-learning",
+      "conversational-AI",
+      "multi-subject"
+    ],
+    "creator": "BeConfident",
+    "url": "https://www.beconfident.ai",
+    "features": [
+      "Conversational adaptive tutoring",
+      "Multi-subject support",
+      "Embedded learning interfaces",
+      "Real-time progress tracking"
+    ]
+  },
+  {
+    "id": "alpha-school",
+    "name": "Alpha School",
+    "tagline": "AI-powered private school with 2-hour learning",
+    "description": "Alpha School is an AI-powered private school that uses a 2-hour learning model where AI tutors adapt to each student's pace and curiosity. Students complete core academics in just 2 hours daily using personalized AI instruction, freeing time for real-world skill development and passion projects.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\ud83c\udfeb",
+    "rating": 4.5,
+    "users": 5000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "AI-school",
+      "personalized-learning",
+      "adaptive-tutoring",
+      "K-12"
+    ],
+    "creator": "Alpha School",
+    "url": "https://alpha.school",
+    "features": [
+      "2-hour AI-powered learning model",
+      "Personalized pace adaptation",
+      "Real-world skills development",
+      "AI tutor for every student"
+    ]
+  },
+  {
+    "id": "gradescope",
+    "name": "Gradescope",
+    "tagline": "AI-assisted grading for all subjects",
+    "description": "Gradescope is an AI-assisted grading platform used by 140,000+ instructors across 2,600+ universities, having graded over 700 million questions. It supports paper-based, digital, and code assignments with AI answer grouping, flexible rubrics, and detailed analytics to cut grading time in half.",
+    "category": "Education",
+    "categorySlug": "education",
+    "icon": "\u2705",
+    "rating": 4.5,
+    "users": 3200000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "grading",
+      "AI-assisted",
+      "rubrics",
+      "analytics"
+    ],
+    "creator": "Turnitin (Gradescope)",
+    "url": "https://www.gradescope.com",
+    "features": [
+      "AI-assisted answer grouping",
+      "Flexible rubric-based grading",
+      "Support for paper, digital, and code assignments",
+      "Detailed per-question analytics"
+    ]
+  },
+  {
+    "id": "clerk-io",
+    "name": "Clerk.io",
+    "tagline": "AI agent for more profitable e-commerce",
+    "description": "Clerk.io is an AI-powered e-commerce platform trained on 15 years of data from millions of successful conversions. It provides intelligent search, personalized recommendations, AI chat, audience segmentation, and email personalization \u2014 finding where stores lose money and fixing it automatically.",
+    "category": "E-commerce",
+    "categorySlug": "ecommerce",
+    "icon": "\ud83d\uded2",
+    "rating": 4.7,
+    "users": 30000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "product-recommendations",
+      "AI-search",
+      "personalization",
+      "email-marketing"
+    ],
+    "creator": "Clerk.io",
+    "url": "https://www.clerk.io",
+    "features": [
+      "AI-powered product search with intent understanding",
+      "Personalized upselling and cross-selling",
+      "24/7 AI chat support",
+      "Audience segmentation for ads and email"
+    ]
+  },
+  {
+    "id": "limespot",
+    "name": "LimeSpot",
+    "tagline": "AI-powered e-commerce personalization for Shopify",
+    "description": "LimeSpot is an AI-powered personalization platform for Shopify and BigCommerce that adapts the shopping experience in real-time. It provides intelligent product recommendations, dynamic product discovery, smart upsells, and segment-based experiences to maximize revenue for every visitor.",
+    "category": "E-commerce",
+    "categorySlug": "ecommerce",
+    "icon": "\ud83d\udfe2",
+    "rating": 4.8,
+    "users": 50000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "personalization",
+      "product-recommendations",
+      "Shopify",
+      "BigCommerce"
+    ],
+    "creator": "LimeSpot",
+    "url": "https://limespot.com",
+    "features": [
+      "Real-time AI product recommendations",
+      "Dynamic product discovery",
+      "Segment-based store experiences",
+      "Smart upsells and cross-sells"
+    ]
+  },
+  {
+    "id": "recart",
+    "name": "Recart",
+    "tagline": "AI-powered SMS and messenger marketing for e-commerce",
+    "description": "Recart is an AI-powered marketing platform for e-commerce that specializes in SMS, Messenger, and email campaigns. It uses AI to personalize messages, optimize send times, and automate flows for abandoned carts, welcome series, and post-purchase campaigns.",
+    "category": "E-commerce",
+    "categorySlug": "ecommerce",
+    "icon": "\ud83d\udcf1",
+    "rating": 4.4,
+    "users": 20000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "SMS-marketing",
+      "messenger-marketing",
+      "cart-recovery",
+      "automation"
+    ],
+    "creator": "Recart",
+    "url": "https://www.recart.com",
+    "features": [
+      "AI-personalized SMS campaigns",
+      "Messenger marketing automation",
+      "Abandoned cart recovery",
+      "Post-purchase engagement flows"
+    ]
+  },
+  {
+    "id": "privy",
+    "name": "Privy",
+    "tagline": "AI-powered email and SMS for Shopify stores",
+    "description": "Privy is an AI-powered email and SMS marketing platform designed specifically for Shopify stores. It provides pop-ups, email automation, and SMS campaigns with AI-driven personalization to help small and growing e-commerce businesses capture leads and drive sales.",
+    "category": "E-commerce",
+    "categorySlug": "ecommerce",
+    "icon": "\ud83d\udce7",
+    "rating": 4.3,
+    "users": 40000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "email-marketing",
+      "SMS",
+      "Shopify",
+      "pop-ups"
+    ],
+    "creator": "Privy",
+    "url": "https://www.privy.com",
+    "features": [
+      "AI-driven email personalization",
+      "Pop-ups and lead capture",
+      "SMS marketing campaigns",
+      "Shopify-native integration"
+    ]
+  },
+  {
+    "id": "scite",
+    "name": "Scite",
+    "tagline": "AI for research with smart citations",
+    "description": "Scite is an AI research tool trusted by 2,000,000+ researchers that searches across 280M+ articles, preprints, books, patents, and datasets. Its Smart Citations feature shows whether research findings have been supported or contradicted by later studies, providing verifiable evidence for every answer.",
+    "category": "Research & Knowledge",
+    "categorySlug": "research",
+    "icon": "\ud83d\udd2c",
+    "rating": 4.7,
+    "users": 2000000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "smart-citations",
+      "literature-search",
+      "full-text-search",
+      "academic"
+    ],
+    "creator": "Scite",
+    "url": "https://scite.ai",
+    "features": [
+      "Smart Citations showing support/contradiction",
+      "Full-text search across 280M+ articles",
+      "Verifiable evidence grounding",
+      "Never hallucinated sources"
+    ]
+  },
+  {
+    "id": "researchrabbit",
+    "name": "ResearchRabbit",
+    "tagline": "AI tool for smarter, faster literature reviews",
+    "description": "ResearchRabbit is an AI-powered literature review tool trusted by 1,000,000+ researchers that accesses 270 million academic papers. It lets researchers explore literature by following curiosity rather than checking boxes, with visualizations of how papers and authors connect and how topics evolve over time.",
+    "category": "Research & Knowledge",
+    "categorySlug": "research",
+    "icon": "\ud83d\udc30",
+    "rating": 4.6,
+    "users": 1000000,
+    "price": "Free",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "literature-review",
+      "paper-discovery",
+      "visualizations",
+      "Zotero-integration"
+    ],
+    "creator": "ResearchRabbit",
+    "url": "https://www.researchrabbit.ai",
+    "features": [
+      "Access to 270M+ academic papers",
+      "Visual topic and author connections",
+      "Zotero integration",
+      "Free for researchers"
+    ]
+  },
+  {
+    "id": "cartesia-sonic",
+    "name": "Cartesia Sonic",
+    "tagline": "Ultra-low latency real-time TTS with emotion and laughter",
+    "description": "Cartesia's Sonic-3 is a streaming text-to-speech model that delivers sub-100ms latency with natural emotion, laughter, and expressive speech. It powers voice agents across healthcare, hospitality, and customer service with 40+ languages and instant voice cloning.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83c\udf99\ufe0f",
+    "rating": 4.8,
+    "users": 50000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "text-to-speech",
+      "real-time",
+      "voice-cloning",
+      "low-latency"
+    ],
+    "creator": "Cartesia Inc",
+    "url": "https://cartesia.ai",
+    "features": [
+      "Sub-100ms latency streaming TTS",
+      "Emotion and laughter synthesis",
+      "40+ languages with native voices",
+      "Instant and professional voice cloning",
+      "SOC 2 Type II and HIPAA compliant"
+    ]
+  },
+  {
+    "id": "wellsaid-labs",
+    "name": "WellSaid Labs",
+    "tagline": "Enterprise AI voice generator built with real voice actors",
+    "description": "WellSaid Labs creates human-quality text-to-speech voices modeled on licensed recordings from real voice actors. Trusted by Microsoft, Motul, and other enterprise teams for training content, e-learning, and product narration with 120+ natural-sounding voices.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83c\udfac",
+    "rating": 4.5,
+    "users": 60000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "enterprise-tts",
+      "voice-actors",
+      "e-learning",
+      "training"
+    ],
+    "creator": "WellSaid Labs",
+    "url": "https://www.wellsaid.io",
+    "features": [
+      "120+ voices from licensed voice actors",
+      "SOC 2 and GDPR compliant",
+      "Closed-model privacy protection",
+      "Dual-layer content moderation",
+      "Full commercial usage rights"
+    ]
+  },
+  {
+    "id": "listnr",
+    "name": "Listnr",
+    "tagline": "AI voice generator with 900+ voices and podcast hosting",
+    "description": "Listnr boasts one of the largest AI voice libraries with 900+ voices across 22 languages. It converts articles and blog posts to audio, offers podcast hosting with distribution to major platforms, and provides a TTS API for developers.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83d\udcfb",
+    "rating": 4.3,
+    "users": 80000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "text-to-speech",
+      "podcast-hosting",
+      "accessibility",
+      "tts-api"
+    ],
+    "creator": "Listnr Inc",
+    "url": "https://listnr.ai",
+    "features": [
+      "900+ AI voices",
+      "22 languages supported",
+      "Article-to-audio conversion",
+      "Podcast hosting and distribution",
+      "Developer TTS API"
+    ]
+  },
+  {
+    "id": "lovo-genny",
+    "name": "LOVO (Genny)",
+    "tagline": "AI voice and video platform for content creators",
+    "description": "LOVO's Genny platform combines AI voice generation with video editing capabilities. It offers realistic voices for marketing, e-learning, and entertainment content, with features like voice cloning, emotional speech styles, and an integrated video editor.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83c\udfad",
+    "rating": 4.3,
+    "users": 150000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "voice-generation",
+      "video-editing",
+      "content-creation",
+      "voice-cloning"
+    ],
+    "creator": "LOVO AI",
+    "url": "https://lovo.ai",
+    "features": [
+      "500+ AI voices",
+      "Voice cloning technology",
+      "Integrated video editor",
+      "Emotional speech styles",
+      "Subtitle generation"
+    ]
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "tagline": "AI text-to-speech for reading and productivity",
+    "description": "Speechify transforms text into natural-sounding audio for reading articles, documents, and books aloud. With celebrity voice options, speed control up to 4.5x, and cross-platform support, it's popular among students, professionals, and accessibility users.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83d\udcd6",
+    "rating": 4.4,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "text-to-speech",
+      "reading",
+      "productivity",
+      "accessibility"
+    ],
+    "creator": "Speechify Inc",
+    "url": "https://speechify.com",
+    "features": [
+      "30+ natural voices",
+      "Up to 4.5x speed",
+      "Cross-platform (iOS, Android, Chrome, Mac)",
+      "PDF and web page reading",
+      "Celebrity voice options"
+    ]
+  },
+  {
+    "id": "synthesys",
+    "name": "Synthesys",
+    "tagline": "AI voice and video generation for professional content",
+    "description": "Synthesys offers AI-powered voice and video generation with a focus on professional business content. It provides realistic AI avatars, multilingual voiceovers, and an all-in-one studio for creating marketing videos, training materials, and social media content.",
+    "category": "Voice AI",
+    "categorySlug": "voice-ai",
+    "icon": "\ud83c\udfa5",
+    "rating": 4.2,
+    "users": 100000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ai-avatars",
+      "video-generation",
+      "voiceover",
+      "business-content"
+    ],
+    "creator": "Synthesys",
+    "url": "https://synthesys.io",
+    "features": [
+      "AI avatar video generation",
+      "Multilingual voiceovers",
+      "Professional content studio",
+      "Custom avatar creation",
+      "Commercial license included"
+    ]
+  },
+  {
+    "id": "darktrace",
+    "name": "Darktrace",
+    "tagline": "Self-learning AI cybersecurity platform for autonomous threat response",
+    "description": "Darktrace uses self-learning AI to detect and respond to cyber threats across networks, email, cloud, and IoT in real time. Its ActiveAI platform autonomously contains threats without human intervention, protecting over 10,000 customers in 110 countries.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udd2e",
+    "rating": 4.6,
+    "users": 10000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "threat-detection",
+      "autonomous-response",
+      "network-security",
+      "self-learning-ai"
+    ],
+    "creator": "Darktrace",
+    "url": "https://www.darktrace.com",
+    "features": [
+      "Self-learning AI for anomaly detection",
+      "Autonomous threat containment",
+      "Cloud email security",
+      "OT/IoT security",
+      "AI interaction monitoring"
+    ]
+  },
+  {
+    "id": "sentinelone-purple-ai",
+    "name": "SentinelOne Purple AI",
+    "tagline": "AI security analyst that accelerates investigation and response",
+    "description": "SentinelOne's Purple AI is a generative AI security analyst that helps teams investigate threats, automate response, and unify endpoint, cloud, and identity security. Named a Leader in Gartner Magic Quadrant for 5 consecutive years.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udc9c",
+    "rating": 4.7,
+    "users": 15000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "endpoint-security",
+      "ai-analyst",
+      "xdr",
+      "autonomous-protection"
+    ],
+    "creator": "SentinelOne",
+    "url": "https://www.sentinelone.com",
+    "features": [
+      "Autonomous endpoint protection",
+      "Purple AI security analyst",
+      "Singularity AI SIEM",
+      "Cloud-native protection (CNAPP)",
+      "MITRE ATT&CK leading performance"
+    ]
+  },
+  {
+    "id": "snyk-agent-security",
+    "name": "Snyk Agent Security",
+    "tagline": "AI-powered code security scanning and autonomous remediation",
+    "description": "Snyk's Agent Security platform secures AI-generated code with automated vulnerability scanning, supply chain protection, and intelligent remediation. Their Agentic Architecture for Snyk Agent Fix provides faster, smarter security fixes across the development lifecycle.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udd10",
+    "rating": 4.6,
+    "users": 300000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "code-security",
+      "supply-chain",
+      "vulnerability-scanning",
+      "ai-generated-code"
+    ],
+    "creator": "Snyk",
+    "url": "https://snyk.io",
+    "features": [
+      "Agent Security for AI code",
+      "Supply chain attack detection",
+      "Agentic remediation architecture",
+      "AI Security Fabric",
+      "Secrets detection in commits"
+    ]
+  },
+  {
+    "id": "wiz-cloud-security",
+    "name": "Wiz",
+    "tagline": "Cloud security platform with AI-powered risk assessment",
+    "description": "Wiz provides comprehensive cloud security with AI-powered continuous risk assessment, integrating with Anthropic's Claude for autonomous vulnerability discovery. Their Red Agent and Green Agent capabilities enable machine-speed security across cloud, code, and AI infrastructure.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\u2601\ufe0f",
+    "rating": 4.8,
+    "users": 25000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "cloud-security",
+      "cnapp",
+      "ai-risk-assessment",
+      "code-security"
+    ],
+    "creator": "Wiz",
+    "url": "https://www.wiz.io",
+    "features": [
+      "Red Agent with Claude Opus integration",
+      "AI application security (AI-APP)",
+      "Code-to-cloud security graph",
+      "Shadow data detection",
+      "IaC inventory and drift detection"
+    ]
+  },
+  {
+    "id": "crowdstrike-charlotte",
+    "name": "CrowdStrike Falcon",
+    "tagline": "AI-native cybersecurity platform with Charlotte AI assistant",
+    "description": "CrowdStrike Falcon combines endpoint protection with Charlotte AI, a generative AI assistant that accelerates threat hunting, investigation, and response. Its unified platform covers endpoint, cloud identity, and SIEM with real-time threat intelligence.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83e\udd85",
+    "rating": 4.7,
+    "users": 25000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "endpoint-protection",
+      "threat-intelligence",
+      "siem",
+      "ai-assistant"
+    ],
+    "creator": "CrowdStrike",
+    "url": "https://www.crowdstrike.com",
+    "features": [
+      "Charlotte AI assistant",
+      "Falcon endpoint protection",
+      "Real-time threat intelligence",
+      "Cloud-native SIEM",
+      "Identity threat detection"
+    ]
+  },
+  {
+    "id": "keeper-security",
+    "name": "Keeper Security",
+    "tagline": "AI-powered identity security for humans, machines, and AI agents",
+    "description": "Keeper Security provides unified privileged access management with AI-powered threat detection. KeeperAI analyzes privileged activity in real time, automatically terminates high-risk sessions, and generates forensic-ready summaries across a zero-trust architecture.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udd11",
+    "rating": 4.5,
+    "users": 4000000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "identity-security",
+      "pam",
+      "zero-trust",
+      "secrets-management"
+    ],
+    "creator": "Keeper Security",
+    "url": "https://www.keepersecurity.com",
+    "features": [
+      "KeeperAI threat detection",
+      "Privileged access management (PAM)",
+      "Zero-trust zero-knowledge architecture",
+      "FedRAMP High Authorized",
+      "AI agent identity security"
+    ]
+  },
+  {
+    "id": "lacework",
+    "name": "Lacework",
+    "tagline": "AI-driven cloud security with anomaly detection",
+    "description": "Lacework uses AI and machine learning to provide cloud security posture management, workload protection, and anomaly detection. Its Polygraph Data Platform automatically baselines normal behavior and alerts on deviations across AWS, Azure, GCP, and Kubernetes.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udd78\ufe0f",
+    "rating": 4.4,
+    "users": 5000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cloud-security",
+      "anomaly-detection",
+      "cspm",
+      "workload-protection"
+    ],
+    "creator": "Lacework",
+    "url": "https://www.lacework.com",
+    "features": [
+      "Polygraph behavioral analysis",
+      "Cloud workload protection",
+      "Multi-cloud CSPM",
+      "Kubernetes security",
+      "Automated compliance reporting"
+    ]
+  },
+  {
+    "id": "veracode",
+    "name": "Veracode",
+    "tagline": "AI-powered application security scanning and remediation",
+    "description": "Veracode provides AI-enhanced static and dynamic application security testing with automated remediation guidance. Their AI Fix feature generates code patches for discovered vulnerabilities, significantly reducing the time from discovery to fix.",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "icon": "\ud83d\udd0d",
+    "rating": 4.3,
+    "users": 25000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "application-security",
+      "sast",
+      "dast",
+      "ai-remediation"
+    ],
+    "creator": "Veracode",
+    "url": "https://www.veracode.com",
+    "features": [
+      "AI Fix automated remediation",
+      "Static application security testing (SAST)",
+      "Dynamic application security testing (DAST)",
+      "Software composition analysis",
+      "Developer security training"
+    ]
+  },
+  {
+    "id": "pulumi-neo",
+    "name": "Pulumi Neo",
+    "tagline": "AI for infrastructure code generation and management",
+    "description": "Pulumi Neo brings AI-powered infrastructure-as-code to platform teams, enabling natural language infrastructure generation, debugging, and refactoring. Built on real programming languages like TypeScript, Python, and Go, it accelerates cloud infrastructure delivery.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83d\ude80",
+    "rating": 4.6,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "infrastructure-as-code",
+      "ai-code-generation",
+      "cloud-infrastructure",
+      "platform-engineering"
+    ],
+    "creator": "Pulumi",
+    "url": "https://www.pulumi.com",
+    "features": [
+      "AI infrastructure code generation",
+      "Multi-language support (TS, Python, Go, C#, Java)",
+      "Natural language to IaC",
+      "Organizational context awareness",
+      "SOC 2 Type II certified"
+    ]
+  },
+  {
+    "id": "vercel-ai-platform",
+    "name": "Vercel AI Platform",
+    "tagline": "Deploy and scale AI agents without DevOps",
+    "description": "Vercel's AI Platform provides AI Gateway, Workflows, and Sandbox for building and deploying AI agents at scale. Their agentic infrastructure approach eliminates traditional DevOps overhead, with 100M+ workflow runs in beta and support for durable execution.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\u25b2",
+    "rating": 4.7,
+    "users": 500000,
+    "price": "Freemium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "ai-deployment",
+      "serverless",
+      "agent-infrastructure",
+      "ai-gateway"
+    ],
+    "creator": "Vercel",
+    "url": "https://vercel.com",
+    "features": [
+      "AI Gateway with zero data retention",
+      "Durable Workflows (GA)",
+      "Sandbox for untrusted code execution",
+      "AI SDK for TypeScript",
+      "Agentic infrastructure model"
+    ]
+  },
+  {
+    "id": "bito-ai",
+    "name": "Bito AI Architect",
+    "tagline": "Knowledge graph context layer for autonomous coding agents",
+    "description": "Bito AI Architect builds a knowledge graph from code, commits, docs, and issues to provide deep system context for coding agents. It lifts coding agent success by 35% on large codebases by grounding design, coding, and code review in the same contextual graph.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83e\udde0",
+    "rating": 4.4,
+    "users": 50000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "code-context",
+      "knowledge-graph",
+      "developer-tools",
+      "ai-coding"
+    ],
+    "creator": "Bito",
+    "url": "https://bito.ai",
+    "features": [
+      "Code knowledge graph",
+      "Cross-repo impact assessment",
+      "Feasibility analysis",
+      "Technical design generation",
+      "35% coding agent success improvement"
+    ]
+  },
+  {
+    "id": "depot-dev",
+    "name": "Depot",
+    "tagline": "AI-accelerated container builds in the cloud",
+    "description": "Depot provides cloud-native container build infrastructure that's up to 40x faster than local builds. It integrates with CI/CD pipelines to accelerate Docker builds, with persistent caching and intelligent layer management for development teams.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83d\udc33",
+    "rating": 4.5,
+    "users": 10000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "container-builds",
+      "ci-cd",
+      "cloud-builds",
+      "docker"
+    ],
+    "creator": "Depot",
+    "url": "https://depot.dev",
+    "features": [
+      "40x faster container builds",
+      "Persistent build caching",
+      "CI/CD integration",
+      "Remote build execution",
+      "Multi-architecture builds"
+    ]
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "tagline": "Instant cloud deployment with zero DevOps overhead",
+    "description": "Railway is a deployment platform that lets developers ship infrastructure without managing servers. With automatic scaling, built-in databases, and instant deployments from Git, it eliminates DevOps complexity for modern application teams.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83d\ude82",
+    "rating": 4.5,
+    "users": 150000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cloud-deployment",
+      "paas",
+      "serverless",
+      "databases"
+    ],
+    "creator": "Railway",
+    "url": "https://railway.app",
+    "features": [
+      "Instant Git deployments",
+      "Built-in database provisioning",
+      "Automatic scaling",
+      "PR environment previews",
+      "Template marketplace"
+    ]
+  },
+  {
+    "id": "gitpod",
+    "name": "Gitpod",
+    "tagline": "AI-ready cloud development environments",
+    "description": "Gitpod provides instant, cloud-based development environments that spin up in seconds from any Git context. With AI-native workspace support and deep IDE integration, it standardizes development environments for teams building with AI coding agents.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83d\udcbb",
+    "rating": 4.4,
+    "users": 100000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cloud-ide",
+      "dev-environments",
+      "ai-coding",
+      "workspace"
+    ],
+    "creator": "Gitpod",
+    "url": "https://www.gitpod.io",
+    "features": [
+      "Instant workspace launch",
+      "AI agent workspace support",
+      "VS Code and JetBrains integration",
+      "Prebuilt workspace snapshots",
+      "GitHub/GitLab/Bitbucket integration"
+    ]
+  },
+  {
+    "id": "coder",
+    "name": "Coder",
+    "tagline": "Self-hosted cloud development environments for enterprises",
+    "description": "Coder enables enterprises to run cloud development environments on their own infrastructure, giving developers instant access to pre-configured workspaces. It supports AI coding agents, air-gapped deployments, and full security compliance for regulated industries.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83d\udda5\ufe0f",
+    "rating": 4.3,
+    "users": 30000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "cloud-dev-environments",
+      "self-hosted",
+      "enterprise",
+      "ai-agents"
+    ],
+    "creator": "Coder",
+    "url": "https://coder.com",
+    "features": [
+      "Self-hosted cloud workspaces",
+      "AI coding agent support",
+      "Air-gapped deployment",
+      "Terraform workspace templates",
+      "Enterprise security compliance"
+    ]
+  },
+  {
+    "id": "earthly",
+    "name": "Earthly",
+    "tagline": "AI-friendly CI/CD build framework that runs anywhere",
+    "description": "Earthly is a CI/CD framework that combines Dockerfiles and Makefiles into a portable, repeatable build system. Its containerized approach ensures builds run identically locally and in CI, with AI-assisted build file generation and satellite remote build cache.",
+    "category": "DevOps & Infrastructure",
+    "categorySlug": "devops",
+    "icon": "\ud83c\udf0d",
+    "rating": 4.3,
+    "users": 25000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "ci-cd",
+      "build-framework",
+      "containerized-builds",
+      "reproducibility"
+    ],
+    "creator": "Earthly Technologies",
+    "url": "https://earthly.dev",
+    "features": [
+      "Portable build definitions",
+      "Containerized build isolation",
+      "Satellite remote build cache",
+      "AI-assisted Earthfile generation",
+      "Multi-language monorepo support"
+    ]
+  },
+  {
+    "id": "convai",
+    "name": "Convai",
+    "tagline": "Conversational AI that brings game characters to life",
+    "description": "Convai provides a conversational AI service designed for games, metaverse, and XR experiences. It enables developers to create NPCs with natural language understanding, emotional responses, and in-game actions that respond dynamically to player interactions.",
+    "category": "Gaming",
+    "categorySlug": "gaming",
+    "icon": "\ud83d\udde3\ufe0f",
+    "rating": 4.4,
+    "users": 30000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "conversational-ai",
+      "NPCs",
+      "metaverse",
+      "XR"
+    ],
+    "creator": "Convai Inc.",
+    "url": "https://www.convai.com",
+    "features": [
+      "Natural language NPCs",
+      "In-game character actions",
+      "Emotional responses",
+      "Multi-platform SDK"
+    ]
+  },
+  {
+    "id": "ludo-ai",
+    "name": "Ludo.ai",
+    "tagline": "AI-powered game concept and asset generation platform",
+    "description": "Ludo.ai helps game developers generate ideas, concepts, sprites, and video clips using AI. From text prompts to animated clips, it offers a comprehensive suite of tools tailored for the gaming industry including game concept generation, image generation, and sprite creation.",
+    "category": "Gaming",
+    "categorySlug": "gaming",
+    "icon": "\ud83c\udfb2",
+    "rating": 4.2,
+    "users": 25000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "game-design",
+      "asset-generation",
+      "concept-art",
+      "sprites"
+    ],
+    "creator": "Ludo.ai",
+    "url": "https://ludo.ai",
+    "features": [
+      "Game concept generator",
+      "AI sprite generation",
+      "Video clip generation",
+      "Market trend analysis"
+    ]
+  },
+  {
+    "id": "scenario",
+    "name": "Scenario",
+    "tagline": "AI creative infrastructure for game art production",
+    "description": "Scenario is a creative AI infrastructure platform trusted by 15,000+ customers for generating consistent game art assets. It allows teams to train custom models on their own art style, automate production workflows, and scale asset creation 10x faster with full IP governance.",
+    "category": "Gaming",
+    "categorySlug": "gaming",
+    "icon": "\ud83c\udfa8",
+    "rating": 4.6,
+    "users": 15000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "game-art",
+      "custom-models",
+      "asset-pipeline",
+      "ip-governance"
+    ],
+    "creator": "Scenario",
+    "url": "https://www.scenario.com",
+    "features": [
+      "Custom model training",
+      "Workflow automation",
+      "Unity plugin",
+      "SOC 2 certified"
+    ]
+  },
+  {
+    "id": "housecanary",
+    "name": "HouseCanary CanaryAI",
+    "tagline": "AI-powered property valuations and market intelligence",
+    "description": "HouseCanary's CanaryAI delivers instant property valuations, predictive analytics, and detailed neighborhood insights for real estate professionals. It features AI-driven property condition analysis from listing photos, off-market lead generation, and automated valuation models (AVMs) for competitive pricing.",
+    "category": "Real Estate",
+    "categorySlug": "real-estate",
+    "icon": "\ud83c\udfe0",
+    "rating": 4.6,
+    "users": 75000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "property-valuation",
+      "market-analytics",
+      "predictive-insights",
+      "lead-generation"
+    ],
+    "creator": "HouseCanary",
+    "url": "https://www.housecanary.com",
+    "features": [
+      "AI property valuations",
+      "Market forecasting",
+      "Neighborhood heatmaps",
+      "Off-market lead detection"
+    ]
+  },
+  {
+    "id": "eliseai",
+    "name": "EliseAI",
+    "tagline": "Agentic AI for multifamily housing leasing and management",
+    "description": "EliseAI is an industry-leading AI platform for multifamily housing that automates leasing, resident communication, and property management. Its conversational AI agents handle prospect inquiries 24/7, schedule tours, follow up on leads, and manage maintenance requests, significantly reducing costs while improving conversion rates.",
+    "category": "Real Estate",
+    "categorySlug": "real-estate",
+    "icon": "\ud83c\udfe2",
+    "rating": 4.5,
+    "users": 50000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "multifamily",
+      "leasing-automation",
+      "property-management",
+      "conversational-ai"
+    ],
+    "creator": "EliseAI",
+    "url": "https://eliseai.com",
+    "features": [
+      "24/7 leasing assistant",
+      "Automated tour scheduling",
+      "Lead follow-up",
+      "Maintenance request handling"
+    ]
+  },
+  {
+    "id": "saleswise",
+    "name": "Saleswise",
+    "tagline": "AI-powered CMAs, marketing, and virtual room remodels",
+    "description": "Saleswise is an AI-powered tool that streamlines creating comparative market analyses, writing professional emails, and visualizing room transformations. It helps real estate agents serve clients faster with data-backed pricing, virtual remodels to help clients visualize updates, and live market data integration.",
+    "category": "Real Estate",
+    "categorySlug": "real-estate",
+    "icon": "\ud83d\udcca",
+    "rating": 4.3,
+    "users": 20000,
+    "price": "Freemium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "CMA",
+      "virtual-remodel",
+      "marketing",
+      "email-generation"
+    ],
+    "creator": "Saleswise",
+    "url": "https://www.saleswise.ai",
+    "features": [
+      "AI-driven CMAs",
+      "Virtual room remodels",
+      "Email generation",
+      "Social media content creation"
+    ]
+  },
+  {
+    "id": "lofty-crm",
+    "name": "Lofty",
+    "tagline": "AI-enhanced CRM for real estate pipeline optimization",
+    "description": "Lofty is an AI-enhanced CRM tailored for real estate professionals focusing on client relationship management and pipeline optimization. It features AI-powered lead scoring, automated follow-up sequences, predictive analytics for client behavior, and smart task prioritization to help agents close deals faster.",
+    "category": "Real Estate",
+    "categorySlug": "real-estate",
+    "icon": "\ud83d\udcc8",
+    "rating": 4.2,
+    "users": 30000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "CRM",
+      "lead-scoring",
+      "pipeline-management",
+      "predictive-analytics"
+    ],
+    "creator": "Lofty",
+    "url": "https://www.lofty.com",
+    "features": [
+      "AI lead scoring",
+      "Automated follow-ups",
+      "Predictive client analytics",
+      "Customizable dashboards"
+    ]
+  },
+  {
+    "id": "pando-pi",
+    "name": "Pando Pi",
+    "tagline": "AI teams for autonomous freight procurement and logistics",
+    "description": "Pando Pi launched in February 2025 as AI-powered teams for logistics, enabling autonomous freight procurement, planning, and payments for global brands. Its AI agents eliminate manual work in transportation management, freight procurement, and supply chain optimization using a proprietary supply chain knowledge graph.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83d\ude9b",
+    "rating": 4.6,
+    "users": 20000,
+    "price": "Premium",
+    "featured": true,
+    "new": true,
+    "tags": [
+      "freight-procurement",
+      "autonomous-logistics",
+      "supply-chain",
+      "AI-agents"
+    ],
+    "creator": "Pando",
+    "url": "https://pando.ai",
+    "features": [
+      "Autonomous freight procurement",
+      "AI planning agents",
+      "Payment automation",
+      "Supply chain knowledge graph"
+    ]
+  },
+  {
+    "id": "markit",
+    "name": "MarkIt",
+    "tagline": "AI agents for global trade compliance and tariff management",
+    "description": "MarkIt is a YC-backed startup (founded 2025) building AI agents that work inside trade professionals' existing workflows \u2014 Excel, PDFs, and broker portals. It automates tariff classification, ACE report audits, and maintains a self-updating system of record for global trade compliance, helping companies navigate the increasingly complex tariff landscape.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83d\udccb",
+    "rating": 4.4,
+    "users": 2000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "trade-compliance",
+      "tariffs",
+      "customs",
+      "workflow-automation"
+    ],
+    "creator": "MarkIt",
+    "url": "https://www.ycombinator.com/companies/markit",
+    "features": [
+      "Tariff classification",
+      "ACE report audits",
+      "Excel/PDF integration",
+      "Self-updating records"
+    ]
+  },
+  {
+    "id": "prodensus",
+    "name": "Prodensus",
+    "tagline": "Agentic AI platform for freight data and RFP management",
+    "description": "Prodensus is an Irish AI-native startup revolutionizing freight management with its agentic AI platform that cleans and processes freight RFPs in minutes. Partnered with SONAR and backed by Microsoft Azure, it helps freight brokers win more business by automating RFP responses, data analysis, and emissions reporting.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83d\udea2",
+    "rating": 4.3,
+    "users": 5000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "freight-management",
+      "RFP-automation",
+      "emissions-reporting",
+      "data-processing"
+    ],
+    "creator": "Prodensus",
+    "url": "https://www.prodensus.com",
+    "features": [
+      "Automated RFP processing",
+      "Freight data cleaning",
+      "Emissions reporting",
+      "SONAR partnership"
+    ]
+  },
+  {
+    "id": "saudara-ai",
+    "name": "Saudara AI",
+    "tagline": "AI broker connecting American brands with vetted overseas factories",
+    "description": "Saudara AI is a YC-backed AI broker (founded 2026) that connects American brands with vetted overseas factories, fixing the broken international sourcing process. US brands import over $3 trillion in goods annually and lose billions to ghost suppliers and hidden fees \u2014 Saudara AI's AI handles sourcing 10x faster at a fraction of the cost.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83c\udf0d",
+    "rating": 4.2,
+    "users": 1000,
+    "price": "Pay-as-you-go",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "international-sourcing",
+      "supplier-vetting",
+      "B2B",
+      "manufacturing"
+    ],
+    "creator": "Saudara AI",
+    "url": "https://www.ycombinator.com/companies/saudara-ai",
+    "features": [
+      "Vetted factory network",
+      "AI-powered sourcing",
+      "10x faster procurement",
+      "Cost reduction"
+    ]
+  },
+  {
+    "id": "mastery-logistics",
+    "name": "Mastery Logistics",
+    "tagline": "AI-powered logistics automation for food supply chains",
+    "description": "Mastery Logistics Systems was named a 2025 Top Tech Startup by Food Logistics and Supply & Demand Chain Executive. Its AI-powered automation platform streamlines food supply chain operations, reducing waste and improving efficiency across procurement, inventory management, and distribution workflows.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83c\udf4e",
+    "rating": 4.1,
+    "users": 3000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "food-supply-chain",
+      "automation",
+      "inventory-management",
+      "waste-reduction"
+    ],
+    "creator": "Mastery Logistics Systems",
+    "url": "https://www.mastery.net",
+    "features": [
+      "Food supply chain automation",
+      "AI-powered procurement",
+      "Waste reduction",
+      "Distribution optimization"
+    ]
+  },
+  {
+    "id": "getasap",
+    "name": "GETASAP",
+    "tagline": "AI-driven fresh produce distribution with same-day delivery",
+    "description": "GETASAP rebuilds fresh produce distribution around real demand and fast execution using AI. It uses micro-fulfillment centers and analyzes live retail sales, purchasing, and waste patterns to decide what to source, where to place inventory, and when to replenish \u2014 delivering wholesale produce with 8-hour same-day delivery.",
+    "category": "Logistics & Supply Chain",
+    "categorySlug": "logistics",
+    "icon": "\ud83e\udd6c",
+    "rating": 4.0,
+    "users": 1000,
+    "price": "Premium",
+    "featured": false,
+    "new": true,
+    "tags": [
+      "fresh-produce",
+      "micro-fulfillment",
+      "demand-forecasting",
+      "same-day-delivery"
+    ],
+    "creator": "GETASAP",
+    "url": "https://www.ycombinator.com/companies/getasap",
+    "features": [
+      "AI demand forecasting",
+      "Micro-fulfillment centers",
+      "8-hour same-day delivery",
+      "Waste reduction analytics"
+    ]
+  }
+]
