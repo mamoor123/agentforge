@@ -10,7 +10,7 @@ export interface Agent {
   icon: string;
   rating: number;
   users: number;
-  price: "Free" | "Freemium" | "Premium" | "Pay-as-you-go";
+  price: string;
   featured: boolean;
   new: boolean;
   tags: string[];
@@ -14338,7 +14338,6 @@ export const agents: Agent[] = [
     url: "https://kinaxis.com",
     features: ["Concurrent planning", "What-if scenarios", "Risk management", "Supplier collaboration", "Control tower"]
   },
-,
 {
     id: "arcads",
     name: "Arcads",
@@ -18906,6 +18905,27 @@ export function getFeaturedListingAgents(): Agent[] {
 
 export function getAffiliateUrl(agent: Agent): string {
   return agent.affiliateUrl || agent.url;
+}
+
+export function getPriceColor(price: string): string {
+  if (price === "Free" || price.startsWith("Free")) return "text-emerald-400 bg-emerald-400/10";
+  if (price === "Freemium") return "text-blue-400 bg-blue-400/10";
+  if (price === "Pay-as-you-go" || price === "Custom" || price.startsWith("From")) return "text-purple-400 bg-purple-400/10";
+  return "text-amber-400 bg-amber-400/10";
+}
+
+export function getPriceTextColor(price: string): string {
+  if (price === "Free" || price.startsWith("Free")) return "text-emerald-400";
+  if (price === "Freemium") return "text-blue-400";
+  if (price === "Pay-as-you-go" || price === "Custom" || price.startsWith("From")) return "text-purple-400";
+  return "text-amber-400";
+}
+
+export function getPriceColorBorder(price: string): string {
+  if (price === "Free" || price.startsWith("Free")) return "text-emerald-400 bg-emerald-400/10 border-emerald-400/20";
+  if (price === "Freemium") return "text-blue-400 bg-blue-400/10 border-blue-400/20";
+  if (price === "Pay-as-you-go" || price === "Custom" || price.startsWith("From")) return "text-purple-400 bg-purple-400/10 border-purple-400/20";
+  return "text-amber-400 bg-amber-400/10 border-amber-400/20";
 }
 
 export function getAgentsByCategorySorted(slug: string): Agent[] {

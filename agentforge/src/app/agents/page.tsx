@@ -118,6 +118,7 @@ function AgentsContent() {
           <option value="Freemium">Freemium</option>
           <option value="Premium">Premium</option>
           <option value="Pay-as-you-go">Pay-as-you-go</option>
+          <option value="Custom">Custom</option>
         </select>
 
         {/* Sort */}

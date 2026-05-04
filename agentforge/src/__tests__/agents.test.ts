@@ -17,7 +17,7 @@ describe("Agent Data", () => {
       expect(agent.rating).toBeGreaterThanOrEqual(0);
       expect(agent.rating).toBeLessThanOrEqual(5);
       expect(agent.users).toBeGreaterThanOrEqual(0);
-      expect(["Free", "Freemium", "Premium", "Pay-as-you-go"]).toContain(agent.price);
+      expect(["Free", "Freemium", "Premium", "Pay-as-you-go", "Custom"]).toContain(agent.price);
     });
   });
 

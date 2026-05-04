@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
@@ -18,11 +18,24 @@ const tierColors: Record<ListingTier, string> = {
 };
 
 export default function ClaimPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen animated-gradient grid-pattern flex items-center justify-center">
+        <Loader2 className="w-8 h-8 text-[var(--primary)] animate-spin" />
+      </div>
+    }>
+      <ClaimPageContent />
+    </Suspense>
+  );
+}
+
+function ClaimPageContent() {
   const searchParams = useSearchParams();
   const preselectedTier = searchParams.get("tier") as ListingTier | null;
+  const preselectedAgent = searchParams.get("agent");
 
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedAgent, setSelectedAgent] = useState<string | null>(null);
+  const [selectedAgent, setSelectedAgent] = useState<string | null>(preselectedAgent || null);
   const [selectedTier, setSelectedTier] = useState<ListingTier>(preselectedTier || "featured");
   const [step, setStep] = useState<"select" | "checkout" | "success">("select");
   const [processing, setProcessing] = useState(false);

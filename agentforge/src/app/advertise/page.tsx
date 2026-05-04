@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import { PRICING_TIERS } from "@/data/agents";
 
 const tierIcons: Record<string, React.ReactNode> = {
@@ -407,6 +408,13 @@ export default function AdvertisePage() {
               <p className="text-xs text-emerald-400 mt-1">Best ROI + clean UX</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="py-20 border-y border-[var(--border)]">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup />
         </div>
       </section>
 

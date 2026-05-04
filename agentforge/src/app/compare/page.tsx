@@ -5,7 +5,7 @@ import { Search, Star, Users, ArrowRight, X, Plus } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { agents, formatUsers } from "@/data/agents";
+import { agents, formatUsers, getPriceTextColor } from "@/data/agents";
 
 export default function ComparePage() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -133,7 +133,7 @@ export default function ComparePage() {
                     </div>
                   )},
                   { label: "Price", render: (a: typeof agents[0]) => {
-                    const color = a.price === "Free" ? "text-emerald-400" : a.price === "Freemium" ? "text-blue-400" : a.price === "Pay-as-you-go" ? "text-purple-400" : "text-amber-400";
+                    const color = getPriceTextColor(a.price);
                     return <span className={`font-medium ${color}`}>{a.price}</span>;
                   }},
                   { label: "Category", render: (a: typeof agents[0]) => <span className="text-[var(--text-secondary)]">{a.category}</span> },

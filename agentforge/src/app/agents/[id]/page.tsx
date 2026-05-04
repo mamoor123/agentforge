@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
-import { getAgentById, agents, formatUsers } from "@/data/agents";
+import { getAgentById, agents, formatUsers, getPriceColorBorder } from "@/data/agents";
 import AgentDetailClient from "./AgentDetailClient";
 import AffiliateTracker from "@/components/AffiliateTracker";
 
@@ -76,13 +76,7 @@ export default async function AgentDetailPage({ params }: { params: { id: string
     .filter(a => a.categorySlug === agent.categorySlug && a.id !== agent.id)
     .slice(0, 3);
 
-  const priceColor = agent.price === "Free"
-    ? "text-emerald-400 bg-emerald-400/10 border-emerald-400/20"
-    : agent.price === "Freemium"
-    ? "text-blue-400 bg-blue-400/10 border-blue-400/20"
-    : agent.price === "Pay-as-you-go"
-    ? "text-purple-400 bg-purple-400/10 border-purple-400/20"
-    : "text-amber-400 bg-amber-400/10 border-amber-400/20";
+  const priceColor = getPriceColorBorder(agent.price);
 
   return (
     <div className="min-h-screen animated-gradient grid-pattern">

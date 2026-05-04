@@ -2,17 +2,11 @@
 
 import Link from "next/link";
 import { Star, Users, ArrowRight, Flame } from "lucide-react";
-import { Agent, formatUsers, getListingTier } from "@/data/agents";
+import { Agent, formatUsers, getListingTier, getPriceColor } from "@/data/agents";
 
 export default function AgentCard({ agent }: { agent: Agent }) {
   const tier = getListingTier(agent);
-  const priceColor = agent.price === "Free"
-    ? "text-emerald-400 bg-emerald-400/10"
-    : agent.price === "Freemium"
-    ? "text-blue-400 bg-blue-400/10"
-    : agent.price === "Pay-as-you-go"
-    ? "text-purple-400 bg-purple-400/10"
-    : "text-amber-400 bg-amber-400/10";
+  const priceColor = getPriceColor(agent.price);
 
   const isSpotlight = tier === "spotlight";
   const isFeatured = tier === "featured";

@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import CategoryCard from "@/components/CategoryCard";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import { agents, categories, getFeaturedAgents, getNewAgents, getSpotlightAgents } from "@/data/agents";
 
 export default function Home() {
@@ -262,6 +263,13 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="py-20 relative">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup />
         </div>
       </section>
 
