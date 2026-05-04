@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { Star, Users, ArrowRight } from "lucide-react";
-import { Agent, formatUsers } from "@/data/agents";
+import { Star, Users, ArrowRight, Flame } from "lucide-react";
+import { Agent, formatUsers, getListingTier } from "@/data/agents";
 
 export default function AgentCard({ agent }: { agent: Agent }) {
+  const tier = getListingTier(agent);
   const priceColor = agent.price === "Free"
     ? "text-emerald-400 bg-emerald-400/10"
     : agent.price === "Freemium"
@@ -13,16 +14,33 @@ export default function AgentCard({ agent }: { agent: Agent }) {
     ? "text-purple-400 bg-purple-400/10"
     : "text-amber-400 bg-amber-400/10";
 
+  const isSpotlight = tier === "spotlight";
+  const isFeatured = tier === "featured";
+
   return (
     <Link
       href={`/agents/${agent.id}`}
-      className="card-interactive glow-border rounded-xl bg-[var(--bg-card)] p-6 h-full flex flex-col group"
+      className={`card-interactive glow-border rounded-xl bg-[var(--bg-card)] p-6 h-full flex flex-col group ${
+        isSpotlight ? "ring-1 ring-rose-400/30 shadow-[0_0_30px_rgba(251,113,133,0.1)]" : ""
+      } ${isFeatured ? "ring-1 ring-amber-400/20" : ""}`}
       aria-label={`${agent.name} — ${agent.tagline}`}
     >
       {/* Header */}
       <div className="flex items-start justify-between mb-4">
         <div className="text-4xl" aria-hidden="true">{agent.icon}</div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap justify-end">
+          {isSpotlight && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-rose-400/10 text-rose-400 border border-rose-400/20">
+              <Flame className="w-3 h-3" aria-hidden="true" />
+              Spotlight
+            </span>
+          )}
+          {isFeatured && !isSpotlight && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-amber-400/10 text-amber-400 border border-amber-400/20">
+              <Star className="w-3 h-3" aria-hidden="true" />
+              Featured
+            </span>
+          )}
           {agent.new && (
             <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-cyan-400/10 text-cyan-400">
               NEW

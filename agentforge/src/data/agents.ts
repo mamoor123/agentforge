@@ -1,3 +1,5 @@
+export type ListingTier = "basic" | "featured" | "spotlight";
+
 export interface Agent {
   id: string;
   name: string;
@@ -15,7 +17,54 @@ export interface Agent {
   creator: string;
   url: string;
   features: string[];
+  listingTier?: ListingTier;
+  affiliateUrl?: string;
 }
+
+export const PRICING_TIERS: { tier: ListingTier; name: string; price: number; badge: string; color: string; features: string[] }[] = [
+  {
+    tier: "basic",
+    name: "Basic",
+    price: 0,
+    badge: "",
+    color: "",
+    features: [
+      "Standard listing in category pages",
+      "Basic agent profile",
+      "Search visibility",
+    ],
+  },
+  {
+    tier: "featured",
+    name: "Featured",
+    price: 75,
+    badge: "⭐ Featured",
+    color: "text-amber-400 bg-amber-400/10 border-amber-400/20",
+    features: [
+      "Top placement in category pages",
+      "Featured badge on card & profile",
+      "Enhanced description with rich media",
+      "Priority in search results",
+      "Monthly analytics report",
+    ],
+  },
+  {
+    tier: "spotlight",
+    name: "Spotlight",
+    price: 200,
+    badge: "🔥 Spotlight",
+    color: "text-rose-400 bg-rose-400/10 border-rose-400/20",
+    features: [
+      "Homepage spotlight placement",
+      "Top of all category pages",
+      "Spotlight badge with glow effect",
+      "Priority search ranking",
+      "Featured in weekly newsletter",
+      "Dedicated social media shoutout",
+      "Weekly analytics dashboard",
+    ],
+  },
+];
 
 export const categories = [
   { name: "Marketing", slug: "marketing", icon: "📢", count: 89, description: "Automate content, ads, SEO & social media" },
@@ -16539,8 +16588,7 @@ export const agents: Agent[] = [
     creator: "GETASAP",
     url: "https://www.ycombinator.com/companies/getasap",
     features: ["AI demand forecasting", "Micro-fulfillment centers", "8-hour same-day delivery", "Waste reduction analytics"]
-  }
-
+  },
 
 {
     id: "manus",
@@ -18843,3 +18891,36 @@ export function searchAgents(query: string): Agent[] {
     a.category.toLowerCase().includes(q)
   );
 }
+
+export function getListingTier(agent: Agent): ListingTier {
+  return agent.listingTier || "basic";
+}
+
+export function getSpotlightAgents(): Agent[] {
+  return agents.filter(a => a.listingTier === "spotlight");
+}
+
+export function getFeaturedListingAgents(): Agent[] {
+  return agents.filter(a => a.listingTier === "featured");
+}
+
+export function getAffiliateUrl(agent: Agent): string {
+  return agent.affiliateUrl || agent.url;
+}
+
+export function getAgentsByCategorySorted(slug: string): Agent[] {
+  const tierOrder: Record<ListingTier, number> = { spotlight: 0, featured: 1, basic: 2 };
+  return agents
+    .filter(a => a.categorySlug === slug)
+    .sort((a, b) => (tierOrder[getListingTier(a)] ?? 2) - (tierOrder[getListingTier(b)] ?? 2));
+}
+
+// Mark a few top agents as spotlight/featured for demo
+const spotlightIds = ["midjourney", "chatgpt", "cursor", "jasper"];
+const featuredIds = ["claude", "copilot", "notion-ai", "zapier-ai", "elevenlabs", "sora", "manus", "replit"];
+
+agents.forEach(a => {
+  if (spotlightIds.includes(a.id)) a.listingTier = "spotlight";
+  else if (featuredIds.includes(a.id)) a.listingTier = "featured";
+  else a.listingTier = a.listingTier || "basic";
+});

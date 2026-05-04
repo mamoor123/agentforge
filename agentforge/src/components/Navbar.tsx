@@ -42,10 +42,19 @@ export default function Navbar() {
                 Featured
               </Link>
             )}
+            <Link href="/advertise" className="text-amber-400 hover:text-amber-300 transition-colors text-sm font-medium">
+              Advertise
+            </Link>
           </div>
 
           {/* Actions */}
           <div className="hidden md:flex items-center gap-3">
+            <Link
+              href="/claim"
+              className="px-4 py-2 text-sm font-medium text-amber-400 border border-amber-400/30 rounded-lg hover:bg-amber-400/5 transition-colors"
+            >
+              Claim Listing
+            </Link>
             <a
               href="https://github.com/mamoor123/agentforge/issues/new"
               target="_blank"
@@ -81,11 +90,21 @@ export default function Navbar() {
               <Link href="/compare" className="text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2" onClick={() => setMobileOpen(false)}>
                 Compare
               </Link>
+              <Link href="/advertise" className="text-amber-400 hover:text-amber-300 transition-colors text-sm py-2 font-medium" onClick={() => setMobileOpen(false)}>
+                Advertise
+              </Link>
+              <Link
+                href="/claim"
+                className="mt-2 px-4 py-2 text-sm font-medium text-amber-400 border border-amber-400/30 rounded-lg text-center"
+                onClick={() => setMobileOpen(false)}
+              >
+                Claim Listing
+              </Link>
               <a
                 href="https://github.com/mamoor123/agentforge/issues/new"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-shimmer mt-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg text-center"
+                className="btn-shimmer mt-1 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] rounded-lg text-center"
               >
                 Submit Agent
               </a>

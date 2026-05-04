@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import { getAgentById, agents, formatUsers } from "@/data/agents";
 import AgentDetailClient from "./AgentDetailClient";
+import AffiliateTracker from "@/components/AffiliateTracker";
 
 export function generateStaticParams() {
   return agents.map((agent) => ({ id: agent.id }));
@@ -86,6 +87,7 @@ export default async function AgentDetailPage({ params }: { params: { id: string
   return (
     <div className="min-h-screen animated-gradient grid-pattern">
       <Navbar />
+      <AffiliateTracker agentId={agent.id} />
       {jsonLd && (
         <script
           type="application/ld+json"

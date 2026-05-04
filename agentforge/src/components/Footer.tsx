@@ -49,14 +49,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Monetize */}
           <div>
-            <h4 className="text-sm font-semibold text-white mb-4">Company</h4>
+            <h4 className="text-sm font-semibold text-white mb-4">Monetize</h4>
             <ul className="space-y-2">
-              <li><a href="https://github.com/mamoor123/agentforge#readme" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">About</a></li>
-              <li><a href="https://github.com/mamoor123/agentforge/issues/new" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Contact</a></li>
-              <li><a href="https://github.com/mamoor123/agentforge/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Privacy</a></li>
-              <li><a href="https://github.com/mamoor123/agentforge/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Terms</a></li>
+              <li><Link href="/advertise" className="text-sm text-amber-400 hover:text-amber-300 transition-colors">Advertise with Us</Link></li>
+              <li><Link href="/claim" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Claim Listing</Link></li>
+              <li><Link href="/advertise#pricing" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Pricing</Link></li>
+              <li><a href="mailto:advertise@agentforge.ai" className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors">Contact Sales</a></li>
             </ul>
           </div>
         </div>

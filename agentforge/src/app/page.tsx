@@ -8,13 +8,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import CategoryCard from "@/components/CategoryCard";
-import { agents, categories, getFeaturedAgents, getNewAgents } from "@/data/agents";
+import { agents, categories, getFeaturedAgents, getNewAgents, getSpotlightAgents } from "@/data/agents";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
   const featured = getFeaturedAgents();
   const trending = getNewAgents().slice(0, 6);
+  const spotlight = getSpotlightAgents();
 
   return (
     <div className="min-h-screen animated-gradient grid-pattern">
@@ -119,6 +120,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Spotlight Agents */}
+      {spotlight.length > 0 && (
+        <section className="py-20 relative">
+          <div className="orb w-64 h-64 bg-rose-500 top-0 right-1/4 opacity-15" aria-hidden="true" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-rose-400/20 bg-rose-400/5 mb-4">
+                <span className="text-rose-400 text-sm font-medium">🔥 Spotlight</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                Top Spotlight Agents
+              </h2>
+              <p className="text-[var(--text-secondary)] text-lg">
+                Premium placements — the best of the best, handpicked for maximum impact
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {spotlight.map(agent => (
+                <AgentCard key={agent.id} agent={agent} />
+              ))}
+            </div>
+            <div className="mt-8 text-center">
+              <Link
+                href="/advertise"
+                className="inline-flex items-center gap-2 text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors"
+              >
+                Want your agent here? Learn about Spotlight →
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Featured Agents */}
       <section id="featured" className="py-20 relative">
@@ -300,12 +334,12 @@ export default function Home() {
                 >
                   Browse Agents
                 </Link>
-                <a
-                  href="/agents"
-                  className="px-8 py-3 border border-[var(--border)] text-white font-medium rounded-lg hover:bg-white/5 transition-colors"
+                <Link
+                  href="/claim"
+                  className="px-8 py-3 border border-amber-400/30 text-amber-400 font-medium rounded-lg hover:bg-amber-400/5 transition-colors"
                 >
-                  Submit Your Agent
-                </a>
+                  Claim & Upgrade Listing
+                </Link>
               </div>
             </div>
           </div>
