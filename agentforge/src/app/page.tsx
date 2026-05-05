@@ -14,7 +14,7 @@ import { agents, categories, getFeaturedAgents, getNewAgents, getSpotlightAgents
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
-  const featured = getFeaturedAgents();
+  const featured = getFeaturedAgents().slice(0, 12);
   const trending = getNewAgents().slice(0, 6);
   const spotlight = getSpotlightAgents();
 

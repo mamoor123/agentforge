@@ -3,8 +3,8 @@ import { ArrowLeft, ChevronRight } from "lucide-react";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AgentCard from "@/components/AgentCard";
-import { categories, getAgentsByCategory } from "@/data/agents";
+import CategoryAgentList from "./CategoryAgentList";
+import { categories, getAgentsByCategorySorted } from "@/data/agents";
 
 export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function CategoryDetailPage({ params }: { params: { slug: string } }) {
   const { slug } = await params;
   const category = categories.find(c => c.slug === slug);
-  const agentsList = getAgentsByCategory(slug);
+  const agentsList = getAgentsByCategorySorted(slug);
 
   if (!category) {
     return (
@@ -69,20 +69,8 @@ export default async function CategoryDetailPage({ params }: { params: { slug: s
           </p>
         </div>
 
-        {/* Agents */}
-        {agentsList.length === 0 ? (
-          <div className="text-center py-20">
-            <p className="text-4xl mb-4">🏗️</p>
-            <p className="text-xl text-white mb-2">Coming soon</p>
-            <p className="text-[var(--text-secondary)]">Agents in this category are being reviewed</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {agentsList.map(agent => (
-              <AgentCard key={agent.id} agent={agent} />
-            ))}
-          </div>
-        )}
+        {/* Paginated agent list (client component) */}
+        <CategoryAgentList agents={agentsList} />
       </div>
 
       <Footer />
