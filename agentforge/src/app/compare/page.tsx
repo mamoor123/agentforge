@@ -3,9 +3,20 @@
 import { useState, useMemo } from "react";
 import { Search, Star, Users, ArrowRight, X, Plus } from "lucide-react";
 import Link from "next/link";
+import Fuse from "fuse.js";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { agents, formatUsers, getPriceTextColor } from "@/data/agents";
+
+const compareFuse = new Fuse(agents, {
+  keys: [
+    { name: "name", weight: 0.5 },
+    { name: "tags", weight: 0.3 },
+    { name: "tagline", weight: 0.2 },
+  ],
+  threshold: 0.35,
+  minMatchCharLength: 2,
+});
 
 export default function ComparePage() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -18,12 +29,10 @@ export default function ComparePage() {
 
   const searchResults = useMemo(() => {
     if (!search) return [];
-    const q = search.toLowerCase();
-    return agents
-      .filter(a =>
-        (a.name.toLowerCase().includes(q) || a.tags.some(t => t.toLowerCase().includes(q))) &&
-        !selected.includes(a.id)
-      )
+    return compareFuse
+      .search(search)
+      .map(r => r.item)
+      .filter(a => !selected.includes(a.id))
       .slice(0, 5);
   }, [search, selected]);
 

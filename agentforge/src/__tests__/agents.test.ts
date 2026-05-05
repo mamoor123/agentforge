@@ -5,8 +5,8 @@ describe("Agent Data", () => {
     expect(agents.length).toBeGreaterThanOrEqual(500);
   });
 
-  test("has 15 categories", () => {
-    expect(categories.length).toBe(15);
+  test("has 22 categories", () => {
+    expect(categories.length).toBe(22);
   });
 
   test("all agents have required fields", () => {
