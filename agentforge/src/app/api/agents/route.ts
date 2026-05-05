@@ -1,32 +1,24 @@
 import { NextResponse } from "next/server";
-import { agents, categories } from "@/data/agents";
+import { agents, categories, searchAgents } from "@/data/agents";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const q = searchParams.get("q")?.toLowerCase() || "";
+  const q = searchParams.get("q") || "";
   const category = searchParams.get("category") || "all";
   const price = searchParams.get("price") || "all";
   const sort = searchParams.get("sort") || "popular";
   const page = parseInt(searchParams.get("page") || "1");
   const limit = parseInt(searchParams.get("limit") || "24");
 
-  let filtered = [...agents];
-
-  if (q) {
-    filtered = filtered.filter(a =>
-      a.name.toLowerCase().includes(q) ||
-      a.tagline.toLowerCase().includes(q) ||
-      a.tags.some(t => t.toLowerCase().includes(q)) ||
-      a.description.toLowerCase().includes(q)
-    );
-  }
+  // Use Fuse.js fuzzy search when there's a query
+  let filtered = q ? searchAgents(q) : [...agents];
 
   if (category !== "all") {
-    filtered = filtered.filter(a => a.categorySlug === category);
+    filtered = filtered.filter((a) => a.categorySlug === category);
   }
 
   if (price !== "all") {
-    filtered = filtered.filter(a => a.price === price);
+    filtered = filtered.filter((a) => a.price === price);
   }
 
   if (sort === "popular") {

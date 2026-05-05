@@ -1,3 +1,4 @@
+import Fuse from "fuse.js";
 import agentsData from "./agents.json";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -183,15 +184,24 @@ export function formatUsers(n: number): string {
   return n.toString();
 }
 
+// Fuse.js instance for server-side fuzzy search
+const serverFuse = new Fuse(agents, {
+  keys: [
+    { name: "name", weight: 0.4 },
+    { name: "tagline", weight: 0.25 },
+    { name: "tags", weight: 0.2 },
+    { name: "description", weight: 0.1 },
+    { name: "creator", weight: 0.05 },
+  ],
+  threshold: 0.35,
+  distance: 200,
+  includeScore: true,
+  minMatchCharLength: 2,
+});
+
 export function searchAgents(query: string): Agent[] {
-  const q = query.toLowerCase();
-  return agents.filter(
-    (a) =>
-      a.name.toLowerCase().includes(q) ||
-      a.tagline.toLowerCase().includes(q) ||
-      a.tags.some((t) => t.toLowerCase().includes(q)) ||
-      a.category.toLowerCase().includes(q)
-  );
+  if (!query.trim()) return agents;
+  return serverFuse.search(query).map((r) => r.item);
 }
 
 export function getListingTier(agent: Agent): ListingTier {

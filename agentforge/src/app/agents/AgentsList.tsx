@@ -3,10 +3,26 @@
 import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Search, ChevronLeft, ChevronRight } from "lucide-react";
+import Fuse from "fuse.js";
 import AgentCard from "@/components/AgentCard";
 import { agents, categories } from "@/data/agents";
 
 const PAGE_SIZE = 24;
+
+// Fuse.js instance — configured for agent search with typo tolerance
+const fuse = new Fuse(agents, {
+  keys: [
+    { name: "name", weight: 0.4 },
+    { name: "tagline", weight: 0.25 },
+    { name: "tags", weight: 0.2 },
+    { name: "description", weight: 0.1 },
+    { name: "creator", weight: 0.05 },
+  ],
+  threshold: 0.35,       // lower = stricter, 0.35 catches ~2 char typos
+  distance: 200,          // how far a match can be from the start
+  includeScore: true,
+  minMatchCharLength: 2,
+});
 
 interface Props {
   initialQuery: string;
@@ -43,17 +59,10 @@ export default function AgentsList({
   }, [search, selectedCategory, selectedPrice, sortBy, page, router]);
 
   const filtered = useMemo(() => {
-    let result = [...agents];
-
-    if (search) {
-      const q = search.toLowerCase();
-      result = result.filter(
-        (a) =>
-          a.name.toLowerCase().includes(q) ||
-          a.tagline.toLowerCase().includes(q) ||
-          a.tags.some((t) => t.toLowerCase().includes(q))
-      );
-    }
+    // Start with fuzzy search if there's a query, otherwise all agents
+    let result = search
+      ? fuse.search(search).map((r) => r.item)
+      : [...agents];
 
     if (selectedCategory !== "all") {
       result = result.filter((a) => a.categorySlug === selectedCategory);
