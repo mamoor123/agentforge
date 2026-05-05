@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { agentStats, formatTotalUsers } from "@/data/agents";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const desc = `Discover, deploy, and automate with ${agentStats.totalAgents}+ AI agents. No code required. Join ${formatTotalUsers(agentStats.totalUsers)} users building the future of automation.`;
+
 export const metadata: Metadata = {
   title: "AgentForge — The #1 AI Agent Marketplace",
-  description: "Discover, deploy, and automate with 500+ AI agents. No code required. Join 120K+ users building the future of automation.",
+  description: desc,
   keywords: ["AI agents", "marketplace", "automation", "artificial intelligence", "no-code", "productivity"],
   openGraph: {
     title: "AgentForge — The #1 AI Agent Marketplace",
-    description: "Discover, deploy, and automate with 500+ AI agents. No code required.",
+    description: desc,
     type: "website",
   },
 };

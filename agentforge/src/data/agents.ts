@@ -79,33 +79,6 @@ export const PRICING_TIERS: {
   },
 ];
 
-// ─── Categories ──────────────────────────────────────────────────────────────
-
-export const categories = [
-  { name: "Marketing", slug: "marketing", icon: "📢", count: 89, description: "Automate content, ads, SEO & social media" },
-  { name: "Coding", slug: "coding", icon: "💻", count: 71, description: "Code review, debugging, deployment & more" },
-  { name: "Business", slug: "business", icon: "📊", count: 68, description: "CRM, invoicing, email & operations" },
-  { name: "Creative", slug: "creative", icon: "🎨", count: 64, description: "Design, video, music & content creation" },
-  { name: "Data", slug: "data", icon: "📈", count: 74, description: "Analytics, scraping, visualization & insights" },
-  { name: "Productivity", slug: "productivity", icon: "⚡", count: 58, description: "Task management, scheduling & automation" },
-  { name: "Education", slug: "education", icon: "📚", count: 39, description: "Tutoring, research, writing & learning" },
-  { name: "Health", slug: "health", icon: "🏥", count: 43, description: "Fitness, nutrition, wellness & tracking" },
-  { name: "Sales", slug: "sales", icon: "💼", count: 44, description: "Lead gen, outreach, pipeline & closing" },
-  { name: "Customer Support", slug: "support", icon: "🎧", count: 53, description: "Chatbots, helpdesk & ticket automation" },
-  { name: "AI & ML", slug: "ai-ml", icon: "🤖", count: 57, description: "LLMs, model APIs, training & AI infrastructure" },
-  { name: "Finance", slug: "finance", icon: "💰", count: 42, description: "Accounting, investing, crypto & financial analysis" },
-  { name: "HR & Recruiting", slug: "hr", icon: "👥", count: 39, description: "Hiring, onboarding, payroll & people management" },
-  { name: "Legal", slug: "legal", icon: "⚖️", count: 42, description: "Contracts, compliance, legal research & IP" },
-  { name: "E-commerce", slug: "ecommerce", icon: "🛒", count: 28, description: "Online stores, product listings, inventory & fulfillment" },
-  { name: "Voice AI", slug: "voice-ai", icon: "🎙️", count: 33, description: "Text-to-speech, voice cloning, speech recognition & voice agents" },
-  { name: "Cybersecurity", slug: "cybersecurity", icon: "🔒", count: 29, description: "Security scanning, vulnerability detection & threat protection" },
-  { name: "Research & Knowledge", slug: "research", icon: "🔬", count: 29, description: "AI search, academic research, document analysis & knowledge management" },
-  { name: "DevOps & Infrastructure", slug: "devops", icon: "🚀", count: 40, description: "Deployment, monitoring, CI/CD & cloud infrastructure" },
-  { name: "Gaming", slug: "gaming", icon: "🎮", count: 18, description: "AI NPCs, game asset generation & game development tools" },
-  { name: "Real Estate", slug: "real-estate", icon: "🏠", count: 17, description: "Property search, valuation, staging & real estate automation" },
-  { name: "Logistics & Supply Chain", slug: "logistics", icon: "📦", count: 23, description: "Shipping, inventory, order tracking & supply chain optimization" },
-];
-
 // ─── Agents (loaded from JSON) ───────────────────────────────────────────────
 
 // Cast the imported JSON to the typed array.
@@ -124,6 +97,69 @@ agents.forEach((a) => {
   else if (featuredIds.includes(a.id)) a.listingTier = "featured";
   else a.listingTier = a.listingTier || "basic";
 });
+
+// ─── Categories (counts auto-computed from agents) ───────────────────────────
+
+const CATEGORIES_BASE = [
+  { name: "Marketing", slug: "marketing", icon: "📢", description: "Automate content, ads, SEO & social media" },
+  { name: "Coding", slug: "coding", icon: "💻", description: "Code review, debugging, deployment & more" },
+  { name: "Business", slug: "business", icon: "📊", description: "CRM, invoicing, email & operations" },
+  { name: "Creative", slug: "creative", icon: "🎨", description: "Design, video, music & content creation" },
+  { name: "Data", slug: "data", icon: "📈", description: "Analytics, scraping, visualization & insights" },
+  { name: "Productivity", slug: "productivity", icon: "⚡", description: "Task management, scheduling & automation" },
+  { name: "Education", slug: "education", icon: "📚", description: "Tutoring, research, writing & learning" },
+  { name: "Health", slug: "health", icon: "🏥", description: "Fitness, nutrition, wellness & tracking" },
+  { name: "Sales", slug: "sales", icon: "💼", description: "Lead gen, outreach, pipeline & closing" },
+  { name: "Customer Support", slug: "support", icon: "🎧", description: "Chatbots, helpdesk & ticket automation" },
+  { name: "AI & ML", slug: "ai-ml", icon: "🤖", description: "LLMs, model APIs, training & AI infrastructure" },
+  { name: "Finance", slug: "finance", icon: "💰", description: "Accounting, investing, crypto & financial analysis" },
+  { name: "HR & Recruiting", slug: "hr", icon: "👥", description: "Hiring, onboarding, payroll & people management" },
+  { name: "Legal", slug: "legal", icon: "⚖️", description: "Contracts, compliance, legal research & IP" },
+  { name: "E-commerce", slug: "ecommerce", icon: "🛒", description: "Online stores, product listings, inventory & fulfillment" },
+  { name: "Voice AI", slug: "voice-ai", icon: "🎙️", description: "Text-to-speech, voice cloning, speech recognition & voice agents" },
+  { name: "Cybersecurity", slug: "cybersecurity", icon: "🔒", description: "Security scanning, vulnerability detection & threat protection" },
+  { name: "Research & Knowledge", slug: "research", icon: "🔬", description: "AI search, academic research, document analysis & knowledge management" },
+  { name: "DevOps & Infrastructure", slug: "devops", icon: "🚀", description: "Deployment, monitoring, CI/CD & cloud infrastructure" },
+  { name: "Gaming", slug: "gaming", icon: "🎮", description: "AI NPCs, game asset generation & game development tools" },
+  { name: "Real Estate", slug: "real-estate", icon: "🏠", description: "Property search, valuation, staging & real estate automation" },
+  { name: "Logistics & Supply Chain", slug: "logistics", icon: "📦", description: "Shipping, inventory, order tracking & supply chain optimization" },
+] as const;
+
+export const categories = CATEGORIES_BASE.map((cat) => ({
+  ...cat,
+  count: agents.filter((a) => a.categorySlug === cat.slug).length,
+}));
+
+// ─── Derived stats (computed from actual data) ──────────────────────────────
+
+function computeStats() {
+  const totalAgents = agents.length;
+  const totalUsers = agents.reduce((sum, a) => sum + a.users, 0);
+  const avgRating = parseFloat(
+    (agents.reduce((sum, a) => sum + a.rating, 0) / agents.length).toFixed(1)
+  );
+  const categoryCount = categories.length;
+  return { totalAgents, totalUsers, avgRating, categoryCount } as const;
+}
+
+export const agentStats = computeStats();
+
+/** Format total users for display: 123400 → "123K+" */
+export function formatTotalUsers(n: number): string {
+  if (n >= 1_000_000)
+    return (n / 1_000_000).toFixed(n % 1_000_000 === 0 ? 0 : 1) + "M+";
+  if (n >= 1_000) return Math.round(n / 1_000) + "K+";
+  return n.toString();
+}
+
+/** Compute per-category agent counts from actual data. */
+export function getCategoryCounts(): Record<string, number> {
+  const counts: Record<string, number> = {};
+  agents.forEach((a) => {
+    counts[a.categorySlug] = (counts[a.categorySlug] || 0) + 1;
+  });
+  return counts;
+}
 
 // ─── Helper functions ────────────────────────────────────────────────────────
 

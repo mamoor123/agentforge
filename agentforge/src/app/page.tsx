@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import AgentCard from "@/components/AgentCard";
 import CategoryCard from "@/components/CategoryCard";
 import NewsletterSignup from "@/components/NewsletterSignup";
-import { agents, categories, getFeaturedAgents, getNewAgents, getSpotlightAgents } from "@/data/agents";
+import { agents, categories, getFeaturedAgents, getNewAgents, getSpotlightAgents, agentStats, formatTotalUsers } from "@/data/agents";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -34,7 +34,7 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[var(--border)] bg-[var(--bg-card)] mb-8">
             <Sparkles className="w-4 h-4 text-amber-400" aria-hidden="true" />
             <span className="text-sm text-[var(--text-secondary)]">
-              <span className="text-white font-medium">2,500+</span> AI agents deployed this week
+              <span className="text-white font-medium">{formatTotalUsers(agentStats.totalUsers)}</span> users trust our agent directory
             </span>
           </div>
 
@@ -46,7 +46,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg sm:text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-10">
-            The #1 marketplace for AI agents. Find, deploy, and automate anything — no code required. Join 120K+ users building the future.
+            The #1 marketplace for AI agents. Find, deploy, and automate anything — no code required. Join {formatTotalUsers(agentStats.totalUsers)} users building the future.
           </p>
 
           {/* Search */}
@@ -66,7 +66,7 @@ export default function Home() {
                 <input
                   id="hero-search"
                   type="text"
-                  placeholder="Search 500+ AI agents... (e.g. 'social media', 'code review', 'invoicing')"
+                  placeholder={`Search ${agentStats.totalAgents}+ AI agents... (e.g. 'social media', 'code review', 'invoicing')`}
                   className="flex-1 bg-transparent px-4 py-4 text-white placeholder:text-[var(--text-secondary)] outline-none"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
@@ -85,19 +85,19 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-[var(--text-secondary)]">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-emerald-400 pulse-ring" aria-hidden="true" />
-              <span><span className="text-white font-medium">500+</span> agents</span>
+              <span><span className="text-white font-medium">{agentStats.totalAgents}+</span> agents</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-4 h-4" aria-hidden="true" />
-              <span><span className="text-white font-medium">120K+</span> users</span>
+              <span><span className="text-white font-medium">{formatTotalUsers(agentStats.totalUsers)}</span> users</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="w-4 h-4 text-amber-400" aria-hidden="true" />
-              <span><span className="text-white font-medium">4.8</span> avg rating</span>
+              <span><span className="text-white font-medium">{agentStats.avgRating}</span> avg rating</span>
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-4 h-4" aria-hidden="true" />
-              <span><span className="text-white font-medium">50+</span> countries</span>
+              <span><span className="text-white font-medium">{agentStats.categoryCount}+</span> categories</span>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function Home() {
               {
                 icon: <Search className="w-8 h-8" />,
                 title: "Discover",
-                description: "Browse 500+ AI agents across 10 categories. Filter by rating, price, and use case.",
+                description: `Browse ${agentStats.totalAgents}+ AI agents across ${agentStats.categoryCount} categories. Filter by rating, price, and use case.`,
                 step: "01"
               },
               {
@@ -333,7 +333,7 @@ export default function Home() {
                 Ready to Automate?
               </h2>
               <p className="text-[var(--text-secondary)] text-lg mb-8">
-                Join 120,000+ users who are saving time with AI agents. Free to start.
+                Join {formatTotalUsers(agentStats.totalUsers)} users who are saving time with AI agents. Free to start.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
