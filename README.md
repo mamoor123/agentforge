@@ -18,6 +18,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
@@ -25,8 +26,8 @@
 
 ![Agents](https://img.shields.io/badge/🤖_Agents-1000-blue?style=for-the-badge)
 ![Categories](https://img.shields.io/badge/📂_Categories-22-green?style=for-the-badge)
-![Rating](https://img.shields.io/badge/⭐_Avg_Rating-4.5+-gold?style=for-the-badge)
-![Free](https://img.shields.io/badge/🆓_Free_Agents-50+-purple?style=for-the-badge)
+![Rating](https://img.shields.io/badge/⭐_Avg_Rating-4.3-gold?style=for-the-badge)
+![Free](https://img.shields.io/badge/🆓_Free_Agents-81-purple?style=for-the-badge)
 
 <br />
 
@@ -61,14 +62,14 @@ AgentForge is the **#1 curated marketplace** for AI agents. We've cataloged **10
 <tr>
 <td width="50%">
 
-#### 🔍 Find Anything Instantly
-Smart search across names, descriptions, tags, and categories. Find the right AI tool in seconds, not hours.
+#### 🔍 Fuzzy Search with Typo Tolerance
+Powered by Fuse.js — search across names, descriptions, tags, and categories. Misspell "cursur"? It still finds **Cursor**.
 
 #### 📊 22 Curated Categories
 From Marketing to Cybersecurity, every AI agent is properly categorized and tagged for easy discovery.
 
 #### ⭐ Real Ratings & Reviews
-Every agent has a real rating, user count, and feature breakdown — no fake reviews, no paid placements.
+Every agent has a real rating, user count, and feature breakdown. User reviews powered by Supabase.
 
 </td>
 <td width="50%">
@@ -155,34 +156,32 @@ Clone and deploy to Vercel in under 60 seconds. Zero configuration needed.
 
 | Category | Agents | Top Tools |
 |----------|--------|-----------|
-| 📢 **Marketing** | 113 | Jasper, Beehiiv, Klaviyo |
-| 📊 **Business** | 97 | Zapier, Clay, Cursor |
-| 💻 **Coding** | 53 | Cursor, Copilot, Claude Code |
-| 📈 **Data** | 52 | ChatGPT, Claude, Gemini |
-| 🎨 **Creative** | 87 | Midjourney, Udio, Veo 3 |
-| ⚡ **Productivity** | 45 | OpenClaw, Reclaim, Granola |
-| 🤖 **AI & ML** | 42 | Groq, Fireworks, Modal |
-| 🏥 **Health** | 33 | Cal AI, WHOOP, Tempus |
-| 🎧 **Support** | 32 | Sierra, Intercom Fin, Ada |
-| ⚖️ **Legal** | 32 | Harvey, Ironclad, Spellbook |
-| 📚 **Education** | 31 | Khanmigo, Duolingo Max |
+| 📢 **Marketing** | 89 | Grammarly, Loom AI, Mailchimp |
+| 📈 **Data** | 74 | ChatGPT, GPT-4o, Gemini |
+| 💻 **Coding** | 71 | Replit Agent, Bitbucket AI, OpenCode |
+| 📊 **Business** | 68 | Microsoft Copilot, DeepL, Hopper |
+| 🎨 **Creative** | 64 | CapCut, Canva AI, Photoroom |
+| ⚡ **Productivity** | 58 | Todoist AI, Notion Q&A, Any.do |
+| 🤖 **AI & ML** | 57 | OpenAI o1, GPT-4 Vision, Modal |
+| 🎧 **Support** | 53 | Tawk.to, Dialogflow, Botpress |
+| 💼 **Sales** | 44 | Apollo.io, Lusha, Seamless.AI |
+| 🏥 **Health** | 43 | MyFitnessPal, Strava, Calm |
 
 </td>
 <td width="50%">
 
 | Category | Agents | Top Tools |
 |----------|--------|-----------|
-| 💰 **Finance** | 31 | Plaid, Brex, Ramp |
-| 👥 **HR** | 29 | Paradox, HireVue, Eightfold |
-| 💼 **Sales** | 28 | Apollo, Lavender, 11x.ai |
-| 🚀 **DevOps** | 28 | LinearB, Buildkite, Render |
-| 🔬 **Research** | 27 | Perplexity, Scite, ChatPDF |
-| 🛒 **E-commerce** | 24 | Shopify Magic, Bloomreach |
-| 🎙️ **Voice AI** | 23 | ElevenLabs, Play.ht, Deepgram |
-| 🔒 **Security** | 17 | Wiz, Snyk, Huntress |
-| 📦 **Logistics** | 17 | project44, FourKites |
-| 🎮 **Gaming** | 15 | Unity Muse, NVIDIA ACE |
-| 🏠 **Real Estate** | 13 | Restb.ai, HouseCanary |
+| 💰 **Finance** | 42 | TradingView AI, Wise, QuickBooks |
+| ⚖️ **Legal** | 42 | Lemonade, DoNotPay, DocuSign AI |
+| 🚀 **DevOps** | 40 | Postman, Docker, Kubernetes |
+| 📚 **Education** | 39 | Photomath, Coursera AI, Udemy |
+| 👥 **HR** | 39 | Upwork AI, Fiverr AI, Workday AI |
+| 🎙️ **Voice AI** | 29 | Speechify, Whisper, ElevenLabs |
+| 🔬 **Research** | 29 | Perplexity, Semantic Scholar, NotebookLM |
+| 🔒 **Security** | 29 | 1Password, Keeper, GitHub Security |
+| 🛒 **E-commerce** | 28 | Shopify Magic, WooCommerce AI |
+| 📦 **Logistics** | 23 | Shippo, ShipStation, Inventory Planner |
 
 </td>
 </tr>
@@ -190,7 +189,7 @@ Clone and deploy to Vercel in under 60 seconds. Zero configuration needed.
 
 <br />
 
-> 📈 **1000 agents** · **22 categories** · **4.5+ avg rating** · **50+ free tools** · **Updated weekly**
+> 📈 **1000 agents** · **22 categories** · **4.3 avg rating** · **81 free tools** · **Updated weekly**
 
 <br />
 
@@ -235,7 +234,11 @@ cd agentforge/agentforge
 # 2️⃣ Install dependencies
 npm install
 
-# 3️⃣ Start development server
+# 3️⃣ Copy env template (optional — for auth & reviews)
+cp .env.example .env.local
+# Fill in your Supabase URL + anon key
+
+# 4️⃣ Start development server
 npm run dev
 ```
 
@@ -272,6 +275,10 @@ vercel --prod
 
 <br />
 
+> **Note:** Auth, reviews, and favorites require Supabase. Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in your Vercel environment variables. Run the SQL migration from `supabase/migrations/001_initial_schema.sql` in your Supabase SQL editor.
+
+<br />
+
 ---
 
 ## 📦 Tech Stack
@@ -283,8 +290,8 @@ vercel --prod
 <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40" height="40" /><br /><b>Next.js 16</b><br /><sub>Framework</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" /><br /><b>TypeScript 5</b><br /><sub>Type Safety</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" /><br /><b>Tailwind 4</b><br /><sub>Styling</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" width="40" height="40" /><br /><b>Supabase</b><br /><sub>Backend</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" /><br /><b>React 19</b><br /><sub>UI Library</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40" /><br /><b>Node.js</b><br /><sub>Runtime</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="40" height="40" /><br /><b>Vercel</b><br /><sub>Hosting</sub></td>
 </tr>
 </table>
@@ -296,6 +303,8 @@ vercel --prod
 | **Next.js 16** | React framework with App Router & Turbopack |
 | **TypeScript 5** | Type-safe development, fewer bugs |
 | **Tailwind CSS 4** | Utility-first styling, responsive design |
+| **Supabase** | Auth, PostgreSQL database, and real-time subscriptions |
+| **Fuse.js** | Client-side fuzzy search with typo tolerance |
 | **Framer Motion** | Smooth animations & page transitions |
 | **Lucide React** | Beautiful, consistent icons |
 | **Vercel** | Edge hosting, instant deploys |
@@ -311,24 +320,52 @@ agentforge/
 ├── src/
 │   ├── app/
 │   │   ├── page.tsx                    # 🏠 Landing page
+│   │   ├── layout.tsx                  # 🎨 Root layout + metadata
+│   │   ├── global-error.tsx            # 🚨 Root error boundary
 │   │   ├── agents/
-│   │   │   ├── page.tsx                # 📋 Browse all agents
-│   │   │   └── [id]/page.tsx           # 📄 Agent detail page
+│   │   │   ├── page.tsx                # 📋 Agents page (server component)
+│   │   │   ├── AgentsList.tsx          # 🔍 Interactive agent list (client)
+│   │   │   ├── loading.tsx             # ⏳ Loading skeleton
+│   │   │   ├── error.tsx               # 🚨 Error boundary
+│   │   │   └── [id]/page.tsx           # 📄 Agent detail (SSG)
 │   │   ├── categories/
 │   │   │   ├── page.tsx                # 📂 All categories
-│   │   │   └── [slug]/page.tsx         # 📂 Category detail
-│   │   ├── layout.tsx                  # 🎨 Root layout
-│   │   └── globals.css                 # 💅 Global styles
+│   │   │   └── [slug]/
+│   │   │       ├── page.tsx            # 📂 Category detail (SSG)
+│   │   │       ├── CategoryAgentList.tsx # 🔍 Paginated agent list
+│   │   │       ├── loading.tsx         # ⏳ Loading skeleton
+│   │   │       └── error.tsx           # 🚨 Error boundary
+│   │   ├── api/
+│   │   │   ├── agents/route.ts         # 🔌 Agent search API
+│   │   │   ├── auth/me/route.ts        # 🔌 Current user API
+│   │   │   ├── reviews/route.ts        # 🔌 Reviews CRUD
+│   │   │   ├── favorites/route.ts      # 🔌 Favorites CRUD
+│   │   │   ├── og/route.tsx            # 🖼️ Dynamic OG images
+│   │   │   └── webhooks/               # 🔌 Payment webhooks
+│   │   ├── compare/page.tsx            # 🔄 Agent comparison
+│   │   ├── advertise/page.tsx          # 💰 Listing tiers
+│   │   ├── sitemap.ts                  # 🗺️ Dynamic sitemap
+│   │   └── robots.ts                   # 🤖 Robots.txt
 │   ├── components/
 │   │   ├── Navbar.tsx                  # 🧭 Navigation bar
 │   │   ├── Footer.tsx                  # 🦶 Footer
 │   │   ├── AgentCard.tsx               # 🃏 Agent card component
 │   │   └── CategoryCard.tsx            # 📦 Category card
-│   └── data/
-│       └── agents.ts                   # 🗄️ Agent database (1000 agents)
-├── public/                             # 🖼️ Static assets
+│   ├── lib/
+│   │   ├── supabase/
+│   │   │   ├── server.ts               # 🔧 Server-side Supabase client
+│   │   │   ├── client.ts               # 🔧 Browser-side Supabase client
+│   │   │   └── middleware.ts           # 🔧 Auth token refresh
+│   │   └── auth.ts                     # 🔐 Auth helpers
+│   ├── data/
+│   │   ├── agents.json                 # 🗄️ Agent database (1000 agents)
+│   │   └── agents.ts                   # 📝 Types, helpers, re-exports
+│   └── middleware.ts                   # 🔄 Auth middleware
+├── supabase/
+│   └── migrations/
+│       └── 001_initial_schema.sql      # 🗃️ Database schema
+├── .env.example                        # 🔑 Environment template
 ├── package.json                        # 📋 Dependencies
-├── tailwind.config.ts                  # 🎨 Tailwind config
 └── tsconfig.json                       # ⚙️ TypeScript config
 ```
 
@@ -346,14 +383,14 @@ agentforge/
 
 ### 👤 For Users
 
-- 🔍 **Smart Search** — Find agents by name, description, tags, or category
+- 🔍 **Fuzzy Search** — Typo-tolerant search powered by Fuse.js
 - 📊 **22 Categories** — Every AI tool properly organized
 - ⭐ **Featured Agents** — Hand-picked top tools on homepage
 - 🆕 **New Badges** — Recently added tools highlighted
 - 💰 **Price Filters** — Free, Freemium, Premium, Pay-as-you-go
+- 🔐 **User Accounts** — Sign up, save favorites, write reviews
 - 📱 **Fully Responsive** — Perfect on desktop, tablet, and mobile
 - 🎨 **Dark Theme** — Beautiful gradient UI, easy on the eyes
-- ⚡ **Instant Loads** — Turbopack = zero waiting
 
 </td>
 <td width="50%">
@@ -363,11 +400,11 @@ agentforge/
 - 🧩 **Modular Architecture** — Clean, maintainable components
 - 📝 **Fully Typed** — TypeScript for reliability
 - 🎭 **Smooth Animations** — Framer Motion transitions
-- 🔧 **Easy to Extend** — Add agents by editing one file
+- 🔧 **Easy to Extend** — Add agents by editing one JSON file
+- 🖼️ **Dynamic OG Images** — Auto-generated social previews
+- 🗺️ **Auto Sitemap** — Generated from agent data
+- 📦 **Modern Stack** — Next.js 16, React 19, Tailwind 4, Supabase
 - 🚀 **One-Click Deploy** — Vercel-ready out of the box
-- 📦 **Modern Stack** — Next.js 16, React 19, Tailwind 4
-- 🧪 **Well Structured** — Clear separation of concerns
-- 📖 **Well Documented** — This README + inline comments
 
 </td>
 </tr>
@@ -400,7 +437,7 @@ agentforge/
 # 2. Create your branch
 git checkout -b add-new-agent
 
-# 3. Add your agent to src/data/agents.ts
+# 3. Add your agent to src/data/agents.json
 # 4. Commit your changes
 git commit -m "Add [Agent Name] to [Category]"
 
@@ -412,24 +449,24 @@ git push origin add-new-agent
 
 #### Agent Data Structure
 
-```typescript
+```json
 {
-  id: "your-agent",                    // Unique ID (kebab-case)
-  name: "Your Agent",                  // Display name
-  tagline: "One-line description",     // Short tagline
-  description: "Longer description...", // Full description
-  category: "Marketing",               // Category name
-  categorySlug: "marketing",           // Category slug
-  icon: "🚀",                          // Emoji icon
-  rating: 4.5,                         // Rating (1-5)
-  users: "100K+",                      // User count
-  price: "Freemium",                   // Free | Freemium | Premium | Pay-as-you-go
-  featured: false,                     // Featured on homepage?
-  new: true,                           // Show "New" badge?
-  tags: ["tag1", "tag2", "tag3"],      // Searchable tags
-  creator: "Your Company",             // Creator name
-  url: "https://youragent.com",        // Website URL
-  features: ["Feature 1", "Feature 2"] // Key features list
+  "id": "your-agent",
+  "name": "Your Agent",
+  "tagline": "One-line description",
+  "description": "Longer description...",
+  "category": "Marketing",
+  "categorySlug": "marketing",
+  "icon": "🚀",
+  "rating": 4.5,
+  "users": 100000,
+  "price": "Freemium",
+  "featured": false,
+  "new": true,
+  "tags": ["tag1", "tag2", "tag3"],
+  "creator": "Your Company",
+  "url": "https://youragent.com",
+  "features": ["Feature 1", "Feature 2"]
 }
 ```
 
@@ -445,13 +482,17 @@ git push origin add-new-agent
 
 - [x] ✅ 1000 curated AI agents
 - [x] ✅ 22 categories
-- [x] ✅ Smart search
+- [x] ✅ Fuzzy search with typo tolerance (Fuse.js)
 - [x] ✅ Dark theme UI
 - [x] ✅ Mobile responsive
 - [x] ✅ Vercel deployment
-- [ ] 🔐 User accounts & authentication
-- [ ] ⭐ User reviews & ratings
-- [ ] 🔄 Agent comparison tool
+- [x] ✅ User accounts & authentication (Supabase)
+- [x] ✅ User reviews & ratings (Supabase)
+- [x] ✅ Favorites / saved agents
+- [x] ✅ Dynamic OG images
+- [x] ✅ Auto-generated sitemap
+- [x] ✅ SSR + loading/error boundaries
+- [ ] 🔄 Agent comparison tool (UI)
 - [ ] 📊 Agent performance metrics
 - [ ] 💬 "Try it" live demo integration
 - [ ] 📧 Newsletter with new agents
@@ -474,9 +515,8 @@ git push origin add-new-agent
 <tr>
 <td align="center"><h1>1000</h1><sub>Total Agents</sub></td>
 <td align="center"><h1>22</h1><sub>Categories</sub></td>
-<td align="center"><h1>4.5+</h1><sub>Avg Rating</sub></td>
-<td align="center"><h1>50+</h1><sub>Free Tools</sub></td>
-<td align="center"><h1>50+</h1><sub>Countries</sub></td>
+<td align="center"><h1>4.3</h1><sub>Avg Rating</sub></td>
+<td align="center"><h1>81</h1><sub>Free Tools</sub></td>
 </tr>
 </table>
 
@@ -502,6 +542,7 @@ Built with amazing open-source tools:
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 [![Lucide](https://img.shields.io/badge/Lucide-F97316?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://framer.com/motion)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
