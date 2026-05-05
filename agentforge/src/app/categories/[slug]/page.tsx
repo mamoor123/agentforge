@@ -17,6 +17,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${category.name} AI Agents — AgentForge`,
     description: `${category.description}. Browse ${category.count}+ AI agents in the ${category.name} category.`,
+    openGraph: {
+      title: `${category.name} AI Agents`,
+      description: category.description,
+      images: [`/api/og?title=${encodeURIComponent(category.name + " Agents")}&subtitle=${encodeURIComponent(category.count + "+ AI agents")}`],
+    },
   };
 }
 

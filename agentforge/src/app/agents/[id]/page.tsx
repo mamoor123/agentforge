@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
       title: `${agent.name} — AI Agent`,
       description: agent.description,
       type: "website",
+      images: [`/api/og?title=${encodeURIComponent(agent.name)}&subtitle=${encodeURIComponent(agent.tagline)}`],
     },
   };
 }
