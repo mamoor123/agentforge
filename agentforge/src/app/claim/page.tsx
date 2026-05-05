@@ -11,6 +11,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { LemonSqueezyButton, useLemonSqueezyCheckout } from "@/components/LemonSqueezy";
 import { agents, formatUsers, PRICING_TIERS, type ListingTier } from "@/data/agents";
+import Fuse from "fuse.js";
+
+const claimFuse = new Fuse(agents, {
+  keys: ["name", "tagline", "category"],
+  threshold: 0.35,
+  minMatchCharLength: 2,
+});
 
 const tierColors: Record<ListingTier, string> = {
   basic: "border-[var(--border)]",
@@ -48,13 +55,9 @@ function ClaimPageContent() {
 
   const filteredAgents = useMemo(() => {
     if (!searchQuery) return agents.slice(0, 20);
-    const q = searchQuery.toLowerCase();
-    return agents
-      .filter(a =>
-        a.name.toLowerCase().includes(q) ||
-        a.tagline.toLowerCase().includes(q) ||
-        a.category.toLowerCase().includes(q)
-      )
+    return claimFuse
+      .search(searchQuery)
+      .map((r) => r.item)
       .slice(0, 20);
   }, [searchQuery]);
 
