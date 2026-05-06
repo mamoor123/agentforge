@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Zap, LogIn } from "lucide-react";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -50,6 +50,13 @@ export default function Navbar() {
           {/* Actions */}
           <div className="hidden md:flex items-center gap-3">
             <Link
+              href="/auth"
+              className="flex items-center gap-1.5 text-[var(--text-secondary)] hover:text-white transition-colors text-sm font-medium"
+            >
+              <LogIn className="w-4 h-4" />
+              Sign In
+            </Link>
+            <Link
               href="/claim"
               className="px-4 py-2 text-sm font-medium text-amber-400 border border-amber-400/30 rounded-lg hover:bg-amber-400/5 transition-colors"
             >
@@ -92,6 +99,14 @@ export default function Navbar() {
               </Link>
               <Link href="/advertise" className="text-amber-400 hover:text-amber-300 transition-colors text-sm py-2 font-medium" onClick={() => setMobileOpen(false)}>
                 Advertise
+              </Link>
+              <Link
+                href="/auth"
+                className="flex items-center gap-1.5 text-[var(--text-secondary)] hover:text-white transition-colors text-sm py-2 font-medium"
+                onClick={() => setMobileOpen(false)}
+              >
+                <LogIn className="w-4 h-4" />
+                Sign In
               </Link>
               <Link
                 href="/claim"

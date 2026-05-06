@@ -278,3 +278,9 @@ export function getAgentsByCategorySorted(slug: string): Agent[] {
         (tierOrder[getListingTier(b)] ?? 2)
     );
 }
+
+// ─── Supabase listing overrides (server-side) ────────────────────────────────
+// Server components should query the `listings` table for real-time tier data.
+// Use `getListingOverrides()` from "@/lib/listings" for the authoritative tier.
+// The hardcoded spotlight/featured IDs above serve as the static fallback
+// for SSG pages and the client-side search index.
